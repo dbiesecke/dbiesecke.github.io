@@ -4,7 +4,7 @@
 
 [Presence]()
 
-  * [Windows](presence/windows/index.md)
+  * [Reference](presence/index.md)
   * [Linux](presence/linux/index.md)
   * [OSX](presence/osx/index.md)
 
