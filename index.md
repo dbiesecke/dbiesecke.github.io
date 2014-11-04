@@ -1,30 +1,50 @@
-![Welcome To PwnWiki.io](images/logo.jpg)
+![My WIki](images/logo.jpg)
 
-[Image Generated Here](http://www.addletters.com/pictures/restaurant-sign-generator/4772466.htm#.UplRZ42PuuY)
+<script src="https://d26b395fwzu5fz.cloudfront.net/latest/keen.min.js"></script>
 
-### PwnWiki.io is a collection TTPs (tools, tactics, and procedures) for what to do after access has been gained.
+
+  <script type="text/javascript">
+
+var client = new Keen({
+  projectId: "544db74433e4061c57579de5",
+  readKey: "b1e2a66c5398880e752bd40808f2c8b2463a62883413b48bf640644d2e79143dc34fea6a6841e534d0e16a091c029e177cd5cac0c00690c6d9345ce2d6220a9387b664d6346d66ef0513e09579c307effc5a7b95632d9992506c0a6b8ecdd89acf60e412b8aab8a3e987aae3d2e5c41b"
+});
+Keen.ready(function(){
+  var query = new Keen.Query("average", {
+    eventCollection: "Zencloud",
+    timeframe: "this_week",
+    targetProperty: "current",
+    interval: "daily",
+    groupBy: "btc_addr"
+  });
+  client.draw(query, document.getElementById("mychart"), {
+    // Custom configuration here
+      colors: [ "#ff0000", "#222", "lightblue" ], //
+      title: "",        // string or null
+      width: 240,       // integer or "auto"
+        chartOptions: {
+            isStacked: true,
+      }
+  });
+});
+  
+</script>
+<ul>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div id="mychart"></div>
+
+    </li>
+</ul>
 
 - - - - - - 
 
-### Live Online Copy:
+### Temp
 
-You can find a copy of the project online at: http://pwnwiki.io
+<!-- ZEEF widget start --><iframe src="//zeef.io/block/34887?userId=4884&max_links=10&font_size=13&show_curator=0&color_header_background=050305&color_body_background=666666&color_body_text=ffffff" width="230" height="200" frameborder="0" scrolling="no"></iframe><!-- ZEEF widget end -->
 
-### Offline Use:
-
-  1. Clone the repository or pull the archive ([download zip](https://github.com/pwnwiki/pwnwiki.github.io/archive/master.zip)) of the repo
-  2. Open index.html
-  3. Most modern browsers don't allow the access of local files from a locally loaded HTML file. On Windows you can use [Mongoose Tiny](http://cesanta.com/downloads.html) or [HFS](http://www.rejetto.com/hfs/) to host the files locally. On OSX and Linux `python -m SimpleHTTPServer` seems to work just fine.
-
-#### Referenced tools can be found here: https://github.com/mubix/post-exploitation (If they aren't built into the OS)
 
 - - - - - -
-#### Submitting Content
-We want/need your help! Please contribute to this project is via GitHub (https://github.com/pwnwiki/pwnwiki.github.io). That allows us to get your project-ready content incorporated into the wiki fast. 
-
-We realize that not everyone can/wants to submit content via GitHub and that's cool. If your go-to content is not up here and you don't want to spend the time becoming a Git Jedi, just visit our [Google Form](https://docs.google.com/forms/d/1N7-jRjnUXoz-UwB2h0du2IrskFJW6hBGs4YsTwvEncE/viewform). Due to the large amount of submissions and content, there may be a delay between your posting and us getting your content into the project. Thanks for your submissions and your patience! 
-
-- - - - - -
+Based on [Pwn Wiki](http://pwnwiki.io/) 
 Curators:
 
   * [@mubix](https://twitter.com/mubix) [gimmick:TwitterFollow](@mubix)
@@ -33,7 +53,3 @@ Curators:
   * [@jakx_](https://twitter.com/jakx_) [gimmick:TwitterFollow](@jakx_)
   * [@TheColonial](https://twitter.com/TheColonial) [gimmick:TwitterFollow](@TheColonial)
   * [@Wireghoul](https://twitter.com/Wireghoul)  [gimmick:TwitterFollow](@Wireghoul)
-
-If you would like to become a curator, please contact [mubix@hak5.org](mailto:mubix@hak5.org)
-
-[gimmick:ForkMeOnGitHub ({ color: 'red',  position: 'right' })](http://www.github.com/pwnwiki/pwnwiki.github.io/)
