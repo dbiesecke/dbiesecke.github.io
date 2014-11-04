@@ -2,9 +2,8 @@
 
 
 - - - - - - 
-<!-- TEST widget start -->
- <iframe src="//dash.nated.at/" width="230" height="200" frameborder="0" scrolling="no"></iframe>
-<!-- TEST widget end -->
+<script src="http://feeds.feedburner.com/HashletMiner?format=sigpro" type="text/javascript" ></script>
+
 
 
 ### Temp
