@@ -2,6 +2,10 @@
 
 
 - - - - - - 
+<!-- TEST widget start -->
+ <iframe src="//dash.nated.at/" width="230" height="200" frameborder="0" scrolling="no"></iframe>
+<!-- TEST widget end -->
+
 
 ### Temp
 
