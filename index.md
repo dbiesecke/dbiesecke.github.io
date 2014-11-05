@@ -2,8 +2,7 @@
 
 
 - - - - - - 
-<script src="http://feeds.feedburner.com/HashletMiner?format=sigpro" type="text/javascript" ></script>
-
+<!-- ZEEF widget start --><iframe src="//zeef.io/block/34893?userId=0&max_links=10" width="336" height="280" frameborder="0" scrolling="no"></iframe><!-- ZEEF widget end -->
 
 
 ### Temp

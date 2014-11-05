@@ -2,6 +2,10 @@
 
 [Home](index.md)
 
+[Bitcoin](coin/index.md)
+
+  * [Reference](coin/index.md)
+
 [Presence]()
 
   * [Reference](presence/index.md)
