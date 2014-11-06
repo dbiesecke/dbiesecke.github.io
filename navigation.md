@@ -6,6 +6,10 @@
 
   * [Reference](coin/index.md)
 
+[Linux](linux/index.md)
+  * [One-Liner](linux/one-liner.md)
+   
+  
 [Presence]()
 
   * [Reference](presence/index.md)
