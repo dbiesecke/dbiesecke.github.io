@@ -31,11 +31,13 @@ Register on the following services & make a gist with your OWN settings, have fu
   * Make a log dir, like /log on your MAIN host like: `mkdir /log && ln -f /var/log/syslog /log/syslog`
 
 
-      docker run  --name=logstash \
+    docker run --name=logstash \
         -e LOGSTASH_CONFIG_URL=https://gist.githubusercontent.com/dbiesecke/2c49b8c80f42186d78e5/raw/logstash-1.conf \
-        -p 9292:9292 \
-        -p 9200:9200 -p 554:514/udp -p 555:514 \
-        -v /log:/log pblittle/docker-logstash
+        -v /var/log/syslog:/log/syslog -v /log:/log \
+        -p 555:555 -p 514:514/udp -p 9292:9292 \
+        -e VIRTUAL_HOST="logs.nated.at" -e VIRTUAL_PORT="9292" \
+        pblittle/docker-logstash
+
         
    * Lets write som logs! 
    * Write directly over tcp: `echo das | nc -v YOURHOST 555`
