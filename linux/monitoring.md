@@ -1,14 +1,23 @@
-![My WIki](images/logo.jpg)
+# Monitoring
 - - - - - - 
 
+# Free Syslog & Monitoring Services
 
-# Docker & logstash... and (free) multiple online services!
+  * [Sysdigcloud](https://sysdigcloud.com/) - 15 Hosts free to monitore, realy impressiv dashboard
+  * ![Dashboard](http://i.imgur.com/iB7CMhf.jpg)
+ 
+
+
+
+
+
+# Central Syslog Service with Docker & some Free Services
 - - - - - - 
 Register on the following services & make a gist with your OWN settings, have fun to collect!
 
-
   * [Papertrail](https://papertrailapp.com/?thank=7cfb38)
   * [Logentries](https://logentries.com/learnmore?code=c4TEpHn52LKeRN9Yb6Aku8XZQxfWUhws)
+ 
   * Make a log dir, like /log on your MAIN host like: `mkdir /log && ln -f /var/log/syslog /log/syslog`
 
 
