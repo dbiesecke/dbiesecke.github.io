@@ -12,11 +12,21 @@
   * [Monitoring](linux/monitoring.md)
    
   
-[Presence]()
+[HOWTO]()
 
-  * [Reference](presence/index.md)
-  * [Linux](presence/linux/index.md)
-  * [OSX](presence/osx/index.md)
+  * [afuse](my/afuse.md)
+  * [Dreamfactory](my/dreamfactory.md)
+  * [Kodi/XBMC](my/kodi.md)
+
+[Kodi]()
+
+   * [Tips](my/kodi.md)
+<!--    * [Rom_Collection_Browser](my/kodi/romcollectionbrowser.md) -->
+   * [Import Online Streams to Libary](my/kodi/kodi-plugins-2-libary.md)
+   * [XBMC-MyLibrary](my/kodi/xbmc.mylibrary-configs.md)
+   * [Pseudo-Library](my/kodi/pseudo-library.md)
+   * [plugin.video.animeanime](repo/plugin.video.animeanime/README.md)
+   * [pvr.iptvsimple](repo/pvr.iptvsimple/README.md)
 
 
 <!-- Code for collapse and expand -->
