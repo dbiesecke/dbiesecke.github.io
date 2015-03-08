@@ -1,0 +1,107 @@
+[B]Version 1.4.0[/B]
+- 19.01.2015
+- kodi-helix ready
+
+[B]Version 1.3.5[/B]
+- 31.10.2014
+- fix on some series (htmlentitydefs)
+
+[B]Version 1.3.4[/B]
+- 08.10.2014
+- videolink is already unicode
+
+[B]Version 1.3.3[/B]
+- 26.09.2014
+- bug in unicode-handling
+
+[B]Version 1.3.2[/B]
+- 25.09.2014
+- syntaxError in watched.py fixed
+
+[B]Version 1.3.1[/B]
+- 25.09.2014
+- deletecache-error fixed
+- play-stop-bug fix
+- htmlentities fixed
+
+[B]Version 1.3.0[/B]
+- gotham compatibility
+- forget dharma, eden!
+- changed cover-urls
+- "delete cache" in config
+- fixed crash on "no cover"
+- fixing favorites behaviour
+- added series name to seasonslist
+- compiling regexes on start
+- t0mmo modules refixed
+- watched status built in
+- subplayer-class
+- 24.09.2014
+
+[B]Version 1.1.7[/B]
+- regex fix EpisodesB
+- 28.10.2013
+
+[B]Version 1.1.6[/B]
+- regex fix SeasonsPic
+- 28.09.2013
+
+[B]Version 1.1.5[/B]
+- regex fix
+- 03.05.2013
+
+[B]Version 1.1.3[/B]
+- python fix 2.1.0
+- 11.03.2013
+
+[B]Version 1.1.2[/B]
+- error fix matchCover in Episodes
+- 03.03.2013
+
+[B]Version 1.1.1[/B]
+- switch in config for eden-compatibilty
+- 02.03.2013
+
+[B]Version 1.1.0[/B]
+- grouping by genre/first character
+- series thumbnail caching via vfs
+- 01.03.2013
+
+[B]Version 1.00[/B]
+- fixed regex
+- genre/alphabet (sortinghint by dersphere.thx)
+- 01.03.2013
+
+[B]Version 0.99[/B]
+- fixed some regex-problems
+- frodo compatible?
+- 02.11.2012
+
+[B]Version 0.98[/B]
+- using now urlResolver
+- changed to new domain name burning-seri.es
+- 17.07.2012
+
+[B]Version 0.95[/B]
+- using now urlResolver
+- 13.05.2012
+
+[B]Version 0.92[/B]
+- regex fixed
+- 03.05.2012
+
+[B]Version 0.90[/B]
+- after relaunch of bs.to reactivating addon
+- 12.04.2012
+
+[B]Version 0.88[/B]
+- fixed JS-cookie security changes
+- 31.12.2011
+
+[B]Version 0.85[/B]
+- Initial open testable version for Dharma
+- by now streams from megavideo, videoBB, rapidvideo, putlocker functional
+- thx to bitbit@userscripts.org 4 megavideo decrypt
+- thx to xstream code hints
+- thx to nixa 4 putlocker cookie-hint
+- 20.10.2011
