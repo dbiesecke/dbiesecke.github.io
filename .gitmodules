@@ -1,0 +1,3 @@
+[submodule "repo/plugin.video.animeanime"]
+	path = repo/plugin.video.animeanime
+	url = https://github.com/dbiesecke/plugin.video.animeanime.git
