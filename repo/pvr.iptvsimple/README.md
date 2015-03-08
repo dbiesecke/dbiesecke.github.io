@@ -5,6 +5,7 @@ German IPTV PVR Plugin für Kodi
 
 ![pic](http://i.imgur.com/hKPybLf.jpg)
 
+[pvr.iptvsimple-1.4.1.zip](https://github.com/dbiesecke/dbiesecke.github.io/raw/master/repo/zips/pvr.iptvsimple-1.4.1.zip)
 
 
 | Name                       	| DL 	| INFO 	| 
