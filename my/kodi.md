@@ -10,16 +10,16 @@ Kodi Tips & Linklist
 
 
 
-
 Plugin Highlights [LINK](my/kodi.md)
 ----------------------------------
 
+* Alle hier aufgeführten sollten sich auch über das repo vom Anime Plugin installieren lassen.
 
 | Name                       	| DL 	| INFO 	| BETA?	|
 |----------------------------	|----	|------	|-----	|
-| IPTVSimple PVR-addon       	|[pvr](...)    				|      	[Mehr Infos...](http://www.kodinerds.net/index.php/Thread/26042-IPTV-Simple-PVR-addon-mit-XMLTV-EPG/?pageNo=1)		|  NO 	|
-| Anime (All-in-one)         	|[plugin.video.animeanime](...)    	|      	[hier](/my/kodi.md)													|  NO  	|
-| Amazon Prime Instant Video 	|[plugin.video.prime_instant](...)	|	[...](http://www.kodinerds.net/index.php/Thread/43912-RELEASE-Amazon-Prime-Instant-Video-US-UK-DE/?pageNo=1)      	|  NO  	|
+| IPTVSimple PVR-addon       	|[pvr.iptvsimple-1.4.1.zip](https://github.com/dbiesecke/dbiesecke.github.io/raw/master/repo/zips/pvr.iptvsimple-1.4.1.zip)    				| Mit EPG und knapp 60 DE Sendern!     [My Settings](/repo/pvr.iptvsimple/README.md) 		|  NO 	|
+| IPTVExtra                   |[repository.iptvxtra](https://github.com/dbiesecke/dbiesecke.github.io/raw/master/repo/repository.iptvxtra/repository.iptvxtra-1.1.0.zip)            | Alternative zu Simple PVR, jedoch weniger DE sender [more](http://www.kodinerds.net/index.php/Thread/38668-IPTVxtra-Addons-und-Repo/) | YES! |
+| Amazon Prime Instant Video 	| plugin.video.prime_instant	| 	[...](http://www.kodinerds.net/index.php/Thread/43912-RELEASE-Amazon-Prime-Instant-Video-US-UK-DE/?pageNo=1)      	|  NO  	|
 
 
 

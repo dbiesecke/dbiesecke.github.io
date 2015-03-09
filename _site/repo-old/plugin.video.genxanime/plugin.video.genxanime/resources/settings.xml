@@ -1,0 +1,11 @@
+<settings>
+	<category label="Einstellungen">
+	   <setting id="german" type ="bool" label="1" default="false"/>
+	   <setting id="host1" type="select" label="2" values="streamcloud|vidzi|vivo|shared|novamov|primeshare" default="streamcloud"/>
+	   <setting id="host2" type="select" label="3" values="streamcloud|vidzi|vivo|shared|novamov|primeshare" default="vidzi"/>
+	   <setting id="host3" type="select" label="4" values="streamcloud|vidzi|vivo|shared|novamov|primeshare" default="vivo"/>
+	   <setting id="host4" type="select" label="5" values="streamcloud|vidzi|vivo|shared|novamov|primeshare" default="shared"/>
+	   <setting id="host5" type="select" label="6" values="streamcloud|vidzi|vivo|shared|novamov|primeshare" default="novamov"/>
+	   <setting id="host6" type="select" label="7" values="streamcloud|vidzi|vivo|shared|novamov|primeshare" default="primeshare"/>
+	</category>
+</settings>

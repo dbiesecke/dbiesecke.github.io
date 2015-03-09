@@ -5,10 +5,11 @@ Pseudo Library
 
 | Name                       	| DL 	| INFO 	| BETA?	|
 |----------------------------	|----	|------	|-----	|
-| Pse         	|[repo](https://github.com/Lunatixz/XBMC_Addons/blob/master/zips/repository.lunatixz/repository.lunatixz-1.0.zip)    	|      	[forum.kodi.tv](http://forum.kodi.tv/showthread.php?tid=205148)												|  YES!	|
+| Pseudo Library         	|[repo](https://github.com/Lunatixz/XBMC_Addons/blob/master/zips/repository.lunatixz/repository.lunatixz-1.0.zip)    	|      	[forum.kodi.tv](http://forum.kodi.tv/showthread.php?tid=205148)												|  YES!	|
 
 
-Plugin Highlights 
+
+Config
 ----------------------------------
 
 Nachfolgend kommen Beispiel config's für die settings2.mxl
