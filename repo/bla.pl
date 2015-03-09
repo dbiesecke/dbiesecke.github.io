@@ -1,1 +1,0 @@
-foreach(<./zips/*>){ print $_}
