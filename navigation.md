@@ -29,6 +29,7 @@
    * [plugin.video.animeanime](repo/plugin.video.animeanime/README.md)
    * [pvr.iptvsimple](repo/pvr.iptvsimple/README.md)
    * [IPTVExtra](my/kodi/iptvextra.md)
+   * [repository.lunatixz)](https://raw.githubusercontent.com/Lunatixz/XBMC_Addons/master/zips/repository.lunatixz/repository.lunatixz-1.0.zip)
 
 
 <!-- Code for collapse and expand -->

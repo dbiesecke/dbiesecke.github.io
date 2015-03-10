@@ -1,2 +1,0 @@
-[B]Version 1.2[/B]
-Moved repository
