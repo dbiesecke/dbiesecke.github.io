@@ -15,10 +15,11 @@
   
 [HOWTO]()
 
+  * [MangaDownloader](my/src/manga-downloader.md)
   * [afuse](my/afuse.md)
   * [Dreamfactory](my/dreamfactory.md)
   * [Kodi/XBMC](my/kodi.md)
-
+  
 [Kodi]()
 
    * [Tips](my/kodi.md)

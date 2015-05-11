@@ -6,10 +6,15 @@ My Wiki
 
 Last Notes:
 ----------------------------------
+* Added top DE sites to [hurik/MangaDownloader](https://github.com/hurik/MangaDownloader)
 
+![](http://i.imgur.com/ovu8bwA.jpg) 
+
+Kodi
+----------------------------------
 * Config für [IPTV Simple PVR](/#!repo/pvr.iptvsimple/README.md) mit aktuellen EPG hinzugefügt
 * [IPTVExtra](/#!my/kodi/iptvextra.md) als alternative zu Simple PVR ( mehrer Sprachen etc)
-* 
+
 
 [![](/repo/repository.iptvxtra/icon.png)](/#!my/kodi/iptvextra.md)
 [![](/repo/pvr.iptvsimple/icon.png)](/#!repo/pvr.iptvsimple/README.md)
