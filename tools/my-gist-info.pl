@@ -30,14 +30,9 @@ print "[Notes]()\n\n";
     $result = $g->list( user => 'dbiesecke' );
     if ( $result->success ) {
         while ( my $row = $result->next ) {
-            #print Dumper($row)."\n";
-#            printf "   * [%s](%s)\n", $row->{description},$row->{html_url} || 'no description';
-            my $files = $row->{files};
-             foreach my $file ( keys $files )  {
-                   next if not ($file =~/README.md/);
-#                   print Dumper($file)."\n";    
-            printf "   * [%s](%s)\n", $row->{description},$row->{html_url}."/raw/README.md" || 'no description';
+            next if not ($row->{files}->{'README.md'});
+            #print Dumper( $row->{files}->{'README.md'})."\n";
+            printf "   * [%s](%s)\n", $row->{description},$row->{files}->{'README.md'}->{'raw_url'} || 'no description';
 
-             }
         }
     }
