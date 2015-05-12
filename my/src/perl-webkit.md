@@ -16,12 +16,12 @@ Webkit Module - Getest & durchgefallen:
 ... desweiteren für meine ansprüche schon fast einwenig zu überladen & abstrakt, aber das is wohl geschmackssache.
 
 
-[perl-qtwebkit](https://github.com/natedat/perl-qtwebkit) & [staticperl](http://search.cpan.org/~mlehmann/App-Staticperl-1.43/bin/staticperl)
+perl-qtwebkit und staticperl
 -----------------------------------------------------------------------------------------------------------------------------------------
+Src: [perl-qtwebkit](https://github.com/natedat/perl-qtwebkit) & [staticperl](http://search.cpan.org/~mlehmann/App-Staticperl-1.43/bin/staticperl)
 
 Da mein hauptaugenmerk dabei auf portabilität lag, bin ich am ende bei [QtWebkit](http://qt-project.org/doc/qt-5.0/qtwebkit/qtwebkit-module.html) gelandet.
 Per Github bin ich auch prompt auf nen perl module gestoßen das es per XS einbindet, perfekt auch für [staticperl](http://search.cpan.org/~mlehmann/App-Staticperl-1.43/bin/staticperl).
-
 
 Bin eigentlich kein Freund von JavaScript, aber wenns um DOM handling in HTML geht, ist es wahrlich unschlagbar, daher lassen sich auch noch so Ajax lastige HTTP Services ansprechen & easy verarbeiten.
 Grund genug sich mal näher mit dem spartanisch dokumentierten source zu beschäftigen. 
