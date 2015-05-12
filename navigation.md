@@ -14,8 +14,9 @@
    
 [Perl]()
 
-  * [OneLiner](my/src/perl-webkit.md)
-
+  * [perl-webkit](my/src/perl-webkit.md)
+  * [Inline::C vs perlxs](my/src/perl-perlxs-vs-inline.md)
+  
   
 [HOWTO]()
 
