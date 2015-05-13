@@ -6,6 +6,13 @@ My Wiki
 [gimmick:gist](ba359f53f392d513cdea)
 
 
+Aptly CheatSheet verlinkt
+----------------------------------
+Meine kurz anleitung für [aptly](/#!https://gist.githubusercontent.com/dbiesecke/5ecd3d5d2de50bcd30aa/raw/README.md) habe ich hinzugefügt.
+Dies macht es einem einfach sein eignes deb Repository zu pflegen. 
+
+
+
 Gist notes hinzugefügt
 ----------------------------------
 Ich habe kleines script geschrieben um weitere Notes aus Gist zu importieren.
