@@ -18,14 +18,18 @@ unless ( $result->success ) {
     printf "something is fishy: %s\n", $result->response->status_line;
     exit 1;
 }
-
+    my $navrepo = "[Sources]()\n\n";
 while ( my $row = $result->next ) {
 #    printf "%s: %s\n", $row->{name}, $row->{description} || 'no description';
+            #next if not ($row->{files}->{'README.md'});
+
+            $navrepo .= "   * [".$row->{name}."](".$row->{clone_url}.")\n";
+
 }
 
 print "---------------------------- GIST's ----------------\n\n";
 
-    my $nav = "[Notes]()\n\n";
+    my $nav = "[Gists]()\n\n";
     my $overview = "";
    my $g = Pithub::Gists->new;
     $result = $g->list( user => 'dbiesecke' );
@@ -33,12 +37,10 @@ print "---------------------------- GIST's ----------------\n\n";
         while ( my $row = $result->next ) {
             next if not ($row->{files}->{'README.md'});
             #print Dumper( $row->{files}->{'README.md'})."\n";
-            $nav .= "   * [".$row->{description}."](".$row->{'html_url'}.")\n";
-            my $cont = get($row->{files}->{'README.md'}->{raw_url});
-             $cont =~ s/=//ig;
-             $overview .= $row->{description}."\n------------------------\nHint:".$row->{name}."\n$cont\n\n\n\n\n\n";
+            $nav .= "   * [".$row->{description}."](/#!".$row->{files}->{'README.md'}->{raw_url}.")\n";
 
         }
     }
 
-print $nav."\n\n".$overview."\n";
+print $nav."\n\n".$navrepo."\n\n";
+#print $overview."\n";
