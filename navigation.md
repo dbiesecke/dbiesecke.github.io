@@ -7,7 +7,7 @@
   * [Reference](coin/index.md)
 
 [Linux]()
-
+  * [Aptly - Create DEB Repo](/#!https://gist.githubusercontent.com/dbiesecke/5ecd3d5d2de50bcd30aa/raw/README.md)
   * [OneLiner](linux/oneliner.md)
   * [Monitoring](linux/monitoring.md)
   * [Docker & logstash](linux/docker_and_logstash.md)
