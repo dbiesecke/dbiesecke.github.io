@@ -3,6 +3,8 @@ My Wiki
 
 * Notes to myself, all writen in clear MarkDown ;)
 
+[gimmick:gist](ba359f53f392d513cdea)
+
 
 Gist notes hinzugefügt
 ----------------------------------
