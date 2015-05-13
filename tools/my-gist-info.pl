@@ -20,19 +20,25 @@ unless ( $result->success ) {
 }
 
 while ( my $row = $result->next ) {
-    printf "%s: %s\n", $row->{name}, $row->{description} || 'no description';
+#    printf "%s: %s\n", $row->{name}, $row->{description} || 'no description';
 }
 
 print "---------------------------- GIST's ----------------\n\n";
-print "[Notes]()\n\n";
-    my $special;
+
+    my $nav = "[Notes]()\n\n";
+    my $overview = "";
    my $g = Pithub::Gists->new;
     $result = $g->list( user => 'dbiesecke' );
     if ( $result->success ) {
         while ( my $row = $result->next ) {
             next if not ($row->{files}->{'README.md'});
             #print Dumper( $row->{files}->{'README.md'})."\n";
-            printf "   * [%s](%s)\n", $row->{description},$row->{files}->{'README.md'}->{'raw_url'} || 'no description';
+            $nav .= "   * [".$row->{description}."](".$row->{'html_url'}.")\n";
+            my $cont = get($row->{files}->{'README.md'}->{raw_url});
+             $cont =~ s/=//ig;
+             $overview .= $row->{description}."\n------------------------\nHint:".$row->{name}."\n$cont\n\n\n\n\n\n";
 
         }
     }
+
+print $nav."\n\n".$overview."\n";
