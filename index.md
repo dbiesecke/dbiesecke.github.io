@@ -3,7 +3,19 @@ My Wiki
 
 * Notes to myself, all writen in clear MarkDown ;)
 
-[gimmick:gist](ba359f53f392d513cdea)
+continuous integrations über wercker
+----------------------------------------
+[![wercker status](https://app.wercker.com/status/0e32abc3e5a861cc6d825b12817d7f4a/m "wercker status")](https://app.wercker.com/project/bykey/0e32abc3e5a861cc6d825b12817d7f4a)
+
+![Wercker](http://i.imgur.com/wqCK5eW.jpg) 
+
+
+[Wercker](https://wercker.com/) ist ein sehr flexibles aber auch einfach zu implementierendes  "continuous integrations system". Aktuell erstellt es von meinem meiner Perl Packete ein Docker Container & transferiert ihn über scp auf meinen Server.
+
+
+![Wercker](http://i.imgur.com/rnGI1Ki.jpg)
+
+
 
 
 Aptly CheatSheet verlinkt
