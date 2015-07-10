@@ -1,8 +1,41 @@
 AutoFS Tips 
 ========================================
 
-* Das Repo steht! ... hab den plan aber erstmal verworfen nen "all-in-one-plugin" zu bauen, zu viele abhängigkeits probleme.   ... mir repo wird alles einfacher ;)
+* AutoFS erlaubt euch direkt im dateisystem "magic" like:  `ls /smb/<hostname>/` oder `ls /misc/myproject`.
+  um das wieder ausmounten kümmert sich autoFS. Die Settings erlauben auch ein "lag-freies" arbeiten direkt im Desktop ;)
 
+
+
+(secure) Mount server mit fstab & sshfs
+---------------------------------------------
+
+* Nicht sonderlich performant, aber für remote server def. ne gangbare lösung, hier ein beispiel an hidrive.
+* Danach nur noch ssh-keys austauschen `ssh-copy-id USER@sftp.hidrive.strato.com`
+* ACHTUNG: erlaubt "allow_other" limitiert auf userid 1000:1000, bite anpassen!
+
+
+    # /etc/fstab: static file system information.
+    #
+    # file system      mount point    type     options                  dump pass
+    /dev/xvda3         /              ext3     barrier=0                0    0
+    USER@sftp.hidrive.strato.com:/public/  /misc/hidrive  fuse.sshfs noauto,x-systemd.automount,_netdev,user,idmap=user,transform_symlinks,identityfile=/root/.ssh/id_rsa,allow_other,default_permissions,uid=1000,gid=1000 0 0
+    USER@sftp.hidrive.strato.com:/users/bohal/ds-2_00113215981F/  /misc/private  fuse.sshfs noauto,x-systemd.automount,_netdev,user,idmap=user,transform_symlinks,identityfile=/root/.ssh/id_rsa,allow_other,default_permissions,uid=1000,gid=1000 0 0
+
+
+
+AutoFS - Einzelnen Remote Server anlegen
+----------------------------------
+
+* Dafür wird typischerweise der `/misc` ordner verwendet, darauf folgt euer gewünschter name.
+
+/etc/auto.misc:
+
+    myproject  -rw,soft,intr,rsize=8192,wsize=8192 nfs.example.net:/proj52
+    
+* **Hint: UDP verbessert massiv die performence dafür wie folgt anhängen: `,wsize=8192,udp`
+
+
+    myproject  -rw,soft,intr,rsize=8192,wsize=8192,udp nfs.example.net:/proj52
 
 
 auto.master config
