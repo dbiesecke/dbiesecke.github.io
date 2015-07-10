@@ -23,6 +23,7 @@
 
   * [MangaDownloader](my/src/manga-downloader.md)
   * [afuse](my/afuse.md)
+  * [autofs](my/autofs.md)
   * [Dreamfactory](my/dreamfactory.md)
   * [Kodi/XBMC](my/kodi.md)
   
