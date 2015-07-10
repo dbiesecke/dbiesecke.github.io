@@ -1,8 +1,5 @@
-AutoFS Tips 
+AutoMount Tips 
 ========================================
-
-* AutoFS erlaubt euch direkt im dateisystem "magic" like:  `ls /smb/<hostname>/` oder `ls /misc/myproject`.
-  um das wieder ausmounten kümmert sich autoFS. Die Settings erlauben auch ein "lag-freies" arbeiten direkt im Desktop ;)
 
 
 
@@ -15,13 +12,17 @@ AutoFS Tips
 
 
     # /etc/fstab: static file system information.
-    #
-    # file system      mount point    type     options                  dump pass
-    /dev/xvda3         /              ext3     barrier=0                0    0
-    USER@sftp.hidrive.strato.com:/public/  /misc/hidrive  fuse.sshfs noauto,x-systemd.automount,_netdev,user,idmap=user,transform_symlinks,identityfile=/root/.ssh/id_rsa,allow_other,default_permissions,uid=1000,gid=1000 0 0
     USER@sftp.hidrive.strato.com:/users/bohal/ds-2_00113215981F/  /misc/private  fuse.sshfs noauto,x-systemd.automount,_netdev,user,idmap=user,transform_symlinks,identityfile=/root/.ssh/id_rsa,allow_other,default_permissions,uid=1000,gid=1000 0 0
 
+* More infos on [ArchWiki](https://wiki.archlinux.org/index.php/Sshfs)
 
+
+AutoMount Tips 
+========================================
+
+
+* AutoFS erlaubt euch direkt im dateisystem "magic" like:  `ls /smb/<hostname>/` oder `ls /misc/myproject`.
+  um das wieder ausmounten kümmert sich autoFS. Die Settings erlauben auch ein "lag-freies" arbeiten direkt im Desktop ;)
 
 AutoFS - Einzelnen Remote Server anlegen
 ----------------------------------
