@@ -53,7 +53,12 @@
    * [Simple gist to show the aptly magic :)](/#!https://gist.githubusercontent.com/dbiesecke/5ecd3d5d2de50bcd30aa/raw/README.md)
    * [pptpd simple setup](/#!https://gist.githubusercontent.com/dbiesecke/eb10bbc7bc63d289d347/raw/README.md)
 
-[Sources]()
+[External]()
+
+   * [Universal UDFHD](/#!https://github.com/kimmobrunfeldt/howto-everything/blob/master/universal-disk.md)
+   
+
+[Source]()
 
    * [App-CloudMining](https://github.com/dbiesecke/App-CloudMining.git)
    * [builder-litecoin](https://github.com/dbiesecke/builder-litecoin.git)
