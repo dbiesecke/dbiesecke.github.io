@@ -1,10 +1,28 @@
 My Wiki
 - - - - - - 
-
 * Notes to myself, all writen in clear MarkDown ;)
+
+
+
+Lets Encrypt rockt!
+------------------------------------- 
+
+Als ich einen neuen webserver/reverse-proxy brauchte bin ich auf [caddy](https://caddyserver.com/download) gestoßen.
+Allein die die features wie Git,Markdown & search plugins machen ihn ja schon zu na wucht. Aber seit kurzem unterstützt 
+er auch ne lets-encrypt integration. Das heißt für euch OHNE config
+
+| Tools/Libs                    | Lang | DL                                              | My-opinion                                                |
+|-------------------------------|------|-------------------------------------------------|-----------------------------------------------------------|
+| Caddy - HTTP Server           | GO   | [LINK](https://caddyserver.com/download)        | fast Webserver and will auto-generate a SSL cert for you! |
+| LEGO - Go Lets Encrypt Client | GO   | [LINK](https://github.com/xenolf/lego/releases) | Easy to use Client to generate Certs                      |
+|                               |      |                                                 |                                                           |
+
+
+
 
 continuous integrations über wercker
 ----------------------------------------
+
 [![wercker status](https://app.wercker.com/status/0e32abc3e5a861cc6d825b12817d7f4a/m "wercker status")](https://app.wercker.com/project/bykey/0e32abc3e5a861cc6d825b12817d7f4a)
 
 ![Wercker](http://i.imgur.com/wqCK5eW.jpg) 
