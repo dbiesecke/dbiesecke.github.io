@@ -26,6 +26,7 @@
   * [automount](my/automount.md)
   * [Dreamfactory](my/dreamfactory.md)
   * [Kodi/XBMC](my/kodi.md)
+  * [lets-encrypt](my/my/lets-encrypt.md)
   
 [Kodi]()
 
