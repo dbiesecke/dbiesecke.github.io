@@ -11,28 +11,27 @@ Das Project steht wirklich noch am Anfang, jedoch funktionieren die ersten Tools
 | LEGO - Go Lets Encrypt Client | GO   | [LINK](https://github.com/xenolf/lego/releases) | Easy to use Client to generate Certs                      |
 |                               |      |                                                 |                                                           |
 
+LEGO
+=====================
 
-Using LEGO - 
-=========================
+Install LEGO
+------------------
+`curl -kL https://github.com/xenolf/lego/releases/download/v0.1.1/lego_linux_amd64.tar.xz > out.tar.xz`
+
+
+Using LEGO 
+--------------------------------
 Da es ein GO program ist, deckt es eine breite Pallete an Betriebsystemen ab.
 
 [LEGO-release](https://github.com/xenolf/lego/releases)
 
 
 ## lego
-### Argument example
+### Create a valid SSL cert
  * **Command with arguments**: `~/lego --email="username@gmail.com" --domains="yourdomain.de" run`
  * **Description**: Create SSL certs for following Domain
- * **Example CRON**: `~/lego --email="username@gmail.com" --domains="yourdomain.de" run`
+ * **Example CRON**: `@reboot     cd "/root";  /root/lego --email=admin@nated.at --domains=lair.nated.at run;cp -R ~/.lego/certificates/* /etc/ssl/private/`
 
-
-    2016/03/10 07:11:52 [INFO][yourdomain.de] acme: Obtaining bundled SAN certificate
-    2016/03/10 07:11:52 [INFO][yourdomain.de] acme: Trying to solve HTTP-01
-    2016/03/10 07:11:53 [INFO] Served key authentication
-    2016/03/10 07:11:54 [INFO][yourdomain.de] The server validated our request
-    2016/03/10 07:11:54 [INFO][yourdomain.de] acme: Validations succeeded; requesting certificates
-    2016/03/10 07:11:54 [INFO] acme: Requesting issuer cert from https://acme-v01.api.letsencrypt.org/acme/issuer-cert
-    2016/03/10 07:11:55 [INFO][yourdomain.de] Server responded with a certificate.
 
 
 
