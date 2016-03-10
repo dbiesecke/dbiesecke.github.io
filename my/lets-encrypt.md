@@ -23,17 +23,13 @@ Da es ein GO program ist, deckt es eine breite Pallete an Betriebsystemen ab.
 ### Argument example
  * **Command with arguments**: `~/lego --email="username@gmail.com" --domains="yourdomain.de" run`
  * **Description**: Create SSL certs for following Domain
- * **Output**:
- 
-
-
-       2016/03/10 07:11:52 [INFO][yourdomain.de] acme: Obtaining bundled SAN certificate
-       2016/03/10 07:11:52 [INFO][yourdomain.de] acme: Trying to solve HTTP-01
-       2016/03/10 07:11:53 [INFO] Served key authentication
-       2016/03/10 07:11:54 [INFO][yourdomain.de] The server validated our request
-       2016/03/10 07:11:54 [INFO][yourdomain.de] acme: Validations succeeded; requesting certificates
-       2016/03/10 07:11:54 [INFO] acme: Requesting issuer cert from https://acme-v01.api.letsencrypt.org/acme/issuer-cert
-       2016/03/10 07:11:55 [INFO][yourdomain.de] Server responded with a certificate.
+ * **Example CRON**:2016/03/10 07:11:52 [INFO][yourdomain.de] acme: Obtaining bundled SAN certificate
+    2016/03/10 07:11:52 [INFO][yourdomain.de] acme: Trying to solve HTTP-01
+    2016/03/10 07:11:53 [INFO] Served key authentication
+    2016/03/10 07:11:54 [INFO][yourdomain.de] The server validated our request
+    2016/03/10 07:11:54 [INFO][yourdomain.de] acme: Validations succeeded; requesting certificates
+    2016/03/10 07:11:54 [INFO] acme: Requesting issuer cert from https://acme-v01.api.letsencrypt.org/acme/issuer-cert
+    2016/03/10 07:11:55 [INFO][yourdomain.de] Server responded with a certificate.
 
 
 
