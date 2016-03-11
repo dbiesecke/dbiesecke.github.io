@@ -1,6 +1,28 @@
 Diverse Linux OneLiner
 ---------------------------------
 
+Install x64 caddy ( http server)
+---------------------------------
+
+    curl -skL 'https://caddyserver.com/download/build?os=linux&arch=amd64&features=' | tar xvzf -   && rm README.txt LICENSES.txt CHANGES.txt
+    sudo mv caddy /usr/local/bin/ && ln /usr/local/bin/caddy /usr/bin/caddy
+    sudo apt-get install php5-fpm tor -y -f 
+    
+    cat > /tmp/root.pm << EOF
+        0.0.0.0:8443 {
+            root /var/wwww
+            log /var/log/access.log
+            errors /var/log/error.log
+            
+            # PHP-FPM with Unix socket
+            fastcgi / /var/run/php5-fpm.sock php
+            
+            # PHP-FPM with regular udp socket
+            # fastcgi / 127.0.0.1:9000 php
+        }
+    EOF
+
+
 
 App::Every
 ---------------------------------
