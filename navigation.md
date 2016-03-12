@@ -27,6 +27,7 @@
   * [Dreamfactory](my/dreamfactory.md)
   * [Kodi/XBMC](my/kodi.md)
   * [lets-encrypt](my/my/lets-encrypt.md)
+  * [IPTV-Encoding](https://dbiesecke.github.io/#!https://gist.githubusercontent.com/dbiesecke/efdd8e28d7e599a41241/raw/README.md)
   
 [Kodi]()
 

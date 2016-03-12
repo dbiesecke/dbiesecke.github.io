@@ -4,6 +4,35 @@ My Wiki
 
 
 
+
+Re-encode with UMS
+------------------------
+* **Der wohl beste UPnP Transcoding Server: [UMS](http://www.universalmediaserver.com/) **
+* ** Beseitigt effektiv das Problem das die Streams regelmäßig abbrechen & stottern - dafür längere Umschaltzeiten! (~2-5sek)**
+
+![](http://i.imgur.com/lSqloL7.png)
+
+* Transcoded effectiv die streams neu & stellt sich als UPnP server zur verfügung.
+* Dies erlaubt den Zugriff auf IPTV & Co auch über PS3,XBOX & co!
+
+
+1. Download & Entpacken von [UMS](http://www.universalmediaserver.com/)
+
+2. Playlisten aus diesem Repo runterladen & entpacken 
+  * Diesr Ordner ist dann in UMS in den "Haupteinstellung --> Navigations/Freigabe" einstellung einzutragen
+  * ![](http://i.imgur.com/X07IL5L.png)
+  
+3. Dann können die Playlisten auch schon in Kodi & Co aufgerufen werden!
+  * Unter Linux empfehle ich [djmount](https://github.com/Boxee/djmount) um alle UPnP ins dateisystem zu mounten 
+  
+4. **Falls der UPnP nicht in Kodi erscheint, bitte die IP addresse in UMS einstellen/Manuell festlegen**
+5. **Falls es beim abspielen Probleme gibt, prüft die Transcoding einstellungen & wechselt zwischen FFmpeg/vlc/mencoder etc. **
+
+* Optional ist es nun möglich auch am Handy über HTML5/Flash die Streams zu schauen, dazu erstellt [UMS](http://www.universalmediaserver.com/) automatisch einen Webserver den ihr unter [127.0.0.1:9001/](http://127.0.0.1:9001) ereicht
+  * ![](http://i.imgur.com/9fMOECb.png)
+
+
+
 Lets Encrypt rockt!
 ------------------------------------- 
 
