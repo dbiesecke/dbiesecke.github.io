@@ -3,6 +3,260 @@ My Wiki
 * Notes to myself, all writen in clear MarkDown ;)
 
 
+<div id="commandlinefu_list"></div>
+
+
+#Ubuntu Install Notes & Tips
+- - - - - - 
+
+Install Conky-Manager
+---------------------
+* FOr Thems Package, look at : [teejeetech.in](http://www.teejeetech.in/p/conky-manager.html)
+
+
+            $ sudo add-apt-repository ppa:teejee2008/ppa     
+            $ apt-get update && apt-get install conky-manager
+            
+Conky Themen Packs
+--------------------      
+          
+
+| Name                       	| DL 	| INFO 	|
+|----------------------------	|----	|------	|
+| dbiesecke Themes              	|[dbiesecke.cmtp.7z](http://dbiesecke.github.io/dbiesecke.cmtp.7z)    				| My Conky workspace |
+| Conky default Themes              	|[default-themes-extra-1.cmtp.7z](https://github.com/dbiesecke/dbiesecke.github.io/blob/master/default-themes-extra-1.cmtp.7z?raw=true)    				| Conky Theme Package |
+
+
+
+
+
+
+# None
+- - - - - - 
+
+<script type="text/javascript" src="http://www.commandlinefu.com/commands/by/dbiesecke/json/clfwidget/"></script> <script type="text/javascript">
+function clfwidget(commands) {
+    var commandsHtml = [];
+    for (var i=0; i<Math.min(5, commands.length); ++i) {
+        var command = commands[i].command;
+        var summary = commands[i].summary;
+        var url = commands[i].url;
+        commandsHtml.push('<li><a href="'+url+'">'+summary+'</a><br/><code>$ '+command+'</code></li>');
+    }
+    var listHtml = '<ul>'+commandsHtml.join('')+'</ul>';
+    var widgetHtml = listHtml+'<p><a href="http://www.commandlinefu.com">commandlinefu.com</a></p>';
+    document.getElementById('commandlinefu_list').innerHTML = widgetHtml;
+}
+</script>
+
+Install GRML Repo
+================================
+
+Ubuntu Debootstrap
+----------------------
+
+
+
+Ubuntu 16 LTS Source.list (dev)
+-----------------------------------
+
+
+            curl https://repogen.simplylinux.ch/txt/xenial/sources_2ab893bff6e80d03a4e97f2516b4c5d448bfd6b3.txt | sudo tee /etc/apt/sources.list`
+            #gpg keys
+            curl https://repogen.simplylinux.ch/txt/xenial/gpg_2ab893bff6e80d03a4e97f2516b4c5d448bfd6b3.txt | sudo tee /etc/apt/gpg_keys.txt
+
+
+
+
+
+Create (free) Log Infra.
+------------------------------
+* Baed on [papertrails](https://papertrailapp.com) & [logentries](https://logentries.com)
+
+* Install Snoopy to log all cmd/tty commands
+
+
+            rm -f snoopy-install.sh &&
+            wget -q -O snoopy-install.sh https://github.com/a2o/snoopy/raw/install/doc/install/bin/snoopy-install.sh &&
+            chmod 755 snoopy-install.sh &&
+            ./snoopy-install.sh stable
+            # avoid log spawm
+            echp 'filter_chain = "only_tty"' >> /etc/snoopy.ini
+
+
+* Now we add rsyslog rules: `/etc/rsyslog.conf` 
+
+
+            $template Logentries,"df57b035--ad90-cf6b7342ba24 %HOSTNAME% %syslogtag%%msg%\n"
+            *.*;cron.none             @@data.logentries.com:80;Logentries
+            
+            *.*;cron.none             @logs2.papertrailapp.com:107754
+
+
+
+
+
+
+Debian GRML scripts
+-------------------------
+
+            wget -qO- http://deb.grml.org/repo-key.asc | sudo apt-key add --    
+            sudo echo   'deb     http://deb.grml.org/ grml-testing main' > /etc/apt/sources.list.d/grml.list
+            sudo apt-get update 
+            
+Install some usefull tools
+-----------------------------
+
+            sudo apt-get install grml-tips grml-crypt grml-network grml-paste grml-shlib grml-tips grml-quickconfig
+            grml-scripts
+
+
+            
+
+Install Android SDK
+-----------------------------
+
+            wget http://linuxundich.de/static/android_sdk_installer.sh
+            chmod +x android_sdk_installer.sh
+            sudo ./android_sdk_installer.sh
+
+
+Install ZSH
+------------------
+
+            $ wget -qO- .zshrc http://git.grml.org/f/grml-etc-core/etc/zsh/zshrc
+
+Monodevelop Latest
+----------------------
+
+            sudo add-apt-repository ppa:keks9n/monodevelop-latest
+            
+Scribes
+--------------------
+
+         sudo add-apt-repository ppa:mystilleef/scribes-daily
+            
+            
+Google Chrome            
+-----------------
+
+            wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+            sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+   
+
+Install webupd8 repo
+-------------------------   
+        
+            sudo add-apt-repository ppa:nilarimogard/webupd8
+            
+Install Every ( cron-tool )            
+-------------------------------
+        
+        wget https://raw.githubusercontent.com/iarna/App-Every/master/packed/every && chmod +x every && mv every /usr/local/bin 
+
+               
+Linux - i386 support for x86_64
+=========================================
+
+RPM based
+* `# yum -y install glibc-devel.i386 libstdc++-devel.i386`
+* `# yum -y install glibc-devel.i686 glibc-devel ibstdc++-devel.i686`
+* `# zypper in glibc-devel-32bit`
+
+debian
+* `$ sudo apt-get install g++-multilib libc6-dev-i386`
+
+
+Example
+
+`$ gcc -m32 -o output32 hello.c`
+
+
+
+
+Install Ajenti Webpanel
+================================
+
+`wget -O- https://raw.github.com/Eugeny/ajenti/master/scripts/install-ubuntu.sh | sudo sh`
+
+
+Install Docker ( Ubuntu )
+================================
+* its recommend to install kernel-extras
+ 
+
+`$ sudo apt-get install linux-image-extra-$(uname -r)`
+`$ curl -sSL https://get.docker.io/ubuntu/ | sudo sh`
+
+
+* Install docker-composer ( fig replacement)
+
+
+            $ curl -L https://github.com/docker/compose/releases/download/1.5.2/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
+
+
+
+Install x64 caddy ( http server)
+---------------------------------
+
+    curl -skL 'https://caddyserver.com/download/build?os=linux&arch=amd64&features=' | tar xvzf -   && rm README.txt LICENSES.txt CHANGES.txt
+    sudo mv caddy /usr/local/bin/ && sudo ln /usr/local/bin/caddy /usr/bin/caddy
+    sudo apt-get install php5-fpm libfcgi-perl wget curl -y -f 
+    
+    #install perl fcgi
+    wget http://nginxlibrary.com/downloads/perl-fcgi/fastcgi-wrapper -O /usr/bin/fastcgi-wrapper.pl
+    wget http://nginxlibrary.com/downloads/perl-fcgi/perl-fcgi -O /etc/init.d/perl-fcgi
+    chmod +x /usr/bin/fastcgi-wrapper.pl
+    chmod +x /etc/init.d/perl-fcgi
+    update-rc.d perl-fcgi defaults
+    insserv perl-fcgi || systemctl daemon-reload 
+    /etc/init.d/perl-fcgi start
+    
+    sudo cat > /etc/caddy.conf << EOF
+        0.0.0.0:8443 {
+            root /var/wwww
+            log /var/log/http-caddy.log
+            errors /var/log/error.log
+            basicauth / root haxxor
+            gzip
+            #templates / .html
+            
+            fastcgi /bin/ 127.0.0.1:8999  {
+             ext   .pl .psgi
+             split .pl
+            }
+            
+            # PHP-FPM with Unix socket
+            fastcgi / /var/run/php5-fpm.sock php
+            
+            #Example Reverse Proxy call
+            proxy /api/ http://127.0.0.1:3388/api/ {
+             without /api
+             proxy_header Host {host}
+            }
+            
+            #Example FileSearch
+            #search /search {
+            # -path dbiesecke
+            #        -path .git
+            #        -generated_site
+            #        +path shells
+            # +path logs
+            # +path log
+            # template inc/search.tpl
+            #}
+            
+            #Example rewrite
+            #rewrite /shells/ {
+            #    regexp (.*)\.json
+            #    to  /bin/shodan.pl?uri={uri}
+            #}
+        }
+    EOF
+   
+   
+   
+
 
 
 Re-encode with UMS
