@@ -1,6 +1,27 @@
 Diverse Linux OneLiner
 ---------------------------------
 
+Install Conky-Manager
+---------------------
+* ![Desktop](http://storage2.static.itmages.com/i/16/0828/h_1472385934_3730740_62ae560e3f.png)
+
+* FOr Thems Package, look at : [teejeetech.in](http://www.teejeetech.in/p/conky-manager.html)
+
+
+            $ sudo add-apt-repository ppa:teejee2008/ppa     
+            $ apt-get update && apt-get install conky-manager
+            
+
+| Name                       	| DL 	| INFO 	|
+|----------------------------	|----	|------	|
+| dbiesecke Themes              	|[dbiesecke.cmtp.7z](http://dbiesecke.github.io/dbiesecke.cmtp.7z)    				| My Conky workspace |
+| Conky default Themes              |[default-themes-extra-1.cmtp.7z](https://github.com/dbiesecke/dbiesecke.github.io/blob/master/default-themes-extra-1.cmtp.7z?raw=true)    				| Conky Theme Package |
+
+
+
+
+
+
 idok - Kodi CLI Player
 ----------------------------
 * Can easy installed with `bash <(wget https://goo.gl/imm9jP -qO -)`
@@ -10,6 +31,7 @@ idok - Kodi CLI Player
     target = 127.0.0.1
     targetport = 8080
     login = kodi
+    
     password = kodi
     ssh = false
     release-check = false
