@@ -10,6 +10,7 @@
 
   * [Aptly - Create DEB Repo](/#!https://gist.githubusercontent.com/dbiesecke/5ecd3d5d2de50bcd30aa/raw/README.md)
   * [OneLiner](linux/oneliner.md)
+  * [Backup](linux/backup.md)
   * [Monitoring](linux/monitoring.md)
   * [Docker & logstash](linux/docker_and_logstash.md)
   * [Install Tips](/#!https://gist.githubusercontent.com/dbiesecke/d83d9e0e9a6b259bb711/raw/1f0685ce26a90191c6cd02dc07a53de9307d91d8/README.md)
