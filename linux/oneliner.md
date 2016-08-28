@@ -1,6 +1,32 @@
 Diverse Linux OneLiner
 ---------------------------------
 
+idok - Kodi CLI Player
+----------------------------
+* Can easy installed with `bash <(wget https://goo.gl/imm9jP -qO -)`
+* Now a example idok config `~/.config/idok/idok.conf`
+
+
+    target = 127.0.0.1
+    targetport = 8080
+    login = kodi
+    password = kodi
+    ssh = false
+    release-check = false
+
+rcm - dotfile managment
+-------------------------------
+* More infos on [github](https://github.com/thoughtbot/rcm)
+* If done, make Install script with: `$ env RCRC=/dev/null rcup -B 0 -g > ~/.dotfiles/install.sh`
+
+
+    wget https://thoughtbot.github.io/rcm/debs/rcm_1.3.0-1_all.deb
+    sha=$(sha256sum rcm_1.3.0-1_all.deb | cut -f1 -d' ')
+    [ "$sha" = "2e95bbc23da4a0b995ec4757e0920197f4c92357214a65fedaf24274cda6806d" ] && \
+    sudo dpkg -i rcm_1.3.0-1_all.deb
+
+
+
 Install x64 caddy ( http server)
 ---------------------------------
 
