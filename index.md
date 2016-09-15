@@ -23,7 +23,7 @@ KDE Klipper scripts - Url2MarkDown
 * format a http link to Markdown format: `klipper-markdown-link`
 * Regex: `^http.?://.*`
 
-[gimmick:gist](5896d8274ae42de471b6a54ee8cb834e21eac6c4)
+[gimmick:gist](b6181b5c4ee86bcd434ba0255211526e)
 
 
 
