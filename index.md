@@ -3,6 +3,15 @@ My Wiki
 * Notes to myself, all writen in clear MarkDown ;)
 
 
+div-command notes
+------------------------------
+* nach Markdown convertierte liste von commandlinefu commands
+
+
+  * [div-notes](commands.md)
+
+
+
 # BackUp - Notes & Tips
 - - - - - - - - - - - - - - - 
 
