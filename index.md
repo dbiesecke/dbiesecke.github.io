@@ -13,11 +13,18 @@ Disaster recovery easy with rear
 * Bsp 1: `$ OUTPUT=USB && BACKUP_URL=usb:///dev/disk/by-label/REAR-000` ersellt ein bootfähiges USB medium mit allen benötigen daten zum wiederherstellen
 * Note: Vorher muss das USB msedium per `$ rear format /dev/sdX` komplett platt gemacht werden, danach können die Partitionen ja geresized werden 
 
+
+
+#Desktop Notes & Tips
+====================
+
+KDE Klipper scripts - Url2MarkDown
+-----------------
+* format a http link to Markdown format: `klipper-markdown-link`
+* Regex: `^http.?://.*`
+
 [gimmick:gist](5641564)
 
-
-#Ubuntu Install Notes & Tips
-- - - - - - 
 
 
 
