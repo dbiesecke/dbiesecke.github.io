@@ -144,6 +144,18 @@ Install ZSH
             wget -qO- .zshrc http://git.grml.org/f/grml-etc-core/etc/zsh/zshrc
 
 
+Install gvm and go
+----------------------------------
+
+            $ sudo apt-get install curl git mercurial make binutils bison gcc build-essential
+            % bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
+            % source ~/.gvm/scripts/gvm 
+            % gvm install go1.4 -B
+            % gvm use go1.4
+            % export GOROOT_BOOTSTRAP=$GOROOT
+            % gvm install go1.5
+
+
 Monodevelop Latest
 ---------------------------------
 
