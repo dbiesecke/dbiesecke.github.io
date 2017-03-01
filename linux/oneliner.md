@@ -1,6 +1,18 @@
 Diverse Linux OneLiner
 ---------------------------------
 
+
+* Install Update Parallel
+------------------------
+# `(wget pi.dk/3 -qO - ||  curl pi.dk/3/) | bash`
+
+
+
+Install kali tools/Menu on ubuntu
+--------------------------------
+# git clone https://github.com/LionSec/katoolin.git  && cp katoolin/katoolin.py /usr/bin/katoolin && chmod +x  /usr/bin/katoolin && katoolin
+
+
 Install Conky-Manager
 ---------------------
 * ![Desktop](http://storage2.static.itmages.com/i/16/0828/h_1472385934_3730740_62ae560e3f.png)
@@ -35,6 +47,7 @@ idok - Kodi CLI Player
     password = kodi
     ssh = false
     release-check = false
+    
 
 rcm - dotfile managment
 -------------------------------
