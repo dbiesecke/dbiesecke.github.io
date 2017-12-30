@@ -1,5 +1,8 @@
 # docker2script
 
+[![asciicast](https://asciinema.org/a/7yVERoPBwdy4OT4wkyPe8ogOi.png)](https://asciinema.org/a/7yVERoPBwdy4OT4wkyPe8ogOi)
+
+
 * Die Grund idee ist das komplette Docker Image zu exportieren (quasi das gesamte system mit finalen binary) & alles mit [makeself](http://makeself.io/) & [proot](http://proot-me.github.io/) in ein ausführbares script zu verwandeln.
 
 ## Required
