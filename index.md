@@ -4,6 +4,14 @@ My Wiki
 
 ----------------------------
 
+
+GitHub IPTV Search
+-----------------------------
+* Github macht es möglich, 
+
+* [Germany Sky extension:m3u](https://github.com/search?l=&o=desc&q=Germany+Sky+extension%3Am3u&ref=advsearch&s=indexed&type=Code&utf8=%E2%9C%93)
+* ["EXTINF" "Bundesliga"  extension:m3u](https://github.com/search?o=desc&q=%22EXTINF%22+%22Bundesliga%22++extension%3Am3u&s=indexed&type=Code&utf8=%E2%9C%93)
+
 div-command notes
 ------------------------------
 * nach Markdown convertierte liste von commandlinefu commands
