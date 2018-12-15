@@ -2,12 +2,18 @@ My Wiki
 - - - - - - 
 * Notes to myself, all writen in clear MarkDown ;)
 
+
+Test
 ----------------------------
+
+<script src="https://gist.github.com/dbiesecke/d83d9e0e9a6b259bb711.js"></script>
+
+
 
 Install Notes
 ----------
 
-[gimmick:gist](5641564)
+[gimmick:gist](f662e06aedf07ef8d6332e47f3d8539e)
 
 
 
