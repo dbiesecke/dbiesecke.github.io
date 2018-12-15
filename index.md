@@ -4,6 +4,12 @@ My Wiki
 
 ----------------------------
 
+Install Notes
+----------
+
+[gimmick:gist](5641564)
+
+
 
 GitHub IPTV Search
 -----------------------------
