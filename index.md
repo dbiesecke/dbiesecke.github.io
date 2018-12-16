@@ -3,30 +3,52 @@ My Wiki
 * Notes to myself, all writen in clear MarkDown ;)
 
 
-Test
-----------------------------
-https://gist.github.com/dbiesecke/f662e06aedf07ef8d6332e47f3d8539e
-<script src="https://gist.github.com/dbiesecke/d83d9e0e9a6b259bb711.js"></script>
-
 
 
 Install Notes!
 -------------------------
 * Diverse Tips für neu installation
 
-   # basic dev setup
-   sudo apt-get install dkms automake autogen build-essential ca-certificates \
-   gcc-5-arm-linux-gnueabi g++-5-arm-linux-gnueabi libc6-dev-armel-cross   gcc-5-arm-linux-gnueabihf g++-5-arm-linux-gnueabihf libc6-dev-armhf-cross gcc-5-aarch64-linux-gnu g++-5-aarch64-linux-gnu libc6-dev-arm64-cross gcc-5-mips-linux-gnu g++-5-mips-linux-gnu libc6-dev-mips-cross gcc-5-mipsel-linux-gnu g++-5-mipsel-linux-gnu libc6-dev-mipsel-cross  gcc-5-mips64-linux-gnuabi64 g++-5-mips64-linux-gnuabi64 libc6-dev-mips64-cross gcc-5-mips64el-linux-gnuabi64 g++-5-mips64el-linux-gnuabi64 libc6-dev-mips64el-cross  gcc-5-multilib g++-5-multilib gcc-mingw-w64 g++-mingw-w64 \
-   qmake clang llvm-dev libtool libxml2-dev uuid-dev libssl-dev swig openjdk-8-jdk pkg-config patch make xz-utils cpio wget zip unzip p7zip git mercurial bzr texinfo help2man udo less cpanminus nvi iputils-ping mercurial libreadline-dev chromium-browser byobu aptitude zsh 
-   
-   
-   # KDE 
-   sudo apt-get install monodevelop kdevelop-php kdevelop-pg-qt kdevelop-python kate scribes
-   
 
 
-[gimmick:gist](d83d9e0e9a6b259bb711)
+      # basic dev setup
+      sudo apt-get install dkms automake autogen build-essential ca-certificates \
+      gcc-5-arm-linux-gnueabi g++-5-arm-linux-gnueabi libc6-dev-armel-cross   gcc-5-arm-linux-gnueabihf g++-5-arm-linux-gnueabihf libc6-dev-armhf-cross gcc-5-aarch64-linux-gnu g++-5-aarch64-linux-gnu libc6-dev-arm64-cross gcc-5-mips-linux-gnu g++-5-mips-linux-gnu libc6-dev-mips-cross gcc-5-mipsel-linux-gnu g++-5-mipsel-linux-gnu libc6-dev-mipsel-cross  gcc-5-mips64-linux-gnuabi64 g++-5-mips64-linux-gnuabi64 libc6-dev-mips64-cross gcc-5-mips64el-linux-gnuabi64 g++-5-mips64el-linux-gnuabi64 libc6-dev-mips64el-cross  gcc-5-multilib g++-5-multilib gcc-mingw-w64 g++-mingw-w64 \
+      qmake clang llvm-dev libtool libxml2-dev uuid-dev libssl-dev swig openjdk-8-jdk pkg-config patch make xz-utils cpio wget zip unzip p7zip git mercurial bzr texinfo help2man udo less cpanminus nvi iputils-ping mercurial libreadline-dev chromium-browser byobu aptitude zsh 
 
+   
+      # KDE 
+      sudo apt-get install monodevelop kdevelop-php kdevelop-pg-qt kdevelop-python kate 
+      
+      
+      #install many things over metabrik
+      # for kde-neon change lsb release like:
+      #  cp /etc/lsb-release /etc/lsb-release.bak 
+      #  sed -r 's/DISTRIB_ID.*/DISTRIB_ID=Ubuntu/g' /etc/lsb-release > /etc/lsb-release
+      cpanm --local-lib=~/perl5 local::lib && eval $(perl -I ~/perl5/lib/perl5/ -Mlocal::lib)
+      cpanm -nf Metabrik Metabrik::Repository
+      $ metabrik.sh
+      use brik::tool
+      run brik::tool install_all_need_packagesrun
+      run brik::tool install www::client
+      run brik::tool install file::read
+      run brik::tool install file::write
+      run brik::tool install file::csv
+      run brik::tool install http::proxy
+      run brik::tool install remote::ssh2
+      run brik::tool install remote::ssh2
+      run brik::tool install reuse
+      run brik::tool install reload-env
+      run brik::tool install file::write
+      run brik::tool install file::read
+      run brik::tool install client::www
+      run brik::tool install api::shodan
+      run brik::tool install remote::wmi
+      run brik::tool install remote::winexe
+      run brik::tool install forensic::volatility
+
+      
+      
 
 
 GitHub IPTV Search
