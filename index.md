@@ -64,6 +64,13 @@ GitHub IPTV Search
 * [kilirushi-de.m3u](https://github.com/kilirushi/m3u/blob/master/de.m3u)
 * [mak-iptv.m3u](https://github.com/mak-iptv/iptv/raw/master/germany.m3u)
 
+* Rytec Germany/Austria/Swiss XMLTV
+| EPG DL Links                                                      	|                                                                                         	|
+|-------------------------------------------------------------------	|-----------------------------------------------------------------------------------------	|
+| http://rytec.sifteam.eu/rytecxmltvskyde.gz                        	| [rytecxmltvskyde.gz](http://rytec.sifteam.eu/rytecxmltvskyde.gz)                        	|
+| http://www.vuplus-community.net/rytec/rytecxmltvskyde.gz          	| [rytecxmltvskyde.gz](http://www.vuplus-community.net/rytec/rytecxmltvskyde.gz)          	|
+| http://enigma2.world-of-satellite.com/epg_data/rytecxmltvskyde.gz 	| [rytecxmltvskyde.gz](http://enigma2.world-of-satellite.com/epg_data/rytecxmltvskyde.gz) 	|
+| http://rytecepg.wanwizard.eu/rytecxmltvskyde.gz                   	| [rytecxmltvskyde.gz](http://rytecepg.wanwizard.eu/rytecxmltvskyde.gz)                   	|
 
 * 
 
