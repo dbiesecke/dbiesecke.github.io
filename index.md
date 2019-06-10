@@ -53,10 +53,13 @@ Install Notes!
 
 GitHub IPTV Search
 -----------------------------
-* Github macht es möglich, 
+* Github macht es möglich:* [Germany Sky extension:m3u](https://github.com/search?l=&o=desc&q=Germany+Sky+extension%3Am3u&ref=advsearch&s=indexed&type=Code&utf8=%E2%9C%93) ["EXTINF" "Bundesliga"  extension:m3u](https://github.com/search?o=desc&q=%22EXTINF%22+%22Bundesliga%22++extension%3Am3u&s=indexed&type=Code&utf8=%E2%9C%93)
 
-* [Germany Sky extension:m3u](https://github.com/search?l=&o=desc&q=Germany+Sky+extension%3Am3u&ref=advsearch&s=indexed&type=Code&utf8=%E2%9C%93)
-* ["EXTINF" "Bundesliga"  extension:m3u](https://github.com/search?o=desc&q=%22EXTINF%22+%22Bundesliga%22++extension%3Am3u&s=indexed&type=Code&utf8=%E2%9C%93)
+* [kilirushi-de.m3u](https://github.com/kilirushi/m3u/blob/master/de.m3u)
+* [mak-iptv.m3u](https://github.com/mak-iptv/iptv/raw/master/germany.m3u)
+
+
+* 
 
 div-command notes
 ------------------------------
