@@ -3,6 +3,12 @@ My Wiki
 * Notes to myself, all writen in clear MarkDown ;)
 
 
+IPTV Playlist Generator
+-------------------------------------
+* Use http://iptv.forward.pw als URL
+* [playlist](https://hook.io/dbiesecke/playlist)
+* ![](https://i.imgur.com/bqv3DQr.png)
+
 
 
 Install Notes!
