@@ -12,8 +12,8 @@ My Wiki
 
 Kodi (New)Sunrise 
 --------------------------------
-* Mit diesem Kodi build ist es möglich alle aktuellen Serien/Filme zuzugreifen. Dafür wird auf diverse Streamingsites zurückgegriffen.
-* [hier](/my/kodi.md)
+* Mit diesem Kodi build ist es möglich alle aktuellen Serien/Filme zuzugreifen. Dafür wird auf diverse Addons zurückgegriffen.
+* [more infos](/my/kodi.md)
 
 ![sunrise-intro.gif](https://dbiesecke.github.io/images/sunrise-intro.gif)     
 
@@ -22,6 +22,13 @@ Kodi (New)Sunrise
 
 ![sunrise-install-sunrise-wizard.gif](https://dbiesecke.github.io/images/sunrise-install-sunrise-wizard.gif)
 
+
+
+Meine änderungen: 
+=============
+
+* Auto-Playlist Downloader 
+* Features: IPTV (inkl. sky)
 
 
 
