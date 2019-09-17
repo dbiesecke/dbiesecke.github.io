@@ -1,6 +1,17 @@
 Kodi Tips & Linklist
 ========================================
 
+* Mit diesem Kodi build ist es möglich alle aktuellen Serien/Filme zuzugreifen. Dafür wird auf diverse Streamingsites zurückgegriffen.
+
+
+![sunrise-intro.gif](https://dbiesecke.github.io/images/sunrise-intro.gif)
+
+
+Kodi Sunrise 
+---------------------------------
+
+* 
+
 
 | Name                       	| DL 	| INFO 	| BETA?	|
 |----------------------------	|----	|------	|-----	|

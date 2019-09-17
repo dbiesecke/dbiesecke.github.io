@@ -211,23 +211,7 @@ Install Android SDK
             chmod +x android_sdk_installer.sh
             sudo ./android_sdk_installer.sh
 
-
-Install ZSH
-------------------
-
-            $ wget -qO- .zshrc http://git.grml.org/f/grml-etc-core/etc/zsh/zshrc
-
-Monodevelop Latest
-----------------------
-
-            sudo add-apt-repository ppa:keks9n/monodevelop-latest
-            
-Scribes
---------------------
-
-         sudo add-apt-repository ppa:mystilleef/scribes-daily
-            
-            
+           
 Google Chrome            
 -----------------
 
@@ -417,10 +401,6 @@ Dies macht es einem einfach sein eignes deb Repository zu pflegen.
 
 
 
-Gist notes hinzugefügt
-----------------------------------
-Ich habe kleines script geschrieben um weitere Notes aus Gist zu importieren.
-Den src findet ihr hier: [my-gist-info.pl](http://dbiesecke.github.io/tools/my-gist-info.pl)
 
 
 Added patch to hurik/MangaDownloader
@@ -429,17 +409,6 @@ Added patch to hurik/MangaDownloader
 
 ![](http://i.imgur.com/ovu8bwA.jpg) 
 
-
-Kodi
-----------------------------------
-* Config für [IPTV Simple PVR](/#!repo/pvr.iptvsimple/README.md) mit aktuellen EPG hinzugefügt
-* [IPTVExtra](/#!my/kodi/iptvextra.md) als alternative zu Simple PVR ( mehrer Sprachen etc)
-
-
-[![](/repo/repository.iptvxtra/icon.png)](/#!my/kodi/iptvextra.md)
-[![](/repo/pvr.iptvsimple/icon.png)](/#!repo/pvr.iptvsimple/README.md)
-[![](/repo/repository.xstream/icon.png)](/repo/repository.xstream/repository.xstream-1.0.5.zip)
-[![](/repo/repository.addonscriptorde-beta/icon.png)](/repo/repository.addonscriptorde-beta/repository.addonscriptorde-beta-1.0.1.zip) 
 
 
 
