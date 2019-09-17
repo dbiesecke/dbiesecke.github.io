@@ -10,30 +10,18 @@ Kodi Tips & Linklist
 Kodi Sunrise 
 ---------------------------------
 
-* 
-
-
-| Name                       	| DL 	| INFO 	| BETA?	|
-|----------------------------	|----	|------	|-----	|
-| Anime (All-in-one)         	|[plugin.video.animeanime](...)   	|      	[hier](/my/kodi.md)			|  NO?	|
+* Alle wichtigen Addons für Streamen/Scrapen von Websites sind bereits integriert.
 
 
 
-
-Plugin Highlights [LINK](my/kodi.md)
-----------------------------------
-
-* Alle hier aufgeführten sollten sich auch über das repo vom Anime Plugin installieren lassen.
-
-| Name                       	| DL 	| INFO 	| BETA?	|
-|----------------------------	|----	|------	|-----	|
-| IPTVSimple PVR-addon       	|[pvr.iptvsimple-1.4.1.zip](https://github.com/dbiesecke/dbiesecke.github.io/raw/master/repo/zips/pvr.iptvsimple-1.4.1.zip)    				| Mit EPG und knapp 60 DE Sendern!     [My Settings](/repo/pvr.iptvsimple/README.md) 		|  NO 	|
+| Name                       	| DL 	| INFO 	| 
+|----------------------------	|----	|------	|
+| Sunrise Wizard            	|[plugin.program.sunrisewizard](https://my.hidrive.com/lnk/9fBJlQDZ)   	|      	[hier](/my/kodi.md)			|
+| Sunrise Wizard            	|[plugin.program.sunrisewizard](https://my.hidrive.com/lnk/9fBJlQDZ)   	|      	[hier](/my/kodi.md)			|
 
 
 
 
-Kodi Tips [LINK](my/kodi.md)
-----------------------------------
 
 
 
