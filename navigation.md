@@ -110,18 +110,24 @@
 
 [Security]()
 
-   * [Active Directory Attack.md](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Active%20Directory%20Attack.md)
+   * [Active Directory Attack.md](https://raw.githubusercontent.com/swisskyrepo/PayloadsAllTheThings/master/Methodology%20and%20Resources/Active%20Directory%20Attack.md)
+   * [Linux - Privilege Escalation.md](https://raw.githubusercontent.com/swisskyrepo/PayloadsAllTheThings/master/Methodology%20and%20Resources/Linux%20-%20Privilege%20Escalation.md)
+   * [Linux - Persistence.md](https://github.com/swisskyrepo/PayloadsAllTheThings/raw/master/Methodology%20and%20Resources/Linux%20-%20Persistence.md)
+   * [Windows - Persistence.md](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Windows%20-%20Persistence.md)
+   * [Reverse Shell Cheatsheet.md](https://github.com/swisskyrepo/PayloadsAllTheThings/raw/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md)
+   * [Windows - Privilege Escalation.md](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Windows%20-%20Privilege%20Escalation.md)
+   * [CVE Exploits](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/CVE%20Exploits)
+
 
 
 [External]()
 
    * [Universal UDFHD](/#!https://github.com/kimmobrunfeldt/howto-everything/blob/master/universal-disk.md)
    * [Best-Pentest-Tools-2016](http://pax0r.com/staff/tools2016/)
-   
-   
-[External]()
-    
    * [Serjs](/serjs.html)
+   
+   
+    
 
 
 <!-- Code for collapse and expand -->
