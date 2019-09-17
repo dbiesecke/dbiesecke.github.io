@@ -14,10 +14,22 @@ Kodi Sunrise
 
 
 
+Easy Install - 
+------------------------
+
+* Use Sunrise Wizard to Easy install all things on fresh kodi (18++)
+
+
+![sunrise-install-sunrise-wizard.gif](https://dbiesecke.github.io/images/sunrise-install-sunrise-wizard.gif)
+
+
+
+
+
 | Name                       	| DL 	| INFO 	| 
 |----------------------------	|----	|------	|
-| Sunrise Wizard            	|[plugin.program.sunrisewizard](https://my.hidrive.com/lnk/9fBJlQDZ)   	|      	[hier](/my/kodi.md)			|
-| Sunrise Wizard            	|[plugin.program.sunrisewizard](https://my.hidrive.com/lnk/9fBJlQDZ)   	|      	[hier](/my/kodi.md)			|
+| Sunrise Wizard (Orginal)     	|[plugin.program.sunrisewizard](https://my.hidrive.com/lnk/9fBJlQDZ)   	|      	[hier](/my/kodi.md)			|
+| Sunrise Wizard (MyMod)      	|[plugin.program.sunrisewizard](https://my.hidrive.com/lnk/9fBJlQDZ)   	|    	[NewSunrise0.8.0.zip](https://github.com/dbiesecke/dbiesecke.github.io/releases/download/dev/NewSunrise0.8.0.zip)			|
 
 
 
