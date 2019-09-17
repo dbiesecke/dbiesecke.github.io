@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.sunrisewizard" name="sunrisewizard" version="1.0.3" provider-name="xStream-Team">
-    <extension point="xbmc.addon.repository" name="sunrisewizard">
-        <info compressed="false">https://dbiesecke.github.io/repo/plugin.program.sunrisewizard/addons.xml</info>
-        <checksum>https://dbiesecke.github.io/repo/plugin.program.sunrisewizard/addons.xml.md5</checksum>
-        <datadir zip="true">https://dbiesecke.github.io/repo/plugin.program.sunrisewizard/</datadir>
-        <dir>
-            <info compressed="false">https://dbiesecke.github.io/repo/plugin.program.sunrisewizard/addons.xml</info>
-            <checksum>https://dbiesecke.github.io/repo/plugin.program.sunrisewizard/addons.xml.md5</checksum>
-            <datadir zip="true">https://dbiesecke.github.io/repo/plugin.program.sunrisewizard/</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="de">sunrisewizard Repository</summary>
-        <description lang="de">.</description>
-        <disclaimer lang="de"></disclaimer>
-        <platform>all</platform>
-    </extension>
+<addon id="plugin.program.sunrisewizard" name="Sunrise Wizard" version="1.03" provider-name="sunrisekodi">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Sunrise Wizard</summary>
+    <description lang="en">Sunrise Wizard </description>
+    <platform>all</platform>
+  </extension>
 </addon>

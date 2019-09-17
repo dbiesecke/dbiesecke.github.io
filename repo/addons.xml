@@ -1,68 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.sunrisewizard" name="sunrisewizard" version="1.0.3" provider-name="xStream-Team">
-    <extension point="xbmc.addon.repository" name="sunrisewizard">
-        <info compressed="false">https://dbiesecke.github.io/repo/plugin.program.sunrisewizard/addons.xml</info>
-        <checksum>https://dbiesecke.github.io/repo/plugin.program.sunrisewizard/addons.xml.md5</checksum>
-        <datadir zip="true">https://dbiesecke.github.io/repo/plugin.program.sunrisewizard/</datadir>
-        <dir>
-            <info compressed="false">https://dbiesecke.github.io/repo/plugin.program.sunrisewizard/addons.xml</info>
-            <checksum>https://dbiesecke.github.io/repo/plugin.program.sunrisewizard/addons.xml.md5</checksum>
-            <datadir zip="true">https://dbiesecke.github.io/repo/plugin.program.sunrisewizard/</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="de">sunrisewizard Repository</summary>
-        <description lang="de">.</description>
-        <disclaimer lang="de"></disclaimer>
-        <platform>all</platform>
-    </extension>
-</addon>
-
-<addon id="repository.iptvxtra" name="IPTVxtra XBMC Add-ons" version="1.1.0" provider-name="IPTVxtra">
-    <extension point="xbmc.addon.repository"
-        name="IPTVxtra XBMC Add-ons">
-        <info compressed="false">http://srv1.iptvxtra.net/xbmc/addons/addons.xml</info>
-        <checksum>http://srv1.iptvxtra.net/xbmc/addons/addons.md5</checksum>
-        <datadir zip="true">http://srv1.iptvxtra.net/xbmc/addons/</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Install XBMC add-ons from the IPTVxtra repository</summary>
-        <description>Install XBMC add-ons from IPTVxtra repository</description>
-        <disclaimer></disclaimer>
-        <platform>all</platform>
-    </extension>
-</addon>
-
-<addon id="repository.lunatixz" name="Lunatixz Repo" version="1.0" provider-name="Lunatixz">
-    <extension point="xbmc.addon.repository" name="Official PseudoTV Live Repository">
-        <info compressed="false">http://raw.github.com/Lunatixz/XBMC_Addons/master/addons.xml</info>
-        <checksum>http://raw.github.com/Lunatixz/XBMC_Addons/master/addons.xml.md5</checksum>
-        <datadir zip="true">http://raw.github.com/Lunatixz/XBMC_Addons/master/zips</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary></summary>
-        <description></description>
-        <platform>all</platform>
-    </extension>
-</addon>
-
-<addon id="repository.xstream" name="xStream Repository" version="1.0.5" provider-name="Lynx187">
-    <extension point="xbmc.addon.repository" name="xStream Repository">
-        <info compressed="false">http://raw.github.com/Lynx187/xStreamRepo/master/addons.xml</info>
-		<checksum>http://raw.github.com/Lynx187/xStreamRepo/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/Lynx187/xStreamRepo/master/</datadir>
-        <dir>
-            <info ompressed="false">http://xstream-addon.square7.ch/repo/addons.xml</info>
-            <checksum>http://xstream-addon.square7.ch/repo/addons.xml.md5</checksum>
-            <datadir zip="true">http://xstream-addon.square7.ch/repo/</datadir>
-        </dir>
-	</extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>xStream Repository</summary>
-		<description></description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
+<addon id="plugin.program.sunrisewizard" name="Sunrise Wizard" version="1.03" provider-name="sunrisekodi">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Sunrise Wizard</summary>
+    <description lang="en">Sunrise Wizard </description>
+    <platform>all</platform>
+  </extension>
 </addon>
 </addons>
