@@ -110,13 +110,13 @@
 
 [Security]()
 
-   * [Active Directory Attack.md](https://raw.githubusercontent.com/swisskyrepo/PayloadsAllTheThings/master/Methodology%20and%20Resources/Active%20Directory%20Attack.md)
-   * [Linux - Privilege Escalation.md](https://raw.githubusercontent.com/swisskyrepo/PayloadsAllTheThings/master/Methodology%20and%20Resources/Linux%20-%20Privilege%20Escalation.md)
-   * [Linux - Persistence.md](https://github.com/swisskyrepo/PayloadsAllTheThings/raw/master/Methodology%20and%20Resources/Linux%20-%20Persistence.md)
-   * [Windows - Persistence.md](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Windows%20-%20Persistence.md)
-   * [Reverse Shell Cheatsheet.md](https://github.com/swisskyrepo/PayloadsAllTheThings/raw/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md)
-   * [Windows - Privilege Escalation.md](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Windows%20-%20Privilege%20Escalation.md)
-   * [CVE Exploits](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/CVE%20Exploits)
+   * [Active Directory Attack.md](/#!https://raw.githubusercontent.com/swisskyrepo/PayloadsAllTheThings/master/Methodology%20and%20Resources/Active%20Directory%20Attack.md)
+   * [Linux - Privilege Escalation.md](/#!https://raw.githubusercontent.com/swisskyrepo/PayloadsAllTheThings/master/Methodology%20and%20Resources/Linux%20-%20Privilege%20Escalation.md)
+   * [Linux - Persistence.md](/#!https://github.com/swisskyrepo/PayloadsAllTheThings/raw/master/Methodology%20and%20Resources/Linux%20-%20Persistence.md)
+   * [Windows - Persistence.md](/#!https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Windows%20-%20Persistence.md)
+   * [Reverse Shell Cheatsheet.md](/#!https://github.com/swisskyrepo/PayloadsAllTheThings/raw/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md)
+   * [Windows - Privilege Escalation.md](/#!https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Windows%20-%20Privilege%20Escalation.md)
+   * [CVE Exploits](/#!https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/CVE%20Exploits)
 
 
 
