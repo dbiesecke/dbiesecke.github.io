@@ -87,7 +87,6 @@
    * [cabinet](https://github.com/dbiesecke/cabinet.git)
    * [clusterd](https://github.com/dbiesecke/clusterd.git)
    * [dashing-cloudmining-dash](https://github.com/dbiesecke/dashing-cloudmining-dash.git)
-   * [dbiesecke.github.io](https://github.com/dbiesecke/dbiesecke.github.io.git)
    * [docker-bitcoind](https://github.com/dbiesecke/docker-bitcoind.git)
    * [docker-caddy](https://github.com/dbiesecke/docker-caddy.git)
    * [docker-graphite-statsd](https://github.com/dbiesecke/docker-graphite-statsd.git)

@@ -1,20 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
-<addon id="plugin.program.sunrisewizard" name="Sunrise Wizard" version="1.03" provider-name="sunrisekodi">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Sunrise Wizard</summary>
-    <description lang="en">Sunrise Wizard </description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="repository.myrepo" name="Tutorial Repository" version="1.0.0" provider-name="MyRepo">
     <extension point="xbmc.addon.repository" name="My Repo">
         <info compressed="false">https://dbiesecke.github.io/repo/addons.xml</info>
@@ -27,4 +11,3 @@
         <platform>all</platform>
     </extension>
 </addon>
-</addons>
