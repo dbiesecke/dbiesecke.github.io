@@ -1,9 +1,38 @@
 Kodi Repo
 - - - - - - 
 
+Kodi Tips & Linklist
+========================================
+
+* Mit diesem Kodi builds ist es möglich alle aktuellen Serien/Filme zuzugreifen. Dafür wird auf diverse Streamingsites zurückgegriffen.
+
+
+![sunrise-intro.gif](https://dbiesecke.github.io/images/sunrise-intro.gif)
+
+
+
+Easy Install - 
+------------------------
+Depends:  Kodi 18.1++ 
+
+![](https://i.imgur.com/3yzdHpS.png)
+
 * Ghost ist der wohl beste Kodi build der mir untergekommen ist -  [ghost-repo.de](http://ghost-repo.de/)
 
 * Für leistungsschwache maschinen wie FireTV stick, rate ich eher zum Sunrise-Build - dieser hat eine wesentlich schlichtere GUI
+
+
+| Packages                      | DL                                                                                                |  
+|-------------------------------|---------------------------------------------------------------------------------------------------|
+| [Latest Ghost repo/installer](http://ghost-repo.de/)   | [repository.Ghost.zip](http://ghost-repo.de/repository.Ghost.zip)  / [plugin.program.Ghost.zip](http://ghost-repo.de/plugin.program.Ghost.zip)      |
+| repository.myrepohome-1.0.1.zip  | [repository.myrepo.zip](http://dbiesecke.github.io/repo/repository.myrepo.zip)      |
+| repository.sgkodi-1.1.5.zip   | [repository.sgkodi-1.1.5.zip](http://sgkodi.de/SGK-Repo/repository.sgkodi-1.1.5.zip)  |
+| Sunrise Wizard (Orginal)     	|[plugin.program.sunrisewizard](https://my.hidrive.com/lnk/9fBJlQDZ)   	|
+| Sunrise Wizard (MyMod)      	|[plugin.program.sunrisewizard](https://my.hidrive.com/lnk/aNBJlWdI)   	|
+
+
+
+![sunrise-install-sunrise-wizard.gif](https://dbiesecke.github.io/images/sunrise-install-sunrise-wizard.gif)
 
 
 | Packages                      | DL                                                                                                |  
