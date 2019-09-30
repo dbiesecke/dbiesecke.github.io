@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.Ghost" name="[B][COLOR ghostwhite]Ghost Wizard[/COLOR][/B]" version="3.1.3" provider-name="Team Ghost">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR ghostwhite]Ghost Wizard[/COLOR]</summary>
+	<description lang="en">[COLOR ghostwhite]Ghost Wizard[/COLOR]</description>
+		<disclaimer lang="en">[COLOR ghostwhite]Ghost Wizard[/COLOR]</disclaimer>
+		<platform>all</platform>
+		<website>http://ghost-repo.de/</website>
+	</extension>
+</addon>

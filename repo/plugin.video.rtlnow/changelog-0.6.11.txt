@@ -1,0 +1,13 @@
+﻿0.1 
+- Initial Source
+0.4.23
+-Update von frong73 um anbindung in PVR zu ermöglichen
+0.4.24
+- Update Logo
+0.4.32
+- Update von frong73 um es kompatible mit PVR zu machen
+0.6.10
+- Update from https://widevine.rtl.de to https://widevine.tvnow.de    
+- Added is Widevine installed check 
+0.6.11
+- Added Check Widevine option to the addon settings. The user can now enable or disable the Widevine installation check.

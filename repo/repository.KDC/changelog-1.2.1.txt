@@ -1,0 +1,16 @@
+
+[B]1.2.1[/B]
+- YouTube Addon (Alpha) entfernt
+
+[B]1.2.0[/B]
+- Colossus Repo wegen Konflikten entfernt
+
+[B]1.0.1[/B]
+- Neue Screenshots hinzugefügt
+
+[B]1.0.0[/B]
+- Einfügen der finalen Addons, Repos und Scripte
+
+[B]0.1.0[/B]
+- Erstellen und testen der KDC Repository
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.KDC" name="Kodi Deutschland Community Repository" version="1.2.1" provider-name="KDC Admins">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Kodi Deutschland Community Repository">
+			<provides>audio video executable</provides>
+			<info compressed="false">https://tinyurl.com/y77jolts</info>
+            <checksum>https://tinyurl.com/y8xfspn4</checksum>
+            <datadir zip="true">https://tinyurl.com/ycht38v3</datadir>
+            <hashes>false</hashes>
+        </extension>
+        
+		<extension point="xbmc.addon.metadata">
+            <summary>KDC Repository</summary>
+            <description>
+Tag Leute - Ihr könnt euch hier verschiedene Addons, Repos und Scripten installieren die wir für euch zusammengestellt haben.
+Bei Fragen, Anregungen oder Problemen könnt Ihr uns auch kontaktieren.
+Schaut dafür einfach auf unserer Facebook Seite vorbei: https://tinyurl.com/KodiDeutschlandCommunity
+			</description>
+            <disclaimer>
+Für den Inhalt der verschiedenen Erweiterungen sind wir NICHT verantwortlich!			
+			</disclaimer>
+			<language>de</language>
+			<platform>all</platform>
+			<website>https://tinyurl.com/KodiDeutschlandCommunity</website>
+			<news>
+[B]1.2.1[/B]
+- YouTube Addon (Alpha) entfernt
+
+Den kompletter Changelog findet Ihr in der changelog.txt
+			</news>
+			<assets>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.jpg</fanart>
+				<screenshot>resources/screenshot-01.png</screenshot>
+				<screenshot>resources/screenshot-02.png</screenshot>
+				<screenshot>resources/screenshot-03.png</screenshot>
+			</assets>
+    </extension>
+</addon>

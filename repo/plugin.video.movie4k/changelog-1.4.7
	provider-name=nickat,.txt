@@ -1,0 +1,108 @@
+v1.4.6
+        * Update urlresolver reference to v3.0.21.
+
+
+v1.4.6
+        * Update URLs to working ones.
+        * Solve the problem with the plugin going all German.
+        * Check for missing content (happens if Movie4k is blocked) and give instructions to the user.
+        * Clean up cookies when Clear Cache option is invoked in the settings.
+
+
+v1.4.5
+	* Fix possible script errors on auto-play.
+
+
+v1.4.4
+	* Update urlresolver dependency to 3.0.0.
+	* Adjust the code to the changes in the urlresolver's API.
+
+
+v1.4.3
+	* Use movie4k.me URL. Movie4k.to changed the HTML code and it is not prased correctly by the current regexes.
+
+
+v1.4.2
+	* Update unblocked URL.
+	* Do not enforce the thumbnail view in menus.
+
+
+v1.4.1
+	* Fix a bug in the resolving of a media URL when the proxy anti-block feature is enabled. Now titles can be actually played.
+	* Consider changes in the URLs to be scraped when the proxy anti-block feature is enabled. It is important for the correct display of the stream quality and thumbnails.
+	* Add explanations to the numbers in the menu titles (IMDB, quality, ...)
+
+
+v1.4.0
+	* Add a proxy option. If Movie4k.to is blocked by your provider, you can setup the addon to use an alternative site (preferred) or a proxy.
+	* Add an option to clear cached lists.
+
+
+v1.3.1
+	* Revert to using HTTP protocol, because some devices with a buggy Python version do not support HTTPS.
+	* Improve error notifications for better diagnostics.
+
+
+v1.3.0
+	* Add custom Movie4k URL option tho the Settings dialog. Use any mirror you want.
+	* Restructure the Settings dialog for simplicity.
+	* Use HTTPS protocol to protect your privacy.
+	* Update urlresolver dependency to 2.10.0: More hosters, more working links.
+	* Fanart and general appearance fixes.
+	* Some bug fixes and code improvements.
+
+
+v1.2.0
+
+	* Added "Random movie" category.
+	* Changed the structure of the "All movies" and "Genres" categories for easier navigation.
+	* Updated urlresolver dependency to 2.9.0: More hosters, more working links.
+	* Updated addon fanart. Fanart is now used consistently in all menus.
+	* "Only show movies in english" option is now disabled by default.
+	* Increased caching time to six hours.
+
+
+v1.1.0
+
+	* Added "Play" list-item. Press Enter/Play on this item and the
+	add-on will automatically find a working link and will start
+	playback. You still can look through the hosters manually, if you
+	want.
+	* Added "Info" item. Press Enter/Play on this item and a
+	comprehensive information about the title, such as plot, director,
+	cast, year, etc., will be displayed.
+	* Fixed "Genres" category.
+	* Fixed the list of hosters. Now it is identical to that one on
+	Movie4k.to.
+	* Removed hosters' black list. No hosters are filtered out
+	anymore.
+	* Added caching. The data retrieved from Movie4k.to is now cached
+	for 2.5 hours. This should make switching among add-on menus
+	faster (if the menus have been visited before) and somewhat reduce
+	the load on Movie4k.to.
+	* Made user messages and item names in menus more concise and
+	informative.
+	* Special symbols, such as German umlauts, for example, are
+	displayed correctly now.
+
+
+v1.0.2u1
+
+	* Fixed "This video is not playable" script error for some
+	hosters. Now it should be easier to find a working link.
+	* Fixed the problem with the empty "Latest updates" category. Now
+	it shows the latest updates.
+	* In "Cinema movies", "Latest updates", and search results, added
+	IMBD-rating and stream quality (5 - the best, 1 - the worst) to
+	the titles.
+	* In "Cinema movies", added genres to the titles.
+	* Replaced language names in the titles with language codes for
+	brevity. EN for English, DE for German, and so on. Useful in the
+	thumbnail view.
+	* Changed the link to a UK friendly proxy site to a working
+	one. UK users have to turn on the "Use Alternate UK Friendly Proxy
+	Site" option in the add-on's preferences for the add-on to work.
+	* Titles in Italian are now recognized correctly. This fixes the
+	problem with the missing titles that are listed after a title in
+	Italian.
+

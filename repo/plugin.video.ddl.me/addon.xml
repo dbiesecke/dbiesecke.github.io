@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.ddl.me"
+        name="[COLOR blue]DDL.ME[/COLOR]"
+	    version="1.0.7"
+	    provider-name="[COLOR blue]Loki1979[/COLOR]">
+    <requires>
+        <import addon="xbmc.python" version="2.7.11" />
+        <!-- choose your resolver -->
+
+		<!-- <import addon="script.module.resolveurl"/> -->
+		<import addon="script.module.urlresolver"/>
+
+        <!-- choose your resolver -->
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+    <summary>[COLOR blue]DDL.ME[/COLOR]</summary>
+    <description>
+Release date 29.10.2018 - 16:00
+Kodi version 17.0 +
+Python version 2.7.11 +
+
+URL-Resolver in xml selectable:
+script.module.resolveurl
+or
+script.module.urlresolver
+
+Created by HSK-DE
+</description>
+    <disclaimer></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+    <news></news>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+        <banner></banner>
+        <clearlogo></clearlogo>
+        <screenshot></screenshot>
+    </assets>
+  </extension>
+</addon>

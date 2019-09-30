@@ -1,0 +1,13 @@
+[COLOR blue]DDL.ME[/COLOR]
+
+Version 1.0.7
+Release date 29.10.2018 - 16:00
+Kodi version 17.0 +
+Python version 2.7.11 +
+
+URL-Resolver in xml selectable:
+script.module.resolveurl
+or
+script.module.urlresolver
+
+Created by HSK-DE

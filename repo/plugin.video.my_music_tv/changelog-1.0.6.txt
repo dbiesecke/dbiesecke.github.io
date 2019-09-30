@@ -1,0 +1,16 @@
+1.0.0
+- Initial release
+1.0.1
+- Fixed history (unwatched mode)
+1.0.2
+- Fixed bug when using network shares as data directories
+- Added needed modifications for PTVL
+1.0.3
+- Changed default caching duration
+1.0.4
+- Added Deezer support
+1.0.5
+- Added iTunes Charts support
+- Fixed Youtube playlist bug
+1.0.6
+- Changed iTunes Charts listing (xml->json)

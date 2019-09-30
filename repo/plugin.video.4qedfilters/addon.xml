@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.4qedfilters" name="4[COLOR limegreen]Q[/COLOR]ED FILTERS" version="2.0.3" provider-name="[COLOR lime]Serious Fork[/COLOR]">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.universalscrapers" version="1.0.0" />
+        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.beautifulsoup" version="3.2.1" />
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.addon.common" version="2.0.0" />
+        <import addon="script.module.xmltodict" version="0.9.0" />
+        <import addon="script.4qedfilters.xxx" version="2.2.1" />
+        <import addon="script.module.dateutil" />
+		<import addon="script.module.feedparser" version="5.1.3"/>
+        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
+        <import addon="script.module.resolveurl" />
+        <!--<import addon="script.module.urlresolver" />-->
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio video</provides>
+    </extension>
+    <extension point="xbmc.arrakis" library="service.py" start="[login|startup]" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">ExtendedInfo Filters</summary>
+        <description lang="en">4[COLOR limegreen]Q[/COLOR]ED [COLOR lime]Filters gives you easy access to info filtered categories including adult content straight to EIM info lists. Works with any EIM fork.[/COLOR][CR]Some Categories of this addon are designed for ADULTS only and may include pictures and materials that some viewers may find offensive. If you are under the age of 18, if such material offends you or if it is illegal to view such material in your community please DO  NOT install this addon.[CR]Password Protected for Adult section is [COLORlime]PORN4ALL[/COLOR][CR]Experience EIM list info like never before.</description>
+        <disclaimer lang="en">This addon uses the TMDb API but is not endorsed or certified by TMDb.</disclaimer>
+        <platform>all</platform>
+        <license></license>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>resources/media/screenshot-01.png</screenshot>
+            <screenshot>resources/media/screenshot-02.png</screenshot>
+            <screenshot>resources/media/screenshot-03.png</screenshot>
+        </assets>
+        <news></news>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+    </extension>
+</addon>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.myrepohome" name="MyRepo (Home)" version="1.0.1" provider-name="MyRepo">
+    <extension point="xbmc.addon.repository" name="My Repo">
+        <info compressed="false">https://home.forward.pw/repo/addons.xml</info>
+        <checksum>https://home.forward.pw/repo/addons.xml.md5</checksum>
+        <datadir zip="true">https://home.forward.pw/repo/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Install all of Tutorial ADD ONS</summary>
+        <description>Bla Bla Bla...</description>
+        <platform>all</platform>
+    </extension>
+</addon>
