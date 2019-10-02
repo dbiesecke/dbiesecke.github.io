@@ -124,6 +124,7 @@
    * [Universal UDFHD](/#!https://github.com/kimmobrunfeldt/howto-everything/blob/master/universal-disk.md)
    * [Best-Pentest-Tools-2016](http://pax0r.com/staff/tools2016/)
    * [Serjs](/serjs.html)
+   * [PS4 Exploits](https://zecoxao.github.io/)
    
    
     
