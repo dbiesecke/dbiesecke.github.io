@@ -22,13 +22,18 @@ Depends:  Kodi 18.1++
 * Für leistungsschwache maschinen wie FireTV stick, rate ich eher zum Sunrise-Build - dieser hat eine wesentlich schlichtere GUI
 
 
-| Packages                      | DL                                                                                                |  
-|-------------------------------|---------------------------------------------------------------------------------------------------|
-| [Latest Ghost repo/installer](http://ghost-repo.de/)   | [repository.Ghost.zip](http://ghost-repo.de/repository.Ghost.zip)  / [plugin.program.Ghost.zip](http://ghost-repo.de/plugin.program.Ghost.zip)      |
-| repository.myrepohome-1.0.1.zip  | [repository.myrepo.zip](http://dbiesecke.github.io/repo/repository.myrepo.zip)      |
-| repository.sgkodi-1.1.5.zip   | [repository.sgkodi-1.1.5.zip](http://sgkodi.de/SGK-Repo/repository.sgkodi-1.1.5.zip)  |
-| Sunrise Wizard (Orginal)     	|[plugin.program.sunrisewizard](https://my.hidrive.com/lnk/9fBJlQDZ)   	|
-| Sunrise Wizard (MyMod)      	|[plugin.program.sunrisewizard](https://my.hidrive.com/lnk/aNBJlWdI)   	|
+Installer/repository
+==============================
+
+
+| Packages                      | Note                                                                                                |  
+|-------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| [repository.myrepo.zip](http://dbiesecke.github.io/repo/repository.myrepo.zip)                          |         Mein repo auf Github              |
+| [script.ezmaintenanceplus-1.3.zip](https://dbiesecke.github.io/repo/script.ezmaintenanceplus-1.3.zip)   | Wizard to install latest "MyBuild"        |       
+| [plugin.program.sunrisewizard](https://dbiesecke.github.io/repo/plugin.program.sunrisewizard-1.03.zip)  |   Sunrise Wizard (MyMod) - Installer 	|
+| [plugin.video.PsycoTV-2.4.0.zip](https://dbiesecke.github.io/repo/plugin.video.PsycoTV-2.4.0.zip)       |   PsycoTV "mod"  - Watch PayTV for Free :)       |
+|     |         |
+| [plugin.program.Ghost.zip](http://ghost-repo.de/plugin.program.Ghost.zip)   | UNSTABLE: [Latest Ghost repo/installer](http://ghost-repo.de/)      |
 
 
 
@@ -38,7 +43,6 @@ Depends:  Kodi 18.1++
 | Packages                      | DL                                                                                                |  
 |-------------------------------|---------------------------------------------------------------------------------------------------|
 | [Latest Ghost repo/installer](http://ghost-repo.de/)   | [repository.Ghost.zip](http://ghost-repo.de/repository.Ghost.zip)  | [plugin.program.Ghost.zip](http://ghost-repo.de/plugin.program.Ghost.zip)      |
-| repository.myrepohome-1.0.1.zip                             | [repository.myrepo.zip](http://dbiesecke.github.io/repo/repository.myrepo.zip)                    |
 | repository.sgkodi-1.1.5.zip                                   | [repository.sgkodi-1.1.5.zip](http://sgkodi.de/SGK-Repo/repository.sgkodi-1.1.5.zip)              |
 
 

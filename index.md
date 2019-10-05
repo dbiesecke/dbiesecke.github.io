@@ -3,12 +3,6 @@ My Wiki
 * Notes to myself, all writen in clear MarkDown ;)
 
 
-<!--IPTV Playlist Generator
--------------------------------------
-* Use http://iptv.forward.pw als URL
-* [playlist](https://hook.io/dbiesecke/playlist)
-* ![](https://i.imgur.com/bqv3DQr.png)
--->
 
 Kodi (New)Sunrise 
 --------------------------------
@@ -37,18 +31,18 @@ GitHub IPTV Search
 -----------------------------
 * Github macht es möglich:* [Germany Sky extension:m3u](https://github.com/search?l=&o=desc&q=Germany+Sky+extension%3Am3u&ref=advsearch&s=indexed&type=Code&utf8=%E2%9C%93) ["EXTINF" "Bundesliga"  extension:m3u](https://github.com/search?o=desc&q=%22EXTINF%22+%22Bundesliga%22++extension%3Am3u&s=indexed&type=Code&utf8=%E2%9C%93)
 
-* [kilirushi-de.m3u](https://github.com/kilirushi/m3u/blob/master/de.m3u)
-* [mak-iptv.m3u](https://github.com/mak-iptv/iptv/raw/master/germany.m3u)
 
-* Rytec Germany/Austria/Swiss XMLTV
-| EPG DL Links                                                      	|                                                                                         	|
-|-------------------------------------------------------------------	|-----------------------------------------------------------------------------------------	|
-| http://rytec.sifteam.eu/rytecxmltvskyde.gz                        	| [rytecxmltvskyde.gz](http://rytec.sifteam.eu/rytecxmltvskyde.gz)                        	|
-| http://www.vuplus-community.net/rytec/rytecxmltvskyde.gz          	| [rytecxmltvskyde.gz](http://www.vuplus-community.net/rytec/rytecxmltvskyde.gz)          	|
-| http://enigma2.world-of-satellite.com/epg_data/rytecxmltvskyde.gz 	| [rytecxmltvskyde.gz](http://enigma2.world-of-satellite.com/epg_data/rytecxmltvskyde.gz) 	|
-| http://rytecepg.wanwizard.eu/rytecxmltvskyde.gz                   	| [rytecxmltvskyde.gz](http://rytecepg.wanwizard.eu/rytecxmltvskyde.gz)                   	|
-
-* 
+| Playlists        DE - Free/PayTV  - Stable                                              	|
+|-----------------------------------------------------------------------------------------	|
+| [kilirushi-de.m3u](https://github.com/kilirushi/m3u/blob/master/de.m3u)               	|
+| [mak-iptv.m3u](https://github.com/mak-iptv/iptv/raw/master/germany.m3u)               	|
+| [Server1.m3u](https://github.com/SunriseKodi/TV2.0/blob/master/Deutsch/Server1.m3u)                	|
+| [psycotv-1](http://psyco.tv/m3us2/1.m3u)  |
+| [psycotv-2](http://psyco.tv/m3us2/2.m3u)  |
+| [psycotv-3](http://psyco.tv/m3us2/3.m3u)  |
+| [psycotv-4](http://psyco.tv/m3us2/4.m3u)  |
+| [psycotv-5](http://psyco.tv/m3us2/5.m3u)  |
+ 
 
 div-command notes
 ------------------------------

@@ -267,6 +267,39 @@ Diese Addon verwendet pyDes von Todd Whiteman</disclaimer>
   </extension>
 </addon>
 
+<addon id="plugin.video.PsycoTV"
+       name="PsycoTV"
+       version="2.4.0"
+       provider-name="Psyco">
+  <requires>
+    <import addon="xbmc.python" version="2.4.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+    <import addon="plugin.video.f4mTester" version="3.0.0"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>PsycoTV</summary>
+		<description>PsycoTV</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="metadata.themoviedb.org"
        name="The Movie Database"
        version="5.1.9"
@@ -634,6 +667,43 @@ Diese Addon verwendet pyDes von Todd Whiteman</disclaimer>
     <website>https://dateutil.readthedocs.org/en/latest/</website>
     <source>https://github.com/Razzeee/script.module.dateutil</source>
   </extension>
+</addon>
+
+<addon id="script.ezmaintenanceplus" name="EZ Maintenance+" version="1.3" provider-name="aenema">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" version="1.0.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+     <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+	<summary>A Streamlined Utility Tool for Kodi</summary>
+	<description>No Bloatware, no Nonsense! Just Keep your Kodi sharp and clean with this utility tool... Now with a Custom Wizard.</description>
+    <language></language>
+    <platform>all</platform>
+    <license>The MIT License</license>
+    <forum>-</forum>
+    <source>https://github.com</source>
+  </extension>
+</addon>
+
+<addon id="plugin.program.iptv.merge" version="1.0.0" name="IPTV Merge" provider-name="Shani">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.video.F4mProxy" version="2.7.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>program</provides>
+    </extension>
+
+
+    <extension point="xbmc.addon.metadata">
+        <summary>f4mTester</summary>
+        <description></description>
+        <platform>all</platform>
+    </extension>
 </addon>
 
 <addon id="plugin.video.movie4k"
@@ -2364,6 +2434,24 @@ New update
         <email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.module.cherrypy.git</source>
     </extension>
+</addon>
+
+<addon id="repository.osmc" name="OSMC Kodi Leia Repo" version="1.0.3" provider-name="OSMC Kodi Leia Repo [COLOR red]El[COLOR white]Turko[/COLOR]">
+    <extension point="xbmc.addon.repository" name="Absolut Kodi Repository">
+		<info compressed="false">https://ftp.fau.de/osmc/osmc/download/kodi/addons/leia/addons.xml</info>
+		<checksum>https://ftp.fau.de/osmc/osmc/download/kodi/addons/leia/addons.xml.gz.md5</checksum>
+		<datadir zip="true">https://ftp.fau.de/osmc/osmc/download/kodi/addons/leia/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>A "little" Kodi repo</summary>
+        <description> Nothing special....
+      </description>
+        <platform>all</platform>
+      <assets>
+       <icon>icon.gif</icon>
+       <fanart>fanart.gif</fanart>
+  </assets>
+  </extension>
 </addon>
 
 <addon id="repository.xbmchub" name="TVADDONS.ag Addon Repository" version="1.0.5" provider-name="tvaddons.ag">
