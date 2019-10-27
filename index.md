@@ -17,9 +17,12 @@ Storage Tips & Tricks
 * Install sprinkle from source: 
 
 
-    sudo -H python3.6 -mpip install git+https://github.com/mmontuori/sprinkle.git
-
+    `sudo -H python3.6 -mpip install git+https://github.com/mmontuori/sprinkle.git`
+    
+    
 * Initial sollte man erstmal ein "paar" Service accounts erstellen. Dabei hilft [AutoRclone](https://github.com/xyou365/AutoRclone) & macht es so möglich ganz easy 600 accounts zu erstellen.
+
+
  
 ## Tools
 -----------
@@ -30,6 +33,8 @@ Storage Tips & Tricks
 | [uds](https://github.com/stewartmcgown/uds)  |  Unlimited Storage - 0 Byte files on Google Docs   | cli/[gui](https://github.com/stewartmcgown/uds-web)    
 | [AutoRclone](https://github.com/xyou365/AutoRclone)   | Get ca. 150TB Space from Google            |  CLI        
 |  [sprinkle](https://github.com/mmontuori/sprinkle) |  It presents all the RClone available volumes as a single clustered volume. | CLI/SRV 
+
+
 
 
 ## Usage
@@ -44,6 +49,8 @@ Storage Tips & Tricks
         
 
 
+
+
 ## (Web)UI
 ---------------------
 * Start a Webgui server 
@@ -53,8 +60,15 @@ Storage Tips & Tricks
 
 
 
+
+
 ## Autostart / Service
 -------------------------
+
+
+
+
+
 
 ## Sprinkle
 -------------------------
