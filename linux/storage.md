@@ -41,26 +41,24 @@ Storage Tips & Tricks
 
 ## (Web)UI
 ---------------------
-* Start a Webgui server 
-
-
-    rclone rcd --rc-web-gui --rc-user admin --rc-pass yeah12ha --rc-addr ":5572" --rc-serve 
-
-
+* Start a Webgui server:  `rclone rcd --rc-web-gui --rc-user admin --rc-pass yeah12ha --rc-addr ":5572" --rc-serve `
 
 
 ## Autostart / Service
 -------------------------
 * hier ein Ubic script was am ende keine auth verwendet (da http davor geschalten wurde) - `/etc/ubic/service/rclone/rclone`
         
+        
 
-    #!/usr/bin/perl -w
-    
-    use Ubic::Service::SimpleDaemon;
-    Ubic::Service::SimpleDaemon->new(
-     bin => 'rclone rcd --rc-web-gui --rc-no-auth --rc-addr "127.0.0.1:5572" --rc-serve',
-     cwd => "/root",
-    );
+      #!/usr/bin/perl -w
+
+      use Ubic::Service::SimpleDaemon;
+      Ubic::Service::SimpleDaemon->new(
+       bin => 'rclone rcd --rc-web-gui --rc-no-auth --rc-addr "127.0.0.1:5572" --rc-serve',
+       cwd => "/root",
+      );
+
+
 
 
 ## Sprinkle
