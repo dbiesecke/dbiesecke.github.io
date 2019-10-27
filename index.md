@@ -53,22 +53,8 @@ Storage Tips & Tricks
 
 
 
-
 ## Autostart / Service
 -------------------------
-* hier ein Ubic script was am ende keine auth verwendet (da http davor geschalten wurde) - `/etc/ubic/service/rclone/rclone`
-        
-        
-
-    #!/usr/bin/perl -w
-    
-    use Ubic::Service::SimpleDaemon;
-    Ubic::Service::SimpleDaemon->new(
-     bin => 'rclone rcd --rc-web-gui --rc-no-auth --rc-addr "127.0.0.1:5572" --rc-serve',
-     cwd => "/root",
-    );
-
-
 
 ## Sprinkle
 -------------------------
