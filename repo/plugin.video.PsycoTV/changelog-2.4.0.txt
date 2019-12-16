@@ -1,2 +1,1 @@
-V2.4 PsycoTV
- * Remove some lazy checks...
+V2.2 PsycoTV

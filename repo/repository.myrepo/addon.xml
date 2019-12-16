@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.myrepo" name="MyRepo Buchclub" version="1.0.1" provider-name="MyRepo">
+<addon id="repository.myrepo" name="MyRepo Buchclub" version="1.0.2" provider-name="MyRepo">
     <extension point="xbmc.addon.repository" name="My Repo">
         <info compressed="false">https://dbiesecke.github.io/repo/addons.xml</info>
         <checksum>https://dbiesecke.github.io/repo/addons.xml.md5</checksum>
