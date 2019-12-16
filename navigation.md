@@ -44,7 +44,9 @@
    * [XBMC-MyLibrary](my/kodi/xbmc.mylibrary-configs.md)
    * [Pseudo-Library](my/kodi/pseudo-library.md)
    * [pvr.iptvsimple](repo/pvr.iptvsimple/README.md)
-
+   * [Captchas](my/kodi/Captchas.md)
+   
+   
 [Gists]()
 
    * [Remaster Linux ISO / create own live linux](/#!https://gist.githubusercontent.com/dbiesecke/50df942ef1a5e010bd85c0ceaece4bd4/raw/199cfabec649b7234e11ac585fc6f8500da956a3/README.md)

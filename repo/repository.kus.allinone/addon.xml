@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.kus.allinone" name="[B][COLORdeepskyblue]K.U.S[/COLOR][/B] [COLORwhite]All In One[/COLOR] [COLORdeepskyblue]Repository[/COLOR]" version="3.3" provider-name="[COLORdeepskyblue]K.U.S Team[/COLOR]">
+    <extension point="xbmc.addon.repository" name="[COLORdeepskyblue]K.U.S Addon Repository[/COLOR]">
+        <info compressed="false">http://kodi.my-cydia-ig.de/RepoAddons/addons.xml</info>
+        <checksum>http://kodi.my-cydia-ig.de/RepoAddons/addons.xml.md5</checksum>
+        <datadir zip="true">http://kodi.my-cydia-ig.de/RepoAddons/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>[COLORdeepskyblue]K.U.S-REPOSITORY[/COLOR]</summary>
+        <description>Downloade und installiere Addons von der KODI Unlimited Support-Repository.[CR][CR]Kontakt + Support:[CR][COLORdeepskyblue]https://www.facebook.com/groups/kodiunlimited[/COLOR][CR]Spende:[CR][COLORdeepskyblue]https://www.paypal.me/KodiUnlimited[/COLOR][CR][CR][COLORred]Der Ersteller des Repository, ist nicht der Ersteller der Addons und somit nicht Verantwortlich für dessen Inhalt![/COLOR]</description>
+        <platform>all</platform>
+    </extension>
+</addon>

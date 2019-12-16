@@ -286,7 +286,6 @@ Diese Addon verwendet pyDes von Todd Whiteman</disclaimer>
     <import addon="script.module.simplejson" />
     <import addon="script.common.plugin.cache" version="2.5.2"/>
     <import addon="script.module.metahandler" version="2.5.1"/>
-    <import addon="plugin.video.f4mTester" version="3.0.0"/>
 
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
@@ -588,6 +587,66 @@ Diese Addon verwendet pyDes von Todd Whiteman</disclaimer>
     <platform>all</platform>
     <source>http://sourceforge.net/projects/pydes/</source>
   </extension>
+</addon>
+
+<addon id="plugin.video.openmeta" name="OpenMeta" version="1.4.13" provider-name="A4K">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0"/>
+		<import addon="metadata.tvdb.com" version="3.0.14"/>
+		<import addon="script.module.futures" version="2.2.0"/>
+		<import addon="script.module.requests" version="2.19.1"/>
+		<import addon="script.module.requests-cache" version="0.4.13"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py"/>
+	<extension point="kodi.context.item">
+		<menu id="kodi.core.main">
+			<item library="context.py">
+				<label>OpenMeta - Default Player</label>
+				<visible>!String.StartsWith(ListItem.path,plugin://plugin.video.openmeta/)+[String.IsEqual(ListItem.dbtype,episode)|String.IsEqual(ListItem.dbtype,movie)]</visible>
+			</item>
+			<item library="context2.py">
+				<label>OpenMeta - Choose Player</label>
+				<visible>String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,episode)</visible>
+			</item>
+		</menu>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">TMDb, TVDb and Trakt browser</summary>
+		<description lang="en">Browse The MovieDb, The TVDb, Trakt and pass info along to library or an addon. Needs player-files and the appropriate addon to play the files.</description>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot000.jpg</screenshot>
+			<screenshot>resources/screenshot001.jpg</screenshot>
+			<screenshot>resources/screenshot002.jpg</screenshot>
+		</assets>
+		<license></license>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<news>
+		1.4.13 - Added realtitle (movies) and realname (tvshows) parameters for plexkodiconnect compatibility
+		1.4.12 - Handle non-existent 'filename' key in TVDB data.
+		1.4.11 - TVDB API fix, thanks to @ruinernin and @bg-22 (among others)!
+				 BUG: Some artwork may not load for certain items, due to ongoing API instability.
+		1.4.10 - Added language option for player-files (TV)
+		1.4.9  - Fix art in TV menus
+		1.4.8  - Fix crash from empty "first_aired" string"
+		1.4.7  - Fix crash when we can't contact TVDB
+		1.4.6  - Fix crashes from non-existent keys
+		1.4.5  - Added default play action, options for movies are; Play/OpenInfo and options for episodes are; Play/OpenInfo(TV Show info)/OpenInfo(Episode info).
+		1.4.4  - Fix clearlogo for movies
+		1.4.3  - Fix typo in season fanart request.
+		1.4.2  - Add fanart caching
+		1.4.1  - Fix season artwork
+		1.4.0  - Add unwatched counts for shows/seasons.
+		1.3.2  - Fix "Upcoming Episodes" and "Next Episodes".
+		1.3.1  - Fixed "Next Page" bug with widgets.</news>
+	</extension>
 </addon>
 
 <addon
@@ -1045,6 +1104,21 @@ v1.1.2
   </extension>
 </addon>
 
+<addon id="repository.pati" name="Patis Add-ons" version="1.0.0" provider-name="Pati">
+	<extension point="xbmc.addon.repository" name="Pati">
+		<info compressed="true">https://raw.githubusercontent.com/Pati/repo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Pati/repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Pati/repo/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Pati's Repository</summary>
+		<summary lang="de">Repository von Pati</summary>
+		<description></description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="plugin.video.arteplussept" name="Arte +7" version="1.0.2" provider-name="bmf">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
@@ -1432,7 +1506,7 @@ provider-name="primaeval">
     </extension>
 </addon>
 
-<addon id="repository.myrepo" name="Tutorial Repository" version="1.0.0" provider-name="MyRepo">
+<addon id="repository.myrepo" name="MyRepo Buchclub" version="1.0.1" provider-name="MyRepo">
     <extension point="xbmc.addon.repository" name="My Repo">
         <info compressed="false">https://dbiesecke.github.io/repo/addons.xml</info>
         <checksum>https://dbiesecke.github.io/repo/addons.xml.md5</checksum>
@@ -1466,6 +1540,39 @@ provider-name="primaeval">
         <summary>Aenemapy repo</summary>
         <description>This is just a repo...</description>
         <platform>all</platform>
+    </extension>
+</addon>
+
+
+<addon id="plugin.program.newscenter" name="NewsCenter" version="0.0.9" provider-name="NewsCenter">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.feedparser" version="5.1.3"/>
+	<import addon="script.module.requests" version="2.3.0" />
+    </requires>
+    <extension point="xbmc.python.script" library="default.py" />
+    <extension point="xbmc.service" library="starter.py" start="startup" />
+
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">NewsCenter Plugin for Germany</summary>
+        <language>de</language>
+        <description  lang="en">Plugin is for Skinners to integrate a newscenter. Which contains a widget with rss news and multiple direct URLs provided as Property to watch directly Tagesschau, Tagesschau in 100s, Wettervorhersagevideo, Wetter in 60s. Auch die aktuelle Tabelle der 1. und 2. Bundesliga kann angezeigt werden.
+</description>
+        <description  lang="de">Dieses Plugin benötigt eine Skin Integration! Mit diesem Plugin können Nachrichten RSS als Widget erstellt werden. Zusätzlich erstellt das Plugin direktlinks zu:
+Tagesschau
+Tagesschau in 100 Sekunden
+Kinder Nachrichten Logo
+Wetter in 60 Sekunden
+Wettervorhersage von Meteogroup.
+Auch die aktuelle Tabelle der 1. und 2. Bundesliga kann angezeigt werden.
+</description>
+	<website>-</website>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <source>https://github.com/tobias-d-oe/plugin.program.newscenter</source>
+        <forum>http://goo.gl/fdU042</forum>
+        <email>-</email>
+        <website>-</website>
     </extension>
 </addon>
 
@@ -1560,6 +1667,19 @@ provider-name="primaeval">
   </extension>
 </addon>
 
+<addon id="repository.kus.allinone" name="[B][COLORdeepskyblue]K.U.S[/COLOR][/B] [COLORwhite]All In One[/COLOR] [COLORdeepskyblue]Repository[/COLOR]" version="3.3" provider-name="[COLORdeepskyblue]K.U.S Team[/COLOR]">
+    <extension point="xbmc.addon.repository" name="[COLORdeepskyblue]K.U.S Addon Repository[/COLOR]">
+        <info compressed="false">http://kodi.my-cydia-ig.de/RepoAddons/addons.xml</info>
+        <checksum>http://kodi.my-cydia-ig.de/RepoAddons/addons.xml.md5</checksum>
+        <datadir zip="true">http://kodi.my-cydia-ig.de/RepoAddons/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>[COLORdeepskyblue]K.U.S-REPOSITORY[/COLOR]</summary>
+        <description>Downloade und installiere Addons von der KODI Unlimited Support-Repository.[CR][CR]Kontakt + Support:[CR][COLORdeepskyblue]https://www.facebook.com/groups/kodiunlimited[/COLOR][CR]Spende:[CR][COLORdeepskyblue]https://www.paypal.me/KodiUnlimited[/COLOR][CR][CR][COLORred]Der Ersteller des Repository, ist nicht der Ersteller der Addons und somit nicht Verantwortlich für dessen Inhalt![/COLOR]</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="script.module.beautifulsoup4"
        name="BeautifulSoup4"
        version="4.6.2"
@@ -1593,6 +1713,28 @@ provider-name="primaeval">
         <description>This repository contains intermediate builds of libraries commonly used by TVAddons Kodi addons, Brought to you by TVADDONS.ag</description>
         <platform>all</platform>
     </extension>
+</addon>
+
+<addon id="repository.gaia" version="3.2.0" name="Gaia Repository" provider-name="Gaia">
+	<extension point="xbmc.addon.repository" name="Gaia Repository">
+		<dir>
+			<info compressed="false">https://github.com/gaiaorigin/gaiaorigin/raw/master/common/addons.xml?v=3.2.0</info>
+			<checksum>https://github.com/gaiaorigin/gaiaorigin/raw/master/common/addons.xml.md5?v=3.2.0</checksum>
+			<datadir zip="true">https://github.com/gaiaorigin/gaiaorigin/raw/master/common/</datadir>
+		</dir>
+		<info compressed="false">https://github.com/gaiaorigin/gaiaorigin/raw/master/addons.xml?v=3.2.0</info>
+		<checksum>https://github.com/gaiaorigin/gaiaorigin/raw/master/addons.xml.md5?v=3.2.0</checksum>
+		<datadir zip="true">https://github.com/gaiaorigin/gaiaorigin/raw/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Gaia Primary Repository</summary>
+		<description lang="en">The Gaia repository for the addon, resources, extensions, and external addons. Any of the Gaia mirror repositories can be used for installation and updates.</description>
+		<disclaimer lang="en">Gaia and its developers are not in any way affiliated with Kodi, Premiumize, OffCloud, RealDebrid, EasyNews, Orion, or any of the sites and providers used in the addon.<br/>Gaia is and always will be free and open-source. None of its code and resources may be sold or redistributed for any commercial purposes.<br/>Gaia and its developers do not host, create, or distribute any of the content displayed in the addon, it simply searches public websites.</disclaimer>
+		<platform>all</platform>
+		<license>GPL 3.0</license>
+		<website>https://gaiakodi.com</website>
+		<forum>https://gaiakodi.com/?support</forum>
+	</extension>
 </addon>
 
 <addon id="plugin.video.my_music_tv" name="My Music TV" version="1.0.6" provider-name="AddonScriptorDE">
@@ -2467,6 +2609,33 @@ New update
                 <forum>http://forums.tvaddons.ag/forums/113-TVADDONS-AG-ADDON-REPOSITORY</forum>
                 <website>http://www.tvaddons.ag/</website>
 	</extension>
+</addon>
+
+<addon id="service.thoradia"
+       name="Thoradia Add-ons"
+       version="0.0.23"
+       provider-name="thoradia">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.repository">
+    <datadir zip="true">TBD</datadir>
+    <info>TBD</info>
+    <checksum>TBD</checksum>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Thoradia Add-ons: add-on repository</summary>
+    <description>
+Thoradia Add-ons
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 <addon id="repository.yt.testing_unofficial" name="YouTube Test Repo (Unofficial)" version="1.0.0" provider-name="Jeffrey Frasure">
