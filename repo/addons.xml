@@ -85,6 +85,26 @@
   </extension>
 </addon>
 
+<addon id="script.module.pyfscache" version="0.9.14" name="File Cache" provider-name="Lunatixz">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0" />
+    </requires>
+    <extension library="lib" point="xbmc.python.module" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_US"></summary>
+        <description lang="en_US">packed for kodi from https://github.com/jcstroud/pyfscache</description>
+        <disclaimer lang="en_US">packed for kodi from https://github.com/jcstroud/pyfscache</disclaimer>
+        <forum></forum>
+        <website>http://www.jamesstroud.com/software/pyfscache/</website>
+        <license>BSD</license>
+        <platform>all</platform>
+        <source>https://github.com/jcstroud/pyfscache</source>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="plugin.video.osmosis" name="OSMOSIS" version="1.3.2" provider-name="Stereodruid, Maven85, gismo112">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
@@ -301,6 +321,77 @@
 	</extension>
 </addon>
 
+<addon id="plugin.video.dubbedanime" version="1.0.5" name="Dubbed Anime" provider-name="Wilson Magic">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.beautifulsoup4"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+		<description lang="en"></description>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<disclaimer lang="en"></disclaimer>
+		<news></news>
+	</extension>
+</addon>
+
+<addon id="repository.KM" name=".[COLOR red]KM[/COLOR] repo" version="2.0.0" provider-name="KodiMatija">
+	<extension point="xbmc.addon.repository" name=".KM Repository">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/kodimatija/repository.KM/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/kodimatija/repository.KM/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/kodimatija/repository.KM/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">KM offical repo</summary>
+		<description lang="en">U ovom repu cete naci najnovije addone i postavke za podrucje ExYu</description>
+		<genre></genre>
+	</extension>
+</addon>
+
+<addon id="repository.ddurdle" name="ddurdle's XBMC Addons" version="1.0.2" provider-name="ddurdle">
+	<extension point="xbmc.addon.repository" name="ddurdle's XBMC Addon Repository">
+		<info compressed="false">https://raw.github.com/ddurdle/repository.ddurdle/master/addons.xml</info>
+		<checksum>https://raw.github.com/ddurdle/repository.ddurdle/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://dmdsoftware.net/repository.ddurdle/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install ddurdle's Addons</summary>
+		<description>Download and install addons by ddurdle</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.Kodianer.NEU" name="[COLOR gold]Kodianer[/COLOR] [COLOR red]Repository[/COLOR] [COLOR silver]NEU[/COLOR]" version="1.0.1" provider-name="[COLOR gold]Kodianer [COLOR red]Team[/COLOR] | [COLOR red]El[COLOR white]Turko[/COLOR]">
+    <extension point="xbmc.addon.repository" name="Kodianer NEU Repository">
+		<info compressed="false">http://neu.kodianer.de/repos/kodianer/addons.xml</info>
+		<checksum>http://neu.kodianer.de/repos/kodianer/addons.xml.md5</checksum>
+		<datadir zip="true">http://neu.kodianer.de/repos/kodianer</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>[COLOR gold]Kodianer[/COLOR] [COLOR red]Repository[/COLOR] [COLOR silver]NEU[/COLOR]</summary>
+        <description>[COLOR gold]Kodianer[/COLOR] [COLOR red]Repository[/COLOR] [COLOR silver]NEU[/COLOR]
+[COLOR skyblue]Facebook Gruppe:[/COLOR] [COLOR gold]Kodianer[/COLOR]
+[COLOR red]Danke fur den Support  [COLOR white]http://paypal.me/elturkotc[/COLOR]
+[COLOR white]Emek icin bize Bagisda Bulunmak Isterseniz [COLOR red] http://paypal.me/elturkotc[/COLOR]</description>
+        <platform>all</platform>
+      <assets>
+       <icon>icon.gif</icon>
+       <fanart>fanart.gif</fanart>
+  </assets>
+  </extension>
+</addon>
+
 <addon id="repository.pati" name="Patis Add-ons" version="1.0.0" provider-name="Pati">
 	<extension point="xbmc.addon.repository" name="Pati">
 		<info compressed="true">https://raw.githubusercontent.com/Pati/repo/master/addons.xml</info>
@@ -345,6 +436,31 @@
 		<description lang="en">This is the official Repository of the german Community 'Kodinerds' which you'll find at www.kodinerds.net. Most of the hosted Addons are supported by the members of the Community. Enjoy!</description>
 		<description lang="de">Das ist das offizielle Repository der deutschen Community 'Kodinerds', welche Du unter www.kodinerds.net findest. Die meisten der hier gehosteten Addons werden von den Mitgliedern der Community aktiv supported. Viel Spaß!</description>
 		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.genesis" name="Genesis" version="3.1.1" provider-name="lambda">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.urlresolver" version="1.0.0"/>
+		<import addon="script.module.metahandler" optional="true"/>
+		<import addon="script.module.simplejson" optional="true"/>
+		<import addon="script.module.parsedom" optional="true"/>
+		<import addon="plugin.video.youtube" optional="true"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup">
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">The origins of streaming</summary>
+		<description lang="en">Visit TVADDONS.ag for support</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<forum>http://forums.tvaddons.ag/forums/148-lambda-s-xbmc-addons</forum>
+		<source>https://offshoregit.com/lambda81/lambda-addons</source>
+		<website>https://offshoregit.com/lambda81/</website>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -487,6 +603,44 @@ Auch die aktuelle Tabelle der 1. und 2. Bundesliga kann angezeigt werden.
 
 </addon>
 
+<addon id="repository.emby.kodi" name="Kodi Emby Addons" version="1.0.6" provider-name="null_pointer,angelblue05,sualfred,im85288,xnappo">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="Kodi Emby Repository">
+		<dir>
+			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/repositories/addons.xml</info>
+			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/repositories/addons.xml.md5</checksum>
+			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/repositories/</datadir>
+		</dir>
+		<dir minversion="18.9.0">
+			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/matrix/addons.xml</info>
+			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/matrix/addons.xml.md5</checksum>
+			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/matrix/</datadir>
+		</dir>
+		<dir minversion="17.9.0">
+			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/leia/addons.xml</info>
+			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/leia/addons.xml.md5</checksum>
+			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/leia/</datadir>
+		</dir>
+		<dir minversion="16.9.0">
+			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/krypton/addons.xml</info>
+			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/krypton/addons.xml.md5</checksum>
+			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/krypton/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Kodi Emby Addon Repository</summary>
+		<description>This repo contains the Kodi Emby addon along with compatible Kodi skins</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
+
 <addon id="context.video.favourites"
 version="0.0.1"
 name="Video Favourites Context Menu"
@@ -510,6 +664,39 @@ provider-name="primaeval">
   <description lang="en"></description>
   <disclaimer lang="en">.</disclaimer>
 </extension>
+</addon>
+
+<addon id="repository.fredsrepo" name="Sualfreds Repo" version="1.0.7" provider-name="sualfred">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="Sualfreds Repo">
+		<dir>
+			<info compressed="false">https://repo.derfred.net/repositories/addons.xml</info>
+			<checksum>https://repo.derfred.net/repositories/addons.xml.md5</checksum>
+			<datadir zip="true">https://repo.derfred.net/repositories/</datadir>
+		</dir>
+		<dir minversion="17.9.0">
+			<info compressed="false">https://repo.derfred.net/leia/addons.xml</info>
+			<checksum>https://repo.derfred.net/leia/addons.xml.md5</checksum>
+			<datadir zip="true">https://repo.derfred.net/leia/</datadir>
+		</dir>
+		<dir minversion="16.9.0">
+			<info compressed="false">https://repo.derfred.net/krypton/addons.xml</info>
+			<checksum>https://repo.derfred.net/krypton/addons.xml.md5</checksum>
+			<datadir zip="true">https://repo.derfred.net/krypton/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Sualfreds Kodi repository</summary>
+		<description>Personal repository of Sualfred and home of the Embuary skin</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
 </addon>
 
 <addon id="plugin.video.lastship" version="5.5.5" name="Lastship" provider-name="Lastship">
