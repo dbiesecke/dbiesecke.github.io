@@ -78,7 +78,7 @@
 		<setting id="wizard1name" type="text" label="Wizard 1 Name: " enable="true" visible="!eq(-1,false)" default="dev"/>
 		<setting id="wizard1url" type="text" label="Wizard 1 URL: " enable="true" visible="!eq(-2,false)" default="https://gist.github.com/dbiesecke/c89f92e1794d210c00cbdecbdf91717c/raw//Sunwiz-mod.txt"/>
 		<setting id="wizard2name" type="text" label="Wizard 2 Name: " enable="true" visible="!eq(-3,false)" default="dev-home"/>
-		<setting id="wizard2url" type="text" label="Wizard 2 URL: " enable="true" visible="!eq(-4,false)" default="https://home.forward.pw/sunrise"/>
+		<setting id="wizard2url" type="text" label="Wizard 2 URL: " enable="true" visible="!eq(-4,false)" default="http://home.forward.pw/sunrise"/>
 		<setting id="wizard3name" type="text" label="Wizard 3 Name: " enable="true" visible="!eq(-5,false)" default=""/>
 		<setting id="wizard3url" type="text" label="Wizard 3 URL: " enable="true" visible="!eq(-6,false)" default=""/>
 	</category>
