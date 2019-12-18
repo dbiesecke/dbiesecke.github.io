@@ -38,7 +38,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.program.sunrisewizard" name="Sunrise Wizard" version="1.04" provider-name="sunrisekodi">
+<addon id="plugin.program.sunrisewizard" name="Sunrise Wizard" version="1.05" provider-name="sunrisekodi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -424,6 +424,33 @@
         </extension>
     </addon>
 
+<addon id="plugin.video.tvone" name="tvOne" version="21" provider-name="RACC">
+  <requires>
+    <import addon="xbmc.python" version="2.26.0"/>
+    <import addon="script.module.pycryptodome" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.kodi-six" />
+    <import addon="script.module.future" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <summary lang="en_gb">tvOne</summary>
+    <description lang="en_gb">tvOne</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GPL-3.0</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+
 <addon id="repository.kodinerds" name="kodinerds.net Add-ons" version="6.0.0" provider-name="L0RE">
 	<extension point="xbmc.addon.repository" name="L0RE">
 		<info compressed="true">https://raw.githubusercontent.com/kodinerds/repo/master/addons.xml</info>
@@ -437,6 +464,38 @@
 		<description lang="de">Das ist das offizielle Repository der deutschen Community 'Kodinerds', welche Du unter www.kodinerds.net findest. Die meisten der hier gehosteten Addons werden von den Mitgliedern der Community aktiv supported. Viel Spaß!</description>
 		<disclaimer></disclaimer>
 		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="service.L0RE.cron" name="Crontab für andere Addons" version="1.0.2" provider-name="L0RE">
+	<requires>
+		<import addon="xbmc.python" version="2.24.0"/>
+	</requires>
+	<extension point="xbmc.service" library="service.py" start="login"/>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">Crontab - Aktionssteuerung</summary>
+		<summary lang="en_GB">Crontab - Action control</summary>
+		<description lang="de_DE">Ein Service um regelmäßig (Stunden/Tage) gespeicherte Aktionen (z.B. Aktualisierung der Addon-Medienbibliothek) in anderen Plugins aufzurufen.</description>
+		<description lang="en_GB">A service to call regular (hours/days) stored actions (e.g. update the addon media library) in other plugins.</description>
+		<disclaimer lang="de_DE">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Anbietern des Inhalts.</disclaimer>
+		<disclaimer lang="en_GB">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.</disclaimer>
+		<language></language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum>https://www.kodinerds.net/index.php/Thread/55451-L0REs-Blog/</forum>
+		<website></website>
+		<email></email>
+		<source>https://github.com/kodinerds/repo/tree/master/service.L0RE.cron</source>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news>[B][COLOR orangered]Version 1.0.2  (20.10.2019)[/COLOR][/B] by realvito[CR]
+- fixed: Azeige und Löschen von Titeln mit Sonderzeichen fehlerhaft
+		</news>
 	</extension>
 </addon>
 
@@ -666,6 +725,22 @@ provider-name="primaeval">
 </extension>
 </addon>
 
+<addon id="script.video.F4mProxy" name="F4mProxy" version="2.8.8" provider-name="Shani">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.requests" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Proxy for f4m</summary>
+        <description lang="en">Use this addon to play F4m v1 and v2 streams</description>
+    </extension>
+</addon>
+
 <addon id="repository.fredsrepo" name="Sualfreds Repo" version="1.0.7" provider-name="sualfred">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -786,6 +861,33 @@ provider-name="primaeval">
         <website>www.pseudotvlive.com</website>
         <forum>http://pseudotvlive.com/index.php/forum</forum>
     </extension>
+</addon>
+
+<addon id="plugin.video.tvone11" name="tvOne11" version="18" provider-name="RACC">
+  <requires>
+    <import addon="xbmc.python" version="2.26.0"/>
+    <import addon="script.module.pycryptodome" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.kodi-six" />
+    <import addon="script.module.future" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <summary lang="en_gb">tvOne11</summary>
+    <description lang="en_gb">tvOne11</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GPL-3.0</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
 </addon>
 
 <addon id="repository.xstream" name="xStream Repository" version="1.1.4" provider-name="xStream-Team">
