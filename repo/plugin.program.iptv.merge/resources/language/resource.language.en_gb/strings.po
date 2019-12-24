@@ -1,0 +1,628 @@
+# KODI Media Center language file
+# Addon Name: IPTV AU
+# Addon id: plugin.video.au.freeview
+# Addon Provider: Matt Huisman
+msgid ""
+msgstr ""
+"Project-Id-Version:\n"
+"Report-Msgid-Bugs-To:\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator:\n"
+"Language-Team:\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#30000"
+msgid "Mins between running merge"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Reload IPTV Simple Client after merge"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Output Directory"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Add EPG"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Add Playlist"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Run Merge"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Delete Source"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Are you sure you want to delete this source?"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Merge Started"
+msgstr ""
+
+msgctxt "#30009"
+msgid "You need to set an Output Directory in Settings"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Playlists"
+msgstr ""
+
+msgctxt "#30011"
+msgid "EPGs"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Choose"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Remote File"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Local File"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Remote File URL"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Select local file"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Standard File"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Gzipped File"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Reset Channel"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Auto Merge Sources"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Merge already in progress"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Add-on source failed\n"
+"{url}"
+msgstr ""
+
+msgctxt "#30023"
+msgid "No Gzip binary found"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Failed to extract\n"
+"{path}"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Merge Complete"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Add-on"
+msgstr ""
+
+msgctxt "#30027"
+msgid "No IPTV Merge compatible add-ons found.\n"
+"Check the add-on is installed and then try again."
+msgstr ""
+
+msgctxt "#30028"
+msgid "[B]Setup IPTV Simple Client[/B]"
+msgstr ""
+
+msgctxt "#30029"
+msgid "IPTV Simple Client Add-on Required"
+msgstr ""
+
+msgctxt "#30030"
+msgid "IPTV Simple Client Setup Complete\n"
+"You can now add Playlist and EPG sources and run a merge."
+msgstr ""
+
+msgctxt "#30031"
+msgid "Local source does not exist\n"
+"{path}"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Play Channel"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Channel Manager"
+msgstr ""
+
+msgctxt "#30034"
+msgid "No channels found"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Channels are only added at merge time.\n"
+"Run a merge then try again."
+msgstr ""
+
+msgctxt "#30036"
+msgid "No channel name"
+msgstr ""
+
+msgctxt "#30037"
+msgid "{label}  -- HIDDEN"
+msgstr ""
+
+msgctxt "#30038"
+msgid "{number} - {label}"
+msgstr ""
+
+msgctxt "#30039"
+msgid "Show Channel"
+msgstr ""
+
+msgctxt "#30040"
+msgid "Hide Channel"
+msgstr ""
+
+msgctxt "#30041"
+msgid "Channel Name"
+msgstr ""
+
+msgctxt "#30042"
+msgid "Channel Number"
+msgstr ""
+
+msgctxt "#30043"
+msgid "Channel Logo"
+msgstr ""
+
+msgctxt "#30044"
+msgid "Channel Group"
+msgstr ""
+
+msgctxt "#30045"
+msgid "TV"
+msgstr ""
+
+msgctxt "#30046"
+msgid "Radio"
+msgstr ""
+
+msgctxt "#30047"
+msgid "{label} ({group})"
+msgstr ""
+
+msgctxt "#30048"
+msgid "Add-on source timed out\n"
+"{url}"
+msgstr ""
+
+msgctxt "#30049"
+msgid "Import Sources"
+msgstr ""
+
+msgctxt "#30050"
+msgid "Import / Export"
+msgstr ""
+
+msgctxt "#30051"
+msgid "Export Sources"
+msgstr ""
+
+msgctxt "#30052"
+msgid "Select file to Import"
+msgstr ""
+
+msgctxt "#30053"
+msgid "Select Export Directory"
+msgstr ""
+
+msgctxt "#30054"
+msgid "{count} Sources Imported"
+msgstr ""
+
+msgctxt "#30055"
+msgid "{count} Sources Exported"
+msgstr ""
+
+msgctxt "#30056"
+msgid "{label} (No EPG)"
+msgstr ""
+
+msgctxt "#30057"
+msgid "{label} -- DISABLED"
+msgstr ""
+
+msgctxt "#30058"
+msgid "Move Up"
+msgstr ""
+
+msgctxt "#30059"
+msgid "Move Down"
+msgstr ""
+
+msgctxt "#30060"
+msgid "Disable Source"
+msgstr ""
+
+msgctxt "#30061"
+msgid "Enable Source"
+msgstr ""
+
+msgctxt "#30062"
+msgid "Edit Source"
+msgstr ""
+
+msgctxt "#30063"
+msgid "Delete Channel"
+msgstr ""
+
+msgctxt "#30064"
+msgid "Add Channel"
+msgstr ""
+
+msgctxt "#30065"
+msgid "Channel Path"
+msgstr ""
+
+msgctxt "#30066"
+msgid "A channel with that path is already present"
+msgstr ""
+
+msgctxt "#30067"
+msgid "Channel EPG ID"
+msgstr ""
+
+msgctxt "#30068"
+msgid "{label} (Current)"
+msgstr ""
+
+msgctxt "#30069"
+msgid "{label} (Assigned)"
+msgstr ""
+
+msgctxt "#30070"
+msgid "Custom EPG ID"
+msgstr ""
+
+msgctxt "#30071"
+msgid "{label} (Best Match)"
+msgstr ""
+
+msgctxt "#30072"
+msgid "{epg_id} - {names}"
+msgstr ""
+
+msgctxt "#30073"
+msgid "Default Hidden Channels"
+msgstr ""
+
+##COMMON##
+
+msgctxt "#32000"
+msgid "You need to login to access this content"
+msgstr ""
+
+msgctxt "#32001"
+msgid "No default route found"
+msgstr ""
+
+msgctxt "#32002"
+msgid "Are you sure you want to reset this add-on?\n"
+"This will reset all settings and clear all data"
+msgstr ""
+
+msgctxt "#32003"
+msgid "Reset Complete"
+msgstr ""
+
+msgctxt "#32004"
+msgid "Removed {delete_count} Cached Item"
+msgstr ""
+
+msgctxt "#32005"
+msgid "Clear Cache"
+msgstr ""
+
+msgctxt "#32006"
+msgid "Could not find a function for url: {raw_url} => {parsed_url}"
+msgstr ""
+
+msgctxt "#32007"
+msgid "Could not find a url for function: {function_name}"
+msgstr ""
+
+msgctxt "#32008"
+msgid "Inpustream Adaptive add-on required for Widevine playback"
+msgstr ""
+
+msgctxt "#32009"
+msgid "Kodi Windows Store (UWP) version does not support Widevine playback.\n"
+"Use the Kodi .exe installer from the Kodi website instead."
+msgstr ""
+
+msgctxt "#32010"
+msgid "Kodi 18 or higher required for Widevine playback on {system}"
+msgstr ""
+
+msgctxt "#32011"
+msgid "ARM 64bit does not support Widevine playback\n"
+"An OS with a 32-bit userspace is required.\n"
+"Try coreelec.org"
+msgstr ""
+
+msgctxt "#32012"
+msgid "This system ({system}{arch} Kodi v{kodi_version}) does not yet support Widevine playback"
+msgstr ""
+
+msgctxt "#32013"
+msgid "Could not find a media source from Brightcove\n"
+"Server Message: {error}"
+msgstr ""
+
+msgctxt "#32014"
+msgid "Downloading required file\n"
+"{url}"
+msgstr ""
+
+msgctxt "#32015"
+msgid "Widevine CDM"
+msgstr ""
+
+msgctxt "#32016"
+msgid "There was an unexpected error installing the Widevine CDM\n"
+"Please restart Kodi and try again"
+msgstr ""
+
+msgctxt "#32017"
+msgid "Use Cache"
+msgstr ""
+
+msgctxt "#32018"
+msgid "Inputstream Settings"
+msgstr ""
+
+msgctxt "#32019"
+msgid "Reset Add-on"
+msgstr ""
+
+msgctxt "#32020"
+msgid "{addon} - Error"
+msgstr ""
+
+msgctxt "#32021"
+msgid "Install Widevine CDM"
+msgstr ""
+
+msgctxt "#32022"
+msgid "Widevine CDM ({version}) Installed OK\n"
+"If videos do not play, please restart Kodi and try again"
+msgstr ""
+
+msgctxt "#32023"
+msgid "Use Inputstream HLS"
+msgstr ""
+
+msgctxt "#32024"
+msgid "Login"
+msgstr ""
+
+msgctxt "#32025"
+msgid "Logout"
+msgstr ""
+
+msgctxt "#32026"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#32027"
+msgid "Are you sure you want to logout?"
+msgstr ""
+
+msgctxt "#32028"
+msgid "Failed to login.\n"
+"Check your details are correct and try again."
+msgstr ""
+
+msgctxt "#32029"
+msgid "Search"
+msgstr ""
+
+msgctxt "#32030"
+msgid "Search: {query}"
+msgstr ""
+
+msgctxt "#32031"
+msgid "No Results"
+msgstr ""
+
+msgctxt "#32032"
+msgid "{addon} - Unexpected Error"
+msgstr ""
+
+msgctxt "#32033"
+msgid "Failed to download required file: {filename}"
+msgstr ""
+
+msgctxt "#32034"
+msgid "General"
+msgstr ""
+
+msgctxt "#32035"
+msgid "Playback"
+msgstr ""
+
+msgctxt "#32036"
+msgid "Advanced"
+msgstr ""
+
+msgctxt "#32037"
+msgid "Verify SSL Certs"
+msgstr ""
+
+msgctxt "#32038"
+msgid "Select Widevine CDM version to install"
+msgstr ""
+
+msgctxt "#32039"
+msgid "Service Start Delay (0 = Random 10s-60s)"
+msgstr ""
+
+msgctxt "#32040"
+msgid "MD5 checksum failed for file: {filename}\n"
+"{local_md5} != {remote_md5}"
+msgstr ""
+
+msgctxt "#32041"
+msgid "No Items"
+msgstr ""
+
+msgctxt "#32042"
+msgid "Default Playback Quality"
+msgstr ""
+
+msgctxt "#32043"
+msgid "Best"
+msgstr ""
+
+msgctxt "#32044"
+msgid "HTTP Timeout (seconds)"
+msgstr ""
+
+msgctxt "#32045"
+msgid "HTTP Retries"
+msgstr ""
+
+msgctxt "#32046"
+msgid "Chunksize"
+msgstr ""
+
+msgctxt "#32047"
+msgid "{label} (LATEST)"
+msgstr ""
+
+msgctxt "#32048"
+msgid "Pass-through"
+msgstr ""
+
+msgctxt "#32049"
+msgid "No list item found that matches pattern: {pattern}"
+msgstr ""
+
+msgctxt "#32050"
+msgid "This add-on has moved\n"
+"A new add-on '{new_addon_id}' is therefore required\n"
+"Install and migrate to new add-on?"
+msgstr ""
+
+msgctxt "#32051"
+msgid "Add-on has been migrated\n"
+"Remember to uninstall this old version '{old_addon_id}'"
+msgstr ""
+
+msgctxt "#32052"
+msgid "Unknown Error"
+msgstr ""
+
+msgctxt "#32053"
+msgid "Play at Quality"
+msgstr ""
+
+msgctxt "#32054"
+msgid "Custom"
+msgstr ""
+
+msgctxt "#32055"
+msgid "Ask"
+msgstr ""
+
+msgctxt "#32056"
+msgid "Quality Set: {label}"
+msgstr ""
+
+msgctxt "#32057"
+msgid "Playback URL returned error code: {error_code}"
+msgstr ""
+
+msgctxt "#32058"
+msgid "{version} (INSTALLED)"
+msgstr ""
+
+msgctxt "#32059"
+msgid "Enter maximum bandwidth (bit/s)"
+msgstr ""
+
+msgctxt "#32060"
+msgid "Lowest"
+msgstr ""
+
+msgctxt "#32061"
+msgid "Playback Quality"
+msgstr ""
+
+msgctxt "#32062"
+msgid "Enable Quality Select"
+msgstr ""
+
+msgctxt "#32063"
+msgid "Live Play Action"
+msgstr ""
+
+msgctxt "#32064"
+msgid "From Start"
+msgstr ""
+
+msgctxt "#32065"
+msgid "From Live"
+msgstr ""
+
+msgctxt "#32066"
+msgid "Ask"
+msgstr ""
+
+msgctxt "#32067"
+msgid "Play From?"
+msgstr ""
+
+msgctxt "#32068"
+msgid "{bandwidth:.2f} Mbit/s {resolution} {fps}"
+msgstr ""
+
+msgctxt "#32069"
+msgid "{fps:.2f} FPS"
+msgstr ""
+
+msgctxt "#32070"
+msgid "Available Widevine CDM Versions"
+msgstr ""
+
+msgctxt "#32071"
+msgid "Unknown {version} (INSTALLLED)"
+msgstr ""
+
+msgctxt "#32072"
+msgid "Widevine CDM ({version}) Installed\n"
+"If content does not play, you may need to install the latest CDM version instead."
+msgstr ""

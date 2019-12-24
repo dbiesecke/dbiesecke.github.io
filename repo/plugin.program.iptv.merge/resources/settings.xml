@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="32034">
+        <setting label="30002" id="output_dir" type="folder" source="" option="writeable" default="special://userdata/addon_data/plugin.program.iptv.merge"/>
+        <setting label="30020" id="auto_merge" type="bool" default="true"/>
+        <setting label="30000" id="reload_time_mins" type="number" default="1440" enable="eq(-1,true)"/>
+        <setting label="30001" id="restart_pvr" type="bool" default="true"/>
+        <setting label="30073" id="default_hidden" type="bool" default="false"/>
+        <setting label="30028" type="action" action="RunPlugin(plugin://$ID/?_=setup)" option="close"/>
+    </category>
+
+    <category label="30050">
+        <setting label="30051" type="action" action="RunPlugin(plugin://$ID/?_=export_sources)"/>
+        <setting label="30049" type="action" action="RunPlugin(plugin://$ID/?_=import_sources)"/>
+    </category>
+
+    <category label="32036">
+        <setting label="32037" id="verify_ssl" type="bool" default="true"/>
+        <setting label="32044" id="http_timeout" type="number" default="30"/>
+        <setting label="32045" id="http_retries" type="number" default="2"/>
+        <setting label="32046" id="chunksize"    type="number" default="4096"/>
+
+        <setting label="32019" type="action" action="RunPlugin(plugin://$ID/?_=_reset)" option="close"/>
+
+        <setting label="32039" id="service_delay" type="number" default="0" visible="false"/>
+        <setting id="_fresh" type="bool" default="true" visible="false"/>
+        <setting id="_userdata" type="text" default="{}" visible="false"/>
+    </category>
+</settings>

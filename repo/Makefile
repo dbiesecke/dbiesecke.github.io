@@ -35,7 +35,7 @@ sync:
 	@echo unzip it...
 	@unzip -o "kdc/*" >/dev/null
 
-build:  sync
+build:  
 	python repo_prep.py
 	
 commit: 
