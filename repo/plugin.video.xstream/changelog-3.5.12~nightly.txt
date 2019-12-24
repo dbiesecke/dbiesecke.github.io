@@ -1,3 +1,7 @@
+xStream 3.5.13
+- [urlresolver] changes to resolveurl
+
+
 xStream 3.5.12~nightly
 - [hdfilme] fix fehlerhafte site
 - [parser] py23 kompatibel

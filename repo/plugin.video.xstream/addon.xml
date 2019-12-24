@@ -3,10 +3,11 @@
  <requires>
    <import addon="xbmc.python" version="2.14.0"/>
    <import addon="repository.xstream"/>
-   <import addon="script.module.urlresolver"/>
+<!--    <import addon="script.module.urlresolver"/> -->
    <import addon="script.module.metahandler" version="3.0.2.1"/>
    <import addon="script.module.inputstreamhelper" version="0.3.3" optional="true"/>
    <import addon="script.module.requests"/>
+   <import addon="script.module.resolveurl" version="5.0.37"/>   
  </requires>
  <extension point="xbmc.python.pluginsource" library="default.py">
    <provides>video</provides>
