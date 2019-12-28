@@ -20,7 +20,7 @@ Die Addons sind in meinem Repo ([repository.myrepo-1.0.2.zip](https://dbiesecke.
 
 * Raspi starten & Netzwerk einrichten. Bitte sicherstellen das ein NTP eingetragen ist & IP Addresse statisch vergeben. DNS wenn am besten direkt auf 8.8.8.8 einstellen. ( Um DNS Blockade bsp von Vodafone zu umgehen)
 
-* Aus meinem Repo bitte "EZMaintenance+" Installieren
+* Aus meinem Repo bitte "EZMaintenance+" Installieren, oder aus dem Hidrive Ordner ( in Kodi "aus zip installieren wählen & den ordner XBMC")
 
 ![BRGQr5m.png](https://i.imgur.com/BRGQr5m.png) 
 
