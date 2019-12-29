@@ -1,14 +1,69 @@
 Kodi Tips & Linklist
 ========================================
+* Kodi wird gerne modifiziert was man dann "Build" nennt. Ich habe diverse bekannte Builds getestet & am ende mir ein eigenen erstellt der die besten Addons für den Deutschsprachigen Raum mitbringt. 
 
-* Mit diesem Kodi builds ist es möglich alle aktuellen Serien/Filme zuzugreifen. Dafür wird auf diverse Streamingsites zurückgegriffen.
-
-
-![sunrise-intro.gif](https://dbiesecke.github.io/images/sunrise-intro.gif)
+Die Addons sind in meinem Repo ([repository.myrepo-1.0.2.zip](https://dbiesecke.github.io/repo/repository.myrepo/repository.myrepo-1.0.2.zip) ) & auf dem [HiDrive](https://my.hidrive.com/share/w4jo.f9fzu) Laufwerk gespeichert.
 
 
 
-Easy Install - 
+-------------------
+
+
+
+| Packages                      | DL                                                                                                |  
+|-------------------------------|---------------------------------------------------------------------------------------------------|
+| repository.myrepo-1.0.2.zip | [repository.myrepo.zip](http://dbiesecke.github.io/repo/repository.myrepo/repository.myrepo-1.0.2.zip)      |
+
+
+## Installation
+* LibreElec Image runterladen ( only for Raspi4 !) - [Hidrive-LIBRE-backup.img.gz](https://my.hidrive.com/lnk/EEBpFRYj) & diese per dd auf die SD Card schreiben: `zcat -f ./LIBRE-backup.img.gz | dd of=/dev/sdc `
+
+* Raspi starten & Netzwerk einrichten. Bitte sicherstellen das ein NTP eingetragen ist & IP Addresse statisch vergeben. DNS wenn am besten direkt auf 8.8.8.8 einstellen. ( Um DNS Blockade bsp von Vodafone zu umgehen)
+
+* Aus meinem Repo bitte "EZMaintenance+" Installieren, oder aus dem Hidrive Ordner ( in Kodi "aus zip installieren wählen & den ordner XBMC")
+
+![BRGQr5m.png](https://i.imgur.com/BRGQr5m.png) 
+
+![TSoqee7.png](https://i.imgur.com/TSoqee7.png)
+
+
+* Ihr könnt mit dem Tool unter dem Menüpunkt "Wizard" auf meine unterschiedlichen Builds zugreifen & diese installieren.
+
+![o2KyV6E.jpg](https://i.imgur.com/o2KyV6E.jpg)
+
+
+
+
+## Plugins
+--------------------------------
+
+
+| Name                        	| Infos                                                                      | 
+|----------------------------	|--------------------------------------------------------------------------- |
+| zappntv                       | IPTV DE & Mediathekk (UDP Proxy, DRM Plugin, DRM installer)                   | 
+| tvone, tvone11, ..            | IPTV, Diverse Sprache & Sky enthalten.                                     | 
+| DDL.me,HD-Filme.net           | Link Provider für Movies/Serien                                            | 
+| XStream                       | Sammlung mit weiteren Seiten (Animestream24,doku-stream,kinox,kinox,..)    | 
+| 7Tv,TVNOW                     | Mediatheken                                                                |
+
+
+
+
+
+
+
+
+
+
+
+
+
+OUTDATED!!!!
+==========================
+
+
+
+Wizards - 
 ------------------------
 Depends:  Kodi 18.1++ 
 
@@ -19,13 +74,6 @@ Depends:  Kodi 18.1++
 * Für leistungsschwache maschinen wie FireTV stick, rate ich eher zum Sunrise-Build - dieser hat eine wesentlich schlichtere GUI
 
 
-| Packages                      | DL                                                                                                |  
-|-------------------------------|---------------------------------------------------------------------------------------------------|
-| [Latest Ghost repo/installer](http://ghost-repo.de/)   | [repository.Ghost.zip](http://ghost-repo.de/repository.Ghost.zip)  / [plugin.program.Ghost.zip](http://ghost-repo.de/plugin.program.Ghost.zip)      |
-| repository.myrepohome-1.0.1.zip  | [repository.myrepo.zip](http://dbiesecke.github.io/repo/repository.myrepo.zip)      |
-| repository.sgkodi-1.1.5.zip   | [repository.sgkodi-1.1.5.zip](http://sgkodi.de/SGK-Repo/repository.sgkodi-1.1.5.zip)  |
-| Sunrise Wizard (Orginal)     	|[plugin.program.sunrisewizard](https://my.hidrive.com/lnk/9fBJlQDZ)   	|
-| Sunrise Wizard (MyMod)      	|[plugin.program.sunrisewizard](https://my.hidrive.com/lnk/aNBJlWdI)   	|
 
 
 
@@ -33,17 +81,6 @@ Depends:  Kodi 18.1++
 
 
                                                  
-## Plugins
---------------------------------
-
-
-| Name                        	| Infos                                                                      | 
-|----------------------------	|--------------------------------------------------------------------------- |
-| zappntv                       | IPTV DE & Mediathekk (UDP Proxy, DRM Plugin, DRM installer)                                                     | 
-| tvone, tvone11, ..            | IPTV, Diverse Sprache & Sky enthalten.                                     | 
-| DDL.me,HD-Filme.net           | Link Provider für Movies/Serien                                            | 
-| XStream                       | Sammlung mit weiteren Seiten (Animestream24,doku-stream,kinox,kinox,..)    | 
-| 7Tv,TVNOW                     | Mediatheken                                                                |
 
 
 
@@ -139,3 +176,13 @@ OLD - Outdated Stuff
     - Mein Fork für kompatibilität mit XBMC-MyLibary, Zugriff auf die neusten Deutschen Fansubs & Retail Animes 
     - Benötigt Plugins:      [script.module.crypto](https://github.com/moneymaker365/xbmc-xbmcplus-plugins/blob/master/download/script.module.cryptopy/script.module.cryptopy-1.2.6.zip?raw=true) | [requests](http://mirrors.xbmc.org/addons/frodo/script.module.requests/script.module.requests-2.3.0.zip)
     - Folgende Plugins erweitern das Addon um automatische mirrorsuche: [Anime-tube.tv](https://www.dropbox.com/s/f8p90m5dvrrqkxi/plugin.video.animetube.1.2.5.zip?dl=1)  | [genx-anime](https://www.dropbox.com/s/ofvmajxr9zgtif8/plugin.video.genxanime.1.3.1.zip?dl=1) [clipfish](https://db.tt/a3IkHLe9)
+
+
+
+![sunrise-intro.gif](https://dbiesecke.github.io/images/sunrise-intro.gif)
+
+
+| Packages                      | DL                                                                                                |  
+|-------------------------------|---------------------------------------------------------------------------------------------------|
+| [Latest Ghost repo/installer](http://ghost-repo.de/)   | [repository.Ghost.zip](http://ghost-repo.de/repository.Ghost.zip)  / [plugin.program.Ghost.zip](http://ghost-repo.de/plugin.program.Ghost.zip)      |
+
