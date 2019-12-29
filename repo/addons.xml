@@ -343,6 +343,18 @@
   </extension>
 </addon>
 
+<addon id="script.module.exodus" name="Exodus Module" version="1.20" provider-name="Exodus">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.beautifulsoup4"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Exodus</summary>
+	</extension>
+</addon>
+
 <addon id="plugin.video.pseudo.library" name="PseudoLibrary" version="0.0.2a" provider-name="Sytone, Lunatixz">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -560,19 +572,15 @@ xStream 3.5.11
 	</extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="4.0.56~nightly4" provider-name="Resolver Team">
+<addon id="script.module.magicality" name="Magicality Module" version="4.0.5" provider-name="Wilson Magic">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="plugin.video.youtube" optional="true" />
-		<import addon="script.module.python.twitch" optional="true" />
-		<import addon="script.module.cryptopy" version="1.2.6" optional="true" />
+		<import addon="script.module.beautifulsoup4"/>
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
-		<summary lang="de">URLResolver wird für die Stream Wiedergabe benötigt</summary>
-		<description lang="de">Empfängt viele Video URL's, die in XBMC/Kodi abspielbar sind</description>
+		<summary lang="en">Magicality</summary>
 	</extension>
 </addon>
 
@@ -628,6 +636,18 @@ xStream 3.5.11
     <email></email>
     <source></source>
   </extension>
+</addon>
+
+<addon id="script.module.incursion" name="Incursion Module" version="1.20" provider-name="Incursion">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.beautifulsoup4"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Incursion</summary>
+	</extension>
 </addon>
 
 <addon id="repository.ddurdle" name="ddurdle's XBMC Addons" version="1.0.2" provider-name="ddurdle">
@@ -1152,6 +1172,43 @@ Auch die aktuelle Tabelle der 1. und 2. Bundesliga kann angezeigt werden.
 	</extension>
 </addon>
 
+<addon id="plugin.video.genesisreborn" version="2017.06.27" name="Genesis Reborn" provider-name="Genesis Reborn">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="repository.jesusboxtv" version="1.0.0" />
+		<import addon="script.genesisreborn.artwork" version="1.4.1" />
+		<import addon="script.genesisreborn.metadata" version="1.0.0" />
+		<import addon="script.module.urlresolver" version="3.0.0" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="genesisreborn.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Genesis Reborn Fork Movies/TV Shows</summary>
+		<description lang="en">Created by developer [COLOR yellow]JP Hightek[/COLOR] for Jesus Box Media. Please visit [COLOR red]www.jesusboxmedia.tv[/COLOR] for Genesis Reborn Fork Movies/TV Shows support and assistance! Please remember that genesisreborn is not an official part of the Kodi media player you are running, and therefore is not to be mentioned within official support channels of Kodi, this addon has nothing to do with the media player itself, nor it’s intended use, it is simply a third party plugin which has been added to your system.</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<description lang="de">Bitte besuche [COLOR red]www.jesusboxmedia.tv[/COLOR] für Unterstützung und Fragen zu genesisreborn! Beachte dabei, dass genesisreborn nicht offizieller Teil des Media Players ist den du gerade verwendest und daher nicht von dem offiziellen Support-Kanäle abgedeckt wird, dieses Addon hat nichts zu tun mit dem Media-Player selbst, noch ist es dafür beabsichtigt, es handelt sich hierbei lediglich um ein Drittanbieter-Anwendung die dem System hinzugefügt wurde.</description>
+		<disclaimer lang="de">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Content-Anbietern.</disclaimer>
+		<description lang="fr">SVP visitez [COLOR red]www.jesusboxmedia.tv[/COLOR] pour avoir de l'aide sur genesisreborn. Prenez note que genesisreborn n'est pas une partie intégrante de votre outil de visionnement multimedia et SVP ne le mentionnez pas dans les media sociaux officiels, cet addiciel n'a rien a voir avec votre lecteur multimedia lui même, c'est simplement un addiciel qui a été ajouté à votre système.</description>
+		<disclaimer lang="fr">L'auteur n'héberge pas ou ne distribue pas le contenu qui vous est affiché avec cet addiciel. L'auteur n'a pas d'alliance avec les distributeurs de contenu.</disclaimer>
+		<platform>all</platform>
+		<forum>https://www.jesusboxmedia.tv</forum>
+		<website>https://www.jesusboxmedia.tv/</website>
+		<source>https://jesusboxrepo.xyz/repo</source>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+		</assets>
+		<news>- Initial release
+- Free movies
+- Free TV Shows</news>
+	</extension>
+</addon>
+
 <addon id="context.video.favourites"
 version="0.0.1"
 name="Video Favourites Context Menu"
@@ -1211,6 +1268,22 @@ provider-name="primaeval">
 		<fanart>fanart.jpg</fanart>
 		</assets>
     </extension>
+</addon>
+
+<addon id="script.module.placenta" name="Placenta Module" version="1.7.8" provider-name="Team Afterbirth">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.beautifulsoup4"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+		<summary lang="en">Placenta</summary>
+		<description>Covenant Fork from Echo/Colossus era with Team Afterbirth's updates and new code.</description>
+        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+        <license>Beerware rev. 42</license>
+	</extension>
 </addon>
 
 <addon id="script.module.globalscrapers" name="globalscrapers Module" version="3.3.3" provider-name="Solid_Snake">
