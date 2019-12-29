@@ -590,6 +590,30 @@ xStream 3.5.11
     </extension>
 </addon>
 
+<addon id="script.module.ATFmobdro" name="ATF Mobdro" version="1.6" provider-name="Maverick">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.livestreamer" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">Maverick</summary>
+    <description lang="en_gb">Maverick</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+
 <addon id="repository.ddurdle" name="ddurdle's XBMC Addons" version="1.0.2" provider-name="ddurdle">
 	<extension point="xbmc.addon.repository" name="ddurdle's XBMC Addon Repository">
 		<info compressed="false">https://raw.github.com/ddurdle/repository.ddurdle/master/addons.xml</info>
@@ -684,6 +708,31 @@ xStream 3.5.11
 		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+<addon id="script.module.mobdro" name="Mobdro" version="18" provider-name="RACC">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.livestreamer" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <summary lang="en_gb">Mobdro</summary>
+    <description lang="en_gb">Mobdro Apk</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
 </addon>
 
 <addon id="script.module.universalscrapers" name="Universal Scrapers" version="1.2.1" provider-name="Team Universal">
@@ -1198,6 +1247,31 @@ provider-name="primaeval">
 	</extension>
 </addon>
 
+<addon id="script.module.ATFlive" name="[COLOR red]ATF IPTV Extra[/COLOR]" version="1.6" provider-name="Maverick">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.livestreamer" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <summary lang="en_gb">Maverick</summary>
+    <description lang="en_gb">Maverick</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+
 <addon id="context.pseudotv.live.export" name="PseudoTV Live Export" version="1.1.9" provider-name="Lunatixz">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
@@ -1350,5 +1424,19 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="repository.yt.testing_unofficial" name="YouTube Test Repo (Unofficial)" version="1.0.0" provider-name="Jeffrey Frasure">
+	<extension point="xbmc.addon.repository" name="YouTube Test Repo (Unofficial)">
+		<info compressed="false">https://raw.githubusercontent.com/jdf76/repository/master/testing/unofficial/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/jdf76/repository/master/testing/unofficial/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/jdf76/repository/master/testing/unofficial/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install alpha and beta versions of the YouTube add-on.</summary>
+		<description>Install alpha and beta versions of the YouTube add-on.</description>
+		<disclaimer>This add-on is not supported or endorsed by Google/YouTube.</disclaimer>
+		<platform>all</platform>
+	</extension>
 </addon>
 </addons>
