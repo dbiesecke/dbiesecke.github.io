@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="repository.tdoe" name="TDOe Addons Repository" version="1.0.2" provider-name="TDOe">
+	<extension point="xbmc.addon.repository" name="TDOe">
+		<info compressed="true">https://raw.githubusercontent.com/tobias-d-oe/repo.kodi.tdoe/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/tobias-d-oe/repo.kodi.tdoe/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/tobias-d-oe/repo.kodi.tdoe/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+	        <summary>Repository for Addons made by TDOe most for German community</summary>
+	        <description>Repository for Addons made by TDOe most for German community</description>
+	        <disclaimer></disclaimer>
+	        <platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="script.pseudotv.live" version="0.8.0f" name="PseudoTV Live" provider-name="Lunatixz">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
@@ -382,6 +396,34 @@
     </extension>
 </addon>
 
+<addon id="plugin.program.tvhighlights" name="TV Highlights Grabber - TV Digital" version="0.1.19" provider-name="TDOe">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py" />
+    <extension point="xbmc.service" library="starter.py" start="startup">
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Fetch todays TV Highlights from www.tvdigital.de</summary>
+        <summary lang="de">Holt die TV Highlights des Tages von www.tvdigital.de</summary>
+        <language>de</language>
+        <description lang="en">Fetch todays TV Highlights from www.tvdigital.de</description>
+        <description lang="de">Holt die TV Highlights des Tages von www.tvdigital.de
+
+Dieses Plugin benoetigt eine Skin-Integration!
+Hierfür bitte README.txt im Ordner integration beachten
+oder online unter https://goo.gl/GtK41L nachlesen.
+        </description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <source>https://github.com/tobias-d-oe/plugin.program.tvhighlights</source>
+        <forum>http://goo.gl/TdGZsF</forum>
+        <email>-</email>
+        <website>-</website>
+    </extension>
+</addon>
+
 <addon id="plugin.video.xstream" name="xStream" version="3.5.12~nightly" provider-name="xStream-Team">
  <requires>
    <import addon="xbmc.python" version="2.14.0"/>
@@ -673,6 +715,38 @@ xStream 3.5.11
 		<summary>Install ddurdle's Addons</summary>
 		<description>Download and install addons by ddurdle</description>
 		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="service.remotekodi" name="Remote Kodi PVR Info" version="0.4.0" provider-name="TDOe">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.elementtree" version="1.2.7"/>
+	</requires>
+	<extension
+		point="xbmc.service"
+		library="remotekodi.py"
+		start="startup">
+	</extension>
+	<extension point="xbmc.python.script"
+        	library="script.py">
+		<provides>executable</provides>
+		<provides>image</provides>
+		<provides>video</provides>
+	</extension>
+
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de">Remotekodi PVR Info</summary>
+		<summary lang="en">Remotekodi PVR Info</summary>
+		<description lang="de">Information von entfernten Kodis was gerade gestreamt wird</description>
+		<description lang="en">Information von entfernten Kodis was gerade gestreamt wird</description>
+		<platform>all</platform>
+		<language></language>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum>http://forum.xbmc.org/showthread.php?tid=204667</forum>
+		<website></website>
+		<source>https://github.com/tuxpoldo/fhem-xbmc</source>
+		<email></email>
 	</extension>
 </addon>
 
@@ -1000,7 +1074,7 @@ xStream 3.5.11
 </addon>
 
 
-<addon id="plugin.program.newscenter" name="NewsCenter" version="0.0.9" provider-name="NewsCenter">
+<addon id="plugin.program.newscenter" name="NewsCenter" version="0.1.1" provider-name="NewsCenter">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.feedparser" version="5.1.3"/>
@@ -1283,6 +1357,60 @@ provider-name="primaeval">
     </extension>
 </addon>
 
+<addon id="skin.confluencetdoe" version="4.2.1" name="Confluence TDOe 18" provider-name="TDOe">
+	<requires>
+		<import addon="xbmc.gui" version="5.13.0"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="1.0">
+		<res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">Confluence Skin modified by TDOe</summary>
+		<summary lang="en_GB">Confluence Skin modified by TDOe</summary>
+		<summary lang="en_US">Confluence Skin modified by TDOe</summary>
+		<description lang="de_DE">Modded Confluence um viele Deutsche Plugins zu integrieren.</description>
+		<description lang="en_GB">Modded Confluence to integrate a lot of german plugins.</description>
+		<description lang="en_US">Modded Confluence to integrate a lot of german plugins.</description>
+		<platform>all</platform>
+		<license>GNU General Public License version 2</license>
+		<forum>https://www.kodinerds.net/index.php/Thread/60454-Und-noch-ein-Confluence-MOD/</forum>
+		<website></website>
+		<email></email>
+		<source>https://github.com/tobias-d-oe/skin.confluencetdoe</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+			<screenshot>resources/screenshot-04.jpg</screenshot>
+			<screenshot>resources/screenshot-05.jpg</screenshot>
+			<screenshot>resources/screenshot-06.jpg</screenshot>
+			<screenshot>resources/screenshot-07.jpg</screenshot>
+			<screenshot>resources/screenshot-08.jpg</screenshot>
+			<screenshot>resources/screenshot-09.jpg</screenshot>
+			<screenshot>resources/screenshot-10.jpg</screenshot>
+			<screenshot>resources/screenshot-11.jpg</screenshot>
+			<screenshot>resources/screenshot-12.jpg</screenshot>
+			<screenshot>resources/screenshot-13.jpg</screenshot>
+			<screenshot>resources/screenshot-14.jpg</screenshot>
+			<screenshot>resources/screenshot-15.jpg</screenshot>
+			<screenshot>resources/screenshot-16.jpg</screenshot>
+			<screenshot>resources/screenshot-18.jpg</screenshot>
+			<screenshot>resources/screenshot-19.jpg</screenshot>
+			<screenshot>resources/screenshot-20.jpg</screenshot>
+			<screenshot>resources/screenshot-21.jpg</screenshot>
+			<screenshot>resources/screenshot-22.jpg</screenshot>
+			<screenshot>resources/screenshot-23.jpg</screenshot>
+			<screenshot>resources/screenshot-24.jpg</screenshot>
+		</assets>
+		<news>Added Amazon Prime Submenu
+                      Added Netflix
+                      Code cleanup
+                </news>
+	</extension>
+</addon>
+
 <addon id="script.module.placenta" name="Placenta Module" version="1.7.8" provider-name="Team Afterbirth">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
@@ -1444,6 +1572,23 @@ provider-name="primaeval">
   </extension>
 </addon>
 
+<addon id="service.infocollector" name="Info Area Creator - INFO Collector" version="0.2" provider-name="TDOe">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script"
+             library="script.py">
+    <provides>executable</provides>
+    <provides>image</provides>
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup"></extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Info Area Creator - INFO Collector</summary>
+  </extension>
+</addon>
+
 <addon id="repository.xstream" name="xStream Repository" version="1.1.4" provider-name="xStream-Team">
     <extension point="xbmc.addon.repository" name="xStream Repository">
         <info compressed="false">https://raw.github.com/streamxstream/xStreamRepo/master/addons.xml</info>
@@ -1461,6 +1606,24 @@ provider-name="primaeval">
         <disclaimer lang="de">Die dargestellten Inhalte des in diesem Verzeichnis enthaltenen Addons werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Content-Anbietern.</disclaimer>
         <platform>all</platform>
     </extension>
+</addon>
+
+<addon id="service.rezap" name="PVR ReZap" version="0.0.2" provider-name="TDOe">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script"
+             library="script.py">
+    <provides>executable</provides>
+    <provides>image</provides>
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="default.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">ReZap for XBMC PVR</summary>
+  </extension>
 </addon>
 
 <addon id="plugin.video.fapzone" name="[COLOR darkgoldenrod].FapZone[/COLOR]" version="2.0.4" provider-name="@Nemzzy">

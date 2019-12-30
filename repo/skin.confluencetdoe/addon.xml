@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.confluencetdoe" version="4.2.1" name="Confluence TDOe 18" provider-name="TDOe">
+	<requires>
+		<import addon="xbmc.gui" version="5.13.0"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="1.0">
+		<res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">Confluence Skin modified by TDOe</summary>
+		<summary lang="en_GB">Confluence Skin modified by TDOe</summary>
+		<summary lang="en_US">Confluence Skin modified by TDOe</summary>
+		<description lang="de_DE">Modded Confluence um viele Deutsche Plugins zu integrieren.</description>
+		<description lang="en_GB">Modded Confluence to integrate a lot of german plugins.</description>
+		<description lang="en_US">Modded Confluence to integrate a lot of german plugins.</description>
+		<platform>all</platform>
+		<license>GNU General Public License version 2</license>
+		<forum>https://www.kodinerds.net/index.php/Thread/60454-Und-noch-ein-Confluence-MOD/</forum>
+		<website></website>
+		<email></email>
+		<source>https://github.com/tobias-d-oe/skin.confluencetdoe</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+			<screenshot>resources/screenshot-04.jpg</screenshot>
+			<screenshot>resources/screenshot-05.jpg</screenshot>
+			<screenshot>resources/screenshot-06.jpg</screenshot>
+			<screenshot>resources/screenshot-07.jpg</screenshot>
+			<screenshot>resources/screenshot-08.jpg</screenshot>
+			<screenshot>resources/screenshot-09.jpg</screenshot>
+			<screenshot>resources/screenshot-10.jpg</screenshot>
+			<screenshot>resources/screenshot-11.jpg</screenshot>
+			<screenshot>resources/screenshot-12.jpg</screenshot>
+			<screenshot>resources/screenshot-13.jpg</screenshot>
+			<screenshot>resources/screenshot-14.jpg</screenshot>
+			<screenshot>resources/screenshot-15.jpg</screenshot>
+			<screenshot>resources/screenshot-16.jpg</screenshot>
+			<screenshot>resources/screenshot-18.jpg</screenshot>
+			<screenshot>resources/screenshot-19.jpg</screenshot>
+			<screenshot>resources/screenshot-20.jpg</screenshot>
+			<screenshot>resources/screenshot-21.jpg</screenshot>
+			<screenshot>resources/screenshot-22.jpg</screenshot>
+			<screenshot>resources/screenshot-23.jpg</screenshot>
+			<screenshot>resources/screenshot-24.jpg</screenshot>
+		</assets>
+		<news>Added Amazon Prime Submenu
+                      Added Netflix
+                      Code cleanup
+                </news>
+	</extension>
+</addon>

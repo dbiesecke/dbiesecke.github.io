@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.tdoe" name="TDOe Addons Repository" version="1.0.2" provider-name="TDOe">
+	<extension point="xbmc.addon.repository" name="TDOe">
+		<info compressed="true">https://raw.githubusercontent.com/tobias-d-oe/repo.kodi.tdoe/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/tobias-d-oe/repo.kodi.tdoe/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/tobias-d-oe/repo.kodi.tdoe/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+	        <summary>Repository for Addons made by TDOe most for German community</summary>
+	        <description>Repository for Addons made by TDOe most for German community</description>
+	        <disclaimer></disclaimer>
+	        <platform>all</platform>
+	</extension>
+</addon>
+
