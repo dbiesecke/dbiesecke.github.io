@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.xstream" name="xStream" version="3.5.12~nightly" provider-name="xStream-Team">
+<addon id="plugin.video.xstream" name="xStream" version="3.5.13" provider-name="xStream-Team">
  <requires>
    <import addon="xbmc.python" version="2.14.0"/>
    <import addon="repository.xstream"/>
-   <import addon="script.module.urlresolver"/>
+<!--    <import addon="script.module.urlresolver"/> -->
    <import addon="script.module.metahandler" version="3.0.2.1"/>
    <import addon="script.module.inputstreamhelper" version="0.3.3" optional="true"/>
    <import addon="script.module.requests"/>
+   <import addon="script.module.resolveurl" version="5.0.33"/>   
  </requires>
  <extension point="xbmc.python.pluginsource" library="default.py">
    <provides>video</provides>
@@ -20,7 +21,11 @@
    <platform>all</platform>
    <news>
 xStream 3.5.12~nightly
-- [kinoger] fix hoster and serien
+- [hdfilme] fix fehlerhafte site
+- [parser] py23 kompatibel
+- add requestHandler2 beta for cloudflare
+- [moviedream] fix nextpage
+- [flimmerstube] fix search
 - [filmpalast] fix nextpage
 - [flimmerstube] youtube erkennung eingebaut und fix hoster youtube usw
 - [kindertube] youtube erkennung eingebaut usw

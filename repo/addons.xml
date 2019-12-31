@@ -424,14 +424,15 @@ oder online unter https://goo.gl/GtK41L nachlesen.
     </extension>
 </addon>
 
-<addon id="plugin.video.xstream" name="xStream" version="3.5.12~nightly" provider-name="xStream-Team">
+<addon id="plugin.video.xstream" name="xStream" version="3.5.13" provider-name="xStream-Team">
  <requires>
    <import addon="xbmc.python" version="2.14.0"/>
    <import addon="repository.xstream"/>
-   <import addon="script.module.urlresolver"/>
+<!--    <import addon="script.module.urlresolver"/> -->
    <import addon="script.module.metahandler" version="3.0.2.1"/>
    <import addon="script.module.inputstreamhelper" version="0.3.3" optional="true"/>
    <import addon="script.module.requests"/>
+   <import addon="script.module.resolveurl" version="5.0.33"/>
  </requires>
  <extension point="xbmc.python.pluginsource" library="default.py">
    <provides>video</provides>
@@ -445,7 +446,11 @@ oder online unter https://goo.gl/GtK41L nachlesen.
    <platform>all</platform>
    <news>
 xStream 3.5.12~nightly
-- [kinoger] fix hoster and serien
+- [hdfilme] fix fehlerhafte site
+- [parser] py23 kompatibel
+- add requestHandler2 beta for cloudflare
+- [moviedream] fix nextpage
+- [flimmerstube] fix search
 - [filmpalast] fix nextpage
 - [flimmerstube] youtube erkennung eingebaut und fix hoster youtube usw
 - [kindertube] youtube erkennung eingebaut usw
@@ -1543,6 +1548,42 @@ provider-name="primaeval">
     <news>
     </news>
   </extension>
+</addon>
+
+<addon id="skin.horizonzv.test" name="Horizonz V (Kodi 18)" version="1.18.0.42" provider-name="blauesgruen">
+	<requires>
+		<import addon="xbmc.gui" version="5.14.0"/>
+		<import addon="script.image.resource.select" version="2.0.1"/>
+		<import addon="resource.images.languageflags.colour" version="0.0.4"/>
+		<import addon="resource.images.weathericons.outline-hd" version="0.0.3"/>
+		<import addon="service.library.data.provider" version="0.3.0"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.55">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080p" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary>Skin von blauesgruen / Initiator mad-max</summary>
+		<description>ACHTUNG !![CR]Dieser Skin wird ab Kodi 18 Final eine neue ID (Ordner) bekommen.[CR]Somit sind eure Einstellungen wieder auf "default".[CR]Im /userdata/addon_data/ liegt aber ein Ordner mit dem Namen "skin.horizonzv.test".[CR]Entfernt einfach das ".test" und es sollten wieder eure Einstellungen zu sehen sein.[CR][CR]Unterstütze Addons:[CR]Artist Slide Show[CR]Artwork Downloader[CR]CDArt Manager[CR]Extended Info Script[CR]Global Search[CR]Fritz Smart Home (by Birger Jesch)[CR]German Telecast Offers (by Birger Jesch)[CR]KN Switchtimer Service (by Birger Jesch)[CR]Library Node Editor[CR]NewsCenter[CR]Serienplaner[CR]Skinhelper Ping (by _Andy_)[CR].[CR].[CR].</description>
+		<disclaimer>Ursprünglich basierte der Skin auf den Mockups von xb2iris Skin "Horizonz".</disclaimer>
+		<platform>all</platform>
+		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
+        <email></email>
+		<forum>http://kodinerds.net/</forum>
+		<source>https://github.com/kodinerds/repo/tree/master/skin.horizonz</source>
+			<assets>
+			   <icon>resources/icon.png</icon>
+			   <fanart>resources/fanart.jpg</fanart>
+			   <screenshot>resources/screenshot-01.jpg</screenshot>
+			   <screenshot>resources/screenshot-02.jpg</screenshot>
+			   <screenshot>resources/screenshot-03.jpg</screenshot>
+			   <screenshot>resources/screenshot-04.jpg</screenshot>
+			   <screenshot>resources/screenshot-05.jpg</screenshot>
+			   <screenshot>resources/screenshot-06.jpg</screenshot>
+			   <screenshot>resources/screenshot-07.jpg</screenshot>
+			   <screenshot>resources/screenshot-08.jpg</screenshot>
+		   </assets>
+	</extension>
 </addon>
 
 <addon id="plugin.video.tvone11" name="tvOne11" version="18" provider-name="RACC">
