@@ -47,7 +47,6 @@ icons:
 	@find . -iname "icon*.bak" -delete 2>/dev/null ; echo
 	
 icon: icons convert-icons
-
 	@find ./icons/ -iname "*video*" -exec basename "{}" \; | awk  '{print " !["$$1"](https://dbiesecke.github.io/repo/icons/"$$1")"}' 
 
 build:  icon
