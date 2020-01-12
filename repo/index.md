@@ -4,8 +4,7 @@
 
 IPTV Streams 74
 Video Addons (Repo): 23
-#find  -maxdepth 1 -iname "*" | sort | parallel cp "{}/icon.png" "icons/{}.png"
-find ./icons/ -iname "*video*" -exec basename "{}" \; | awk  '{print " !["$1"](https://dbiesecke.github.io/repo/icons/"$1")"}' 
+make[1]: Verzeichnis „/home/user/dbiesecke.github.io/repo“ wird betreten
  ![plugin.video.PsycoTV.png](https://dbiesecke.github.io/repo/icons/plugin.video.PsycoTV.png)
  ![script.video.F4mProxy.png](https://dbiesecke.github.io/repo/icons/script.video.F4mProxy.png)
  ![plugin.video.tagesschau.png](https://dbiesecke.github.io/repo/icons/plugin.video.tagesschau.png)
@@ -13,7 +12,6 @@ find ./icons/ -iname "*video*" -exec basename "{}" \; | awk  '{print " !["$1"](h
  ![plugin.video.fapzone.png](https://dbiesecke.github.io/repo/icons/plugin.video.fapzone.png)
  ![plugin.video.L0RE.dmax.png](https://dbiesecke.github.io/repo/icons/plugin.video.L0RE.dmax.png)
  ![plugin.video.pseudo.companion.png](https://dbiesecke.github.io/repo/icons/plugin.video.pseudo.companion.png)
- ![context.video.favourites-0.0.1.png](https://dbiesecke.github.io/repo/icons/context.video.favourites-0.0.1.png)
  ![plugin.video.iptvsimple.addons.png](https://dbiesecke.github.io/repo/icons/plugin.video.iptvsimple.addons.png)
  ![plugin.video.f4mTester.png](https://dbiesecke.github.io/repo/icons/plugin.video.f4mTester.png)
  ![plugin.video.L0RE.arte.png](https://dbiesecke.github.io/repo/icons/plugin.video.L0RE.arte.png)
@@ -23,6 +21,7 @@ find ./icons/ -iname "*video*" -exec basename "{}" \; | awk  '{print " !["$1"](h
  ![plugin.video.genesisreborn.png](https://dbiesecke.github.io/repo/icons/plugin.video.genesisreborn.png)
  ![plugin.video.pseudo.library.png](https://dbiesecke.github.io/repo/icons/plugin.video.pseudo.library.png)
  ![plugin.video.arteplussept.png](https://dbiesecke.github.io/repo/icons/plugin.video.arteplussept.png)
+make[1]: Verzeichnis „/home/user/dbiesecke.github.io/repo“ wird verlassen
 
 
 # Packages

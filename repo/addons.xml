@@ -1526,31 +1526,6 @@ Auch die aktuelle Tabelle der 1. und 2. Bundesliga kann angezeigt werden.
 	</extension>
 </addon>
 
-<addon id="context.video.favourites"
-version="0.0.1"
-name="Video Favourites Context Menu"
-provider-name="primaeval">
-<requires>
-  <import addon="xbmc.python" version="2.20.0"/>
-  <import addon="script.module.xbmcswift2" version="2.4.0"/>
-  <import addon="script.module.requests" version="2.9.1" />
-  <import addon="plugin.video.favourites" version="0.0.1" />
-</requires>
-<extension point="kodi.context.item">
-<menu id="kodi.core.main">
-  <item library="context.py">
-    <label>[COLOR goldenrod]Video Favourites[/COLOR]</label>
-    <visible>True</visible>
-  </item>
-</menu>
-</extension>
-<extension point="xbmc.addon.metadata">
-  <summary lang="en">Video Favourites Context Menu</summary>
-  <description lang="en"></description>
-  <disclaimer lang="en">.</disclaimer>
-</extension>
-</addon>
-
 <addon id="script.video.F4mProxy" name="F4mProxy" version="2.8.8" provider-name="Shani">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />

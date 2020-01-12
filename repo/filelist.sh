@@ -5,7 +5,7 @@ echo ''
 echo ''
 echo 'IPTV Streams' $(cat plugin.video.iptvsimple.addons/resources/streams.m3u8| grep -v '#' | wc -l)
 echo 'Video Addons (Repo):' $(find . -iname "*.zip" | grep "plugin.video" | wc -l)
-make icon
+make icon 2>/dev/null
 echo ''
 echo ''
 echo '# Packages'
