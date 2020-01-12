@@ -67,30 +67,106 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.tvone111" name="tvOne111" version="v10" provider-name="RACC">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.pyamf" />
-    <import addon="script.module.livestreamer" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.routing" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <reuselanguageinvoker>true</reuselanguageinvoker>
-    <summary lang="en_gb">tvOne111</summary>
-    <description lang="en_gb">tvOne111</description>
-    <disclaimer lang="en_gb"></disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license></license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source></source>
-  </extension>
+<addon id="plugin.video.zappntv" name="Zappn TV" version="1.2.5" provider-name="fayer3">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.routing" version="0.2.0"/>
+        <import addon="script.module.inputstreamhelper" version="0.3.5"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.python.library" library="favorite.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="de_DE">ZAPPN TV Levestream und Mediathek</summary>
+        <description lang="de_DE">Livestream von den Österreichischen Sendern ORF 1, ORF 2, Puls 4, Puls 24, ATV, ATV2, ProSieben, Sat.1, Kabel 1, Sixx, Prosieben Maxx, Sat.1 GOLD und Kabel 1 Doku sowie Mediathek von Puls 4, ATV, Kabel 1, Sat.1, Sixx, Prosieben, Prosieben Maxx, Sat.1 Gold und Kabel 1 Doku.</description>
+        <disclaimer lang="de_DE">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Anbietern des Inhalts.</disclaimer>
+        <summary lang="en_GB">PZAPPN TV Levestream and Mediathek</summary>
+        <description lang="en_GB">Livestream of the Austrian channels ORF 1, ORF 2, Puls 4, Puls 24, ATV, ATV2, ProSieben, Sat.1, Kabel 1, Sixx, Prosieben Maxx, Sat.1 GOLD and Kabel 1 Doku and the mediatek of Puls 4, ATV, Kabel 1, Sat.1, Sixx, Prosieben, Prosieben Maxx, Sat.1 Gold and Kabel 1 Doku.</description>
+        <disclaimer lang="en_GB">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.</disclaimer>
+        <language></language>
+        <platform>all</platform>
+        <license>GPL-3.0</license>
+        <forum>https://www.kodinerds.net/index.php/Thread/66455-Release-ZAPPN-TV/</forum>
+        <website>https://zappn.tv/</website>
+        <email>fb4472 (at) aon.at</email>
+        <source>https://github.com/fayer3/plugin.video.zappntv</source>
+        <news>- Möglichkeit hinzugefügt, Serien über Rechtsklick zu favoriten hinzuzufügen
+- Suche auf Betriebsystemen mit Multiprozess unterstützung beschleunigt (alles außer Android)
+1.2.2:
+- pfade für neue plugin routing addon angepasst, zerstört leider alte gespeicherte Favoriten, diese müssen neu hinzugefügt werden.
+1.2.3:
+- hinzufügen von favoriten repariert.
+1.2.4:
+- Neue Sender Hinzugefügt.
+- Abspielen von livestreams mit Python3 repariert.
+1.2.5:
+- Livestream Abschnitt behoben, wenn ein Stream kein Epg hat.</news>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.png</fanart>
+            <screenshot>resources\screenshot-01.jpg</screenshot>
+            <screenshot>resources\screenshot-02.jpg</screenshot>
+            <screenshot>resources\screenshot-03.jpg</screenshot>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.video.iptvsimple.addons" version="0.0.8" name="IPTV Addons" provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.26.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+  <import addon="script.module.beautifulsoup4"  />
+  <import addon="plugin.video.tagesschau"  />
+  <import addon="plugin.video.tvone"  />
+  <import addon="plugin.video.PsycoTV"  />
+  <import addon="plugin.video.L0RE.arte"  />
+  <import addon="plugin.video.zappntv"  />
+
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.service" library="server.py" start="login"/>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Add addon streams to IPTV Simple Client</summary>
+  <description lang="en"></description>
+  <disclaimer lang="en"></disclaimer>
+</extension>
+</addon>
+
+<addon id="plugin.video.L0RE.arte" name="ARTE.TV" version="0.6.0" provider-name="L0RE">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">Videoportal von ARTE (DE/FR)</summary>
+		<summary lang="en_GB">Videoportal of ARTE (DE/FR)</summary>
+		<description lang="de_DE">Mediathek und Livestream - Schwerpunkte sind Kultur, Europa und die Vermittlung von Informationen aus vorzugsweise ungewöhnlichen Perspektiven.[CR]Reportagen, Serien, Filme, Dokus, Magazine - Die Programme von ARTE online auf arte.tv.</description>
+		<description lang="en_GB">Media library and Livestream - focus is Culture, Europe and the transmission of information from preferably unusual Perspectives.[CR]Reports, Series, Movies, Documentaries, Magazines - The programs of ARTE online on arte.tv.</description>
+		<disclaimer lang="de_DE">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Anbietern des Inhalts.</disclaimer>
+		<disclaimer lang="en_GB">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.</disclaimer>
+		<language></language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum>https://www.kodinerds.net/index.php/Thread/55451-L0REs-Blog/</forum>
+		<website>https://www.arte.tv/</website>
+		<email></email>
+		<source>https://github.com/kodinerds/repo/tree/master/plugin.video.L0RE.arte</source>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news>[B][COLOR orangered]Version 0.6.0  (01.12.2019)[/COLOR][/B] by realvito[CR]
+- fixed: Rubrik = Themen kein Inhalt und Fehler wird angezeigt (läuft jetzt auch über die API)
+- fixed: Suche mit Umlauten im Suchbegriff erzeugt Fehler
+- fixed: UnicodeEncodeError für 'time.strftime' und Sondersymbole unter Python-3 (KODI-Matrix)
+		</news>
+	</extension>
 </addon>
 
 <addon id="plugin.video.PsycoTV"
@@ -269,6 +345,39 @@
             <icon>icon.png</icon>
         </assets>
     </extension>
+</addon>
+
+<addon id="plugin.video.L0RE.dmax" name="DMAX Mediathek" version="1.0.8" provider-name="L0RE">
+	<requires>
+		<import addon="xbmc.python" version="2.24.0"/>
+		<import addon="service.L0RE.cron" version="1.0.1" optional="true"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">DMAX Mediathek</summary>
+		<summary lang="en_GB">DMAX Mediathek</summary>
+		<description lang="de_DE">DMAX - der TV Sender. So läuft das hier ! Wann und wo du willst: Action, Abenteuer, Lifestyle. Echte Unterhaltung für echte Kerle. Nur auf dmax.de natürlich !</description>
+		<description lang="en_GB">DMAX - the TV station. That's how it works here ! When and where you want: action, adventure, lifestyle. Real entertainment for real guys. Only on dmax.de of course !</description>
+		<disclaimer lang="de_DE">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Anbietern des Inhalts.</disclaimer>
+		<disclaimer lang="en_GB">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.</disclaimer>
+		<language></language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 1991</license>
+		<forum>https://www.kodinerds.net/index.php/Thread/55451-L0REs-Blog/</forum>
+		<website>https://www.dmax.de</website>
+		<email></email>
+		<source>https://github.com/kodinerds/repo/tree/master/plugin.video.L0RE.dmax</source>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news>[B][COLOR orangered]Version 1.0.8  (20.10.2019)[/COLOR][/B] by realvito[CR]
+- fixed: Titelanzeige aller Serien-Episoden fehlerhaft
+- fixed: Übertragung und Anzeige in die Medienbibliothek funktioniert nicht korrekt, wenn "&amp;" im Namen der Serie vorkommt
+		</news>
+	</extension>
 </addon>
 
 <addon id="plugin.video.osmosis" name="OSMOSIS" version="1.3.2" provider-name="Stereodruid, Maven85, gismo112">
@@ -674,6 +783,33 @@ xStream 3.5.11
     </extension>
 </addon>
 
+<addon
+    id="plugin.video.tagesschau"
+    version="2.2.2"
+    name="Tagesschau"
+    provider-name="Jörn Schumacher, Henning Saul">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"></import>
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="tagesschau.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>de</language>
+    <platform>all</platform>
+    <summary lang="de">Die Nachrichten der ARD</summary>
+    <summary lang="en">News from Germany's public broadcaster ARD</summary>
+    <description lang="de">
+      Die Nachrichten der ARD mit aktuellen Videos, kompletten Sendungen und Hintergrundberichten.
+    </description>
+    <description lang="en">
+      News in German from Germany's trusted public broadcaster ARD, featuring current videos, complete broadcasts and background information.
+    </description>
+    <disclaimer lang="en">Videos from tagesschau.de</disclaimer>
+  </extension>
+</addon>
+
 <addon id="script.module.ATFmobdro" name="ATF Mobdro" version="1.6" provider-name="Maverick">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -755,30 +891,67 @@ xStream 3.5.11
 	</extension>
 </addon>
 
-<addon id="plugin.video.tvone1111" name="tvOne1111" version="99.99.9999" provider-name="RACC">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.pyamf" />
-    <import addon="script.module.livestreamer" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.routing" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <reuselanguageinvoker>true</reuselanguageinvoker>
-    <summary lang="en_gb">tvOne1111</summary>
-    <description lang="en_gb">tvOne1111</description>
-    <disclaimer lang="en_gb"></disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license></license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source></source>
-  </extension>
+<addon id="plugin.video.joyn" name="Joyn" version="2.3.1" provider-name="knaerzche">
+	<requires>
+		<import addon="xbmc.python" version="2.26.0"/>
+		<import addon="inputstream.adaptive" version="2.2.21"/>
+		<import addon="script.module.inputstreamhelper" version="0.3.5"/>
+		<import addon="script.module.uepg" version="1.0.5"/>
+		<import addon="script.module.simplejson" version="3.3.0" optional="true"/>
+		<import addon="script.module.pydes" version="2.0.1" optional="true"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="login"/>
+	<extension point="xbmc.addon.metadata">
+		<reuselanguageinvoker>true</reuselanguageinvoker>
+		<summary lang="en_GB">Joyn Video On Demand  and Live TV</summary>
+		<summary lang="de_DE">Joyn Video On Demand and Live TV</summary>
+		<description lang="en_GB">Watch VOD content und Live TV provided by Joyn</description>
+		<description lang="de_DE">Video On Demand und Live TV von Joyn</description>
+		<disclaimer lang="en_GB">The use of this addon may violate the terms and conditions of Joyn GmbH - especially, but not exclusively, if it is used outside of Germany.</disclaimer>
+		<disclaimer lang="de_DE">Die Nutzung dieses Addon verstösst eventuell gegen die AGB der Joyn GmbH - insbesondere, aber nicht ausschliesslich, wenn es außerhalb von Deutschland verwendet wird</disclaimer>
+		<language></language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum>https://www.kodinerds.net/index.php/Thread/66679-Pre-Release-Joyn-VOD-Live/?postID=537817</forum>
+		<website>https://www.joyn.de/</website>
+		<email>knaerzche at gmail dot com</email>
+		<source>https://github.com/knaerzche/plugin.video.joyn</source>
+		<assets>
+			<icon>resources/media/icon.png</icon>
+			<fanart>resources/media/fanart.jpg</fanart>
+			<clearlogo>resources/media/logo.gif</clearlogo>
+			<screenshot>resources/media/screenshot01.jpg</screenshot>
+			<screenshot>resources/media/screenshot02.jpg</screenshot>
+			<screenshot>resources/media/screenshot03.jpg</screenshot>
+		</assets>
+		<news>
+v2.3.1
+improve addon overall addon performance by reusing languageinvoker/splitting into submodules/logging on demand only
+create singleton-instances on per addon-handle basis
+cache epg/landing-page in libjoyn-instance
+fix playback on OSX
+create fake-uuid for allwinner android sdk level 24 (importing uuid module crashes kodi)
+implement own get_node() and make it more unique (espacially on android)
+fix set sort as per settings on matrix
+use window.setProperty for asset_id instead of 'hiding' in it imdb-infolabel
+make sure only playback for this addon is tracked in service.py
+fix relogin issue, when decrypting username/password fails
+fix language files
+v2.3.0
+add api-based resume postions
+partly fixed live stream audio sync issue
+add save username/password option
+add option to show categories in main menu
+add ask-for-login dialog on first addon start
+show content based on current subscription
+add option to hightlight premium content
+rework some stuff
+
+		</news>
+	</extension>
 </addon>
 
 <addon id="script.extendedinfo" name="OpenInfo" version="6.2.3" provider-name="A4K">
@@ -861,6 +1034,58 @@ xStream 3.5.11
     <email></email>
     <source></source>
   </extension>
+</addon>
+
+<addon id="plugin.video.arteplussept" name="Arte +7" version="1.0.2" provider-name="bmf">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0"/>
+        <import addon="script.module.xbmcswift2" version="2.4.0"/>
+        <import addon="script.module.requests" version="2.9.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="resources/lib/addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Arte +7</summary>
+        <language>fr de en</language>
+        <description lang="fr">
+Regardez les vidéos de Arte +7
+Pour toute demande ou reporter un problème:
+https://github.com/known-as-bmf/plugin.video.arteplussept/issues
+Les contributions sont les bienvenues:
+https://github.com/known-as-bmf/plugin.video.arteplussept
+        </description>
+        <description lang="de">
+Sehen Sie Videos von Arte +7
+Für Fehlerberichte und Verbesserungsvorschläge:
+https://github.com/known-as-bmf/plugin.video.arteplussept/issues
+Mithilfe ist willkommen:
+https://github.com/known-as-bmf/plugin.video.arteplussept
+        </description>
+        <description lang="en">
+Watch videos from Arte +7
+For feature requests / issues:
+https://github.com/known-as-bmf/plugin.video.arteplussept/issues
+Contributions are welcome:
+https://github.com/known-as-bmf/plugin.video.arteplussept
+        </description>
+        <license>MIT</license>
+        <source>https://github.com/known-as-bmf/plugin.video.arteplussept.git</source>
+        <!--<forum></forum>
+        <email></email>-->
+        <website>http://www.arte.tv</website>
+        <news>
+        v1.0.2
+        - weekly browse
+        - bugfix (settings parsing #54)
+        v1.0.1
+        - major bug hotfix
+        v1.0.0
+        - brand new version
+        - support for new arte api
+        </news>
+    </extension>
 </addon>
 
 <addon id="script.module.universalscrapers" name="Universal Scrapers" version="1.2.1" provider-name="Team Universal">
@@ -1447,6 +1672,41 @@ provider-name="primaeval">
 	</extension>
 </addon>
 
+<addon id="plugin.video.L0RE.spiegeltv" name="SPIEGEL.TV" version="1.0.1" provider-name="L0RE">
+	<requires>
+		<import addon="xbmc.python" version="2.24.0"/>
+		<import addon="script.module.beautifulsoup4" version="4.3.2"/>
+		<import addon="script.module.youtube.dl"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">Aktuelles auf Spiegel TV</summary>
+		<summary lang="en_GB">News on Spiegel TV</summary>
+		<description lang="de_DE">SPIEGEL TV zeichnet sich durch schnelles Reagieren auf aktuelle Ereignisse sowie sorgfältig recherchierte investigative Hintergrundgeschichten aus. Die Themen umfassen aktuelle deutsche und internationale Politik, Wirtschaft und Gesellschaft.[CR]Hier gibt es Reportagen und Dokus von SPIEGEL TV aus den Bereichen Politik, Wirtschaft, Gesellschaft, Kultur, Sport, Technik und Wissenschaft.</description>
+		<description lang="en_GB">SPIEGEL TV is characterized by fast reaction to current events as well as carefully researched background stories. The topics include current German and international politics, business and society.[CR]Here are reports and documentaries by SPIEGEL TV in the fields of politics, economics, society, culture, sports, technology and science.</description>
+		<disclaimer lang="de_DE">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Anbietern des Inhalts.</disclaimer>
+		<disclaimer lang="en_GB">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.</disclaimer>
+		<language></language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum>https://www.kodinerds.net/index.php/Thread/55451-L0REs-Blog/</forum>
+		<website>https://www.spiegel.tv/</website>
+		<email></email>
+		<source>https://github.com/kodinerds/repo/tree/master/plugin.video.L0RE.spiegeltv</source>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news>[B][COLOR orangered]Version 1.0.1  (14.07.2019)[/COLOR][/B] by realvito[CR]
+- fixed: Rubrik = Sendungen Fehler beim öffnen des Ordners
+- fixed: Rubrik = Studios es wird KEIN Inhalt angezeigt
+- added: Rubrik = Popcorn, WEB-TV Playliste
+		</news>
+	</extension>
+</addon>
+
 <addon id="plugin.video.aod" name="Anime on Demand" version="0.6.5" provider-name="L0RE">
 	<requires>
 		<import addon="xbmc.python" version="2.24.0"/>
@@ -1702,33 +1962,6 @@ provider-name="primaeval">
     <language/>
     <website>https://www.matthuisman.nz/2019/02/iptv-merge-kodi-add-on.html</website>
     <news>Update common</news>
-  </extension>
-</addon>
-
-<addon id="service.thoradia"
-       name="Thoradia Add-ons"
-       version="0.0.23"
-       provider-name="thoradia">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.service" library="default.py">
-    <provides></provides>
-  </extension>
-  <extension point="xbmc.addon.repository">
-    <datadir zip="true">TBD</datadir>
-    <info>TBD</info>
-    <checksum>TBD</checksum>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Thoradia Add-ons: add-on repository</summary>
-    <description>
-Thoradia Add-ons
-    </description>
-    <disclaimer>
-Keep it legal and carry on
-    </disclaimer>
-    <platform>all</platform>
   </extension>
 </addon>
 

@@ -1,0 +1,94 @@
+
+0.0.2.1
+- Tidy up, fix season images
+0.0.3.0
+- Add Categories, Search and EPG for Live TV
+- Unify artwork
+0.0.3.1
+Increase EPG offset
+v0.0.4.1
+ - Add Favorites, Last seen, EPG via uEPG, more sort methods for videos
+ - fixed Season name, speedup categories fetching
+ - full PY 3.7 compat
+v0.0.4.2
+- Add sort by date for watchlist
+v1.0.0
+bump inputstreamhelper version requirement
+automatic country detection; prepare mult-country support
+increase script.module.inputstreamhelper version dependency
+open inputstream.adaptive, uEPG setting from addon settings
+clear cache from addon settings
+v1.1.0
+fixed:  translation errors; changed nameing of some settings
+fixed:  max. 30 episodes per season where shown
+fixed:  string multline-error for Android user agent
+fixed:  use correct translation setting for ip-api country detection
+fixed:  add/remove category with unicode letters to/from watchlist
+new:  added cast information for season/episodes (if available)
+new:  changed Studio infomation from channelname to copyright owner
+new:  add clearlogo for episodes (if available)
+new:  option to exclude watchlist from lastseen
+new:  add correct contentype for each foldertype
+new:  set viewtype for each contenttype in addon settings (can be disabled (if you like your lists))
+new:  set sort order for episodes/seasons in addon settings (default descending as on Joyn Website)
+new:  show title according to container content
+new:  option to disable folder cache
+new:  some performance improvements
+v1.1.3
+fix: Secret Idx changed
+v1.1.4
+fix: Secret Idx changed again, add fallback for newly changed index
+v1.9.6
+implement new GraphQL API
+improve Py3 support
+v2.0.0
+make old livetv url work again
+show recommendation
+implement (anonymous) auth
+option to show epsiodes immediately
+improve secret detection
+v2.0.5
+add support from PlayReady DRM
+add preliminary for foreign countries
+add proxy settings
+add slection for joyn platform
+fixed dates in far future on 32-bit platforms
+add support for movies
+v2.0.6
+implement simple caching system
+favor simplejson for json processing
+v2.0.8
+workaround ip-api.com error
+v2.2.0
+implement sign-in
+implement joyn bookmarks
+implement 'Plus+'
+implement MPAA-Pin setting
+v2.2.1
+fix: re-set container-focus after 'refresh'
+v2.2.2
+fixed: re-set container-focus fails on some systems
+refix access to ip-api.com fails
+add usage disclaimer
+v2.3.0
+add api-based resume postions
+partly fixed live stream audio sync issue
+add save username/password option
+add option to show categories in main menu
+add ask-for-login dialog on first addon start
+show content based on current subscription
+add option to hightlight premium content
+rework some stuff
+v2.3.1
+improve addon overall addon performance by reusing languageinvoker/splitting into submodules/logging on demand only
+create singleton-instances on per addon-handle basis
+cache epg/landing-page in libjoyn-instance
+fix playback on OSX
+create fake-uuid for allwinner android sdk level 24 (importing uuid module crashes kodi)
+implement own get_node() and make it more unique (espacially on android)
+fix set sort as per settings on matrix
+use window.setProperty for asset_id instead of 'hiding' in it imdb-infolabel
+make sure only playback for this addon is tracked in service.py
+fix relogin issue, when decrypting username/password fails
+fix language files
+make sure addon is used on kodi >= 18

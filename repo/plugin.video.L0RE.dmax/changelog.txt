@@ -1,0 +1,42 @@
+﻿[B]Version 0.1  (20.01.2018)[/B]
+- Initial release @L0RE
+- after web page changes
+...
+
+[B]Version 1.0.1  (07.10.2018)[/B] by realvito[CR]
+- fixed: in der Rubrik "Alle Sendungen" fehlen einige Serien
+- fixed: Vereinzelt werden KEINE Episoden angezeigt, obwohl Sie vorhanden sind (z.B. Specials)
+- fixed: Info-Meldung wenn zurzeit KEINE Episoden im Serien-Ordner verfügbar sind
+- fixed: Fehler wenn Abspielen mit "inputstream.adaptive" ausgewählt wurde, aber "inputstream.adaptive" NICHT aktiviert ist
+- added: Neueste Episoden im Ordner oben anzeigen (settings)
+- added: Eigene DMAX-Favoriten anlegen (RechtsKlick-Menü)
+- optimized: Die Rubrik "Themen" wird jetzt direkt von der WebSeite ausgelesen (damit Diese immer aktuell und vollständig ist)
+- optimized: Neue Struktur der "tvshow.nfo" für die Serie und neue Struktur der ".nfo" für jede Episode, wenn zur Medienbibliothek hinzufügen aktiviert ist (settings)
+- optimized: Übertragung von Umlauten in die KODI-Medienbibliothek (Filter für Sonderzeichen-Windows)
+- * WICHTIG : Es kann evtl. sein, dass zuvor mit diesem Addon angelegte Einträge in der KODI-Medienbibliothek neuerstellt werden müssen, weil sich die Namensstruktur geändert hat *
+
+[B]Version 1.0.2  (21.01.2019)[/B] by realvito[CR]
+- fixed: Fehler bei Auflistung der Serien, wenn KEIN Plot vorhanden ist
+- fixed: Rubrik "Highlights" - Fehler beim Öffnen vereinzelter Sendungen, da KEINE ID vorhanden ist (Sendungen ohne ID werden herausgefiltert)
+
+[B]Version 1.0.3  (26.06.2019)[/B] by mobsean[CR]
+- fixed: Some Series got Special Episodes, they are now listed in the normal Episodelist (Issue #102 on Github)
+
+[B]Version 1.0.4  (29.06.2019)[/B] by realvito[CR]
+- fixed: Rubrik = Alle Sendungen und Sendungen sortiert nach Beliebtheit - Fehler beim öffnen der Ordner (verirrte Sendungen die es gar nicht gibt)
+- fixed: Mehrfache Favoriteneinträge möglich, obwohl schon gespeichert
+- fixed: Laufzeitanzeige in der Bibliothek für Episoden die länger als 60 Minuten sind
+- optimized: Kleine Nachbesserrung für den Fix von User @mobsean für die Bibliothekfunktion: Sobald reguläre Episoden einer Serie vorhanden waren wurden die Specials nicht mehr angezeigt
+
+[B]Version 1.0.5+1.0.6  (30.06.2019)[/B] by realvito[CR]
+- returned: Änderungen in Zeile 638 verworfen !!!
+- fixed: UnicodeDecodeError: 'ascii' codec can't decode...
+- optimized: Serienordner mit neuen Episoden - gekennzeichnet (@mobsean)
+
+[B]Version 1.0.7  (17.08.2019)[/B] by realvito[CR]
+- fixed: Rubrik = Themen - Ordner ist leer
+- added: Weitere Sortiermethoden für Episoden u.a. Name, Datum, Dauer (settings)
+
+[B]Version 1.0.8  (20.10.2019)[/B] by realvito[CR]
+- fixed: Titelanzeige aller Serien-Episoden fehlerhaft
+- fixed: Übertragung und Anzeige in die Medienbibliothek funktioniert nicht korrekt, wenn "&" im Namen der Serie vorkommt

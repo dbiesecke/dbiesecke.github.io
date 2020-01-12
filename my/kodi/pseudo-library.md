@@ -1,11 +1,11 @@
-Pseudo Library
-========================================
+Pseudo Library - plugin.video.pseudo.library
+==================================================
 
 * Dieses Plugin ermöglicht per XML File die möglichkeit automatisch Plugin's in datein zu verwandeln.
 
 | Name                       	| DL 	| INFO 	| BETA?	|
 |----------------------------	|----	|------	|-----	|
-| Pseudo Library         	|[repo](https://github.com/Lunatixz/XBMC_Addons/blob/master/zips/repository.lunatixz/repository.lunatixz-1.0.zip)    	|      	[forum.kodi.tv](http://forum.kodi.tv/showthread.php?tid=205148)												|  YES!	|
+| Pseudo Library            	|[repo](https://github.com/Lunatixz/XBMC_Addons/blob/master/zips/repository.lunatixz/repository.lunatixz-1.0.zip)    	|      	[forum.kodi.tv](http://forum.kodi.tv/showthread.php?tid=205148)												|  YES!	|
 
 
 

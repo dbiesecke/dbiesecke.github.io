@@ -4,11 +4,11 @@
 # OBJDIR = obj
 # COBJS = $(patsubst src/%.c, $(OBJDIR)/%.o, $(CSRC))
 # LIBFLAGS = -L$(BINDIR) -lhello -lhotpatch
-
+PWD = $(pwd)
 ZIPS = $(wildcard */*.zip)
 BLA = (plugin.video.iptvsimple.addons script.trakt plugin.video.xstream plugin.video.openmeta plugin.video.gdrive pvr.iptvsimple pvr.zattoo plugin.video.lastship)
 
-all: build commit
+all: build
 
 backup_external:
 
@@ -36,8 +36,14 @@ sync:
 	@unzip -o "kdc/*" >/dev/null
 
 build:  
-	python repo_prep.py
-	
+	@test -d build || mkdir build
+	@find . -maxdepth 2 -iname "*.pyo" -delete 
+	@rsync -r ./* ./build/ ; echo true
+	@cd build && python ./repo_prep.py ; cd ..
+	@rsync -cvr ./build/* .
+	find . -maxdepth 2 -iname "*.zip" 
+	@rm -fR build
+
 commit: 
 	git add . --all 
 	git commit -a -m "new addons" && git push --all

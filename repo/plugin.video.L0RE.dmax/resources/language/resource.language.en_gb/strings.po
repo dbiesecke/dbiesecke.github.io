@@ -1,0 +1,234 @@
+﻿# Kodi Media Center language file
+# Addon Name: DMAX Mediathek
+# Addon id: plugin.video.L0RE.dmax
+# Addon Provider: L0RE
+msgid ""
+msgstr ""
+"Project-Id-Version: KODI-Addons\n"
+"Report-Msgid-Bugs-To: alanwww1@kodi.org\n"
+"POT-Creation-Date: 2018-10-07 11:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: realvito\n"
+"Language-Team: LANGUAGE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "Addon Summary"
+msgid "DMAX Mediathek"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "DMAX - the TV station. That's how it works here ! When and where you want: action, adventure, lifestyle. Real entertainment for real guys. Only on dmax.de of course !"
+msgstr ""
+
+# strings start
+# SETTINGS-CATEGORIES
+
+msgctxt "#30000"
+msgid "General"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Media Library"
+msgstr ""
+
+# empty strings from id 30002 to 30109
+# SETTINGS-BUTTONS
+
+msgctxt "#30110"
+msgid "     Play Videos with [COLOR yellow]*Inputstream.Adaptive*[/COLOR] (since KODI-17+ possible)"
+msgstr ""
+
+msgctxt "#30111"
+msgid "     Sorting of Episodes"
+msgstr ""
+
+msgctxt "#30112"
+msgid "Highest Episodenumber display on top"
+msgstr ""
+
+msgctxt "#30113"
+msgid "Other methods to choose from"
+msgstr ""
+
+msgctxt "#30114"
+msgid "     Use Thumb as Background-Fanart"
+msgstr ""
+
+msgctxt "#30115"
+msgid "     Show Addon-Settings in the overview"
+msgstr ""
+
+msgctxt "#30116"
+msgid "     Activate DMAX-Media-Library"
+msgstr ""
+
+msgctxt "#30117"
+msgid "     DMAX-Media-Folder (for .strm- and .nfo- Files)"
+msgstr ""
+
+msgctxt "#30118"
+msgid "     Update of the DMAX-Library (in Hours)"
+msgstr ""
+
+# empty strings from id 30119 to 30229
+# SETTINGS-TITLES
+
+msgctxt "#30230"
+msgid "[B][COLOR ff0099ff]PLAY[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30231"
+msgid "[B][COLOR ff0099ff]EPISODES[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30232"
+msgid "[B][COLOR ff0099ff]FANART[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30233"
+msgid "[B][COLOR ff0099ff]SETTINGS[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30234"
+msgid "[B][COLOR ff0099ff]MEDIA[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30235"
+msgid "[B][COLOR ff0099ff]INFO[/COLOR][/B]"
+msgstr ""
+
+# empty strings from id 30236 to 30349
+# SETTINGS-DESCRIPTIONS
+
+msgctxt "#30350"
+msgid "     * [COLOR yellow]For playback problems (audio interruptions,artifacts ...) probably an update to KODI-18 (Leia) is needed ![/COLOR] *"
+msgstr ""
+
+msgctxt "#30351"
+msgid "     * [COLOR yellow]This function requires the "[/COLOR]service.L0RE.cron[COLOR yellow]" ! [/COLOR]*"
+msgstr ""
+
+msgctxt "#30352"
+msgid "     [COLOR orangered]Attention: The update period affects only newly added items...[/COLOR]"
+msgstr ""
+
+msgctxt "#30353"
+msgid "     [COLOR chartreuse]In order to delete old data, the entry must be deleted and newly added in *service.L0RE.cron* ![/COLOR]"
+msgstr ""
+
+# empty strings from id 30354 to 30500
+# WARNING/INFORMATION-MESSAGES-OK
+
+msgctxt "#30501"
+msgid "[COLOR orangered]ATTENTION : ... the required addon *[/COLOR][COLOR yellow]{0:s}[/COLOR][COLOR orangered]* is NOT installed !!![/COLOR]"
+msgstr ""
+
+msgctxt "#30502"
+msgid "[COLOR orangered]ATTENTION : ... there is NO folder to save Media appointed ![/COLOR][CR]Please select the desired folder in the addon settings !!!"
+msgstr ""
+
+# empty strings from id 30503 to 30520
+# WARNING/INFORMATION-MESSAGES-NOTIFICATION
+
+msgctxt "#30521"
+msgid "DMAX Mediathek : [COLOR red]!!! ID - [/COLOR][COLOR blue]{0:s}[/COLOR][COLOR red] - ERROR !!![/COLOR]"
+msgstr ""
+
+msgctxt "#30522"
+msgid "ERROR = [COLOR red]This Series is no longer in the DMAX-Videothek ![/COLOR]"
+msgstr ""
+
+msgctxt "#30523"
+msgid "[COLOR red]Currently NO videos of :[/COLOR]"
+msgstr ""
+
+msgctxt "#30524"
+msgid "* [COLOR blue]{0:s}[/COLOR] * in the DMAX-Videothek"
+msgstr ""
+
+msgctxt "#30525"
+msgid "My DMAX-Favourites :"
+msgstr ""
+
+msgctxt "#30526"
+msgid "* [COLOR blue]{0:s}[/COLOR] *[COLOR FF008B00] successfully added !!![/COLOR]"
+msgstr ""
+
+msgctxt "#30527"
+msgid "* [COLOR blue]{0:s}[/COLOR] *[COLOR red] has been deleted !!![/COLOR]"
+msgstr ""
+
+msgctxt "#30528"
+msgid "[COLOR FF008B00]Added to DMAX-Medialibrary :[/COLOR]"
+msgstr ""
+
+msgctxt "#30529"
+msgid "* Show: [COLOR blue]{0:s}[/COLOR] | Update every: [COLOR blue]{1:s} Hrs.[/COLOR] *"
+msgstr ""
+
+# empty strings from id 30530 to 30600
+# PLUGIN-MAIN and SIDEMENU
+
+msgctxt "#30601"
+msgid "* My DMAX-Favourites *"
+msgstr ""
+
+msgctxt "#30602"
+msgid "All Shows"
+msgstr ""
+
+msgctxt "#30603"
+msgid "Subjects"
+msgstr ""
+
+msgctxt "#30604"
+msgid "Highlights"
+msgstr ""
+
+msgctxt "#30605"
+msgid "Latest Shows"
+msgstr ""
+
+msgctxt "#30606"
+msgid "Shows sorted by popularity"
+msgstr ""
+
+msgctxt "#30607"
+msgid "DMAX Settings"
+msgstr ""
+
+msgctxt "#30608"
+msgid "Inputstream Settings"
+msgstr ""
+
+msgctxt "#30609"
+msgid "[COLOR lime]  (new)[/COLOR]"
+msgstr ""
+
+msgctxt "#30610"
+msgid "[COLOR orangered]Next Page  >>>[/COLOR]"
+msgstr ""
+
+msgctxt "#30611"
+msgid "From [COLOR chartreuse]{0:s}[/COLOR]"
+msgstr ""
+
+msgctxt "#30612"
+msgid " to [COLOR orangered]{0:s}[/COLOR][CR][CR]"
+msgstr ""
+
+msgctxt "#30651"
+msgid "[COLOR chartreuse]Add to DMAX-Favourites[/COLOR]"
+msgstr ""
+
+msgctxt "#30652"
+msgid "[COLOR orangered]Remove from DMAX-Favourites[/COLOR]"
+msgstr ""
+
+msgctxt "#30653"
+msgid "[COLOR cyan]Save to DMAX-Library[/COLOR]"
+msgstr ""

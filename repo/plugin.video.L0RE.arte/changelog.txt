@@ -1,0 +1,42 @@
+﻿0.1.1 - Initial Source by L0RE[CR]
+
+...
+
+[B]Version 0.5.3  (30.06.2018)[/B] by realvito[CR]
+- fixed: Rubrik Themen - kein Inhalt nach dem Öffnen
+- added: Addon kompatibel mit PYTHON-Vers.3 gemacht (für KODI-19 >) vs. PYTHON-Vers.2
+
+[B]Version 0.5.4  (14.08.2018)[/B] by realvito[CR]
+- fixed: Sämtliche Rubriken (letzter Ordner) können NICHT geöffnet werden [Webseite verändert]
+- added: Die Laufzeit der einzelnen Videos wird jetzt angezeigt
+- added: Bei angezeigten Videos - Sortiermethode "Dauer" hinzugefügt
+- optimized: Bei angezeigten Videos - Titelbild = es wird jetzt immer die höchste verfügbare Auflösung angezeigt
+
+[B]Version 0.5.5  (05.05.2019)[/B] by realvito[CR]
+- fixed: Unterordner der Rubrik = Themen (in einigen Ordnern werden keine Videos gelistet)
+- fixed: Rubrik = Programm sortiert nach Datum (keine Anzeige)
+- fixed: Rubrik = Videos sortiert nach Laufzeit (falsche Sortierung)
+- fixed: Einige Videos werden NICHT abgespielt
+
+[B]Version 0.5.6  (29.06.2019)[/B] by realvito[CR]
+- fixed: Rubrik = Themen -> ARTE Concert kein Inhalt
+- fixed: Rubrik = alle Sendungen A-Z -> Anzeige der neuen Unterkategorien
+- fixed: Nächste Seite zum weiterblättern wird nicht mehr angezeigt
+- fixed: Urls für Live+Eventsender funktionieren nicht
+- added: Rubrik = Besondere Highlights - täglich wechselnde Inhalte
+
+[B]Version 0.5.7  (19.07.2019)[/B] by realvito[CR]
+- fixed: Sämtliche Videos werden NICHT angezeigt (API verändert)
+- fixed: Endlich beseitigt :-) ERROR: NEWADDON Invalid Date Format "" im LOG
+- optimized: Rubrik = sortiert nach Datum wird jetzt in einem Ordner zusammengefasst
+
+[B]Version 0.5.8  (10.08.2019)[/B] by realvito[CR]
+- added: Live + Event TV = ARTE Event 5
+
+[B]Version 0.5.9  (30.09.2019)[/B] by realvito[CR]
+- fixed: LibreELEC - Fehler beim öffnen der Rubrik = Programm sortiert nach Datum (Error: unsupported locale setting)
+
+[B]Version 0.6.0  (01.12.2019)[/B] by realvito[CR]
+- fixed: Rubrik = Themen kein Inhalt und Fehler wird angezeigt (läuft jetzt auch über die API)
+- fixed: Suche mit Umlauten im Suchbegriff erzeugt Fehler
+- fixed: UnicodeEncodeError für 'time.strftime' und Sondersymbole unter Python-3 (KODI-Matrix)

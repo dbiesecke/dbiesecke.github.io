@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="30000">
+		<setting label="30230" type="lsep"/>
+		<setting label="30110" type="bool" id="inputstream" default="false"/>
+		<setting label="30350" type="text" option="readable" visible="eq(-1,true)"/>
+		<setting type="sep"/>
+		<setting label="30231" type="lsep"/>
+		<setting label="30111" type="select" id="sorting" lvalues="30112|30113" default="0"/>
+		<setting type="sep"/>
+		<setting label="30232" type="lsep"/>
+		<setting label="30114" type="bool" id="useThumbAsFanart" default="true"/>
+		<setting type="sep"/>
+		<setting label="30233" type="lsep"/>
+		<setting label="30115" type="bool" id="show_settings" default="true"/>
+	</category>
+	<category label="30001">
+		<setting label="30234" type="lsep"/>
+		<setting label="30116" type="bool" id="dmax_library" default="false"/>
+		<setting label="30117" type="folder" id="mediapath" default="" enable="eq(-1,true)"/>
+		<setting label="30118" type="slider" id="updatestd" range="12,4,72" default="24" option="int" enable="!eq(-1,)+eq(-2,true)"/>
+		<setting type="sep"/>
+		<setting label="30235" type="lsep"/>
+		<setting label="30351" type="text" option="readable"/>
+		<setting label="30352" type="text" option="readable"/>
+		<setting label="30353" type="text" option="readable"/>
+	</category>
+</settings>

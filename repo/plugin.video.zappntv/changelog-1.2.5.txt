@@ -1,0 +1,47 @@
+v0.0.1
+- Initial version
+v1.0.0
+- First Release
+v1.0.1
+- Added features from realvito:
+  - Directories (Folder+Not Folder) changed setcontent to 'tvshows' (allows for more different views in Skins)
+  - add fanart for episodes (because the thumb is large enough)
+  - fixed thumb and fanart for 'Clips', 'Bonus' and 'Ganze Folgen'
+  - Mediathek: added date to plot of each Show
+  - Mediathek: added date to plot of each Episode
+  - use sort methods only when showing Episodes and allow for choice between Default, Name, Duration, Date
+  - adapted translation for changes
+- fixed Kodi Favorites: Folders and Videos added now have a thumbnail and are now selectable
+- added Icons for livestreams from germany and switzerland
+v1.0.2
+- Fixed showing of categories with image
+- preview of TV Programm
+v1.1.0
+- full TV Programm added
+- added Kodi version check for DRM
+  - DRM contetnt is only playabe wit Kodi version > 18.0 and inputstream.adaptive > 2.2.2
+- support for playback without inputstream.adaptive
+  - choose between these formats:
+    - dash (with inputstream.adaptive)
+    - hls (with inputstream.adaptive)
+    - hls
+    - video (lower quality)
+- removed requirement of inputstream.adaptive, is now installed before playback
+- fixed error on playback, playback is now only attempted once
+- get season and episode number of video from title
+- add option to remove season and episode number from title
+- add thumbnail as poster image for videos
+v1.1.1
+no changes in functionallity
+v1.2.0
+- added option to add/remove favorites from the rightclick menu
+- speed up search on operating systems with multiprocess support (everything except Android)
+v1.2.2:
+- adapt paths to new plugin routing addon, sadly ruins old saved favourites, the need to be newly added.
+v1.2.3:
+- fixed adding favourites
+v1.2.4:
+- add new channels.
+- fix playback of livestreams with python3.
+v1.2.5:
+- fix livestream category, if a stream has no epg.

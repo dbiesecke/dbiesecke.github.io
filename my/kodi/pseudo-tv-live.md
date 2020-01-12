@@ -1,18 +1,29 @@
 Pseudo TV Live
 ========================================
 
-[![](http://i.imgur.com/NvgA34Y.png)](http://forum.kodi.tv/showthread.php?tid=169032)
 
-* Dieses Plugin ermöglicht per XML File die möglichkeit automatisch Plugin's in datein zu verwandeln.
-
-| Name                       	| DL 	| INFO 	| BETA?	|
-|----------------------------	|----	|------	|-----	|
-| Pseudo TV Live        	|[repo](https://github.com/Lunatixz/XBMC_Addons/blob/master/zips/repository.lunatixz/repository.lunatixz-1.0.zip)    	|      	[forum.kodi.tv](http://forum.kodi.tv/showthread.php?tid=169032)												|  YES!	|
+* Mit diesen Plugin könnt ihr Video Addons,Playlisten, Serien, etc als EPG anordnen und erzeugt somit ein echtes "TV-Feeling".
 
 
 
-Config
+# Neuen Channel hinzufügen.
+---------------------------------
+* Neue Channels sollten nur über das "pseudo Companion" Plugin hinzugefügt werden.  
+
+![pseudotv-edit-1.gif](http://home.forward.pw/my/kodi/pseudo-add-neu-plugin.gif)
+
+
+
+## Variante 1
+----------------
+* Alternative über das Config menü
+
+![pseudotv-edit-1.gif](http://home.forward.pw/my/kodi/pseudotv-edit-1.gif)
+
+
+## Pseudo Companion Config
 ----------------------------------
+
 
 Nachfolgend kommen Beispiel config's für die settings2.mxl
 

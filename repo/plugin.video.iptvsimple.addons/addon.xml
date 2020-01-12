@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.iptvsimple.addons" version="0.0.8" name="IPTV Addons" provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.26.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+  <import addon="script.module.beautifulsoup4"  />
+  <import addon="plugin.video.tagesschau"  />
+  <import addon="plugin.video.tvone"  />
+  <import addon="plugin.video.PsycoTV"  />
+  <import addon="plugin.video.L0RE.arte"  />
+  <import addon="plugin.video.zappntv"  />
+
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.service" library="server.py" start="login"/>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Add addon streams to IPTV Simple Client</summary>
+  <description lang="en"></description>
+  <disclaimer lang="en"></disclaimer>
+</extension>
+</addon>
+

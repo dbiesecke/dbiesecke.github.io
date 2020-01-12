@@ -1,0 +1,192 @@
+# Kodi Media Center language file
+# Addon Name: Zappn TV
+# Addon id: plugin.video.zappntv
+# Addon Provider: fayer3
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC Addons\n"
+"Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: English (http://www.transifex.com/projects/p/xbmc-addons/language/en/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#This is a comment
+
+msgctxt "#32001"
+msgid "Search"
+msgstr "Suchen"
+
+msgctxt "#32002"
+msgid "ZAPPN-Favorites"
+msgstr "ZAPPN-Favoriten"
+
+msgctxt "#32003"
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgctxt "#32004"
+msgid "nothing in here"
+msgstr "hier ist nichts"
+
+msgctxt "#32005"
+msgid "From [COLOR chartreuse]{0:s}[/COLOR][CR][CR]"
+msgstr "Vom [COLOR chartreuse]{0:s}[/COLOR][CR][CR]"
+
+msgctxt "#32006"
+msgid "Last Entry: [COLOR deepskyblue]{0:s}[/COLOR]"
+msgstr "Letzter Eintrag: [COLOR deepskyblue]{0:s}[/COLOR]"
+
+msgctxt "#32007"
+msgid "Page {0:s}"
+msgstr "Seite {0:s}"
+
+msgctxt "#32008"
+msgid "[COLOR chartreuse]Add to ZAPPN-Favorites[/COLOR]"
+msgstr "[COLOR chartreuse]zu ZAPPN-Favoriten hinzufügen[/COLOR]"
+
+msgctxt "#32009"
+msgid "[COLOR orange]Remove from ZAPPN-Favorites[/COLOR]"
+msgstr "[COLOR orange]aus ZAPPN-Favoriten entfernen[/COLOR]"
+
+msgctxt "#32010"
+msgid "SUCCESSFULL :"
+msgstr "ERFOLGREICH :"
+
+msgctxt "#32011"
+msgid "[COLOR green]ADDED[/COLOR] * [COLOR blue]{0:s}[/COLOR] * [COLOR green]TO FAVORITES ![/COLOR]"
+msgstr "* [COLOR blue]{0:s}[/COLOR] * [COLOR green]ZU DEN FAVORITEN HINZUGEFÜGT ![/COLOR]"
+
+msgctxt "#32012"
+msgid "[COLOR red]REMOVED[/COLOR] * [COLOR blue]{0:s}[/COLOR] * [COLOR red]FROM FAVORITES ![/COLOR]"
+msgstr "* [COLOR blue]{0:s}[/COLOR] * [COLOR red]AUS DEN FAVORITEN ENTFERNT ![/COLOR]"
+
+msgctxt "#32013"
+msgid "Search for TV Show"
+msgstr "Suchen nach Fernsehsendung"
+
+msgctxt "#32014"
+msgid "past program"
+msgstr "Vergangenes Programm"
+
+msgctxt "#32015"
+msgid "program from [COLOR chartreuse]{0:s}[/COLOR]"
+msgstr "Programm vom [COLOR chartreuse]{0:s}[/COLOR]"
+
+msgctxt "#32016"
+msgid "{0:s}[CR]From [COLOR chartreuse]{1:s}[/COLOR] to [COLOR chartreuse]{2:s}[/COLOR][CR][CR]"
+msgstr "{0:s}[CR]von [COLOR chartreuse]{1:s}[/COLOR] bis [COLOR chartreuse]{2:s}[/COLOR][CR][CR]"
+
+msgctxt "#32017"
+msgid "today"
+msgstr "Heute"
+
+msgctxt "#32018"
+msgid "DRM '{0}' is not supported"
+msgstr "DRM '{0}' wird nicht unterstützt"
+
+msgctxt "#32019"
+msgid "DRM content requires 'inputstream.adaptive'"
+msgstr "DRM Inhalt benötigt 'inputstream.adaptive'"
+
+msgctxt "#32020"
+msgid "'{0}' is not installed"
+msgstr "'{0}' ist nicht installiert"
+
+msgctxt "#32021"
+msgid "'inputstream.adaptive' is failed to install. Would you like to switch to a format that doesn't require that?"
+msgstr "Die Installation von 'inputstream.adaptive' schlug fehl. Willst du auf ein Format wechseln, welches dies nicht benötigt?"
+
+msgctxt "#32022"
+msgid "changable in the addon settings '{0}'"
+msgstr "änderbar in den Addon Einstellungen '{0}'"
+
+msgctxt "#32023"
+msgid "'inputstream.adaptive' version to low"
+msgstr "'inputstream.adaptive' Version zu niedrig"
+
+msgctxt "#32024"
+msgid "Version '2.2.2' or greater is required to watch DRM protected content."
+msgstr "Version '2.2.2' oder höher wird benötigt, um DRM geschützte Inhalt darzustellen."
+
+msgctxt "#32025"
+msgid "DRM content requires Kodi 18.0"
+msgstr " Für DRM Inhalte wird Kodi 18.0 benötigt"
+
+
+msgctxt "#32026"
+msgid "Austria"
+msgstr "Österreich"
+
+msgctxt "#32027"
+msgid "Germany"
+msgstr "Deutschland"
+
+msgctxt "#32028"
+msgid "Switzerland"
+msgstr "Schweiz"
+
+msgctxt "#32101"
+msgid "Debug"
+msgstr ""
+
+msgctxt "#32102"
+msgid "DRM System to use"
+msgstr "DRM System"
+
+msgctxt "#32103"
+msgid "WIDEVINE"
+msgstr ""
+
+msgctxt "#32104"
+msgid "PLAYREADY (Android only)"
+msgstr "PLAYREADY (nur Android)"
+
+msgctxt "#32105"
+msgid "alternative format for DRM content (720p with widevine)"
+msgstr "alternatives Format für DRM Inhalt (720p mit Widevine)"
+
+msgctxt "#32106"
+msgid "limit some categories to 20 items per page"
+msgstr "Limitiere einige Kategorien auf 20 Einträge pro Seite"
+
+msgctxt "#32107"
+msgid "Sorting of Episodes"
+msgstr "Sortierung der Episoden"
+
+msgctxt "#32108"
+msgid "ordered by release (like in the App)"
+msgstr "Nach Erscheinungsdatum (wie in der App)"
+
+msgctxt "#32109"
+msgid "Other methods to choose from"
+msgstr "Weitere Methoden zur Auswahl"
+
+msgctxt "#32110"
+msgid "Video format to use for non DRM content"
+msgstr "Videoformat für nicht DRM geschützte Inhalt"
+
+msgctxt "#32111"
+msgid "dash (with inputstream.adaptive)"
+msgstr "dash (mit inputstream.adaptive)"
+
+msgctxt "#32112"
+msgid "hls (with inputstream.adaptive)"
+msgstr "hls (mit inputstream.adaptive)"
+
+msgctxt "#32113"
+msgid "hls"
+msgstr ""
+
+msgctxt "#32114"
+msgid "video (lower quality)"
+msgstr "video (niedrigere Qualität)"
+
+msgctxt "#32115"
+msgid "keep season and episode number in video title"
+msgstr "behalte Staffel und Episoden Nummer im Videotitel"
