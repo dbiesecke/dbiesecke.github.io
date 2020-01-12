@@ -26,7 +26,10 @@ publish:
 	find . -maxdepth 2 -iname "*.zip" | grep "repository" | parallel -j2 rsync -cvr  "{}" bohal@rsync.hidrive.strato.com:/public/XBMC/KODI-REPOS/
 	find . -maxdepth 2 -iname "*.zip" | grep "plugin" | parallel -j2 rsync -cvr  "{}" bohal@rsync.hidrive.strato.com:/public/XBMC/KODI-ADDONS/
 
-	
+index:
+	@echo '| Packages                      | Version                 | URL                                                                                            |' > index.md
+	@echo '|-------------------------------|-------------------------|------------------------------------------------------------------------------------------------|' >> index.md
+	find . -iname "*.zip" -exec basename "{}" \; | sort | uniq | awk -F'-' '{print "| "$1"\t\t| "$2" | ["$1"](https://dbiesecke.github.io/repo/"$1"/"$1"-"$2") |"}' >> index.md
 	
 sync:
 	@test -d kdc || mkdir kdc 

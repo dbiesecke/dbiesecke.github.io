@@ -1,93 +1,97 @@
-Kodi Repo
-- - - - - - 
-
-Kodi Tips & Linklist
-========================================
-
-* Mit diesem Kodi builds ist es möglich alle aktuellen Serien/Filme zuzugreifen. Dafür wird auf diverse Streamingsites zurückgegriffen.
+# Stats
+========
 
 
-![sunrise-intro.gif](https://dbiesecke.github.io/images/sunrise-intro.gif)
+IPTV Streams 74
+Video Addons (Repo): 23
 
 
-
-Easy Install - 
-------------------------
-Depends:  Kodi 18.1++ 
-
-![](https://i.imgur.com/3yzdHpS.png)
-
-* Ghost ist der wohl beste Kodi build der mir untergekommen ist -  [ghost-repo.de](http://ghost-repo.de/)
-
-* Für leistungsschwache maschinen wie FireTV stick, rate ich eher zum Sunrise-Build - dieser hat eine wesentlich schlichtere GUI
+# Packages
+========
 
 
-Installer/repository
-==============================
-
-
-| Packages                      | Note                                                                                                |  
-|-------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| [repository.myrepo.zip](http://dbiesecke.github.io/repo/repository.myrepo.zip)                          |         Mein repo auf Github              |
-| [script.ezmaintenanceplus-1.3.zip](https://dbiesecke.github.io/repo/script.ezmaintenanceplus-1.3.zip)   | Wizard to install latest "MyBuild"        |       
-| [plugin.program.sunrisewizard](https://dbiesecke.github.io/repo/plugin.program.sunrisewizard-1.03.zip)  |   Sunrise Wizard (MyMod) - Installer 	|
-| [plugin.video.PsycoTV-2.4.0.zip](https://dbiesecke.github.io/repo/plugin.video.PsycoTV-2.4.0.zip)       |   PsycoTV "mod"  - Watch PayTV for Free :)       |
-|     |         |
-| [plugin.program.Ghost.zip](http://ghost-repo.de/plugin.program.Ghost.zip)   | UNSTABLE: [Latest Ghost repo/installer](http://ghost-repo.de/)      |
-
-
-
-![sunrise-install-sunrise-wizard.gif](https://dbiesecke.github.io/images/sunrise-install-sunrise-wizard.gif)
-
-
-| Packages                      | DL                                                                                                |  
-|-------------------------------|---------------------------------------------------------------------------------------------------|
-| [Latest Ghost repo/installer](http://ghost-repo.de/)   | [repository.Ghost.zip](http://ghost-repo.de/repository.Ghost.zip)  | [plugin.program.Ghost.zip](http://ghost-repo.de/plugin.program.Ghost.zip)      |
-| repository.sgkodi-1.1.5.zip                                   | [repository.sgkodi-1.1.5.zip](http://sgkodi.de/SGK-Repo/repository.sgkodi-1.1.5.zip)              |
-
-
-
-
-3rd-party / hoster
-=====================================================
-
-* Viele Streamanbieter/Programme (trakt) erwarten ein Pairing im Browser damit man dort streamen/editieren kann. Das Program `script.SGKPAIR` erleichtert dabei die Arbeit erheblich
-
-![lZqgNyX.png](https://i.imgur.com/lZqgNyX.png)
-
-
-
-
-| Packages                                                              | Plugin                                                                                                |  
-|-----------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| [linksnappy.com](https://linksnappy.com/?ref=306077)                  | script.SGKPAIR                                                                                                  |
-| [www.flashx.tv](https://www.flashx.tv/?op=my_account)                 | urlresolver                                                                                                   |
-|                                                                       |                                                                                                   |
-|                                                                       |                                                                                                   |
-|                                                                       |                                                                                                   |
-                                                 |                                                           |
-
-
-                                                 
-Plugins
---------------------------------
-
-
-| Name                        	| Infos                                                                      | 
-|----------------------------	|--------------------------------------------------------------------------- |
-| zappntv                       | IPTV DE & Mediathekk (UDP Proxy, DRM Plugin, DRM installer)                                                     | 
-| tvone, tvone11, ..            | IPTV, Diverse Sprache & Sky enthalten.                                     | 
-| DDL.me,HD-Filme.net           | Link Provider für Movies/Serien                                            | 
-| XStream                       | Sammlung mit weiteren Seiten (Animestream24,doku-stream,kinox,kinox,..)    | 
-| 7Tv,TVNOW                     | Mediatheken                                                                |
-
-
-
-
-Installation
-======================================================
-1. Installiert als erstes mein Repo ( [repository.myrepo.zip](/plugin.program.sunrisewizard/plugin.program.sunrisewizard-1.04.zip) )
-2. Laded aus dem Repo bitte unter Programme den "Ghost Wizzard"
-
-
-![TPaRZRQ.png](https://i.imgur.com/TPaRZRQ.png) ![jlcR7rn.png](https://i.imgur.com/jlcR7rn.png)
+| Packages                      | Version                 | URL                                                                                            |
+|-------------------------------|-------------------------|------------------------------------------------------------------------------------------------|
+| ![context.pseudotv.live.export](https://dbiesecke.github.io/repo/context.pseudotv.live.export/icon.png) context.pseudotv.live.export		| 1.1.9.zip | [context.pseudotv.live.export](https://dbiesecke.github.io/repo/context.pseudotv.live.export/context.pseudotv.live.export-1.1.9.zip) |
+| ![context.video.favourites](https://dbiesecke.github.io/repo/context.video.favourites/icon.png) context.video.favourites		| 0.0.1 | [context.video.favourites](https://dbiesecke.github.io/repo/context.video.favourites/context.video.favourites-0.0.1) |
+| ![metadata.themoviedb.org](https://dbiesecke.github.io/repo/metadata.themoviedb.org/icon.png) metadata.themoviedb.org		| 5.1.9.zip | [metadata.themoviedb.org](https://dbiesecke.github.io/repo/metadata.themoviedb.org/metadata.themoviedb.org-5.1.9.zip) |
+| ![metadata.thexem.de](https://dbiesecke.github.io/repo/metadata.thexem.de/icon.png) metadata.thexem.de		| 1.0.7.zip | [metadata.thexem.de](https://dbiesecke.github.io/repo/metadata.thexem.de/metadata.thexem.de-1.0.7.zip) |
+| ![plugin.program.iptv.merge](https://dbiesecke.github.io/repo/plugin.program.iptv.merge/icon.png) plugin.program.iptv.merge		| 0.3.3.zip | [plugin.program.iptv.merge](https://dbiesecke.github.io/repo/plugin.program.iptv.merge/plugin.program.iptv.merge-0.3.3.zip) |
+| ![plugin.program.newscenter](https://dbiesecke.github.io/repo/plugin.program.newscenter/icon.png) plugin.program.newscenter		| 0.1.1.zip | [plugin.program.newscenter](https://dbiesecke.github.io/repo/plugin.program.newscenter/plugin.program.newscenter-0.1.1.zip) |
+| ![plugin.program.serienplaner](https://dbiesecke.github.io/repo/plugin.program.serienplaner/icon.png) plugin.program.serienplaner		| 0.1.4.zip | [plugin.program.serienplaner](https://dbiesecke.github.io/repo/plugin.program.serienplaner/plugin.program.serienplaner-0.1.4.zip) |
+| ![plugin.program.sunrisewizard](https://dbiesecke.github.io/repo/plugin.program.sunrisewizard/icon.png) plugin.program.sunrisewizard		| 1.04.zip | [plugin.program.sunrisewizard](https://dbiesecke.github.io/repo/plugin.program.sunrisewizard/plugin.program.sunrisewizard-1.04.zip) |
+| ![plugin.program.sunrisewizard](https://dbiesecke.github.io/repo/plugin.program.sunrisewizard/icon.png) plugin.program.sunrisewizard		| 1.05.zip | [plugin.program.sunrisewizard](https://dbiesecke.github.io/repo/plugin.program.sunrisewizard/plugin.program.sunrisewizard-1.05.zip) |
+| ![plugin.program.super.favourites](https://dbiesecke.github.io/repo/plugin.program.super.favourites/icon.png) plugin.program.super.favourites		| 99.0.59.zip | [plugin.program.super.favourites](https://dbiesecke.github.io/repo/plugin.program.super.favourites/plugin.program.super.favourites-99.0.59.zip) |
+| ![plugin.program.tvhighlights](https://dbiesecke.github.io/repo/plugin.program.tvhighlights/icon.png) plugin.program.tvhighlights		| 0.1.19.zip | [plugin.program.tvhighlights](https://dbiesecke.github.io/repo/plugin.program.tvhighlights/plugin.program.tvhighlights-0.1.19.zip) |
+| ![plugin.video.aod](https://dbiesecke.github.io/repo/plugin.video.aod/icon.png) plugin.video.aod		| 0.6.5.zip | [plugin.video.aod](https://dbiesecke.github.io/repo/plugin.video.aod/plugin.video.aod-0.6.5.zip) |
+| ![plugin.video.arteplussept](https://dbiesecke.github.io/repo/plugin.video.arteplussept/icon.png) plugin.video.arteplussept		| 1.0.2.zip | [plugin.video.arteplussept](https://dbiesecke.github.io/repo/plugin.video.arteplussept/plugin.video.arteplussept-1.0.2.zip) |
+| ![plugin.video.elementum](https://dbiesecke.github.io/repo/plugin.video.elementum/icon.png) plugin.video.elementum		| 0.1.43.zip | [plugin.video.elementum](https://dbiesecke.github.io/repo/plugin.video.elementum/plugin.video.elementum-0.1.43.zip) |
+| ![plugin.video.f4mTester](https://dbiesecke.github.io/repo/plugin.video.f4mTester/icon.png) plugin.video.f4mTester		| 3.0.0.zip | [plugin.video.f4mTester](https://dbiesecke.github.io/repo/plugin.video.f4mTester/plugin.video.f4mTester-3.0.0.zip) |
+| ![plugin.video.fapzone](https://dbiesecke.github.io/repo/plugin.video.fapzone/icon.png) plugin.video.fapzone		| 2.0.4.zip | [plugin.video.fapzone](https://dbiesecke.github.io/repo/plugin.video.fapzone/plugin.video.fapzone-2.0.4.zip) |
+| ![plugin.video.genesisreborn](https://dbiesecke.github.io/repo/plugin.video.genesisreborn/icon.png) plugin.video.genesisreborn		| 2017.06.27.zip | [plugin.video.genesisreborn](https://dbiesecke.github.io/repo/plugin.video.genesisreborn/plugin.video.genesisreborn-2017.06.27.zip) |
+| ![plugin.video.iptvsimple.addons](https://dbiesecke.github.io/repo/plugin.video.iptvsimple.addons/icon.png) plugin.video.iptvsimple.addons		| 0.0.8.zip | [plugin.video.iptvsimple.addons](https://dbiesecke.github.io/repo/plugin.video.iptvsimple.addons/plugin.video.iptvsimple.addons-0.0.8.zip) |
+| ![plugin.video.joyn](https://dbiesecke.github.io/repo/plugin.video.joyn/icon.png) plugin.video.joyn		| 2.3.1.zip | [plugin.video.joyn](https://dbiesecke.github.io/repo/plugin.video.joyn/plugin.video.joyn-2.3.1.zip) |
+| ![plugin.video.L0RE.arte](https://dbiesecke.github.io/repo/plugin.video.L0RE.arte/icon.png) plugin.video.L0RE.arte		| 0.6.0.zip | [plugin.video.L0RE.arte](https://dbiesecke.github.io/repo/plugin.video.L0RE.arte/plugin.video.L0RE.arte-0.6.0.zip) |
+| ![plugin.video.L0RE.dmax](https://dbiesecke.github.io/repo/plugin.video.L0RE.dmax/icon.png) plugin.video.L0RE.dmax		| 1.0.8.zip | [plugin.video.L0RE.dmax](https://dbiesecke.github.io/repo/plugin.video.L0RE.dmax/plugin.video.L0RE.dmax-1.0.8.zip) |
+| ![plugin.video.L0RE.spiegeltv](https://dbiesecke.github.io/repo/plugin.video.L0RE.spiegeltv/icon.png) plugin.video.L0RE.spiegeltv		| 1.0.1.zip | [plugin.video.L0RE.spiegeltv](https://dbiesecke.github.io/repo/plugin.video.L0RE.spiegeltv/plugin.video.L0RE.spiegeltv-1.0.1.zip) |
+| ![plugin.video.openmeta](https://dbiesecke.github.io/repo/plugin.video.openmeta/icon.png) plugin.video.openmeta		| 1.4.15.zip | [plugin.video.openmeta](https://dbiesecke.github.io/repo/plugin.video.openmeta/plugin.video.openmeta-1.4.15.zip) |
+| ![plugin.video.osmosis](https://dbiesecke.github.io/repo/plugin.video.osmosis/icon.png) plugin.video.osmosis		| 1.3.2.zip | [plugin.video.osmosis](https://dbiesecke.github.io/repo/plugin.video.osmosis/plugin.video.osmosis-1.3.2.zip) |
+| ![plugin.video.pseudo.companion](https://dbiesecke.github.io/repo/plugin.video.pseudo.companion/icon.png) plugin.video.pseudo.companion		| 0.0.13.zip | [plugin.video.pseudo.companion](https://dbiesecke.github.io/repo/plugin.video.pseudo.companion/plugin.video.pseudo.companion-0.0.13.zip) |
+| ![plugin.video.pseudo.library](https://dbiesecke.github.io/repo/plugin.video.pseudo.library/icon.png) plugin.video.pseudo.library		| 0.0.2a.zip | [plugin.video.pseudo.library](https://dbiesecke.github.io/repo/plugin.video.pseudo.library/plugin.video.pseudo.library-0.0.2a.zip) |
+| ![plugin.video.PsycoTV](https://dbiesecke.github.io/repo/plugin.video.PsycoTV/icon.png) plugin.video.PsycoTV		| 2.4.0.zip | [plugin.video.PsycoTV](https://dbiesecke.github.io/repo/plugin.video.PsycoTV/plugin.video.PsycoTV-2.4.0.zip) |
+| ![plugin.video.spotitube](https://dbiesecke.github.io/repo/plugin.video.spotitube/icon.png) plugin.video.spotitube		| 2.1.5.zip | [plugin.video.spotitube](https://dbiesecke.github.io/repo/plugin.video.spotitube/plugin.video.spotitube-2.1.5.zip) |
+| ![plugin.video.tagesschau](https://dbiesecke.github.io/repo/plugin.video.tagesschau/icon.png) plugin.video.tagesschau		| 1.0.8.zip | [plugin.video.tagesschau](https://dbiesecke.github.io/repo/plugin.video.tagesschau/plugin.video.tagesschau-1.0.8.zip) |
+| ![plugin.video.tvone11](https://dbiesecke.github.io/repo/plugin.video.tvone11/icon.png) plugin.video.tvone11		| 18.zip | [plugin.video.tvone11](https://dbiesecke.github.io/repo/plugin.video.tvone11/plugin.video.tvone11-18.zip) |
+| ![plugin.video.tvone](https://dbiesecke.github.io/repo/plugin.video.tvone/icon.png) plugin.video.tvone		| 21.zip | [plugin.video.tvone](https://dbiesecke.github.io/repo/plugin.video.tvone/plugin.video.tvone-21.zip) |
+| ![plugin.video.xstream](https://dbiesecke.github.io/repo/plugin.video.xstream/icon.png) plugin.video.xstream		| 3.5.13.zip | [plugin.video.xstream](https://dbiesecke.github.io/repo/plugin.video.xstream/plugin.video.xstream-3.5.13.zip) |
+| ![plugin.video.zappntv](https://dbiesecke.github.io/repo/plugin.video.zappntv/icon.png) plugin.video.zappntv		| 1.2.5.zip | [plugin.video.zappntv](https://dbiesecke.github.io/repo/plugin.video.zappntv/plugin.video.zappntv-1.2.5.zip) |
+| ![pvr.iptvsimple](https://dbiesecke.github.io/repo/pvr.iptvsimple/icon.png) pvr.iptvsimple		| 3.8.8.1.zip | [pvr.iptvsimple](https://dbiesecke.github.io/repo/pvr.iptvsimple/pvr.iptvsimple-3.8.8.1.zip) |
+| ![repository.aenemapy](https://dbiesecke.github.io/repo/repository.aenemapy/icon.png) repository.aenemapy		| 2018.01.04.2.zip | [repository.aenemapy](https://dbiesecke.github.io/repo/repository.aenemapy/repository.aenemapy-2018.01.04.2.zip) |
+| ![repository.aeon.nox.silvo](https://dbiesecke.github.io/repo/repository.aeon.nox.silvo/icon.png) repository.aeon.nox.silvo		| 1.0.5.zip | [repository.aeon.nox.silvo](https://dbiesecke.github.io/repo/repository.aeon.nox.silvo/repository.aeon.nox.silvo-1.0.5.zip) |
+| ![repository.ddurdle](https://dbiesecke.github.io/repo/repository.ddurdle/icon.png) repository.ddurdle		| 1.0.2.zip | [repository.ddurdle](https://dbiesecke.github.io/repo/repository.ddurdle/repository.ddurdle-1.0.2.zip) |
+| ![repository.emby.kodi](https://dbiesecke.github.io/repo/repository.emby.kodi/icon.png) repository.emby.kodi		| 1.0.6.zip | [repository.emby.kodi](https://dbiesecke.github.io/repo/repository.emby.kodi/repository.emby.kodi-1.0.6.zip) |
+| ![repository.gaia](https://dbiesecke.github.io/repo/repository.gaia/icon.png) repository.gaia		| 3.2.0.zip | [repository.gaia](https://dbiesecke.github.io/repo/repository.gaia/repository.gaia-3.2.0.zip) |
+| ![repository.gamestarter](https://dbiesecke.github.io/repo/repository.gamestarter/icon.png) repository.gamestarter		| 3.0.0.zip | [repository.gamestarter](https://dbiesecke.github.io/repo/repository.gamestarter/repository.gamestarter-3.0.0.zip) |
+| ![repository.kodinerds](https://dbiesecke.github.io/repo/repository.kodinerds/icon.png) repository.kodinerds		| 6.0.0.zip | [repository.kodinerds](https://dbiesecke.github.io/repo/repository.kodinerds/repository.kodinerds-6.0.0.zip) |
+| ![repository.kus.allinone](https://dbiesecke.github.io/repo/repository.kus.allinone/icon.png) repository.kus.allinone		| 3.3.zip | [repository.kus.allinone](https://dbiesecke.github.io/repo/repository.kus.allinone/repository.kus.allinone-3.3.zip) |
+| ![repository.myrepo](https://dbiesecke.github.io/repo/repository.myrepo/icon.png) repository.myrepo		| 1.0.2.zip | [repository.myrepo](https://dbiesecke.github.io/repo/repository.myrepo/repository.myrepo-1.0.2.zip) |
+| ![repository.pati](https://dbiesecke.github.io/repo/repository.pati/icon.png) repository.pati		| 1.0.0.zip | [repository.pati](https://dbiesecke.github.io/repo/repository.pati/repository.pati-1.0.0.zip) |
+| ![repository.sgkodi](https://dbiesecke.github.io/repo/repository.sgkodi/icon.png) repository.sgkodi		| 1.1.5.zip | [repository.sgkodi](https://dbiesecke.github.io/repo/repository.sgkodi/repository.sgkodi-1.1.5.zip) |
+| ![repository.tdoe](https://dbiesecke.github.io/repo/repository.tdoe/icon.png) repository.tdoe		| 1.0.2.zip | [repository.tdoe](https://dbiesecke.github.io/repo/repository.tdoe/repository.tdoe-1.0.2.zip) |
+| ![repository.universalscrapers](https://dbiesecke.github.io/repo/repository.universalscrapers/icon.png) repository.universalscrapers		| 1.0.0.zip | [repository.universalscrapers](https://dbiesecke.github.io/repo/repository.universalscrapers/repository.universalscrapers-1.0.0.zip) |
+| ![repository.xstream](https://dbiesecke.github.io/repo/repository.xstream/icon.png) repository.xstream		| 1.1.4.zip | [repository.xstream](https://dbiesecke.github.io/repo/repository.xstream/repository.xstream-1.1.4.zip) |
+| ![repository.yt.testing_unofficial](https://dbiesecke.github.io/repo/repository.yt.testing_unofficial/icon.png) repository.yt.testing_unofficial		| 1.0.0.zip | [repository.yt.testing_unofficial](https://dbiesecke.github.io/repo/repository.yt.testing_unofficial/repository.yt.testing_unofficial-1.0.0.zip) |
+| ![script.extendedinfo](https://dbiesecke.github.io/repo/script.extendedinfo/icon.png) script.extendedinfo		| 6.2.3.zip | [script.extendedinfo](https://dbiesecke.github.io/repo/script.extendedinfo/script.extendedinfo-6.2.3.zip) |
+| ![script.extendedinfo](https://dbiesecke.github.io/repo/script.extendedinfo/icon.png) script.extendedinfo		| 6.2.4.zip | [script.extendedinfo](https://dbiesecke.github.io/repo/script.extendedinfo/script.extendedinfo-6.2.4.zip) |
+| ![script.ezmaintenanceplus](https://dbiesecke.github.io/repo/script.ezmaintenanceplus/icon.png) script.ezmaintenanceplus		| 1.4.zip | [script.ezmaintenanceplus](https://dbiesecke.github.io/repo/script.ezmaintenanceplus/script.ezmaintenanceplus-1.4.zip) |
+| ![script.ezmaintenanceplus](https://dbiesecke.github.io/repo/script.ezmaintenanceplus/icon.png) script.ezmaintenanceplus		| 2019.05.10.3.zip | [script.ezmaintenanceplus](https://dbiesecke.github.io/repo/script.ezmaintenanceplus/script.ezmaintenanceplus-2019.05.10.3.zip) |
+| ![script.module.ATFlive](https://dbiesecke.github.io/repo/script.module.ATFlive/icon.png) script.module.ATFlive		| 1.6.zip | [script.module.ATFlive](https://dbiesecke.github.io/repo/script.module.ATFlive/script.module.ATFlive-1.6.zip) |
+| ![script.module.ATFmobdro](https://dbiesecke.github.io/repo/script.module.ATFmobdro/icon.png) script.module.ATFmobdro		| 1.6.zip | [script.module.ATFmobdro](https://dbiesecke.github.io/repo/script.module.ATFmobdro/script.module.ATFmobdro-1.6.zip) |
+| ![script.module.buggalo](https://dbiesecke.github.io/repo/script.module.buggalo/icon.png) script.module.buggalo		| 1.1.8.zip | [script.module.buggalo](https://dbiesecke.github.io/repo/script.module.buggalo/script.module.buggalo-1.1.8.zip) |
+| ![script.module.exodus](https://dbiesecke.github.io/repo/script.module.exodus/icon.png) script.module.exodus		| 1.20.zip | [script.module.exodus](https://dbiesecke.github.io/repo/script.module.exodus/script.module.exodus-1.20.zip) |
+| ![script.module.globalscrapers](https://dbiesecke.github.io/repo/script.module.globalscrapers/icon.png) script.module.globalscrapers		| 3.3.3.zip | [script.module.globalscrapers](https://dbiesecke.github.io/repo/script.module.globalscrapers/script.module.globalscrapers-3.3.3.zip) |
+| ![script.module.incursion](https://dbiesecke.github.io/repo/script.module.incursion/icon.png) script.module.incursion		| 1.20.zip | [script.module.incursion](https://dbiesecke.github.io/repo/script.module.incursion/script.module.incursion-1.20.zip) |
+| ![script.module.lambdascrapers](https://dbiesecke.github.io/repo/script.module.lambdascrapers/icon.png) script.module.lambdascrapers		| 2.0.0.zip | [script.module.lambdascrapers](https://dbiesecke.github.io/repo/script.module.lambdascrapers/script.module.lambdascrapers-2.0.0.zip) |
+| ![script.module.liveresolver](https://dbiesecke.github.io/repo/script.module.liveresolver/icon.png) script.module.liveresolver		| 0.1.50.zip | [script.module.liveresolver](https://dbiesecke.github.io/repo/script.module.liveresolver/script.module.liveresolver-0.1.50.zip) |
+| ![script.module.livestreamer](https://dbiesecke.github.io/repo/script.module.livestreamer/icon.png) script.module.livestreamer		| 1.12.0.zip | [script.module.livestreamer](https://dbiesecke.github.io/repo/script.module.livestreamer/script.module.livestreamer-1.12.0.zip) |
+| ![script.module.magicality](https://dbiesecke.github.io/repo/script.module.magicality/icon.png) script.module.magicality		| 4.0.5.zip | [script.module.magicality](https://dbiesecke.github.io/repo/script.module.magicality/script.module.magicality-4.0.5.zip) |
+| ![script.module.mobdro](https://dbiesecke.github.io/repo/script.module.mobdro/icon.png) script.module.mobdro		| 18.zip | [script.module.mobdro](https://dbiesecke.github.io/repo/script.module.mobdro/script.module.mobdro-18.zip) |
+| ![script.module.openscrapers](https://dbiesecke.github.io/repo/script.module.openscrapers/icon.png) script.module.openscrapers		| 0.0.1.99a.zip | [script.module.openscrapers](https://dbiesecke.github.io/repo/script.module.openscrapers/script.module.openscrapers-0.0.1.99a.zip) |
+| ![script.module.placenta](https://dbiesecke.github.io/repo/script.module.placenta/icon.png) script.module.placenta		| 1.7.8.zip | [script.module.placenta](https://dbiesecke.github.io/repo/script.module.placenta/script.module.placenta-1.7.8.zip) |
+| ![script.module.pycryptodome](https://dbiesecke.github.io/repo/script.module.pycryptodome/icon.png) script.module.pycryptodome		| 3.4.1.zip | [script.module.pycryptodome](https://dbiesecke.github.io/repo/script.module.pycryptodome/script.module.pycryptodome-3.4.1.zip) |
+| ![script.module.pyfscache](https://dbiesecke.github.io/repo/script.module.pyfscache/icon.png) script.module.pyfscache		| 0.9.14.zip | [script.module.pyfscache](https://dbiesecke.github.io/repo/script.module.pyfscache/script.module.pyfscache-0.9.14.zip) |
+| ![script.module.slproxy](https://dbiesecke.github.io/repo/script.module.slproxy/icon.png) script.module.slproxy		| 0.0.5.zip | [script.module.slproxy](https://dbiesecke.github.io/repo/script.module.slproxy/script.module.slproxy-0.0.5.zip) |
+| ![script.module.streamlink.crypto](https://dbiesecke.github.io/repo/script.module.streamlink.crypto/icon.png) script.module.streamlink.crypto		| 1.5.0.zip | [script.module.streamlink.crypto](https://dbiesecke.github.io/repo/script.module.streamlink.crypto/script.module.streamlink.crypto-1.5.0.zip) |
+| ![script.module.streamlink.crypto](https://dbiesecke.github.io/repo/script.module.streamlink.crypto/icon.png) script.module.streamlink.crypto		| 1.5.2.zip | [script.module.streamlink.crypto](https://dbiesecke.github.io/repo/script.module.streamlink.crypto/script.module.streamlink.crypto-1.5.2.zip) |
+| ![script.module.TvTap](https://dbiesecke.github.io/repo/script.module.TvTap/icon.png) script.module.TvTap		| 1.7.zip | [script.module.TvTap](https://dbiesecke.github.io/repo/script.module.TvTap/script.module.TvTap-1.7.zip) |
+| ![script.module.universalscrapers](https://dbiesecke.github.io/repo/script.module.universalscrapers/icon.png) script.module.universalscrapers		| 1.2.1.zip | [script.module.universalscrapers](https://dbiesecke.github.io/repo/script.module.universalscrapers/script.module.universalscrapers-1.2.1.zip) |
+| ![script.pseudotv.live](https://dbiesecke.github.io/repo/script.pseudotv.live/icon.png) script.pseudotv.live		| 0.8.0f.zip | [script.pseudotv.live](https://dbiesecke.github.io/repo/script.pseudotv.live/script.pseudotv.live-0.8.0f.zip) |
+| ![script.video.F4mProxy](https://dbiesecke.github.io/repo/script.video.F4mProxy/icon.png) script.video.F4mProxy		| 2.8.8.zip | [script.video.F4mProxy](https://dbiesecke.github.io/repo/script.video.F4mProxy/script.video.F4mProxy-2.8.8.zip) |
+| ![service.infocollector](https://dbiesecke.github.io/repo/service.infocollector/icon.png) service.infocollector		| 0.2.zip | [service.infocollector](https://dbiesecke.github.io/repo/service.infocollector/service.infocollector-0.2.zip) |
+| ![service.L0RE.cron](https://dbiesecke.github.io/repo/service.L0RE.cron/icon.png) service.L0RE.cron		| 1.0.2.zip | [service.L0RE.cron](https://dbiesecke.github.io/repo/service.L0RE.cron/service.L0RE.cron-1.0.2.zip) |
+| ![service.remotekodi](https://dbiesecke.github.io/repo/service.remotekodi/icon.png) service.remotekodi		| 0.4.0.zip | [service.remotekodi](https://dbiesecke.github.io/repo/service.remotekodi/service.remotekodi-0.4.0.zip) |
+| ![service.rezap](https://dbiesecke.github.io/repo/service.rezap/icon.png) service.rezap		| 0.0.2.zip | [service.rezap](https://dbiesecke.github.io/repo/service.rezap/service.rezap-0.0.2.zip) |
+| ![service.streamlink.plugins](https://dbiesecke.github.io/repo/service.streamlink.plugins/icon.png) service.streamlink.plugins		| 1.0.1.zip | [service.streamlink.plugins](https://dbiesecke.github.io/repo/service.streamlink.plugins/service.streamlink.plugins-1.0.1.zip) |
+| ![service.streamlink.proxy](https://dbiesecke.github.io/repo/service.streamlink.proxy/icon.png) service.streamlink.proxy		| 4.1.0.zip | [service.streamlink.proxy](https://dbiesecke.github.io/repo/service.streamlink.proxy/service.streamlink.proxy-4.1.0.zip) |
+| ![skin.confluencetdoe](https://dbiesecke.github.io/repo/skin.confluencetdoe/icon.png) skin.confluencetdoe		| 4.2.1.zip | [skin.confluencetdoe](https://dbiesecke.github.io/repo/skin.confluencetdoe/skin.confluencetdoe-4.2.1.zip) |
+| ![skin.horizonzv.test](https://dbiesecke.github.io/repo/skin.horizonzv.test/icon.png) skin.horizonzv.test		| 1.18.0.42.zip | [skin.horizonzv.test](https://dbiesecke.github.io/repo/skin.horizonzv.test/skin.horizonzv.test-1.18.0.42.zip) |
