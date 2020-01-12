@@ -55,7 +55,7 @@ build:  icon
 	@rsync -r ./* ./build/ ; echo true
 	@cd build && python ./repo_prep.py ; cd ..
 	@rsync -cvr ./build/* .
-	find . -maxdepth 2 -iname "*.zip" 
+	@find . -maxdepth 2 -iname "*.zip" 
 	@rm -fR build
 	@bash ./filelist.sh > index.md
 
