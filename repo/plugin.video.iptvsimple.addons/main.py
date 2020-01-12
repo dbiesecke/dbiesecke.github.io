@@ -267,14 +267,14 @@ def play(url):
 
 @plugin.route('/streams')
 def streams():
-    filename = 'special://profile/addon_data/plugin.video.iptvsimple.addons/channels.tsv'
+    filename = 'special://home/addons/plugin.video.iptvsimple.addons/resources/channels.tsv'
     data = get_data(filename) or ""
     ids = [x.split('\t')[4] for x in data.splitlines() if x.startswith('CHANNEL')]
     #log(ids)
     #"special://home/addons/%s/resources/img/%s.png"
     filename = 'special://home/addons/plugin.video.iptvsimple.addons/resources/streams.m3u8'
 
- #   filename = 'special://profile/addon_data/plugin.video.iptvsimple.addons/streams.m3u8'
+ #   filename = 'special://home/addons/plugin.video.iptvsimple.addons/resources/streams.m3u8'
     data = get_data(filename) or ""
     channels = re.findall('((#EXTINF.*?)\r?\n(.*?)\r?\n)', data, flags=(re.I|re.DOTALL|re.MULTILINE))
     items = []
@@ -315,7 +315,7 @@ def streams():
 
 @plugin.route('/template')
 def template():
-    filename = 'special://profile/addon_data/plugin.video.iptvsimple.addons/template.m3u8'
+    filename = 'special://home/addons/plugin.video.iptvsimple.addons/resources/template.m3u8'
     data = get_data(filename) or ""
     channels = re.findall('((#EXTINF.*?)\r?\n(.*?)\r?\n)', data, flags=(re.I|re.DOTALL|re.MULTILINE))
     items = []
@@ -364,7 +364,7 @@ def template():
 
 @plugin.route('/epg_template')
 def epg_template():
-    filename = 'special://profile/addon_data/plugin.video.iptvsimple.addons/template.tsv'
+    filename = 'special://home/addons/plugin.video.iptvsimple.addons/resources/template.tsv'
     data = get_data(filename) or ""
     channels = [x for x in data.splitlines() if x]
     items = []
@@ -401,7 +401,7 @@ def epg_template():
 
 @plugin.route('/channels')
 def channels():
-    filename = 'special://profile/addon_data/plugin.video.iptvsimple.addons/channels.tsv'
+    filename = 'special://home/addons/plugin.video.iptvsimple.addons/resources/channels.tsv'
     data = get_data(filename) or ""
     channels = [x for x in data.splitlines() if x]
     items = []
@@ -488,7 +488,7 @@ def busybox_location():
 #@plugin.cached(TTL=60)
 def get_data(url):
     if url:
-        tempfile = xbmc.translatePath('special://profile/addon_data/plugin.video.iptvsimple.addons/tempfile')
+        tempfile = xbmc.translatePath('special://home/addons/plugin.video.iptvsimple.addons/resources/tempfile')
         xbmcvfs.copy(url,tempfile)
         time.sleep(2)
         f = xbmcvfs.File(tempfile)
@@ -496,7 +496,7 @@ def get_data(url):
         f.close()
 
         if url.endswith('.xz'):
-            filename = xbmc.translatePath('special://profile/addon_data/plugin.video.iptvsimple.addons/temp.xml')
+            filename = xbmc.translatePath('special://home/addons/plugin.video.iptvsimple.addons/resources/temp.xml')
             f = open(filename,"w")
             subprocess.call([busybox_location(),"xz","-dc",tempfile],stdout=f,shell=windows())
             f.close()
@@ -521,7 +521,7 @@ def add_all_streams(url):
     data = get_data(url)
     if not data:
         return
-    filename = 'special://profile/addon_data/plugin.video.iptvsimple.addons/template.m3u8'
+    filename = 'special://home/addons/plugin.video.iptvsimple.addons/resources/template.m3u8'
     original = get_data(filename) or "#EXTM3U\n"
     channels = re.findall('#EXTINF.*?\r?\n.*?\r?\n', data, flags=(re.I|re.DOTALL|re.MULTILINE))
     for channel in channels:
@@ -535,7 +535,7 @@ def add_all_channels(url,name):
     data = get_data(url)
     if not data:
         return
-    filename = 'special://profile/addon_data/plugin.video.iptvsimple.addons/template.tsv'
+    filename = 'special://home/addons/plugin.video.iptvsimple.addons/resources/template.tsv'
     original = get_data(filename) or ""
     #log(original)
     channels = re.findall('<channel.*?channel>', data, flags=(re.I|re.DOTALL|re.MULTILINE))
@@ -561,7 +561,7 @@ def add_m3u_group(url,group):
     data = get_data(url)
     if not data:
         return
-    filename = 'special://profile/addon_data/plugin.video.iptvsimple.addons/template.m3u8'
+    filename = 'special://home/addons/plugin.video.iptvsimple.addons/resources/template.m3u8'
     original = get_data(filename) or "#EXTM3U\n"
     channels = re.findall('#EXTINF.*?\r?\n.*?\r?\n', data, flags=(re.I|re.DOTALL|re.MULTILINE))
     for channel in channels:
@@ -578,7 +578,7 @@ def add_m3u_group(url,group):
 
 @plugin.route('/add_all_folder/<path>/<label>')
 def add_all_folder(path,label):
-    filename = 'special://profile/addon_data/plugin.video.iptvsimple.addons/template.m3u8'
+    filename = 'special://home/addons/plugin.video.iptvsimple.addons/resources/template.m3u8'
     original = get_data(filename) or "#EXTM3U\n"
 
     match = re.search('plugin://(.*?)/',path)
@@ -608,7 +608,7 @@ def add_all_folder(path,label):
 
 @plugin.route('/subscribe_all_folder/<path>/<label>')
 def subscribe_all_folder(path,label):
-    filename = 'special://profile/addon_data/plugin.video.iptvsimple.addons/template.m3u8'
+    filename = 'special://home/addons/plugin.video.iptvsimple.addons/resources/template.m3u8'
     original = get_data(filename) or "#EXTM3U\n"
 
     match = re.search('plugin://(.*?)/',path)
@@ -627,7 +627,7 @@ def subscribe_all_folder(path,label):
 
 @plugin.route('/add_folder_stream/<path>/<label>/<name>/<thumbnail>')
 def add_folder_stream(path,label,name,thumbnail):
-    filename = 'special://profile/addon_data/plugin.video.iptvsimple.addons/template.m3u8'
+    filename = 'special://home/addons/plugin.video.iptvsimple.addons/resources/template.m3u8'
     original = get_data(filename) or "#EXTM3U\n"
 
     match = re.search('plugin://(.*?)/',path)
@@ -645,7 +645,7 @@ def add_folder_stream(path,label,name,thumbnail):
 
 @plugin.route('/add_folder_search/<path>/<label>/<name>/<thumbnail>')
 def add_folder_search(path,label,name,thumbnail):
-    filename = 'special://profile/addon_data/plugin.video.iptvsimple.addons/template.m3u8'
+    filename = 'special://home/addons/plugin.video.iptvsimple.addons/resources/template.m3u8'
     original = get_data(filename) or "#EXTM3U\n"
 
     match = re.search('plugin://(.*?)/',path)
@@ -702,7 +702,7 @@ def add_m3u_stream(channel):
 
 @plugin.route('/add_epg_channel/<channel>/<name>/<url>')
 def add_epg_channel(channel,name,url):
-    filename = 'special://profile/addon_data/plugin.video.iptvsimple.addons/template.tsv'
+    filename = 'special://home/addons/plugin.video.iptvsimple.addons/resources/template.tsv'
     original = get_data(filename) or ""
 
     channel_name = ""
@@ -845,7 +845,7 @@ def select_stream_id(id,name):
     lower_name = name.decode("utf8").lower()
     #TODO exact, partial, other
     ids = plugin.get_storage('ids')
-    filename = 'special://profile/addon_data/plugin.video.iptvsimple.addons/channels.tsv'
+    filename = 'special://home/addons/plugin.video.iptvsimple.addons/resources/channels.tsv'
     data = get_data(filename) or ""
     channels = [x.split('\t') for x in data.splitlines() if x.startswith('CHANNEL')]
     channels.sort(key=lambda k: k[3].lower())
@@ -874,7 +874,7 @@ def set_stream_id(id,new_id):
 def select_stream_id_list(id):
     #TODO exact, partial, other
     ids = plugin.get_storage('ids')
-    filename = 'special://profile/addon_data/plugin.video.iptvsimple.addons/channels.tsv'
+    filename = 'special://home/addons/plugin.video.iptvsimple.addons/resources/channels.tsv'
     data = get_data(filename) or ""
     channels = [x.split('\t') for x in data.splitlines() if x.startswith('CHANNEL')]
     channels.sort(key=lambda k: k[3].lower())
@@ -1040,7 +1040,7 @@ def update_streams():
 @plugin.route('/update_channels/')
 def update_channels():
 
-    url = 'special://profile/addon_data/plugin.video.iptvsimple.addons/ignores.json'
+    url = 'special://home/addons/plugin.video.iptvsimple.addons/resources/ignores.json'
     f = xbmcvfs.File(url)
     data = f.read()
     f.close()
@@ -1049,7 +1049,7 @@ def update_channels():
     except:
         ignores = []
 
-    url = 'special://profile/addon_data/plugin.video.iptvsimple.addons/template.tsv'
+    url = 'special://home/addons/plugin.video.iptvsimple.addons/resources/template.tsv'
     data = get_data(url)
     if not data:
         return
@@ -1104,11 +1104,11 @@ def update_channels():
                     #log((id,new_id,channel))
 
             ids.append(id)
-    filename = 'special://profile/addon_data/plugin.video.iptvsimple.addons/channels.tsv'
+    filename = 'special://home/addons/plugin.video.iptvsimple.addons/resources/channels.tsv'
     f = xbmcvfs.File(filename,'w')
     f.write(original)
     f.close()
-    filename = 'special://profile/addon_data/plugin.video.iptvsimple.addons/duplicates.json'
+    filename = 'special://home/addons/plugin.video.iptvsimple.addons/resources/duplicates.json'
     f = xbmcvfs.File(filename,'w')
     f.write(json.dumps(duplicates))
     f.close()
@@ -1122,12 +1122,12 @@ def update_channels():
 
 @plugin.route('/duplicates/')
 def duplicates():
-    url = 'special://profile/addon_data/plugin.video.iptvsimple.addons/channels.tsv'
+    url = 'special://home/addons/plugin.video.iptvsimple.addons/resources/channels.tsv'
     f = xbmcvfs.File(url)
     data = f.read()
     f.close()
     channels = [x.split('\t') for x in data.splitlines() if x.startswith('CHANNEL')]
-    url = 'special://profile/addon_data/plugin.video.iptvsimple.addons/duplicates.json'
+    url = 'special://home/addons/plugin.video.iptvsimple.addons/resources/duplicates.json'
     f = xbmcvfs.File(url)
     data = f.read()
     f.close()
@@ -1152,7 +1152,7 @@ def duplicates():
             ignores.append(line)
     if not ignores:
         return
-    filename = 'special://profile/addon_data/plugin.video.iptvsimple.addons/ignores.json'
+    filename = 'special://home/addons/plugin.video.iptvsimple.addons/resources/ignores.json'
     f = xbmcvfs.File(filename,'w')
     f.write(json.dumps(ignores))
     f.close()
@@ -1175,7 +1175,7 @@ def enable_iptvsimple():
 
 
 def update_xml():
-    url = 'special://profile/addon_data/plugin.video.iptvsimple.addons/channels.tsv'
+    url = 'special://home/addons/plugin.video.iptvsimple.addons/resources/channels.tsv'
     data = get_data(url)
     if not data:
         return
@@ -1210,7 +1210,7 @@ def update_xml():
                 if id in url_ids[url]:
                     xml_programmes[url].append(programme)
 
-    filename = 'special://profile/addon_data/plugin.video.iptvsimple.addons/xmltv.xml'
+    filename = 'special://home/addons/plugin.video.iptvsimple.addons/resources/xmltv.xml'
     f = xbmcvfs.File(filename,'w')
     f.write('''<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
@@ -1233,14 +1233,14 @@ def clear_streams():
 
 @plugin.route('/clear_channels/')
 def clear_channels():
-    filename = 'special://profile/addon_data/plugin.video.iptvsimple.addons/template.tsv'
+    filename = 'special://home/addons/plugin.video.iptvsimple.addons/resources/template.tsv'
     f = xbmcvfs.File(filename,'w')
     f.close()
 
 
 @plugin.route('/subscribe_all_streams/<url>/<name>')
 def subscribe_all_streams(url,name):
-    filename = 'special://profile/addon_data/plugin.video.iptvsimple.addons/template.m3u8'
+    filename = 'special://home/addons/plugin.video.iptvsimple.addons/resources/template.m3u8'
     original = get_data(filename) or "#EXTM3U\n"
     #channels = re.findall('#EXTINF.*?\r?\n.*?\r?\n', data, flags=(re.I|re.DOTALL|re.MULTILINE))
     channel = '#EXTINF:-1 tvg-id="%s",SUBSCRIBE\n%s\n' % (name,url)
@@ -1252,7 +1252,7 @@ def subscribe_all_streams(url,name):
 
 @plugin.route('/subscribe_all_channels/<url>/<name>')
 def subscribe_all_channels(url,name):
-    filename = 'special://profile/addon_data/plugin.video.iptvsimple.addons/template.tsv'
+    filename = 'special://home/addons/plugin.video.iptvsimple.addons/resources/template.tsv'
     original = get_data(filename) or ""
 
     channel = 'SUBSCRIBE\t%s\t%s\n' % (name,url)
@@ -1266,7 +1266,7 @@ def subscribe_m3u_group(url,group,name):
     data = get_data(url)
     if not data:
         return
-    filename = 'special://profile/addon_data/plugin.video.iptvsimple.addons/template.m3u8'
+    filename = 'special://home/addons/plugin.video.iptvsimple.addons/resources/template.m3u8'
     original = get_data(filename) or "#EXTM3U\n"
     channels = re.findall('#EXTINF.*?\r?\n.*?\r?\n', data, flags=(re.I|re.DOTALL|re.MULTILINE))
     channel = '#EXTINF:-1 tvg-id="%s" group-title="%s",SUBSCRIBE\n%s\n' % (name,group,url)
@@ -1409,7 +1409,7 @@ def set_iptvsimple_m3u_file():
 @plugin.route('/set_iptvsimple_epg_file')
 def set_iptvsimple_epg_file():
     xbmcaddon.Addon('pvr.iptvsimple').setSetting('epgPathType',"0")
-    xbmcaddon.Addon('pvr.iptvsimple').setSetting('epgPath',xbmc.translatePath('special://profile/addon_data/plugin.video.iptvsimple.addons/xmltv.xml'))
+    xbmcaddon.Addon('pvr.iptvsimple').setSetting('epgPath',xbmc.translatePath('special://home/addons/plugin.video.iptvsimple.addons/resources/xmltv.xml'))
 
 
 @plugin.route('/')
