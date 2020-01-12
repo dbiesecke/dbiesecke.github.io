@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol always="true">95</defaultcontrol>
+    <include>openclose</include>
+    <controls>
+        <include>DialogBackgroundSimple</include>
+		<control type="group">
+			<left>60</left>
+			<top>0</top>
+			<include>openclosevisible</include>
+			<control type="grouplist">
+				<left>500</left>
+				<top>105</top>
+				<height>550</height>
+				<orientation>vertical</orientation>
+				<control type="label" id="2">
+					<height>47</height>
+					<width>1280</width>
+					<font>Small</font>
+				</control>
+				<control type="label" id="3">
+					<height>47</height>
+					<width>1280</width>
+					<font>Small</font>
+				</control>
+				<control type="label" id="4">
+					<height>47</height>
+					<width>1280</width>
+					<font>Small</font>
+				</control>
+				<control type="label" id="5">
+					<height>47</height>
+					<width>1280</width>
+					<font>Small</font>
+				</control>
+				<control type="label" id="6">
+					<height>47</height>
+					<width>1280</width>
+					<font>Small</font>
+				</control>
+				<control type="label" id="7">
+					<height>47</height>
+					<width>1280</width>
+					<font>Small</font>
+				</control>
+				<control type="label" id="8">
+					<height>47</height>
+					<width>1280</width>
+					<font>Small</font>
+				</control>
+				<control type="label" id="9">
+					<height>47</height>
+					<width>1280</width>
+					<font>Small</font>
+				</control>
+				<control type="label" id="10">
+					<height>47</height>
+					<width>1280</width>
+					<font>Small</font>
+				</control>
+				<control type="label" id="11">
+					<height>47</height>
+					<width>1280</width>
+					<font>Small</font>
+				</control>
+				<control type="label" id="12">
+					<height>47</height>
+					<width>1280</width>
+					<font>Small</font>
+				</control>
+			</control>
+			<control type="textbox" id="30">
+				<left>500</left>
+				<right>50</right>
+				<top>100</top>
+				<width>1280</width>
+				<bottom>315</bottom>
+				<pagecontrol>60</pagecontrol>
+				<autoscroll delay="5000" repeat="7500" time="5000">!Control.HasFocus(60)</autoscroll>
+			</control>
+			<control type="scrollbar" id="60">
+				<right>10</right>
+				<top>93</top>
+				<height>680</height>
+				<width>18</width>
+				<bottom>312</bottom>
+				<orientation>vertical</orientation>
+				<animation effect="slide" end="26,0" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(60)">conditional</animation>
+				<onleft>9000</onleft>
+				<onright>9000</onright>
+				<visible>Control.IsVisible(30)</visible>
+				<animation effect="fade" start="0" end="100" time="200" delay="300">Visible</animation>
+				<animation effect="fade" start="100" end="0" time="200">Hidden</animation>
+				<animation effect="fade" start="0" end="100" delay="300" time="320">WindowOpen</animation>
+				<animation effect="fade" start="100" end="0" time="150">WindowClose</animation>
+			</control>
+			<control type="image">
+				<left>490</left>
+				<top>90</top>
+				<right>0</right>
+				<width>1300</width>
+				<height>3</height>
+				<texture border="1">Separator1.png</texture>
+			</control>
+			<control type="group">
+				<bottom>0</bottom>
+				<height>330</height>
+				<control type="image">
+					<left>490</left>
+					<top>20</top>
+					<right>0</right>
+					<width>1300</width>
+					<height>3</height>
+					<texture border="1">Separator1.png</texture>
+				</control>
+				<control type="grouplist">
+					<top>0</top>
+					<left>500</left>
+					<orientation>vertical</orientation>
+					<control type="label">
+						<description>CPU Text</description>
+						<width>1280</width>
+						<height>85</height>
+						<label>$LOCALIZE[13271] $INFO[System.CPUUsage]</label>
+						<aligny>top</aligny>
+						<textoffsety>40</textoffsety>
+						<shadowcolor>black</shadowcolor>
+						<font>Small</font>
+					</control>
+					<control type="progress">
+						<description>CPU BAR</description>
+						<width>1280</width>
+						<height>12</height>
+						<info>System.CPUUsage</info>
+					</control>
+					<control type="label">
+						<description>Memory Text</description>
+						<width>1280</width>
+						<height>45</height>
+						<label>$LOCALIZE[31030]: $INFO[system.memory(used)] [B]/[/B] $INFO[system.memory(total)] [B]-[/B] $INFO[system.memory(used.percent)]</label>
+						<aligny>center</aligny>
+						<shadowcolor>black</shadowcolor>
+						<font>Small</font>
+					</control>
+					<control type="progress">
+						<description>Memory BAR</description>
+						<width>1280</width>
+						<height>12</height>
+						<info>system.memory(used)</info>
+					</control>
+				</control>
+				<!-- <control type="label">
+					<top>34</top>
+					<left>1210</left>
+					<width>auto</width>
+					<height>50</height>
+					<aligny>bottom</aligny>
+					<textoffsety>10</textoffsety>
+					<label>$LOCALIZE[31031]:</label>
+					<shadowcolor>black</shadowcolor>
+					<font>Small</font>
+				</control> -->
+				<control type="grouplist">
+					<description>Kodi build version</description>
+					<itemgap>10</itemgap>
+					<top>180</top>
+					<left>500</left>
+					<width>800</width>
+					<height>45</height>
+					<orientation>horizontal</orientation>
+					<control type="label">
+						<description>Build label</description>
+						<width>auto</width>
+						<height>50</height>
+						<aligny>bottom</aligny>
+						<font>Small</font>
+						<textoffsety>10</textoffsety>
+						<label>$LOCALIZE[144]</label>
+						<shadowcolor>black</shadowcolor>
+					</control>
+					<control type="label" id="52">
+						<description>Kodi Build Version</description>
+						<height>50</height>
+						<aligny>bottom</aligny>
+						<textoffsety>10</textoffsety>
+						<font>Small</font>
+						<width>auto</width>
+						<shadowcolor>black</shadowcolor>
+					</control>
+				</control>
+				<control type="grouplist">
+					<description>Build date</description>
+					<itemgap>10</itemgap>
+					<top>240</top>
+					<left>500</left>
+					<width>800</width>
+					<orientation>horizontal</orientation>
+					<control type="label">
+						<description>kodi Compiled Text</description>
+						<width>auto</width>
+						<height>50</height>
+						<label>$LOCALIZE[174]</label>
+						<font>Small</font>
+						<shadowcolor>black</shadowcolor>
+					</control>
+					<control type="label" id="53">
+						<description>Kodi Build Date</description>
+						<width>auto</width>
+						<height>50</height>
+						<font>Small</font>
+						<shadowcolor>black</shadowcolor>
+					</control>
+				</control>
+			</control>
+		</control>
+		<control type="group">
+			<left>0</left>
+			<top>0</top>
+			<depth>DepthContentPanel</depth>
+			<include>opencloseslideright</include>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<width>480</width>
+				<height>1080</height>
+				<texture>BlackBack.png</texture>
+			</control>
+			<control type="grouplist" id="9000">
+				<left>30</left>
+				<top>250</top>
+				<width>420</width>
+				<height>100%</height>
+				<onup>9000</onup>
+				<ondown>9000</ondown>
+				<onright>60</onright>
+				<control type="button" id="95">
+					<description>Button Summary Values</description>
+					<texturenofocus/>
+					<width>420</width>
+					<label>$LOCALIZE[20037]</label>
+				</control>
+				<control type="button" id="94">
+					<description>Button Storage</description>
+					<texturenofocus/>
+					<width>420</width>
+					<label>$LOCALIZE[13277]</label>
+				</control>
+				<control type="button" id="96">
+					<description>Button Network</description>
+					<texturenofocus/>
+					<width>420</width>
+					<label>$LOCALIZE[13279]</label>
+				</control>
+				<control type="button" id="97">
+					<description>Button Video</description>
+					<texturenofocus/>
+					<width>420</width>
+					<label>$LOCALIZE[13280]</label>
+				</control>
+				<control type="button" id="98">
+					<description>Button Hardware</description>
+					<texturenofocus/>
+					<width>420</width>
+					<label>$LOCALIZE[13281]</label>
+				</control>
+				<control type="button" id="99">
+					<description>Button PVR</description>
+					<texturenofocus/>
+					<width>420</width>
+					<label>$LOCALIZE[19191]</label>
+				</control>
+				<control type="button" id="100">
+					<description>Button Privacy policy</description>
+					<texturenofocus/>
+					<width>420</width>
+					<label>$LOCALIZE[12389]</label>
+				</control>
+			</control>
+			<control type="image">
+				<left>30</left>
+				<top>970</top>
+				<width>400</width>
+				<height>70</height>
+				<texture>Horizonzv.png</texture>
+				<include>openclosemedium</include>
+			</control>
+		</control>
+        <include>Clock</include>
+        <include>NavInfo</include>
+	</controls>
+</window>

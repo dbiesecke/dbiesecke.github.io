@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<includes>
+    <include name="Dashboard_Extended">
+		<control type="label" id="$PARAM[dashboard_labelid]">
+			<left>5</left>
+			<top>0</top>
+			<width>auto</width>
+			<height>32</height>
+			<font>lcd14</font>
+			<align>left</align>
+			<textcolor>grey</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<label>$VAR[$PARAM[dashbaord_extended_label]]</label>
+			<include>openclosevisible</include>
+			<!-- <visible>System.HasAddon(script.extendedinfo)</visible> -->
+			<visible>$PARAM[dashboard_extended_visible]</visible>
+		</control>
+		<control type="list" id="$PARAM[dashboard_id]">
+			<include>openclosefanart</include>
+			<include>openclosevisible</include>
+			<left>0</left>
+			<top>0</top>
+			<width>1800</width>
+			<height>130</height>
+			<ondown>Action(FirstPage)</ondown>
+			<onup>Action(FirstPage)</onup>
+			<viewtype label="list">list</viewtype>
+			<pagecontrol/>
+			<scrolltime tween="circle" easing="out">800</scrolltime>
+			<orientation>horizontal</orientation>
+			<!-- <visible>System.HasAddon(script.extendedinfo)</visible> -->
+			<visible>$PARAM[dashboard_extended_visible]</visible>
+			<visible>!Skin.HasSetting($PARAM[dashbaord_extended_number])</visible>
+			<autoscroll time="3000" delay="5000" repeat="5000">!Control.HasFocus(8009)+!Control.HasFocus(8006)+!Control.HasFocus(8004)+!String.IsEmpty(Container($PARAM[dashboard_id]).ListItem(6).Label)+Skin.HasSetting(animation)</autoscroll>
+			<itemlayout height="130" width="360">
+				<control type="image">
+					<description>background</description>
+					<left>0</left>
+					<top>0</top>
+					<width>352</width>
+					<height>130</height>
+					<texture>BlackBack.png</texture>
+				</control>
+				<control type="image">
+					<description>background</description>
+					<left>10</left>
+					<top>10</top>
+					<width>332</width>
+					<height>110</height>
+					<aspectratio>scale</aspectratio>
+					<colordiffuse>$VAR[widgetdim]</colordiffuse>
+					<texture>$INFO[ListItem.Art(fanart)]</texture>
+				</control>
+				<control type="image">
+					<description>background</description>
+					<left>10</left>
+					<top>10</top>
+					<width>332</width>
+					<height>110</height>
+					<aspectratio>scale</aspectratio>
+					<colordiffuse>$VAR[widgetdim]</colordiffuse>
+					<texture>$INFO[ListItem.Icon]</texture>
+					<visible>String.IsEmpty(ListItem.Art(fanart))</visible>
+				</control>
+				<control type="image">
+					<description>background</description>
+					<left>90</left>
+					<top>10</top>
+					<width>80</width>
+					<height>110</height>
+					<texture>SideFade.png</texture>
+					<visible>!String.IsEmpty(ListItem.Art(poster))</visible>
+				</control>
+				<control type="image">
+					<description>background</description>
+					<left>10</left>
+					<top>10</top>
+					<width>80</width>
+					<height>110</height>
+					<aspectratio>stretch</aspectratio>
+					<colordiffuse>$VAR[widgetdim]</colordiffuse>
+					<texture>$INFO[ListItem.Art(poster)]</texture>
+				</control>
+				<control type="image">
+					<left>8</left>
+					<top>75</top>
+					<width>338</width>
+					<height>45</height>
+					<texture>BlackBack.png</texture>
+				</control>
+				<control type="label">
+					<left>14</left>
+					<top>75</top>
+					<width>322</width>
+					<height>45</height>
+					<font>impacted14</font>
+					<align>center</align>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[ListItem.Label]$INFO[ListItem.Property(eventname)]</label>
+				</control>
+				<control type="image">
+					<description>background</description>
+					<left>0</left>
+					<top>0</top>
+					<width>352</width>
+					<height>130</height>
+					<colordiffuse>menudiffuse</colordiffuse>
+					<texture border="4">masks/Default_sharp.png</texture>
+					<animation effect="fade" start="100" end="50" time="150" condition="!Control.HasFocus($PARAM[dashboard_id])">Conditional</animation>
+					<animation effect="fade" start="50" end="100" time="150" condition="Control.HasFocus($PARAM[dashboard_id])">Conditional</animation>
+				</control>
+			</itemlayout>
+			<focusedlayout height="130" width="360">
+				<control type="group">
+					<include>focuseffect</include>
+					<control type="image">
+						<description>background</description>
+						<left>0</left>
+						<top>0</top>
+						<width>352</width>
+						<height>130</height>
+						<texture>BlackBack.png</texture>
+						<visible>!Control.HasFocus($PARAM[dashboard_id])</visible>
+					</control>
+					<control type="image">
+						<description>background</description>
+						<left>0</left>
+						<top>0</top>
+						<width>352</width>
+						<height>132</height>
+						<aspectratio>scale</aspectratio>
+						<colordiffuse>$VAR[BackgroundOverlayColorDialog]</colordiffuse>
+						<texture>WhiteBack.png</texture>
+						<visible>Control.HasFocus($PARAM[dashboard_id])</visible>
+					</control>
+					<control type="image">
+						<description>background</description>
+						<left>10</left>
+						<top>10</top>
+						<width>332</width>
+						<height>110</height>
+						<aspectratio>scale</aspectratio>
+						<texture>$INFO[ListItem.Art(fanart)]</texture>
+						<visible>Control.HasFocus($PARAM[dashboard_id])</visible>
+					</control>
+					<control type="image">
+						<description>background</description>
+						<left>10</left>
+						<top>10</top>
+						<width>332</width>
+						<height>110</height>
+						<aspectratio>scale</aspectratio>
+						<colordiffuse>$VAR[widgetdim]</colordiffuse>
+						<texture>$INFO[ListItem.Art(fanart)]</texture>
+						<visible>!Control.HasFocus($PARAM[dashboard_id])</visible>
+					</control>
+					<control type="image">
+						<description>background</description>
+						<left>10</left>
+						<top>10</top>
+						<width>332</width>
+						<height>110</height>
+						<aspectratio>scale</aspectratio>
+						<texture>$INFO[ListItem.Icon]</texture>
+						<visible>String.IsEmpty(ListItem.Art(fanart))</visible>
+						<visible>Control.HasFocus($PARAM[dashboard_id])</visible>
+					</control>
+					<control type="image">
+						<description>background</description>
+						<left>10</left>
+						<top>10</top>
+						<width>332</width>
+						<height>110</height>
+						<aspectratio>scale</aspectratio>
+						<colordiffuse>$VAR[widgetdim]</colordiffuse>
+						<texture>$INFO[ListItem.Icon]</texture>
+						<visible>String.IsEmpty(ListItem.Art(fanart))</visible>
+						<visible>!Control.HasFocus($PARAM[dashboard_id])</visible>
+					</control>
+					<control type="image">
+						<description>background</description>
+						<left>90</left>
+						<top>10</top>
+						<width>80</width>
+						<height>110</height>
+						<texture>SideFade.png</texture>
+						<visible>!String.IsEmpty(ListItem.Art(poster))</visible>
+					</control>
+					<control type="image">
+						<description>background</description>
+						<left>10</left>
+						<top>10</top>
+						<width>80</width>
+						<height>110</height>
+						<aspectratio>stretch</aspectratio>
+						<texture>$INFO[ListItem.Art(poster)]</texture>
+						<visible>Control.HasFocus($PARAM[dashboard_id])</visible>
+					</control>
+					<control type="image">
+						<description>background</description>
+						<left>10</left>
+						<top>10</top>
+						<width>80</width>
+						<height>110</height>
+						<aspectratio>stretch</aspectratio>
+						<colordiffuse>$VAR[widgetdim]</colordiffuse>
+						<texture>$INFO[ListItem.Art(poster)]</texture>
+						<visible>!Control.HasFocus($PARAM[dashboard_id])</visible>
+					</control>
+					<control type="image">
+						<left>1</left>
+						<top>59</top>
+						<width>350</width>
+						<height>70</height>
+						<colordiffuse>menudiffuse</colordiffuse>
+						<texture>Shadow.png</texture>
+						<include>openclosevisible</include>
+						<visible>Control.HasFocus($PARAM[dashboard_id])</visible>
+						<animation effect="fade" start="100" end="0" time="200" delay="7000">Focus</animation>
+					</control>
+					<control type="image">
+						<left>8</left>
+						<top>75</top>
+						<width>338</width>
+						<height>45</height>
+						<texture>BlackBack.png</texture>
+					</control>
+					<control type="label">
+						<left>14</left>
+						<top>75</top>
+						<width>322</width>
+						<height>45</height>
+						<font>impacted14</font>
+						<align>center</align>
+						<textcolor>white</textcolor>
+						<shadowcolor>black</shadowcolor>
+						<label>$INFO[ListItem.Label]$INFO[ListItem.Property(eventname)]</label>
+					</control>
+					<control type="image">
+						<description>background</description>
+						<left>0</left>
+						<top>0</top>
+						<width>352</width>
+						<height>130</height>
+						<colordiffuse>menudiffuse</colordiffuse>
+						<texture border="4">masks/Default_sharp.png</texture>
+						<animation effect="fade" start="100" end="50" time="150" condition="!Control.HasFocus($PARAM[dashboard_id])">Conditional</animation>
+						<animation effect="fade" start="50" end="100" time="150" condition="Control.HasFocus($PARAM[dashboard_id])">Conditional</animation>
+					</control>
+				</control>
+			</focusedlayout>
+			<content target="$VAR[WidgetTarget]" sortby="date" sortorder="descending" limit="20">$VAR[$PARAM[dashbaord_extended_content]]</content>
+		</control>
+    </include>
+    <include name="Dashboard">
+        <control type="group">
+			<include>openclosefanart</include>
+			<visible>String.IsEqual(Container(9000).ListItem.Property(homemenu_id),dashboard)</visible>
+			<control type="grouplist" id="8001">
+				<left>60</left>
+				<top>100</top>
+				<width>1800</width>
+				<height>780</height>
+				<onup>8009</onup>
+				<ondown>8009</ondown>
+				<itemgap>0</itemgap>
+				<orientation>vertical</orientation>
+				<include>openclosefanart</include>
+				<include>openclosevisible</include>
+				<visible>!Window.IsVisible(favourites)+!Window.IsVisible(1200)</visible>
+				<animation effect="slide" end="0,50" time="150" condition="!Control.IsVisible(8002)">Conditional</animation>
+				<animation effect="slide" end="0,80" time="150" condition="!Control.IsVisible(8004)">Conditional</animation>
+				<animation effect="slide" end="0,80" time="150" condition="!Control.IsVisible(8006)">Conditional</animation>
+				<animation effect="slide" end="0,160" time="150" condition="!Control.IsVisible(8004)+!Control.IsVisible(8006)">Conditional</animation>
+				<include condition="System.HasAddon(plugin.program.fritzact)">FritzDect</include> <!-- 8002 -->
+				<include content="Dashboard_Extended">
+					<param name="dashboard_labelid" value="8003" />
+					<param name="dashboard_id" value="8004" />
+					<param name="dashbaord_extended_number" value="dashboard_eventblog1_off" />
+					<param name="dashboard_extended_visible" value="!String.IsEmpty(Container(8020).ListItem(0).Label)+String.IsEqual(Container(9000).ListItem.Property(homemenu_id),dashboard)" />
+					<param name="dashbaord_extended_label" value="DashboardExtendedInfoLabel" />
+					<param name="dashbaord_extended_content" value="DashboardExtendedInfoContent" />
+				</include>
+				<include content="Dashboard_Extended">
+					<param name="dashboard_labelid" value="8005" />
+					<param name="dashboard_id" value="8006" />
+					<param name="dashbaord_extended_number" value="dashboard_eventblog2_off" />
+					<param name="dashboard_extended_visible" value="!String.IsEmpty(Container(8021).ListItem(0).Label)+String.IsEqual(Container(9000).ListItem.Property(homemenu_id),dashboard)" />
+					<param name="dashbaord_extended_label" value="DashboardExtendedInfoLabel2" />
+					<param name="dashbaord_extended_content" value="DashboardExtendedInfoContent2" />
+				</include>
+			</control>
+			<control type="group" id="8007">
+				<left>60</left>
+				<top>538</top>
+				<animation effect="slide" start="0,0" end="0,-112" time="400" delay="250" condition="Window.IsVisible(favourites)">Conditional</animation>
+				<control type="label" id="8008">
+					<left>5</left>
+					<top>0</top>
+					<width>auto</width>
+					<height>20</height>
+					<font>lcd14</font>
+					<align>left</align>
+					<textcolor>grey</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$LOCALIZE[24000] $VAR[DashboardAddonLabel,[COLOR grey1](,)[/COLOR]]</label>
+					<include>openclosevisible</include>
+				</control>
+				<control type="panel" id="8009">
+					<left>0</left>
+					<top>28</top>
+					<width>1800</width>
+					<height>180</height>
+					<include>DashboardLayout</include>
+					<include>dashboardcontent</include>
+				</control>
+			</control>
+			<control type="list" id="8020"> <!-- fake -->
+				<left>0</left>
+				<top>0</top>
+				<width>1</width>
+				<height>1</height>
+				<!-- <visible>System.HasAddon(script.extendedinfo)</visible> -->
+				<itemlayout height="130" width="360">
+				</itemlayout>
+				<focusedlayout height="130" width="360">
+				</focusedlayout>
+				<content target="videos" limit="1">$VAR[DashboardExtendedInfoContent]</content>
+			</control>
+			<control type="list" id="8021"> <!-- fake -->
+				<left>0</left>
+				<top>0</top>
+				<width>1</width>
+				<height>1</height>
+				<!-- <visible>System.HasAddon(script.extendedinfo)</visible> -->
+				<itemlayout height="1" width="1">
+				</itemlayout>
+				<focusedlayout height="1" width="1">
+				</focusedlayout>
+				<content target="videos" limit="1">$VAR[DashboardExtendedInfoContent2]</content>
+			</control>
+		</control>
+    </include>
+    <include name="DashboardLayout">
+		<include>openclosemedium</include>
+		<visible>String.IsEqual(Container(9000).ListItem.Property(homemenu_id),dashboard)</visible>
+        <onleft>8009</onleft>
+        <onright>8009</onright>
+        <onup>8006</onup>
+        <ondown>9000</ondown>
+        <viewtype label="535">panel</viewtype>
+        <pagecontrol/>
+        <scrolltime>200</scrolltime>
+        <orientation>vertical</orientation>
+        <itemlayout height="180" width="180">
+            <control type="image">
+                <description>background</description>
+                <left>8</left>
+                <top>8</top>
+                <width>158</width>
+                <height>158</height>
+                <texture>BlackBack.png</texture>
+            </control>
+            <control type="image">
+                <description>background</description>
+                <left>15</left>
+                <top>15</top>
+                <width>142</width>
+                <height>142</height>
+                <aspectratio>keep</aspectratio>
+                <colordiffuse>$VAR[widgetdim]</colordiffuse>
+                <texture>$INFO[ListItem.Icon]</texture>
+            </control>
+            <control type="image">
+                <description>background</description>
+                <left>0</left>
+                <top>0</top>
+                <width>172</width>
+                <height>172</height>
+                <colordiffuse>menudiffuse</colordiffuse>
+                <texture border="4">masks/Default_sharp.png</texture>
+                <animation effect="fade" start="100" end="50" time="150" condition="!Control.HasFocus(8009)">Conditional</animation>
+                <animation effect="fade" start="50" end="100" time="150" condition="Control.HasFocus(8009)">Conditional</animation>
+            </control>
+        </itemlayout>
+        <focusedlayout height="180" width="180">
+            <control type="group">
+                <include>focuseffect</include>
+                <control type="image">
+                    <description>background</description>
+                    <left>0</left>
+                    <top>0</top>
+                    <width>172</width>
+                    <height>172</height>
+                    <colordiffuse>$VAR[BackgroundOverlayColorDialog]</colordiffuse>
+                    <texture>WhiteBack.png</texture>
+                    <visible>Control.HasFocus(8009)</visible>
+                </control>
+                <control type="image">
+                    <description>background</description>
+                    <left>8</left>
+                    <top>8</top>
+                    <width>158</width>
+                    <height>158</height>
+                    <aspectratio>keep</aspectratio>
+                    <colordiffuse>$VAR[widgetdim]</colordiffuse>
+                    <texture>$INFO[ListItem.Icon]</texture>
+                    <visible>!Control.HasFocus(8009)</visible>
+                </control>
+                <control type="image">
+                    <description>background</description>
+                    <left>8</left>
+                    <top>8</top>
+                    <width>158</width>
+                    <height>158</height>
+                    <aspectratio>keep</aspectratio>
+                    <texture>$INFO[ListItem.Icon]</texture>
+                    <visible>Control.HasFocus(8009)</visible>
+                </control>
+                <control type="image">
+                    <description>background</description>
+                    <left>0</left>
+                    <top>0</top>
+                    <width>172</width>
+                    <height>172</height>
+                    <colordiffuse>menudiffuse</colordiffuse>
+                    <texture border="4">masks/Default_sharp.png</texture>
+                </control>
+            </control>
+        </focusedlayout>
+    </include>
+    <include name="DashboardLayout_Settings">
+        <!-- need for custom window 1200 -->
+        <onleft>8006</onleft>
+        <onright>8006</onright>
+        <onup>8400</onup>
+        <ondown>Action(back)</ondown>
+        <itemlayout height="180" width="180"></itemlayout>
+        <focusedlayout height="180" width="180">
+            <control type="image">
+                <description>background</description>
+                <left>0</left>
+                <top>0</top>
+                <width>172</width>
+                <height>172</height>
+                <aspectratio>scale</aspectratio>
+                <colordiffuse>$VAR[BackgroundOverlayColorDialog]</colordiffuse>
+                <texture>WhiteBack.png</texture>
+            </control>
+            <control type="image">
+                <description>background</description>
+                <left>8</left>
+                <top>8</top>
+                <width>158</width>
+                <height>158</height>
+                <aspectratio>keep</aspectratio>
+                <texture>$INFO[ListItem.Icon]</texture>
+            </control>
+        </focusedlayout>
+        <include>dashboardcontent_settings</include>
+    </include>
+</includes>

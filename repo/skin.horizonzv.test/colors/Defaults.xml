@@ -1,0 +1,26 @@
+<colors>
+	<color name="black">FF000000</color>
+	<color name="white">FFF0F8FF</color> 			<!-- floral white -->
+	<color name="red">ffa00000</color>
+	<color name="reddiffuse">99a00000</color>
+	<!-- <color name="red">FFCC0000</color> -->
+	<color name="darkgold">FFbbb446</color>			<!-- Dark Gold (Gambit) -->
+	<color name="blue">FF000071</color>
+	<color name="green">FF00793c</color> 			<!-- Sea Green -->
+	<color name="green2">FF00EE00</color> 			<!-- Signal Green -->
+	<color name="orange">FFbc6820</color> 			<!-- Sandy Brown -->
+	<color name="background">FF2b4a5d</color>
+	<color name="grey">FFb0b8b8</color> 			<!-- Azure3 -->
+	<color name="grey1">FF808080</color>
+	<color name="grey2">FF494949</color>
+	<color name="grey3">FF333333</color>
+	<color name="blackdiffuse">99000000</color>
+	<color name="fanartdiffuse">66FFFFFF</color>
+	<color name="menudiffuse">99FFFFFF</color>
+	<color name="dustdiffuse">aaFFFFFF</color>
+	<color name="selected">FF6495ED</color>			<!-- Turquoise4 -->
+	<color name="selectedcolor">ff00a0d6</color>	<!--  -->
+	<color name="description">ff00a0d6</color> 		<!-- Deep Sky Blue 1 -->
+	<color name="selectedhome">FF254960</color>
+	<color name="focused">FFc76300</color>			<!-- Dark Orange4 -->
+</colors>

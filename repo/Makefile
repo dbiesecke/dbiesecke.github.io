@@ -27,9 +27,12 @@ publish:
 	find . -maxdepth 2 -iname "*.zip" | grep "plugin" | parallel -j2 rsync -cvr  "{}" bohal@rsync.hidrive.strato.com:/public/XBMC/KODI-ADDONS/
 
 index:
-	@echo '| Packages                      | Version                 | URL                                                                                            |' > index.md
-	@echo '|-------------------------------|-------------------------|------------------------------------------------------------------------------------------------|' >> index.md
-	find . -iname "*.zip" -exec basename "{}" \; | sort | uniq | awk -F'-' '{print "| "$1"\t\t| "$2" | ["$1"](https://dbiesecke.github.io/repo/"$1"/"$1"-"$2") |"}' >> index.md
+	@./filelist.sh
+	
+convert-icons:
+	find . -iname "icon*.png" -exec cp "{}"  "{}.bak" \;
+	find . -iname "icon*.png" -exec convert -resize 32x32 "{}.bak" "{}" \;
+	find . -iname "icon*.bak" -delete
 	
 sync:
 	@test -d kdc || mkdir kdc 
@@ -42,6 +45,9 @@ build:
 	@test -d build || mkdir build
 	@find . -maxdepth 2 -iname "*.pyo" -delete 
 	@rsync -r ./* ./build/ ; echo true
+	@cd build && find . -iname "icon*.png" -exec cp "{}"  "{}.bak" \;
+	@cd build && find . -iname "icon*.png" -exec convert -resize 32x32 "{}.bak" "{}" \;
+	@cd build && find . -iname "icon*.bak" -delete	
 	@cd build && python ./repo_prep.py ; cd ..
 	@rsync -cvr ./build/* .
 	find . -maxdepth 2 -iname "*.zip" 
