@@ -4,6 +4,25 @@
 
 IPTV Streams 74
 Video Addons (Repo): 23
+#find  -maxdepth 1 -iname "*" | sort | parallel cp "{}/icon.png" "icons/{}.png"
+find ./icons/ -iname "*video*" -exec basename "{}" \; | awk  '{print " !["$1"](https://dbiesecke.github.io/repo/icons/"$1")"}' 
+ ![plugin.video.PsycoTV.png](https://dbiesecke.github.io/repo/icons/plugin.video.PsycoTV.png)
+ ![script.video.F4mProxy.png](https://dbiesecke.github.io/repo/icons/script.video.F4mProxy.png)
+ ![plugin.video.tagesschau.png](https://dbiesecke.github.io/repo/icons/plugin.video.tagesschau.png)
+ ![plugin.video.L0RE.spiegeltv.png](https://dbiesecke.github.io/repo/icons/plugin.video.L0RE.spiegeltv.png)
+ ![plugin.video.fapzone.png](https://dbiesecke.github.io/repo/icons/plugin.video.fapzone.png)
+ ![plugin.video.L0RE.dmax.png](https://dbiesecke.github.io/repo/icons/plugin.video.L0RE.dmax.png)
+ ![plugin.video.pseudo.companion.png](https://dbiesecke.github.io/repo/icons/plugin.video.pseudo.companion.png)
+ ![context.video.favourites-0.0.1.png](https://dbiesecke.github.io/repo/icons/context.video.favourites-0.0.1.png)
+ ![plugin.video.iptvsimple.addons.png](https://dbiesecke.github.io/repo/icons/plugin.video.iptvsimple.addons.png)
+ ![plugin.video.f4mTester.png](https://dbiesecke.github.io/repo/icons/plugin.video.f4mTester.png)
+ ![plugin.video.L0RE.arte.png](https://dbiesecke.github.io/repo/icons/plugin.video.L0RE.arte.png)
+ ![plugin.video.aod.png](https://dbiesecke.github.io/repo/icons/plugin.video.aod.png)
+ ![plugin.video.osmosis.png](https://dbiesecke.github.io/repo/icons/plugin.video.osmosis.png)
+ ![plugin.video.xstream.png](https://dbiesecke.github.io/repo/icons/plugin.video.xstream.png)
+ ![plugin.video.genesisreborn.png](https://dbiesecke.github.io/repo/icons/plugin.video.genesisreborn.png)
+ ![plugin.video.pseudo.library.png](https://dbiesecke.github.io/repo/icons/plugin.video.pseudo.library.png)
+ ![plugin.video.arteplussept.png](https://dbiesecke.github.io/repo/icons/plugin.video.arteplussept.png)
 
 
 # Packages
@@ -13,7 +32,6 @@ Video Addons (Repo): 23
 | Packages                      | Version                 | URL                                                                                            |
 |-------------------------------|-------------------------|------------------------------------------------------------------------------------------------|
 | ![context.pseudotv.live.export](https://dbiesecke.github.io/repo/context.pseudotv.live.export/icon.png) context.pseudotv.live.export		| 1.1.9.zip | [context.pseudotv.live.export](https://dbiesecke.github.io/repo/context.pseudotv.live.export/context.pseudotv.live.export-1.1.9.zip) |
-| ![context.video.favourites](https://dbiesecke.github.io/repo/context.video.favourites/icon.png) context.video.favourites		| 0.0.1 | [context.video.favourites](https://dbiesecke.github.io/repo/context.video.favourites/context.video.favourites-0.0.1) |
 | ![metadata.themoviedb.org](https://dbiesecke.github.io/repo/metadata.themoviedb.org/icon.png) metadata.themoviedb.org		| 5.1.9.zip | [metadata.themoviedb.org](https://dbiesecke.github.io/repo/metadata.themoviedb.org/metadata.themoviedb.org-5.1.9.zip) |
 | ![metadata.thexem.de](https://dbiesecke.github.io/repo/metadata.thexem.de/icon.png) metadata.thexem.de		| 1.0.7.zip | [metadata.thexem.de](https://dbiesecke.github.io/repo/metadata.thexem.de/metadata.thexem.de-1.0.7.zip) |
 | ![plugin.program.iptv.merge](https://dbiesecke.github.io/repo/plugin.program.iptv.merge/icon.png) plugin.program.iptv.merge		| 0.3.3.zip | [plugin.program.iptv.merge](https://dbiesecke.github.io/repo/plugin.program.iptv.merge/plugin.program.iptv.merge-0.3.3.zip) |

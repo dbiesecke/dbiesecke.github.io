@@ -40,9 +40,13 @@ sync:
 	@cd kdc && lftp -e 'set mirror:exclude-regex "PsycoTV"; mirror -c;exit' 'https://kdc-repo.website/repo-beta/Addons/' 
 	@echo unzip it...
 	@unzip -o "kdc/*" >/dev/null
+	
+icon:	
+	@test -d icons || mkdir icons
+	#find  -maxdepth 1 -iname "*" | sort | parallel cp "{}/icon.png" "icons/{}.png"
+	find ./icons/ -iname "*video*" -exec basename "{}" \; | awk  '{print " !["$$1"](https://dbiesecke.github.io/repo/icons/"$$1")"}' 
 
 build:  
-	@test -d build || mkdir build
 	@find . -maxdepth 2 -iname "*.pyo" -delete 
 	@rsync -r ./* ./build/ ; echo true
 	@cd build && find . -iname "icon*.png" -exec cp "{}"  "{}.bak" \;
