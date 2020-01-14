@@ -38,7 +38,10 @@ sync:
 	@cd kdc && lftp -e 'set mirror:exclude-regex "PsycoTV"; mirror -c;exit' 'https://kdc-repo.website/repo-beta/Addons/' 
 	@echo unzip it...
 	@unzip -o "kdc/*" >/dev/null
+	
 
+	
+	
 icons:
 	@test -d icons || mkdir icons
 	@find . -maxdepth 1 -iname "*.*" | sort | parallel cp "{}/icon.png" "icons/{}.png"	2>/dev/null ; echo
@@ -47,8 +50,25 @@ icons:
 	@find . -iname "icon*.bak" -delete 2>/dev/null ; echo
 	
 icon: icons convert-icons
-	@find ./icons/ -iname "*video*" -exec basename "{}" \; | awk  '{print " !["$$1"](https://dbiesecke.github.io/repo/icons/"$$1")"}' 
-
+	@echo 'Plugins' > icons.md
+	@echo '=========' >> icons.md
+	@echo ''>> icons.md
+	@echo 'Video Addons' >> icons.md
+	@echo ''>> icons.md
+	@find ./icons/ -iname "*video*" -exec basename "{}" \; | awk  '{print " !["$$1"](https://dbiesecke.github.io/repo/icons/"$$1")"}' >> icons.md
+	@echo ''>> icons.md
+	@echo 'Program Addons' >> icons.md
+	@echo ''>> icons.md
+	@find ./icons/ -iname "*program*" -exec basename "{}" \; | awk  '{print " !["$$1"](https://dbiesecke.github.io/repo/icons/"$$1")"}' >> icons.md
+	@echo ''>> icons.md
+	@echo 'Repos' >> icons.md
+	@echo ''>> icons.md
+	@find ./icons/ -iname "repository*" -exec basename "{}" \; | awk  '{print " !["$$1"](https://dbiesecke.github.io/repo/icons/"$$1")"}' >> icons.md
+	@echo ''>> icons.md
+	@echo 'Module' >> icons.md
+	@echo ''>> icons.md
+	@find ./icons/ -iname "script.mo*" -exec basename "{}" \; | awk  '{print " !["$$1"](https://dbiesecke.github.io/repo/icons/"$$1")"}' >> icons.md	
+	
 build:  icon
 	@find . -maxdepth 2 -iname "*.pyo" -delete 
 	@rsync -r ./* ./build/ ; echo true
