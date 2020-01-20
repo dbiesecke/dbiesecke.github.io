@@ -48,8 +48,8 @@
     <include file="Includes_KNSwitcher_Content.xml"/>
     <include file="Includes_Nexttrackplaylist.xml"/>
     <include file="Includes_SetInformation.xml"/>
-    <include file="Includes_SidePanel.xml"/>
     <include file="Includes_SidePanel_right.xml"/>
+    <include file="Includes_SidePanel.xml"/>
     <include file="Includes_Widget_Param.xml"/>
     <include file="Includes_Submenu.xml"/>
     <include file="Includes_Systeminfo.xml"/>

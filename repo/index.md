@@ -3,7 +3,7 @@
 
 
 IPTV Streams 74
-Video Addons (Repo): 23
+Video Addons (Repo): 24
 Module (Repo): 24
 Plugins
 =========
@@ -89,6 +89,7 @@ Module
 | ![plugin.video.elementum](https://dbiesecke.github.io/repo/icons/plugin.video.elementum.png) plugin.video.elementum		| 0.1.43.zip | [plugin.video.elementum](https://dbiesecke.github.io/repo/plugin.video.elementum/plugin.video.elementum-0.1.43.zip) |
 | ![plugin.video.f4mTester](https://dbiesecke.github.io/repo/icons/plugin.video.f4mTester.png) plugin.video.f4mTester		| 3.0.0.zip | [plugin.video.f4mTester](https://dbiesecke.github.io/repo/plugin.video.f4mTester/plugin.video.f4mTester-3.0.0.zip) |
 | ![plugin.video.fapzone](https://dbiesecke.github.io/repo/icons/plugin.video.fapzone.png) plugin.video.fapzone		| 2.0.4.zip | [plugin.video.fapzone](https://dbiesecke.github.io/repo/plugin.video.fapzone/plugin.video.fapzone-2.0.4.zip) |
+| ![plugin.video.gdrive](https://dbiesecke.github.io/repo/icons/plugin.video.gdrive.png) plugin.video.gdrive		| 0.8.66.zip | [plugin.video.gdrive](https://dbiesecke.github.io/repo/plugin.video.gdrive/plugin.video.gdrive-0.8.66.zip) |
 | ![plugin.video.genesisreborn](https://dbiesecke.github.io/repo/icons/plugin.video.genesisreborn.png) plugin.video.genesisreborn		| 2017.06.27.zip | [plugin.video.genesisreborn](https://dbiesecke.github.io/repo/plugin.video.genesisreborn/plugin.video.genesisreborn-2017.06.27.zip) |
 | ![plugin.video.iptvsimple.addons](https://dbiesecke.github.io/repo/icons/plugin.video.iptvsimple.addons.png) plugin.video.iptvsimple.addons		| 0.1.0.zip | [plugin.video.iptvsimple.addons](https://dbiesecke.github.io/repo/plugin.video.iptvsimple.addons/plugin.video.iptvsimple.addons-0.1.0.zip) |
 | ![plugin.video.joyn](https://dbiesecke.github.io/repo/icons/plugin.video.joyn.png) plugin.video.joyn		| 2.3.1.zip | [plugin.video.joyn](https://dbiesecke.github.io/repo/plugin.video.joyn/plugin.video.joyn-2.3.1.zip) |
@@ -158,4 +159,4 @@ Module
 | ![service.streamlink.proxy](https://dbiesecke.github.io/repo/icons/service.streamlink.proxy.png) service.streamlink.proxy		| 4.1.0.zip | [service.streamlink.proxy](https://dbiesecke.github.io/repo/service.streamlink.proxy/service.streamlink.proxy-4.1.0.zip) |
 | ![service.vpn.manager](https://dbiesecke.github.io/repo/icons/service.vpn.manager.png) service.vpn.manager		| 6.3.1.zip | [service.vpn.manager](https://dbiesecke.github.io/repo/service.vpn.manager/service.vpn.manager-6.3.1.zip) |
 | ![skin.confluencetdoe](https://dbiesecke.github.io/repo/icons/skin.confluencetdoe.png) skin.confluencetdoe		| 4.2.1.zip | [skin.confluencetdoe](https://dbiesecke.github.io/repo/skin.confluencetdoe/skin.confluencetdoe-4.2.1.zip) |
-| ![skin.horizonzv.test](https://dbiesecke.github.io/repo/icons/skin.horizonzv.test.png) skin.horizonzv.test		| 1.18.0.42.zip | [skin.horizonzv.test](https://dbiesecke.github.io/repo/skin.horizonzv.test/skin.horizonzv.test-1.18.0.42.zip) |
+| ![skin.horizonzv.test](https://dbiesecke.github.io/repo/icons/skin.horizonzv.test.png) skin.horizonzv.test		| 1.18.0.43.zip | [skin.horizonzv.test](https://dbiesecke.github.io/repo/skin.horizonzv.test/skin.horizonzv.test-1.18.0.43.zip) |

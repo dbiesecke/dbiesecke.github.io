@@ -268,19 +268,17 @@
                         <onclick condition="Library.HasContent(Movies)">ActivateWindow(Videos,MovieTitles,return)</onclick>
                     </item>
                     <item id="2">
-                        <description>Music Library/Files</description>
+                        <description>Movies - DDL</description>
                         <label>2</label>
                         <label2></label2>
-                        <icon>icons/MusicIcon.png</icon>
-                        <onclick condition="Library.HasContent(Music)">ActivateWindow(music)</onclick>
-                        <onclick condition="!Library.HasContent(Music)">ActivateWindow(Music,Files,return)</onclick>
+                        <icon>icons/ddl.png</icon>
+                        <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.xstream/?function=showEntries&amp;sTop100Type=movies&amp;sUrl=https%3a%2f%2fde.ddl.me%2fmoviez_00_0&amp;site=ddl_me&amp;title=Letztes%20Update&quot;,return)</onclick>
                     </item>
                     <item id="3">
-                        <description>TV Show Library</description>
+                        <description>TV - SerienStream.to</description>
                         <label>20343</label>
-                        <icon>icons/TVShowsIcon.png</icon>
-                        <onclick>ActivateWindow(Videos,TVShowTitles,return)</onclick>
-                        <visible>Library.HasContent(TVShows)</visible>
+                        <icon>icons/serienstream.png</icon>
+                        <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.xstream/?function=showEntries&amp;sTop100Type=tv&amp;sUrl=https%3a%2f%2fde.ddl.me%2ftop100%2fcover%2ftotal%2fall%2f&amp;site=ddl_me&amp;title=Hall%20of%20Fame&quot;,return)</onclick>
                     </item>
                     <item id="4">
                         <description>Musicvideo Library</description>
@@ -290,10 +288,12 @@
                         <visible>Library.HasContent(MusicVideos)</visible>
                     </item>
                     <item id="5">
-                        <description>Pictures</description>
-                        <label>1</label>
-                        <icon>icons/PicturesIcon.png</icon>
-                        <onclick>ActivateWindow(Pictures)</onclick>
+                        <description>Gaia</description>
+                        <label>20342</label>
+                        <icon>icons/repository.gaia.png</icon>
+                                <visible>System.HasAddon(plugin.video.gaia)</visible>
+                            <onclick>action(up)</onclick>
+                            <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.gaia/&quot;,return)</onclick>
                     </item>
                     <item id="6">
                         <description>Addons</description>
@@ -303,11 +303,12 @@
                         <onclick condition="System.Platform.Android">ActivateWindow(Programs)</onclick>
                     </item>
                     <item id="7">
-                        <description>PVR</description>
-                        <label>31502</label>
-                        <icon>icons/LiveTVIcon.png</icon>
-                        <visible>Window.IsVisible(MyPVRChannels.xml)|Window.IsVisible(MyPVRGuide.xml)|Window.IsVisible(MyPVRRecordings.xml)|Window.IsVisible(MyPVRTimers.xml)|Window.IsVisible(MyPVRSearch.xml)</visible>
-                        <visible>PVR.HasTVChannels</visible>
+                        <description>Gdrive</description>
+                        <label>20342</label>
+                        <icon>icons/gdrive.png</icon>
+                                <visible>System.HasAddon(plugin.video.gdrive)</visible>
+                            <onclick>action(up)</onclick>
+                            <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.gdrive/?content_type=video&amp;instance=gdrive1&amp;mode=main&quot;,return)</onclick>
                     </item>
                     <item id="8">
                         <description>PlayDVD</description>

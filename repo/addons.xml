@@ -788,6 +788,22 @@ xStream 3.5.11
 	</extension>
 </addon>
 
+<addon id="plugin.video.gdrive" version="0.8.66" name="gdrive" provider-name="ddurdle">
+    <requires>
+        <import addon="xbmc.python" version="2.1.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video audio image programs</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Listen to music, watch videos and view photos from your Google Drive account</summary>
+        <description>Plays music and video from your Google Drive account.  Not affiliated with Google.</description>
+        <platform>all</platform>
+    </extension>
+	<extension point="xbmc.service" library="service.py" start="login">
+    </extension>
+</addon>
+
 <addon id="plugin.video.pseudo.companion" version="0.0.13" name="PseudoCompanion" provider-name="Lunatixz">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
@@ -1799,7 +1815,7 @@ Auch die aktuelle Tabelle der 1. und 2. Bundesliga kann angezeigt werden.
   </extension>
 </addon>
 
-<addon id="skin.horizonzv.test" name="Horizonz V (Kodi 18)" version="1.18.0.42" provider-name="blauesgruen">
+<addon id="skin.horizonzv.test" name="Horizonz V (Kodi 18)" version="1.18.0.43" provider-name="blauesgruen">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.image.resource.select" version="2.0.1"/>
