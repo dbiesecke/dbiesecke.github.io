@@ -368,8 +368,8 @@
                                 <label>NEWS</label>
                                 <label2>masks/Default_sharp.png</label2>
                                 <icon>center/Center_News.png</icon>
-				<onclick>ActivateWindow(4117)</onclick>
-				<visible>System.HasAddon(plugin.program.newscenter)</visible>
+                                <onclick>ActivateWindow(4117)</onclick>
+                                <visible>System.HasAddon(plugin.program.newscenter)</visible>
                             </item> 
                         </content>
                     </control>

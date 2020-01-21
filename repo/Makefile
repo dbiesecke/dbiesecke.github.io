@@ -46,7 +46,7 @@ icons:
 	@test -d icons || mkdir icons
 	@find . -maxdepth 1 -iname "*.*" | sort | parallel cp "{}/icon.png" "icons/{}.png"	2>/dev/null ; echo
 	@find . -iname "icon*.png" -exec cp "{}"  "{}.bak" \; 2>/dev/null ; echo
-	@find . -iname "icon*.png" -exec convert -resize 32x32 "{}.bak" "{}" \; 2>/dev/null ; echo
+	@find . -iname "icon*.png" -exec convert -resize 64x64 "{}.bak" "{}" \; 2>/dev/null ; echo
 	@find . -iname "icon*.bak" -delete 2>/dev/null ; echo
 	
 icon: icons convert-icons

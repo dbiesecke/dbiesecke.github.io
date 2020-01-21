@@ -2,7 +2,7 @@
 ========
 
 
-IPTV Streams 74
+IPTV Streams 2
 Video Addons (Repo): 24
 Module (Repo): 24
 Plugins
@@ -13,14 +13,15 @@ Video Addons
  ![plugin.video.PsycoTV.png](https://dbiesecke.github.io/repo/icons/plugin.video.PsycoTV.png)
  ![script.video.F4mProxy.png](https://dbiesecke.github.io/repo/icons/script.video.F4mProxy.png)
  ![plugin.video.tagesschau.png](https://dbiesecke.github.io/repo/icons/plugin.video.tagesschau.png)
+ ![plugin.video.gdrive.png](https://dbiesecke.github.io/repo/icons/plugin.video.gdrive.png)
  ![plugin.video.L0RE.spiegeltv.png](https://dbiesecke.github.io/repo/icons/plugin.video.L0RE.spiegeltv.png)
- ![plugin.video.fapzone.png](https://dbiesecke.github.io/repo/icons/plugin.video.fapzone.png)
  ![plugin.video.L0RE.dmax.png](https://dbiesecke.github.io/repo/icons/plugin.video.L0RE.dmax.png)
  ![plugin.video.pseudo.companion.png](https://dbiesecke.github.io/repo/icons/plugin.video.pseudo.companion.png)
  ![plugin.video.iptvsimple.addons.png](https://dbiesecke.github.io/repo/icons/plugin.video.iptvsimple.addons.png)
  ![plugin.video.f4mTester.png](https://dbiesecke.github.io/repo/icons/plugin.video.f4mTester.png)
  ![plugin.video.L0RE.arte.png](https://dbiesecke.github.io/repo/icons/plugin.video.L0RE.arte.png)
  ![plugin.video.aod.png](https://dbiesecke.github.io/repo/icons/plugin.video.aod.png)
+ ![plugin.video.lastship.png](https://dbiesecke.github.io/repo/icons/plugin.video.lastship.png)
  ![plugin.video.osmosis.png](https://dbiesecke.github.io/repo/icons/plugin.video.osmosis.png)
  ![plugin.video.xstream.png](https://dbiesecke.github.io/repo/icons/plugin.video.xstream.png)
  ![plugin.video.genesisreborn.png](https://dbiesecke.github.io/repo/icons/plugin.video.genesisreborn.png)
@@ -60,8 +61,10 @@ Module
  ![script.module.lambdascrapers.png](https://dbiesecke.github.io/repo/icons/script.module.lambdascrapers.png)
  ![script.module.exodus.png](https://dbiesecke.github.io/repo/icons/script.module.exodus.png)
  ![script.module.mobdro.png](https://dbiesecke.github.io/repo/icons/script.module.mobdro.png)
+ ![script.module.resolveurl.png](https://dbiesecke.github.io/repo/icons/script.module.resolveurl.png)
  ![script.module.magicality.png](https://dbiesecke.github.io/repo/icons/script.module.magicality.png)
  ![script.module.ATFlive.png](https://dbiesecke.github.io/repo/icons/script.module.ATFlive.png)
+ ![script.module.urlresolver.png](https://dbiesecke.github.io/repo/icons/script.module.urlresolver.png)
  ![script.module.livestreamer.png](https://dbiesecke.github.io/repo/icons/script.module.livestreamer.png)
  ![script.module.ATFmobdro.png](https://dbiesecke.github.io/repo/icons/script.module.ATFmobdro.png)
  ![script.module.openscrapers.png](https://dbiesecke.github.io/repo/icons/script.module.openscrapers.png)
@@ -88,7 +91,6 @@ Module
 | ![plugin.video.arteplussept](https://dbiesecke.github.io/repo/icons/plugin.video.arteplussept.png) plugin.video.arteplussept		| 1.0.2.zip | [plugin.video.arteplussept](https://dbiesecke.github.io/repo/plugin.video.arteplussept/plugin.video.arteplussept-1.0.2.zip) |
 | ![plugin.video.elementum](https://dbiesecke.github.io/repo/icons/plugin.video.elementum.png) plugin.video.elementum		| 0.1.43.zip | [plugin.video.elementum](https://dbiesecke.github.io/repo/plugin.video.elementum/plugin.video.elementum-0.1.43.zip) |
 | ![plugin.video.f4mTester](https://dbiesecke.github.io/repo/icons/plugin.video.f4mTester.png) plugin.video.f4mTester		| 3.0.0.zip | [plugin.video.f4mTester](https://dbiesecke.github.io/repo/plugin.video.f4mTester/plugin.video.f4mTester-3.0.0.zip) |
-| ![plugin.video.fapzone](https://dbiesecke.github.io/repo/icons/plugin.video.fapzone.png) plugin.video.fapzone		| 2.0.4.zip | [plugin.video.fapzone](https://dbiesecke.github.io/repo/plugin.video.fapzone/plugin.video.fapzone-2.0.4.zip) |
 | ![plugin.video.gdrive](https://dbiesecke.github.io/repo/icons/plugin.video.gdrive.png) plugin.video.gdrive		| 0.8.66.zip | [plugin.video.gdrive](https://dbiesecke.github.io/repo/plugin.video.gdrive/plugin.video.gdrive-0.8.66.zip) |
 | ![plugin.video.genesisreborn](https://dbiesecke.github.io/repo/icons/plugin.video.genesisreborn.png) plugin.video.genesisreborn		| 2017.06.27.zip | [plugin.video.genesisreborn](https://dbiesecke.github.io/repo/plugin.video.genesisreborn/plugin.video.genesisreborn-2017.06.27.zip) |
 | ![plugin.video.iptvsimple.addons](https://dbiesecke.github.io/repo/icons/plugin.video.iptvsimple.addons.png) plugin.video.iptvsimple.addons		| 0.1.0.zip | [plugin.video.iptvsimple.addons](https://dbiesecke.github.io/repo/plugin.video.iptvsimple.addons/plugin.video.iptvsimple.addons-0.1.0.zip) |
@@ -96,6 +98,7 @@ Module
 | ![plugin.video.L0RE.arte](https://dbiesecke.github.io/repo/icons/plugin.video.L0RE.arte.png) plugin.video.L0RE.arte		| 0.6.0.zip | [plugin.video.L0RE.arte](https://dbiesecke.github.io/repo/plugin.video.L0RE.arte/plugin.video.L0RE.arte-0.6.0.zip) |
 | ![plugin.video.L0RE.dmax](https://dbiesecke.github.io/repo/icons/plugin.video.L0RE.dmax.png) plugin.video.L0RE.dmax		| 1.0.8.zip | [plugin.video.L0RE.dmax](https://dbiesecke.github.io/repo/plugin.video.L0RE.dmax/plugin.video.L0RE.dmax-1.0.8.zip) |
 | ![plugin.video.L0RE.spiegeltv](https://dbiesecke.github.io/repo/icons/plugin.video.L0RE.spiegeltv.png) plugin.video.L0RE.spiegeltv		| 1.0.1.zip | [plugin.video.L0RE.spiegeltv](https://dbiesecke.github.io/repo/plugin.video.L0RE.spiegeltv/plugin.video.L0RE.spiegeltv-1.0.1.zip) |
+| ![plugin.video.lastship](https://dbiesecke.github.io/repo/icons/plugin.video.lastship.png) plugin.video.lastship		| 4.0.5.zip | [plugin.video.lastship](https://dbiesecke.github.io/repo/plugin.video.lastship/plugin.video.lastship-4.0.5.zip) |
 | ![plugin.video.openmeta](https://dbiesecke.github.io/repo/icons/plugin.video.openmeta.png) plugin.video.openmeta		| 1.4.15.zip | [plugin.video.openmeta](https://dbiesecke.github.io/repo/plugin.video.openmeta/plugin.video.openmeta-1.4.15.zip) |
 | ![plugin.video.osmosis](https://dbiesecke.github.io/repo/icons/plugin.video.osmosis.png) plugin.video.osmosis		| 1.3.2.zip | [plugin.video.osmosis](https://dbiesecke.github.io/repo/plugin.video.osmosis/plugin.video.osmosis-1.3.2.zip) |
 | ![plugin.video.pseudo.companion](https://dbiesecke.github.io/repo/icons/plugin.video.pseudo.companion.png) plugin.video.pseudo.companion		| 0.0.13.zip | [plugin.video.pseudo.companion](https://dbiesecke.github.io/repo/plugin.video.pseudo.companion/plugin.video.pseudo.companion-0.0.13.zip) |

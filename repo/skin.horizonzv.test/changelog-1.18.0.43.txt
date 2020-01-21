@@ -1,4 +1,5 @@
-﻿v 1.18.0.43
+﻿v 1.18.0.44
+- Fix changes
 - Change some icons and defaul SidePanel
 
 v 1.18.0.42
