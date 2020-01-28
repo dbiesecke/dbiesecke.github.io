@@ -267,16 +267,15 @@
                     </item>
                     <item id="2">
                         <description>Movies - DDL</description>
-                        <label>20342</label>
-                        <label2>Movies - DDL.me</label2>
+                        <label>Movies - DDL.me</label2>
                         <icon>icons/ddl.png</icon>
                         <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.xstream/?function=showEntries&amp;sTop100Type=movies&amp;sUrl=https%3a%2f%2fde.ddl.me%2fmoviez_00_0&amp;site=ddl_me&amp;title=Letztes%20Update&quot;,return)</onclick>
                     </item>
                     <item id="3">
                         <description>TV - SerienStream.to</description>
-                        <label>20343</label>
+                        <label>TV - SerienStream.to </label>
                         <icon>icons/serienstream.png</icon>
-                        <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.xstream/?function=showEntries&amp;sTop100Type=tv&amp;sUrl=https%3a%2f%2fde.ddl.me%2ftop100%2fcover%2ftotal%2fall%2f&amp;site=ddl_me&amp;title=Hall%20of%20Fame&quot;,return)</onclick>
+                        <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.xstream/?function=load&amp;params=0&amp;site=serienstream_to&amp;title=SerienStream&quot;,return)</onclick>
                     </item>
                     <item id="4">
                         <description>Gaia</description>
@@ -288,7 +287,7 @@
                     </item>
                     <item id="5">
                         <description>Lastship</description>
-                        <label>20391</label>
+                        <label>Lastship</label>
                         <icon>icons/plugin.video.lastship.png</icon>
                         <visible>System.HasAddon(plugin.video.lastship)</visible>
                         <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.lastship/&quot;,return)</onclick>
@@ -298,7 +297,7 @@
 <!--                         <label>0</label> -->
                         <label2>PsycoTV</label2>
                         <icon>icons/plugin.video.PsycoTV.png</icon>
-                        <visible>System.HasAddon(plugin.video.psycotv)</visible>
+                        <visible>System.HasAddon(plugin.video.PsycoTV)</visible>
                         <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.PsycoTV/&quot;,return)</onclick>
                     </item>
                     <item id="7">
