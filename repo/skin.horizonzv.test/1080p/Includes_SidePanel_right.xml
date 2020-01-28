@@ -280,8 +280,8 @@
                     </item>
                     <item id="4">
                         <description>Gaia</description>
-                        <label>20342</label>
-                        <icon>icons/repository.gaia.png</icon>
+                        <label>Gaia</label>
+                        <icon>special://home/addons/plugin.video.gaia/icon.png</icon>
                                 <visible>System.HasAddon(plugin.video.gaia)</visible>
                             <onclick>action(up)</onclick>
                             <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.gaia/&quot;,return)</onclick>
