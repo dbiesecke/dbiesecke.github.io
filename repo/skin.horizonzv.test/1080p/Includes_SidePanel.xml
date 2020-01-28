@@ -159,7 +159,7 @@
                     <label>$LOCALIZE[2] Extra Art</label>
                     <onclick>Skin.ToggleSetting(EnableExtendedArt)</onclick>
                     <selected>Skin.HasSetting(EnableExtendedArt)</selected>
-                    <!-- <enable>System.HasAddon(script.artwork.beef)</enable> -->
+                    <enable>System.HasAddon(script.artwork.beef)</enable>
                     <visible>!Control.IsVisible(513)+!Control.IsVisible(512)+!Control.IsVisible(506)</visible>
                     <visible>Window.IsVisible(music)|Window.IsVisible(MusicPlaylist)</visible>
                 </control>

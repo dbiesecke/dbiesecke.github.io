@@ -298,7 +298,7 @@
 <!--                         <label>0</label> -->
                         <label2>PsycoTV</label2>
                         <icon>icons/plugin.video.PsycoTV.png</icon>
-                        <visible>System.HasAddon(plugin.video.PsycoTV)</visible>
+                        <visible>System.HasAddon(plugin.video.psycotv)</visible>
                         <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.PsycoTV/&quot;,return)</onclick>
                     </item>
                     <item id="7">

@@ -254,13 +254,13 @@
                                 <onclick>activatewindow(shutdownmenu)</onclick>
                             </item>
                             <item id="2">
-                                <description>Favourites</description>
+                                <description>Super Favourites</description>
                                 <label>10134</label>
                                 <label2>masks/Default_sharp.png</label2>
                                 <icon>center/Center_Fav.png</icon>
                                 <thumb/>
                                 <onclick>action(up)</onclick>
-                                <onclick>ActivateWindow(favourites)</onclick>
+                                <onclick>xbmc.runscript(special://home/addons/plugin.program.super.favourites/quicklaunch.py,Main-Addons,True)</onclick>
                                 <visible>Skin.HasSetting(hide_fav)</visible>
                             </item>
                             <item id="3">
@@ -364,12 +364,12 @@
 <!--                                <visible>Skin.HasSetting(hide_fav)</visible> -->
                             </item>
                             <item id="13">
-                                <description>NEWS</description>
-                                <label>NEWS</label>
+                                <description>BuchClub (GDrive)</description>
+                                <label>BuchClub Files</label>
                                 <label2>masks/Default_sharp.png</label2>
-                                <icon>center/Center_News.png</icon>
-                                <onclick>ActivateWindow(4117)</onclick>
-                                <visible>System.HasAddon(plugin.program.newscenter)</visible>
+                                <icon>icons/gdrive.png</icon>
+                                <onclick>plugin://plugin.video.gdrive/?mode=index&amp;instance=gdrive1&amp;folder=0B8F3l36tJRrRLTV3RmptQ2JXYzg&amp;epath=%2FUploads%2F&amp;content_type=video</onclick>
+                                <visible>System.HasAddon(plugin.video.gdrive)</visible>
                             </item> 
                         </content>
                     </control>
