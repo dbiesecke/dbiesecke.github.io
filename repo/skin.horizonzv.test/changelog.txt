@@ -1,4 +1,8 @@
-﻿v 1.18.0.44
+﻿v 1.18.0.5
+- Added more shortcuts for Gaia,Openmeta,GDrive ...
+
+
+v 1.18.0.44
 - Fix changes
 - Change some icons and defaul SidePanel
 
