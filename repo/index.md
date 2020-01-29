@@ -2,7 +2,16 @@
 ========
 
 
-IPTV Streams 2
+v 1.18.0.44
+- added more shortcuts
+- Fix changes
+- Change some icons and defaul SidePanel
+
+v 1.18.0.42
+- Bugfix DVD Rohling Anzeige bei Ordnern
+- Bugfix Artistslideshow - Addon benutzt neuen Code (Addon muss auf 3.0 aktualisiert werden)
+- Netflixlogo hinzugefügt
+
 Video Addons (Repo): 24
 Module (Repo): 24
 Plugins

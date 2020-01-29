@@ -26,6 +26,9 @@ publish:
 	find . -maxdepth 2 -iname "*.zip" | grep "repository" | parallel -j2 rsync -cvr  "{}" bohal@rsync.hidrive.strato.com:/public/XBMC/KODI-REPOS/
 	find . -maxdepth 2 -iname "*.zip" | grep "plugin" | parallel -j2 rsync -cvr  "{}" bohal@rsync.hidrive.strato.com:/public/XBMC/KODI-ADDONS/
 
+remove-index:
+	@test -f index.md || rm index.md 2>/dev/null 
+	
 index.md:
 	@./filelist.sh > index.md
 	
@@ -69,14 +72,13 @@ icon: icons convert-icons
 	@echo ''>> icons.md
 	@find ./icons/ -iname "script.mo*" -exec basename "{}" \; | awk  '{print " !["$$1"](https://dbiesecke.github.io/repo/icons/"$$1")"}' >> icons.md	
 	
-build:  index.md icon 
+build:   index.md icon 
 	@find . -maxdepth 2 -iname "*.pyo" -delete 
 	@rsync -r ./* ./build/ ; echo true
 	@cd build && python ./repo_prep.py ; cd ..
 	@rsync -cvr ./build/* .
 	@find . -maxdepth 2 -iname "*.zip" 
 	@rm -fR build
-	@bash ./filelist.sh > index.md
 
 commit: build
 	git add ./*/*.zip index.md --all 
