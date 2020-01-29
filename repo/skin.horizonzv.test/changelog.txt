@@ -1,6 +1,7 @@
-v 1.18.0.44
-- added more shortcuts
-- Fix changes
+﻿v 1.18.0.44
+- Added addons `SidePanel_Right`, `Home` & `Custom_1800_UsedAddons.xml`
+
+v 1.18.0.43
 - Change some icons and defaul SidePanel
 
 v 1.18.0.42

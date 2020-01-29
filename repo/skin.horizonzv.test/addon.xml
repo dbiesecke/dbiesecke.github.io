@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.horizonzv.test" name="Horizonz V (Kodi 18)" version="1.18.0.44" provider-name="blauesgruen">
+<addon id="skin.horizonzv.test" name="Horizonz V (Kodi 18)" version="1.18.0.43" provider-name="blauesgruen">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.image.resource.select" version="2.0.1"/>
@@ -12,7 +12,7 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
-		<summary>BuchClub Edition - Skin von blauesgruen / Initiator mad-max</summary>
+		<summary>Skin von blauesgruen / Initiator mad-max</summary>
 		<description>ACHTUNG !![CR]Dieser Skin wird ab Kodi 18 Final eine neue ID (Ordner) bekommen.[CR]Somit sind eure Einstellungen wieder auf "default".[CR]Im /userdata/addon_data/ liegt aber ein Ordner mit dem Namen "skin.horizonzv.test".[CR]Entfernt einfach das ".test" und es sollten wieder eure Einstellungen zu sehen sein.[CR][CR]Unterstütze Addons:[CR]Artist Slide Show[CR]Artwork Downloader[CR]CDArt Manager[CR]Extended Info Script[CR]Global Search[CR]Fritz Smart Home (by Birger Jesch)[CR]German Telecast Offers (by Birger Jesch)[CR]KN Switchtimer Service (by Birger Jesch)[CR]Library Node Editor[CR]NewsCenter[CR]Serienplaner[CR]Skinhelper Ping (by _Andy_)[CR].[CR].[CR].</description>
 		<disclaimer>Ursprünglich basierte der Skin auf den Mockups von xb2iris Skin "Horizonz".</disclaimer>
 		<platform>all</platform>

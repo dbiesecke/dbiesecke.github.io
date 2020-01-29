@@ -283,13 +283,13 @@
 								<!-- <onclick>RunScript(script.skinhelper.ping,menu)</onclick> -->
                                 <visible>Skin.HasSetting(wolhome)+System.HasAddon(script.skinhelper.ping)</visible>
                             </item>
-<!--                            <item id="5">
+                            <item id="5">
                                 <description>Systemsettings</description>
                                 <label>21417</label>
                                 <label2>masks/Default_sharp.png</label2>
                                 <icon>center/Center_System.png</icon>
                                 <onclick>ActivateWindow(settings)</onclick>
-                            </item>-->
+                            </item>
                             <item id="6">
                                 <description>Systeminfo</description>
                                 <label>10511</label>
@@ -297,14 +297,7 @@
                                 <icon>center/Center_Systeminfo.png</icon>
                                 <onclick>ActivateWindow(SystemInfo)</onclick>
                             </item>
-  <!--                          <item id="7">
-                                <description>Test Link</description>
-                                <label>Test link</label>
-                                <label2>masks/Default_sharp.png</label2>
-                                <icon>center/Center_SkinSettings.png</icon>
-                                <onclick>plugin://plugin.program.super.favourites/?content=Main-Addons&reload=$INFO[Window(Home).Property(Super_Favourites_Count)])</onclick>
-                            </item>-->
-                            <item id="8">
+                            <item id="7">
                                 <description>Global Search</description>
                                 <label>137</label>
                                 <label2>masks/Default_sharp.png</label2>
@@ -312,15 +305,13 @@
                                 <onclick>RunScript(script.globalsearch)</onclick>
                                 <onclick>Dialog.Close(favourites,true)</onclick>
                                 <visible>System.HasAddon(script.globalsearch)</visible>
-                            </item>
+                            </item>                            
                             <item id="8">
-                                <description>SwitchTimerActiveItems</description>
-                                <label>51483</label>
+                                <description>Addon Settings</description>
+                                <label>Addon Settings</label>
                                 <label2>masks/Default_sharp.png</label2>
-                                <icon>center/Center_Switchtimer.png</icon>
-                                <onclick>ActivateWindow(4111)</onclick>
-                                <onclick>Dialog.Close(favourites,true)</onclick>
-                                <visible>Integer.IsGreater(Window(Home).Property(SwitchTimerActiveItems),0)</visible>
+                                <icon>icons/SystemIcon.png</icon>
+                                <onclick>ActivateWindow(1800)</onclick>
                             </item>
                             <item id="9">
                                 <description>PVR Timer</description>
@@ -331,14 +322,6 @@
                                 <onclick>Dialog.Close(favourites,true)</onclick>
                                 <visible>PVR.HasTimer</visible>
                             </item>
-<!--                            <item id="9">
-                                <description>Discover Movies/TV (OpenMeta)</description>
-                                <label>Discover Movies/TV (OpenMeta)</label>
-                                <label2>masks/Default_sharp.png</label2>
-                                <icon>special://home/addons/plugin.video.openmeta/resources/icon.png</icon>
-                                <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.openmeta&quot;,return)</onclick>
-                                <visible>System.HasAddon(plugin.video.openmeta)</visible>
-                            </item>-->
                             <item id="10">
                                 <description>Addons</description>
                                 <label>Addon Browser</label>
@@ -355,16 +338,6 @@
                                 <onclick condition="System.Platform.Android">ActivateWindow(Programs)</onclick>
                             </item>
                             <item id="12">
-                                <description>Tool Favourites</description>
-                                <label>Addon Favourites</label>
-                                <label2>masks/Default_sharp.png</label2>
-                                <icon>center/Center_Fav.png</icon>
-                                <thumb/>
-                                <onclick>action(up)</onclick>
-                                <onclick>xbmc.runscript(special://home/addons/plugin.program.super.favourites/quicklaunch.py,Main-Addons,False)</onclick>
-<!--                                <visible>Skin.HasSetting(hide_fav)</visible> -->
-                            </item>
-                            <item id="13">
                                 <description>BuchClub (GDrive)</description>
                                 <label>BuchClub Files</label>
                                 <label2>masks/Default_sharp.png</label2>
@@ -372,7 +345,7 @@
                                 <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.gdrive/?mode=index&amp;instance=gdrive1&amp;folder=0B8F3l36tJRrRLTV3RmptQ2JXYzg&amp;epath=%2FUploads%2F&amp;content_type=video&quot;,return)</onclick>
                                 <visible>System.HasAddon(plugin.video.gdrive)</visible>
                             </item> 
-                            <item id="14">
+                            <item id="13">
                                 <description>PseudoTV (Doku TV)</description>
                                 <label>PseudoTV</label>
                                 <label2>masks/Default_sharp.png</label2>
@@ -380,7 +353,7 @@
                                 <onclick>ActivateWindow(10025,&quot;plugin://script.pseudotv.live&quot;,return)</onclick>
                                 <visible>System.HasAddon(script.pseudotv.live)</visible>
                             </item>   
-                            <item id="15">
+                            <item id="14">
                                 <description>Gaia</description>
                                 <label>Gaia</label>
                                 <label2>masks/Default_sharp.png</label2>
@@ -389,14 +362,24 @@
                                 <onclick>action(up)</onclick>
                                 <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.gaia/&quot;,return)</onclick>
                             </item>  
-                            <item id="16">
+                            <item id="15">
                                 <description>Discover Movies/TV (OpenMeta)</description>
                                 <label>Discover Movies/TV (OpenMeta)</label>
                                 <label2>masks/Default_sharp.png</label2>
                                 <icon>special://home/addons/plugin.video.openmeta/resources/icon.png</icon>
                                 <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.openmeta&quot;,return)</onclick>
                                 <visible>System.HasAddon(plugin.video.openmeta)</visible>
-                            </item>                            
+                            </item>     
+                            <item id="16">
+                                <description>Tool Favourites</description>
+                                <label>Addon Favourites</label>
+                                <label2>masks/Default_sharp.png</label2>
+                                <icon>center/Center_Fav.png</icon>
+                                <thumb/>
+                                <onclick>action(up)</onclick>
+                                <onclick>xbmc.runscript(special://home/addons/plugin.program.super.favourites/quicklaunch.py,Main-Addons,False)</onclick>
+<!--                                <visible>Skin.HasSetting(hide_fav)</visible> -->
+                            </item>              
                         </content>
                     </control>
                 </control>

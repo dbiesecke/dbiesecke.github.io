@@ -7,8 +7,22 @@
 PWD = $(pwd)
 ZIPS = $(wildcard */*.zip)
 BLA = (plugin.video.iptvsimple.addons script.trakt plugin.video.xstream plugin.video.openmeta plugin.video.gdrive pvr.iptvsimple pvr.zattoo plugin.video.lastship)
+ITEM = metadata.common.theaudiodb.com
 
 all: commit
+
+item:
+	@echo '<item>'
+	@echo '                        <label>Scraper - '$(ITEM)' $$INFO[System.AddonVersion('$(ITEM)'),(,)]</label>'
+	@echo '                        <onclick>Addon.OpenSettings('$(ITEM)')</onclick>'
+	@echo '                        <visible>System.HasAddon('$(ITEM)')</visible>'
+	@echo '</item>'
+	
+
+kate:
+	kate -l 281 -b skin.horizonzv.test/1080p/Includes_SidePanel_right.xml 2>/dev/null &
+	kate -l 181 -b skin.horizonzv.test/1080p/Custom_1800_UsedAddons.xml  2>/dev/null &
+	kate -l 387 -b skin.horizonzv.test/1080p/Home.xml  2>/dev/null &
 
 backup_external:
 
@@ -32,8 +46,12 @@ remove-index:
 index.md:
 	@./filelist.sh > index.md
 	
-convert-icons:
+rebuild: rebuild-remove remove-index build
 
+rebuild-remove:
+	@test -f skin.horizonzv.test/skin.horizonzv.test-*.zip || rm -fR skin.horizonzv.test/skin.horizonzv.test-*.zip
+	@test -f skin.horizonzv.test/changelog-* || rm -fR skin.horizonzv.test/changelog-*
+	
 	
 sync:
 	@test -d kdc || mkdir kdc 
@@ -52,7 +70,7 @@ icons:
 	@find . -iname "icon*.png" -exec convert -resize 64x64 "{}.bak" "{}" \; 2>/dev/null ; echo
 	@find . -iname "icon*.bak" -delete 2>/dev/null ; echo
 	
-icon: icons convert-icons
+icon: icons 
 	@echo 'Plugins' > icons.md
 	@echo '=========' >> icons.md
 	@echo ''>> icons.md
@@ -76,10 +94,10 @@ build:   index.md icon
 	@find . -maxdepth 2 -iname "*.pyo" -delete 
 	@rsync -r ./* ./build/ ; echo true
 	@cd build && python ./repo_prep.py ; cd ..
-	@rsync -cvr ./build/* .
-	@find . -maxdepth 2 -iname "*.zip" 
+	@rsync -cvr ./build/* . >/dev/null
+#	@find . -maxdepth 2 -iname "*.zip" 
 	@rm -fR build
 
 commit: build
-	git add ./*/*.zip index.md --all 
+	git add ./*/* index.md --all 
 	git commit -a -m "new addons" && git push --all
