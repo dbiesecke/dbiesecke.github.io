@@ -1,4 +1,7 @@
-﻿v 1.18.0.44
+﻿﻿v 1.18.0.45
+- bugfix
+
+v 1.18.0.44
 - Added addons `SidePanel_Right`, `Home` & `Custom_1800_UsedAddons.xml`
 
 v 1.18.0.43
