@@ -8,7 +8,7 @@ PWD = $(pwd)
 ZIPS = $(wildcard */*.zip)
 BLA = (plugin.video.iptvsimple.addons script.trakt plugin.video.xstream plugin.video.openmeta plugin.video.gdrive pvr.iptvsimple pvr.zattoo plugin.video.lastship)
 
-all: build
+all: commit
 
 backup_external:
 
@@ -26,8 +26,8 @@ publish:
 	find . -maxdepth 2 -iname "*.zip" | grep "repository" | parallel -j2 rsync -cvr  "{}" bohal@rsync.hidrive.strato.com:/public/XBMC/KODI-REPOS/
 	find . -maxdepth 2 -iname "*.zip" | grep "plugin" | parallel -j2 rsync -cvr  "{}" bohal@rsync.hidrive.strato.com:/public/XBMC/KODI-ADDONS/
 
-index:
-	@./filelist.sh
+index.md:
+	@./filelist.sh > index.md
 	
 convert-icons:
 
@@ -69,7 +69,7 @@ icon: icons convert-icons
 	@echo ''>> icons.md
 	@find ./icons/ -iname "script.mo*" -exec basename "{}" \; | awk  '{print " !["$$1"](https://dbiesecke.github.io/repo/icons/"$$1")"}' >> icons.md	
 	
-build:  icon
+build:  index.md icon 
 	@find . -maxdepth 2 -iname "*.pyo" -delete 
 	@rsync -r ./* ./build/ ; echo true
 	@cd build && python ./repo_prep.py ; cd ..
@@ -78,6 +78,6 @@ build:  icon
 	@rm -fR build
 	@bash ./filelist.sh > index.md
 
-commit: 
-	git add . --all 
+commit: build
+	git add ./*/*.zip index.md --all 
 	git commit -a -m "new addons" && git push --all
