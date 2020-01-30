@@ -241,7 +241,12 @@
                         <visible>System.HasAddon(script.trakt)</visible>
                     </item>
                     <item>
-                                            <label>Meta - metadata.common.theaudiodb.com $INFO[System.AddonVersion(metadata.common.theaudiodb.com),(,)]</label>
+                                            <label>Scraper - metadata.common.theaudiodb.com</label>
+                                            <onclick>InstallAddon(metadata.common.theaudiodb.com)</onclick>
+                                            <visible>System.HasAddon(metadata.common.theaudiodb.com)</visible>
+                    </item>
+                    <item>
+                                            <label>Scraper - metadata.common.theaudiodb.com $INFO[System.AddonVersion(metadata.common.theaudiodb.com),(,)]</label>
                                             <onclick>Addon.OpenSettings(metadata.common.theaudiodb.com)</onclick>
                                             <visible>System.HasAddon(metadata.common.theaudiodb.com)</visible>
                     </item>
