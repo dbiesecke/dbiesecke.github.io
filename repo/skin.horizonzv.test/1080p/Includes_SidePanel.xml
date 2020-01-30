@@ -311,11 +311,11 @@
                             <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.gdrive/?content_type=video&amp;instance=gdrive1&amp;mode=main&quot;,return)</onclick>
                     </item>
                     <item id="8">
-                        <description>PlayDVD</description>
-                        <label>341</label>
-                        <icon>icons/PlayDiscIcon.png</icon>
-                        <onclick>PlayDVD()</onclick>
-                        <visible>System.HasMediaDVD</visible>
+                        <description>Play</description>
+                        <label>Play</label>
+                        <icon>icons/games.png</icon>
+                        <onclick>ActivateWindow(10025,&quot;plugin://game.retroarch&quot;,return)</onclick>
+                                <visible>System.HasAddon(game.retroarch)</visible>
                     </item>
                     <item id="9">
                         <description>Weather</description>

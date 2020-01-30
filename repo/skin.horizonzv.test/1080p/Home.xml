@@ -369,8 +369,15 @@
                                 <icon>special://home/addons/plugin.video.openmeta/resources/icon.png</icon>
                                 <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.openmeta&quot;,return)</onclick>
                                 <visible>System.HasAddon(plugin.video.openmeta)</visible>
-                            </item>     
+                            </item>  
                             <item id="16">
+                                <description>Play - RetroArch</description>
+                                <label>Play - Retroarch</label>
+                                <icon>icons/games.png</icon>
+                                <onclick>ActivateWindow(10025,&quot;plugin://game.retroarch&quot;,return)</onclick>
+                                <visible>System.HasAddon(game.retroarch)</visible>
+                            </item>                            
+                            <item id="17">
                                 <description>Tool Favourites</description>
                                 <label>Addon Favourites</label>
                                 <label2>masks/Default_sharp.png</label2>
