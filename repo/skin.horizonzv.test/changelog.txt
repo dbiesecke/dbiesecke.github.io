@@ -1,5 +1,8 @@
-﻿v 1.18.0.45
+﻿v 1.18.0.46
 - added retroarch to shortcuts
+﻿- added addon settings main menu
+
+v 1.18.0.45
 - added more plugins to custom menu
 - bugfix
 

@@ -1957,7 +1957,7 @@ Auch die aktuelle Tabelle der 1. und 2. Bundesliga kann angezeigt werden.
   </extension>
 </addon>
 
-<addon id="skin.horizonzv.test" name="Horizonz V (Kodi 18)" version="1.18.0.45" provider-name="blauesgruen">
+<addon id="skin.horizonzv.test" name="Horizonz V (Kodi 18)" version="1.18.0.46" provider-name="blauesgruen">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.image.resource.select" version="2.0.1"/>
