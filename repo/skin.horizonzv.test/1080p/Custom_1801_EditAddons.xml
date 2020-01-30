@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<window id="1800" type="dialog">
-    <defaultcontrol always="true">18000</defaultcontrol>
+<window id="1801" type="dialog">
+    <defaultcontrol always="true">18001</defaultcontrol>
     <controls>
         <include>BlackBack</include>
         <control type="group" id="576757">
@@ -81,7 +81,7 @@
                 <aligny>center</aligny>
                 <scroll>false</scroll>
             </control>
-            <control type="list" id="18000">
+            <control type="list" id="18001">
                 <left>15</left>
                 <top>150</top>
                 <width>1185</width>
@@ -160,253 +160,128 @@
                 </focusedlayout>
                 <content>
                     
- <item>
-                        <label>Install: Scraper - plugin.video.iptvsimple.addons</label>
-                        <onclick>InstallAddon(plugin.video.iptvsimple.addons)</onclick>
-                        <visible>!System.HasAddon(plugin.video.iptvsimple.addons)</visible>
-</item>
 <item>
-                        <label>Install: Scraper - plugin.video.emby</label>
-                        <onclick>InstallAddon(plugin.video.emby)</onclick>
-                        <visible>!System.HasAddon(plugin.video.emby)</visible>
-</item>
-<item>
-                        <label>Install: Scraper - plugin.video.gaia</label>
-                        <onclick>InstallAddon(plugin.video.gaia)</onclick>
-                        <visible>!System.HasAddon(plugin.video.gaia)</visible>
-</item>
-<item>
-                        <label>Install: Scraper - plugin.video.gdrive</label>
-                        <onclick>InstallAddon(plugin.video.gdrive)</onclick>
-                        <visible>!System.HasAddon(plugin.video.gdrive)</visible>
-</item>
-<item>
-                        <label>Install: Scraper - plugin.video.iptvsimple.addons</label>
-                        <onclick>InstallAddon(plugin.video.iptvsimple.addons)</onclick>
-                        <visible>!System.HasAddon(plugin.video.iptvsimple.addons)</visible>
-</item>
-<item>
-                        <label>Install: Scraper - plugin.video.lastship</label>
-                        <onclick>InstallAddon(plugin.video.lastship)</onclick>
-                        <visible>!System.HasAddon(plugin.video.lastship)</visible>
-</item>
-<item>
-                        <label>Install: Scraper - plugin.video.openmeta</label>
-                        <onclick>InstallAddon(plugin.video.openmeta)</onclick>
-                        <visible>!System.HasAddon(plugin.video.openmeta)</visible>
-</item>
-<item>
-                        <label>Install: Scraper - plugin.video.xstream</label>
-                        <onclick>InstallAddon(plugin.video.xstream)</onclick>
-                        <visible>!System.HasAddon(plugin.video.xstream)</visible>
-</item>
-<item>
-                        <label>Install: Scraper - script.module.globalscrapers</label>
-                        <onclick>InstallAddon(script.module.globalscrapers)</onclick>
-                        <visible>!System.HasAddon(script.module.globalscrapers)</visible>
-</item>
-<item>
-                        <label>Install: Scraper - script.module.lambdascrapers</label>
-                        <onclick>InstallAddon(script.module.lambdascrapers)</onclick>
-                        <visible>!System.HasAddon(script.module.lambdascrapers)</visible>
-</item>
-<item>
-                        <label>Install: Scraper - script.module.openscrapers</label>
-                        <onclick>InstallAddon(script.module.openscrapers)</onclick>
-                        <visible>!System.HasAddon(script.module.openscrapers)</visible>
-</item>
-<item>
-                        <label>Install: Scraper - script.module.orion</label>
-                        <onclick>InstallAddon(script.module.orion)</onclick>
-                        <visible>!System.HasAddon(script.module.orion)</visible>
-</item>
-<item>
-                        <label>Install: Scraper - script.module.resolveurl</label>
-                        <onclick>InstallAddon(script.module.resolveurl)</onclick>
-                        <visible>!System.HasAddon(script.module.resolveurl)</visible>
-</item>
-<item>
-                        <label>Install: Scraper - script.module.universalscrapers</label>
-                        <onclick>InstallAddon(script.module.universalscrapers)</onclick>
-                        <visible>!System.HasAddon(script.module.universalscrapers)</visible>
-</item>
-<item>
-                        <label>Install: Scraper - script.module.urlresolver</label>
-                        <onclick>InstallAddon(script.module.urlresolver)</onclick>
-                        <visible>!System.HasAddon(script.module.urlresolver)</visible>
-</item>
-<item>
-                        <label>Install: Scraper - script.pseudotv.live</label>
-                        <onclick>InstallAddon(script.pseudotv.live)</onclick>
-                        <visible>!System.HasAddon(script.pseudotv.live)</visible>
-</item>
-<item>
-                        <label>Install: Scraper - metadata.common.fanart.tv</label>
-                        <onclick>InstallAddon(metadata.common.fanart.tv)</onclick>
-                        <visible>!System.HasAddon(metadata.common.fanart.tv)</visible>
-</item>
-<item>
-                        <label>Install: Scraper - metadata.common.omdbapi.com</label>
-                        <onclick>InstallAddon(metadata.common.omdbapi.com)</onclick>
-                        <visible>!System.HasAddon(metadata.common.omdbapi.com)</visible>
-</item>
-<item>
-                        <label>Install: Scraper - metadata.common.theaudiodb.com</label>
-                        <onclick>InstallAddon(metadata.common.theaudiodb.com)</onclick>
-                        <visible>!System.HasAddon(metadata.common.theaudiodb.com)</visible>
-</item>
-<item>
-                        <label>Install: Scraper - metadata.common.themoviedb.org</label>
-                        <onclick>InstallAddon(metadata.common.themoviedb.org)</onclick>
-                        <visible>!System.HasAddon(metadata.common.themoviedb.org)</visible>
-</item>
-<item>
-                        <label>Install: Scraper - metadata.musicvideos.theaudiodb.com</label>
-                        <onclick>InstallAddon(metadata.musicvideos.theaudiodb.com)</onclick>
-                        <visible>!System.HasAddon(metadata.musicvideos.theaudiodb.com)</visible>
-</item>
-<item>
-                        <label>Install: Scraper - metadata.themoviedb.org</label>
-                        <onclick>InstallAddon(metadata.themoviedb.org)</onclick>
-                        <visible>!System.HasAddon(metadata.themoviedb.org)</visible>
-</item>
-<item>
-                        <label>Install: Scraper - metadata.tvdb.com</label>
-                        <onclick>InstallAddon(metadata.tvdb.com)</onclick>
-                        <visible>!System.HasAddon(metadata.tvdb.com)</visible>
-</item>
-<item>
-                        <label>Install: Scraper - metadata.universal</label>
-                        <onclick>InstallAddon(metadata.universal)</onclick>
-                        <visible>!System.HasAddon(metadata.universal)</visible>
-</item>
-<item>
-                        <label>Install: Scraper - script.image.resource.select</label>
-                        <onclick>InstallAddon(script.image.resource.select)</onclick>
-                        <visible>!System.HasAddon(script.image.resource.select)</visible>
-</item>
-<item>
-                        <label>Scraper - plugin.video.iptvsimple.addons $INFO[System.AddonVersion(plugin.video.iptvsimple.addons),(,)]</label>
+                        <label>plugin.video.iptvsimple.addons $INFO[System.AddonVersion(plugin.video.iptvsimple.addons),(,)]</label>
                         <onclick>Addon.OpenSettings(plugin.video.iptvsimple.addons)</onclick>
                         <visible>System.HasAddon(plugin.video.iptvsimple.addons)</visible>
 </item>
 <item>
-                        <label>Scraper - plugin.video.emby $INFO[System.AddonVersion(plugin.video.emby),(,)]</label>
+                        <label>plugin.video.emby $INFO[System.AddonVersion(plugin.video.emby),(,)]</label>
                         <onclick>Addon.OpenSettings(plugin.video.emby)</onclick>
                         <visible>System.HasAddon(plugin.video.emby)</visible>
 </item>
 <item>
-                        <label>Scraper - plugin.video.gaia $INFO[System.AddonVersion(plugin.video.gaia),(,)]</label>
+                        <label>plugin.video.gaia $INFO[System.AddonVersion(plugin.video.gaia),(,)]</label>
                         <onclick>Addon.OpenSettings(plugin.video.gaia)</onclick>
                         <visible>System.HasAddon(plugin.video.gaia)</visible>
 </item>
 <item>
-                        <label>Scraper - plugin.video.gdrive $INFO[System.AddonVersion(plugin.video.gdrive),(,)]</label>
+                        <label>plugin.video.gdrive $INFO[System.AddonVersion(plugin.video.gdrive),(,)]</label>
                         <onclick>Addon.OpenSettings(plugin.video.gdrive)</onclick>
                         <visible>System.HasAddon(plugin.video.gdrive)</visible>
 </item>
 <item>
-                        <label>Scraper - plugin.video.iptvsimple.addons $INFO[System.AddonVersion(plugin.video.iptvsimple.addons),(,)]</label>
+                        <label>plugin.video.iptvsimple.addons $INFO[System.AddonVersion(plugin.video.iptvsimple.addons),(,)]</label>
                         <onclick>Addon.OpenSettings(plugin.video.iptvsimple.addons)</onclick>
                         <visible>System.HasAddon(plugin.video.iptvsimple.addons)</visible>
 </item>
 <item>
-                        <label>Scraper - plugin.video.lastship $INFO[System.AddonVersion(plugin.video.lastship),(,)]</label>
+                        <label>plugin.video.lastship $INFO[System.AddonVersion(plugin.video.lastship),(,)]</label>
                         <onclick>Addon.OpenSettings(plugin.video.lastship)</onclick>
                         <visible>System.HasAddon(plugin.video.lastship)</visible>
 </item>
 <item>
-                        <label>Scraper - plugin.video.openmeta $INFO[System.AddonVersion(plugin.video.openmeta),(,)]</label>
+                        <label>plugin.video.openmeta $INFO[System.AddonVersion(plugin.video.openmeta),(,)]</label>
                         <onclick>Addon.OpenSettings(plugin.video.openmeta)</onclick>
                         <visible>System.HasAddon(plugin.video.openmeta)</visible>
 </item>
 <item>
-                        <label>Scraper - plugin.video.xstream $INFO[System.AddonVersion(plugin.video.xstream),(,)]</label>
+                        <label>plugin.video.xstream $INFO[System.AddonVersion(plugin.video.xstream),(,)]</label>
                         <onclick>Addon.OpenSettings(plugin.video.xstream)</onclick>
                         <visible>System.HasAddon(plugin.video.xstream)</visible>
 </item>
 <item>
-                        <label>Scraper - script.module.globalscrapers $INFO[System.AddonVersion(script.module.globalscrapers),(,)]</label>
+                        <label>script.module.globalscrapers $INFO[System.AddonVersion(script.module.globalscrapers),(,)]</label>
                         <onclick>Addon.OpenSettings(script.module.globalscrapers)</onclick>
                         <visible>System.HasAddon(script.module.globalscrapers)</visible>
 </item>
 <item>
-                        <label>Scraper - script.module.lambdascrapers $INFO[System.AddonVersion(script.module.lambdascrapers),(,)]</label>
+                        <label>script.module.lambdascrapers $INFO[System.AddonVersion(script.module.lambdascrapers),(,)]</label>
                         <onclick>Addon.OpenSettings(script.module.lambdascrapers)</onclick>
                         <visible>System.HasAddon(script.module.lambdascrapers)</visible>
 </item>
 <item>
-                        <label>Scraper - script.module.openscrapers $INFO[System.AddonVersion(script.module.openscrapers),(,)]</label>
+                        <label>script.module.openscrapers $INFO[System.AddonVersion(script.module.openscrapers),(,)]</label>
                         <onclick>Addon.OpenSettings(script.module.openscrapers)</onclick>
                         <visible>System.HasAddon(script.module.openscrapers)</visible>
 </item>
 <item>
-                        <label>Scraper - script.module.orion $INFO[System.AddonVersion(script.module.orion),(,)]</label>
+                        <label>script.module.orion $INFO[System.AddonVersion(script.module.orion),(,)]</label>
                         <onclick>Addon.OpenSettings(script.module.orion)</onclick>
                         <visible>System.HasAddon(script.module.orion)</visible>
 </item>
 <item>
-                        <label>Scraper - script.module.resolveurl $INFO[System.AddonVersion(script.module.resolveurl),(,)]</label>
+                        <label>script.module.resolveurl $INFO[System.AddonVersion(script.module.resolveurl),(,)]</label>
                         <onclick>Addon.OpenSettings(script.module.resolveurl)</onclick>
                         <visible>System.HasAddon(script.module.resolveurl)</visible>
 </item>
 <item>
-                        <label>Scraper - script.module.universalscrapers $INFO[System.AddonVersion(script.module.universalscrapers),(,)]</label>
+                        <label>script.module.universalscrapers $INFO[System.AddonVersion(script.module.universalscrapers),(,)]</label>
                         <onclick>Addon.OpenSettings(script.module.universalscrapers)</onclick>
                         <visible>System.HasAddon(script.module.universalscrapers)</visible>
 </item>
 <item>
-                        <label>Scraper - script.module.urlresolver $INFO[System.AddonVersion(script.module.urlresolver),(,)]</label>
+                        <label>script.module.urlresolver $INFO[System.AddonVersion(script.module.urlresolver),(,)]</label>
                         <onclick>Addon.OpenSettings(script.module.urlresolver)</onclick>
                         <visible>System.HasAddon(script.module.urlresolver)</visible>
 </item>
 <item>
-                        <label>Scraper - script.pseudotv.live $INFO[System.AddonVersion(script.pseudotv.live),(,)]</label>
+                        <label>script.pseudotv.live $INFO[System.AddonVersion(script.pseudotv.live),(,)]</label>
                         <onclick>Addon.OpenSettings(script.pseudotv.live)</onclick>
                         <visible>System.HasAddon(script.pseudotv.live)</visible>
 </item>
 <item>
-                        <label>Scraper - metadata.common.fanart.tv $INFO[System.AddonVersion(metadata.common.fanart.tv),(,)]</label>
+                        <label>metadata.common.fanart.tv $INFO[System.AddonVersion(metadata.common.fanart.tv),(,)]</label>
                         <onclick>Addon.OpenSettings(metadata.common.fanart.tv)</onclick>
                         <visible>System.HasAddon(metadata.common.fanart.tv)</visible>
 </item>
 <item>
-                        <label>Scraper - metadata.common.omdbapi.com $INFO[System.AddonVersion(metadata.common.omdbapi.com),(,)]</label>
+                        <label>metadata.common.omdbapi.com $INFO[System.AddonVersion(metadata.common.omdbapi.com),(,)]</label>
                         <onclick>Addon.OpenSettings(metadata.common.omdbapi.com)</onclick>
                         <visible>System.HasAddon(metadata.common.omdbapi.com)</visible>
 </item>
 <item>
-                        <label>Scraper - metadata.common.theaudiodb.com $INFO[System.AddonVersion(metadata.common.theaudiodb.com),(,)]</label>
+                        <label>metadata.common.theaudiodb.com $INFO[System.AddonVersion(metadata.common.theaudiodb.com),(,)]</label>
                         <onclick>Addon.OpenSettings(metadata.common.theaudiodb.com)</onclick>
                         <visible>System.HasAddon(metadata.common.theaudiodb.com)</visible>
 </item>
 <item>
-                        <label>Scraper - metadata.common.themoviedb.org $INFO[System.AddonVersion(metadata.common.themoviedb.org),(,)]</label>
+                        <label>metadata.common.themoviedb.org $INFO[System.AddonVersion(metadata.common.themoviedb.org),(,)]</label>
                         <onclick>Addon.OpenSettings(metadata.common.themoviedb.org)</onclick>
                         <visible>System.HasAddon(metadata.common.themoviedb.org)</visible>
 </item>
 <item>
-                        <label>Scraper - metadata.musicvideos.theaudiodb.com $INFO[System.AddonVersion(metadata.musicvideos.theaudiodb.com),(,)]</label>
+                        <label>metadata.musicvideos.theaudiodb.com $INFO[System.AddonVersion(metadata.musicvideos.theaudiodb.com),(,)]</label>
                         <onclick>Addon.OpenSettings(metadata.musicvideos.theaudiodb.com)</onclick>
                         <visible>System.HasAddon(metadata.musicvideos.theaudiodb.com)</visible>
 </item>
 <item>
-                        <label>Scraper - metadata.themoviedb.org $INFO[System.AddonVersion(metadata.themoviedb.org),(,)]</label>
+                        <label>metadata.themoviedb.org $INFO[System.AddonVersion(metadata.themoviedb.org),(,)]</label>
                         <onclick>Addon.OpenSettings(metadata.themoviedb.org)</onclick>
                         <visible>System.HasAddon(metadata.themoviedb.org)</visible>
 </item>
 <item>
-                        <label>Scraper - metadata.tvdb.com $INFO[System.AddonVersion(metadata.tvdb.com),(,)]</label>
+                        <label>metadata.tvdb.com $INFO[System.AddonVersion(metadata.tvdb.com),(,)]</label>
                         <onclick>Addon.OpenSettings(metadata.tvdb.com)</onclick>
                         <visible>System.HasAddon(metadata.tvdb.com)</visible>
 </item>
 <item>
-                        <label>Scraper - metadata.universal $INFO[System.AddonVersion(metadata.universal),(,)]</label>
+                        <label>metadata.universal $INFO[System.AddonVersion(metadata.universal),(,)]</label>
                         <onclick>Addon.OpenSettings(metadata.universal)</onclick>
                         <visible>System.HasAddon(metadata.universal)</visible>
 </item>
 <item>
-                        <label>Scraper - script.image.resource.select $INFO[System.AddonVersion(script.image.resource.select),(,)]</label>
+                        <label>script.image.resource.select $INFO[System.AddonVersion(script.image.resource.select),(,)]</label>
                         <onclick>Addon.OpenSettings(script.image.resource.select)</onclick>
                         <visible>System.HasAddon(script.image.resource.select)</visible>
 </item>

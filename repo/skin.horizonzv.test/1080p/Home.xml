@@ -253,7 +253,7 @@
                                 <thumb/>
                                 <onclick>activatewindow(shutdownmenu)</onclick>
                             </item>
-                            <item id="2">
+<!--                            <item id="2">
                                 <description>Super Favourites</description>
                                 <label>10134</label>
                                 <label2>masks/Default_sharp.png</label2>
@@ -262,7 +262,7 @@
                                 <onclick>action(up)</onclick>
                                 <onclick>xbmc.runscript(special://home/addons/plugin.program.super.favourites/quicklaunch.py,Main-Addons,True)</onclick>
                                 <visible>Skin.HasSetting(hide_fav)</visible>
-                            </item>
+                            </item>-->
                             <item id="3">
                                 <description>File Browser</description>
                                 <label>10126</label>
@@ -283,13 +283,13 @@
 								<!-- <onclick>RunScript(script.skinhelper.ping,menu)</onclick> -->
                                 <visible>Skin.HasSetting(wolhome)+System.HasAddon(script.skinhelper.ping)</visible>
                             </item>
-                            <item id="5">
+<!--                            <item id="5">
                                 <description>Systemsettings</description>
                                 <label>21417</label>
                                 <label2>masks/Default_sharp.png</label2>
                                 <icon>center/Center_System.png</icon>
                                 <onclick>ActivateWindow(settings)</onclick>
-                            </item>
+                            </item>-->
                             <item id="6">
                                 <description>Systeminfo</description>
                                 <label>10511</label>
@@ -311,7 +311,7 @@
                                 <label>Addon Settings</label>
                                 <label2>masks/Default_sharp.png</label2>
                                 <icon>icons/SystemIcon.png</icon>
-                                <onclick>ActivateWindow(1800)</onclick>
+                                <onclick>ActivateWindow(1801)</onclick>
                             </item>
                             <item id="9">
                                 <description>PVR Timer</description>
@@ -329,14 +329,14 @@
                                 <icon>center/Center_Addons.png</icon>
                                 <onclick>ActivateWindow(AddonBrowser)</onclick>
                             </item>
-                            <item id="11">
+<!--                            <item id="11">
                                 <description>Video Addons</description>
                                 <label>Video Addons</label>
                                 <label2>masks/Default_sharp.png</label2>
                                 <icon>center/Center_Programs.png</icon>
                                 <onclick condition="!System.Platform.Android">ActivateWindow(Videos,addons://sources/video/,return)</onclick>
                                 <onclick condition="System.Platform.Android">ActivateWindow(Programs)</onclick>
-                            </item>
+                            </item>-->
                             <item id="12">
                                 <description>BuchClub (GDrive)</description>
                                 <label>BuchClub Files</label>

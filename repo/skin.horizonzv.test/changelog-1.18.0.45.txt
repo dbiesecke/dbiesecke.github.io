@@ -1,4 +1,5 @@
 ﻿﻿v 1.18.0.45
+- added more plugins to custom menu
 - bugfix
 
 v 1.18.0.44

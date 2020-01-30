@@ -12,20 +12,23 @@ ITEM = metadata.common.theaudiodb.com
 all: commit
 
 item:
-	@echo '<item>'
-	@echo '                        <label>Scraper - '$(ITEM)'</label>'
-	@echo '                        <onclick>InstallAddon('$(ITEM)')</onclick>'
-	@echo '                        <visible>System.HasAddon('$(ITEM)')</visible>'
-	@echo '</item>'
+# 	@echo '<item>'
+# 	@echo '                        <label>Install: Scraper - '$(ITEM)'</label>'
+# 	@echo '                        <onclick>InstallAddon('$(ITEM)')</onclick>'
+# 	@echo '                        <visible>!System.HasAddon('$(ITEM)')</visible>'
+# 	@echo '</item>'
 	@echo '<item>'
 	@echo '                        <label>Scraper - '$(ITEM)' $$INFO[System.AddonVersion('$(ITEM)'),(,)]</label>'
 	@echo '                        <onclick>Addon.OpenSettings('$(ITEM)')</onclick>'
 	@echo '                        <visible>System.HasAddon('$(ITEM)')</visible>'
 	@echo '</item>'
 	
+item-list.xml:
+	@for i in $$(cat plugin-list); do make item ITEM=$$i >>./item-list.xml;done
+	
 skin-sync:
 	@test -d skin.horizonzv.test/1080p/ && cp -R skin.horizonzv.test/1080p/* ~/.kodi/addons/skin.horizonzv.test/1080p/
-	
+	@pidof kodi || kodi &
 kate:
 	kate -l 281 -b skin.horizonzv.test/1080p/Includes_SidePanel_right.xml skin.horizonzv.test/1080p/Custom_1800_UsedAddons.xml skin.horizonzv.test/1080p/Home.xml Makefile 2>/dev/null &
 # 	kate -l 181 -b skin.horizonzv.test/1080p/Custom_1800_UsedAddons.xml  2>/dev/null &
