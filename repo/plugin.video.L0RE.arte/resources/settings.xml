@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<settings>
-	<category label="Allgemein">
-		<setting label="Bevorzugte Video-Auflösung" type="select" id="prefVideoQuality" values="1280x720|720x406|640x360|384x216" default="1280x720"/>
-		<setting type="sep"/>
-		<setting label="Sprache" type="select" id="sprache" values="de|fr" default="de"/>
-	</category>
-</settings>

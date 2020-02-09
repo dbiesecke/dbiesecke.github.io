@@ -269,26 +269,19 @@
                     </item>
                     <item id="2">
                         <description>Movies - DDL</description>
-                        <label>2</label>
-                        <label2></label2>
+                        <label>New Movies - DDL.me</label>
                         <icon>icons/ddl.png</icon>
                         <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.xstream/?function=showEntries&amp;sTop100Type=movies&amp;sUrl=https%3a%2f%2fde.ddl.me%2fmoviez_00_0&amp;site=ddl_me&amp;title=Letztes%20Update&quot;,return)</onclick>
                     </item>
                     <item id="3">
                         <description>TV - SerienStream.to</description>
-                        <label>20343</label>
+                        <label>TV - SerienStream.to</label>
                         <icon>icons/serienstream.png</icon>
                         <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.xstream/?function=showEntries&amp;sTop100Type=tv&amp;sUrl=https%3a%2f%2fde.ddl.me%2ftop100%2fcover%2ftotal%2fall%2f&amp;site=ddl_me&amp;title=Hall%20of%20Fame&quot;,return)</onclick>
                     </item>
-                    <item id="4">
-                        <description>Musicvideo Library</description>
-                        <label>20391</label>
-                        <icon>icons/MusicvideosIcon.png</icon>
-                        <onclick>ActivateWindow(Videos,MusicVideos,return)</onclick>
-                        <visible>Library.HasContent(MusicVideos)</visible>
-                    </item>
+
                     <item id="5">
-                        <description>Gaia</description>
+                        <description>Emby</description>
                         <label>20342</label>
                         <icon>icons/repository.gaia.png</icon>
                                 <visible>System.HasAddon(plugin.video.gaia)</visible>
@@ -315,7 +308,7 @@
                         <label>Play</label>
                         <icon>icons/games.png</icon>
                         <onclick>ActivateWindow(10025,&quot;plugin://game.retroarch&quot;,return)</onclick>
-                                <visible>System.HasAddon(game.retroarch)</visible>
+                        <visible>System.HasAddon(game.retroarch)</visible>
                     </item>
                     <item id="9">
                         <description>Weather</description>

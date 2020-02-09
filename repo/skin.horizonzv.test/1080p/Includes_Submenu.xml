@@ -22,8 +22,8 @@
         </animation>
     </include>
     <include name="ButtonHomeSubCommonValues">
-        <height>39</height>
-        <width max="405" min="225">auto</width>
+        <height>42</height>
+        <width max="405" min="180">auto</width>
         <textwidth>auto</textwidth>
         <align>center</align>
         <aligny>center</aligny>
@@ -54,7 +54,7 @@
             <onright>9010</onright>
             <onup>8002</onup>
             <visible>String.IsEqual(Container(9000).ListItem.Property(homemenu_id),music)</visible>
-            <control type="button" id="80100">
+ <!--           <control type="button" id="80100">
                 <description>Refresh Button</description>
                 <height>39</height>
                 <width>39</width>
@@ -81,7 +81,7 @@
                 <onclick>Control.SetFocus(9000)</onclick>
                 <onclick>ActivateWindow(1141)</onclick>
 				<visible>String.Contains(Container(9000).ListItem.Property(homemenu_path),video)+Skin.HasSetting(Home_Music_Button)</visible>
-            </control>
+            </control>-->
             <control type="button" id="80104">
                 <include>ButtonHomeSubCommonValues</include>
                 <label>589</label>
@@ -157,7 +157,7 @@
             <onleft>9010</onleft>
             <onright>9010</onright>
             <visible>String.IsEqual(Container(9000).ListItem.Property(homemenu_id),videos)</visible>
-            <control type="button" id="80115">
+<!--            <control type="button" id="80115">
                 <description>Refresh Button</description>
                 <height>39</height>
                 <width>39</width>
@@ -184,7 +184,7 @@
                 <onclick>Control.SetFocus(9000)</onclick>
                 <onclick>ActivateWindow(1141)</onclick>
 				<visible>String.Contains(Container(9000).ListItem.Property(homemenu_path),video)|!Skin.HasSetting(Home_Video_Button)</visible>
-            </control>
+            </control>-->
             <control type="button" id="80117">
                 <include>ButtonHomeSubCommonValues</include>
                 <label>342</label>
@@ -242,7 +242,7 @@
             <onleft>9010</onleft>
             <onright>9010</onright>
             <visible>String.IsEqual(Container(9000).ListItem.Property(homemenu_id),movies)</visible>
-            <control type="button" id="80129">
+<!--            <control type="button" id="80129">
                 <description>Refresh Button</description>
                 <height>39</height>
                 <width>39</width>
@@ -269,7 +269,7 @@
                 <onclick>Control.SetFocus(9000)</onclick>
                 <onclick>ActivateWindow(1141)</onclick>
 				<visible>String.Contains(Container(9000).ListItem.Property(homemenu_path),video)|!Skin.HasSetting(Home_Movie_Button)</visible>
-            </control>
+            </control>-->
             <control type="button" id="80131">
                 <include>ButtonHomeSubCommonValues</include>
                 <label>20434</label>
@@ -319,6 +319,38 @@
                 <onclick>ActivateWindow(Videos,Files,return)</onclick>
 				<visible>!Skin.HasSetting(Home_Movie_Button)</visible>
             </control>
+            <control type="button" id="81250">
+                <include>ButtonHomeSubCommonValues</include>
+                <label>DDL.me</label>
+                <visible>System.HasAddon(plugin.video.xstream)</visible>
+                <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.xstream/?function=showEntries&amp;sTop100Type=movies&amp;sUrl=https%3a%2f%2fde.ddl.me%2fmoviez_00_0&amp;site=ddl_me&amp;title=Letztes%20Update&quot;,return)</onclick>
+				<visible>!Skin.HasSetting(Home_Movie_Button)</visible>
+				<visible>!Skin.HasSetting(SubMenu_Movie_DDLButton)</visible>
+            </control>  
+            <control type="button" id="81251">
+                <include>ButtonHomeSubCommonValues</include>
+                <label>Gaia</label>
+                <visible>System.HasAddon(plugin.video.gaia)</visible>
+                <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.gaia/?action=moviesArrivals&amp;type=movie&amp;kids=0&quot;,return)</onclick>
+                <visible>!Skin.HasSetting(Home_Movie_Button)</visible>
+				<visible>!Skin.HasSetting(SubMenu_Movie_GaiaButton)</visible>
+            </control>    
+            <control type="button" id="81252">
+                <include>ButtonHomeSubCommonValues</include>
+                <label>Search (XStream) </label>
+                <visible>System.HasAddon(plugin.video.xstream)</visible>
+                <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.xstream/?function=globalSearch&amp;params=0&amp;site=globalSearch&amp;title=Globale%20Suche&quot;,return)</onclick>
+                <visible>!Skin.HasSetting(Home_Movie_Button)</visible>
+				<visible>!Skin.HasSetting(SubMenu_Movie_SearchXButton)</visible>
+            </control>   
+            <control type="button" id="81253">
+                <include>ButtonHomeSubCommonValues</include>
+                <label>Search (Gaia)</label>
+                <visible>System.HasAddon(plugin.video.gaia)</visible>
+                <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.gaia/?action=moviesSearches&amp;kids=0&amp;type=movie&quot;,return)</onclick>
+                <visible>!Skin.HasSetting(Home_Movie_Button)</visible>
+				<visible>!Skin.HasSetting(SubMenu_Movie_SearchGButton)</visible>
+            </control>             
 			<include content="HomeSubSettingsButton">
 				<param name="id1" value="80138" />
 				<param name="id2" value="80139" />
@@ -347,7 +379,7 @@
             <onleft>9010</onleft>
             <onright>9010</onright>
             <visible>String.IsEqual(Container(9000).ListItem.Property(homemenu_id),tvshow)</visible>
-            <control type="button" id="80145">
+<!--            <control type="button" id="80145">
                 <description>Refresh Button</description>
                 <height>39</height>
                 <width>39</width>
@@ -374,7 +406,7 @@
                 <onclick>Control.SetFocus(9000)</onclick>
                 <onclick>ActivateWindow(1141)</onclick>
 				<visible>String.Contains(Container(9000).ListItem.Property(homemenu_path),video)|!Skin.HasSetting(Home_TVShow_Button)</visible>
-            </control>
+            </control>-->
             <control type="button" id="80147">
                 <include>ButtonHomeSubCommonValues</include>
                 <label>369</label>
@@ -415,7 +447,7 @@
             <onleft>9010</onleft>
             <onright>9010</onright>
             <visible>String.IsEqual(Container(9000).ListItem.Property(homemenu_id),musicvideo)</visible>
-            <control type="button" id="80156">
+  <!--          <control type="button" id="80156">
                 <description>Refresh Button</description>
                 <height>39</height>
                 <width>39</width>
@@ -442,7 +474,7 @@
                 <onclick>Control.SetFocus(9000)</onclick>
                 <onclick>ActivateWindow(1141)</onclick>
 				<visible>String.Contains(Container(9000).ListItem.Property(homemenu_path),video)+!Skin.HasSetting(Home_Music_Button)|!Skin.HasSetting(Home_MusicVideo_Button)</visible>
-            </control>
+            </control>-->
             <control type="button" id="80158">
                 <include>ButtonHomeSubCommonValues</include>
                 <label>369</label>
@@ -469,7 +501,7 @@
             <onleft>9010</onleft>
             <onright>9010</onright>
             <visible>String.IsEqual(Container(9000).ListItem.Property(homemenu_id),picture)</visible>
-            <control type="button" id="80170">
+<!--            <control type="button" id="80170">
                 <description>Refresh Button</description>
                 <height>39</height>
                 <width>39</width>
@@ -496,7 +528,7 @@
                 <onclick>Control.SetFocus(9000)</onclick>
                 <onclick>ActivateWindow(1141)</onclick>
 				<visible>String.Contains(Container(9000).ListItem.Property(homemenu_path),video)</visible>
-            </control>
+            </control>-->
 			<include content="HomeSubSettingsButton">
 				<param name="id1" value="80172" />
 				<param name="id2" value="80173" />
@@ -574,7 +606,7 @@
         <control type="grouplist" id="9010">
             <include>HomeSubMenuCommonValues</include>
             <visible>String.IsEqual(Container(9000).ListItem.Property(homemenu_id),custom1)</visible>
-            <control type="button" id="80195">
+<!--            <control type="button" id="80195">
                 <description>Refresh Button</description>
                 <height>39</height>
                 <width>39</width>
@@ -601,7 +633,7 @@
                 <onclick>Control.SetFocus(9000)</onclick>
                 <onclick>ActivateWindow(1141)</onclick>
 				<visible>String.Contains(Container(9000).ListItem.Property(homemenu_path),video)</visible>
-            </control>
+            </control>-->
 			<include content="HomeSubSettingsButton">
 				<param name="id1" value="80198" />
 				<param name="id2" value="80199" />
@@ -612,7 +644,7 @@
         <control type="grouplist" id="9010">
             <include>HomeSubMenuCommonValues</include>
             <visible>String.IsEqual(Container(9000).ListItem.Property(homemenu_id),custom2)</visible>
-            <control type="button" id="80200">
+<!--            <control type="button" id="80200">
                 <description>Refresh Button</description>
                 <height>39</height>
                 <width>39</width>
@@ -639,7 +671,7 @@
                 <onclick>Control.SetFocus(9000)</onclick>
                 <onclick>ActivateWindow(1141)</onclick>
 				<visible>String.Contains(Container(9000).ListItem.Property(homemenu_path),video)</visible>
-            </control>
+            </control>-->
 			<include content="HomeSubSettingsButton">
 				<param name="id1" value="80202" />
 				<param name="id2" value="80203" />
@@ -650,33 +682,50 @@
         <control type="grouplist" id="9010">
             <include>HomeSubMenuCommonValues</include>
             <visible>String.IsEqual(Container(9000).ListItem.Property(homemenu_id),custom3)</visible>
-            <control type="button" id="80210">
-                <description>Refresh Button</description>
+            <control type="button" id="802215">
+                <description>DMAX</description>
                 <height>39</height>
                 <width>39</width>
                 <align>center</align>
                 <aligny>center</aligny>
-                <texturefocus>buttons/RefreshFO.png</texturefocus>
-                <texturenofocus>buttons/RefreshNF.png</texturenofocus>
-                <pulseonselect>false</pulseonselect>
-                <label/>
-                <onclick>Control.SetFocus(9000)</onclick>
-                <onclick>ActivateWindow(1142)</onclick>
-				<visible>String.Contains(Container(9000).ListItem.Property(homemenu_path),music)|String.Contains(Container(9000).ListItem.Property(homemenu_path),audio)</visible>
-            </control>
-            <control type="button" id="80211">
-                <description>Refresh Button</description>
-                <height>39</height>
-                <width>39</width>
-                <align>center</align>
-                <aligny>center</aligny>
-                <texturefocus>buttons/RefreshFO.png</texturefocus>
-                <texturenofocus>buttons/RefreshNF.png</texturenofocus>
-                <pulseonselect>false</pulseonselect>
-                <label/>
-                <onclick>Control.SetFocus(9000)</onclick>
-                <onclick>ActivateWindow(1141)</onclick>
+                <texturefocus>special://home/addons/plugin.video.tyl0re.dmax/icon.png</texturefocus>
+                <texturenofocus>special://home/addons/plugin.video.tyl0re.dmax/icon.png</texturenofocus>                
+                <label>DMAX</label>
+                <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.tyl0re.dmax/&quot;,return)</onclick>
 				<visible>String.Contains(Container(9000).ListItem.Property(homemenu_path),video)</visible>
+            </control>
+            <control type="button" id="802216">
+                <description>Arte</description>
+                <height>39</height>
+                <width>39</width>
+                <align>center</align>
+                <aligny>center</aligny>
+                <texturefocus>special://home/addons/plugin.video.tyl0re.arte/icon.png</texturefocus>
+                <texturenofocus>special://home/addons/plugin.video.tyl0re.arte/icon.png</texturenofocus>                
+                <label>Arte</label>
+                <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.tyl0re.arte/&quot;,return)</onclick>
+				<visible>String.Contains(Container(9000).ListItem.Property(homemenu_path),video)</visible>
+            </control>      
+            <control type="button" id="802217">
+                <description>Spiegel.TV</description>
+                <include>ButtonHomeSubCommonValues</include>
+                <icon>special://home/addons/plugin.video.tyl0re.spiegeltv/icon.png</icon>
+                <label>Spiegel.TV</label>
+                <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.tyl0re.spiegeltv/&quot;,return)</onclick>
+				<visible>String.Contains(Container(9000).ListItem.Property(homemenu_path),video)</visible>
+            </control>       
+            <control type="button" id="802218">
+                <include>ButtonHomeSubCommonValues</include>
+                <description>Welt der Wunder</description>
+                <icon>special://home/addons/plugin.video.tyl0re.weltderwunder/icon.png</icon>
+                <label>weltderwunder</label>
+                <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.tyl0re.weltderwunder/&quot;,return)</onclick>
+				<visible>String.Contains(Container(9000).ListItem.Property(homemenu_path),video)</visible>
+            </control>    
+            <control type="button" id="80297">
+                <include>ButtonHomeSubCommonValues</include>
+                <label>24/7 - Doku Streams</label>
+                <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.PsycoTV/?url=http%3A%2F%2Fwagasworld.com%2FKodi%2Fwwstreamportal.xml&amp;mode=2&amp;name=%5BCOLOR+red%5D%5BB%5D%E2%80%A2+%5B%2FB%5D%5B%2FCOLOR%5D+Doku&amp;fanart=http%3A%2F%2Fwagasworld.com%2FKodi%2Fpic%2Fdokus.jpg&quot;,return)</onclick>
             </control>
 			<include content="HomeSubSettingsButton">
 				<param name="id1" value="80212" />
@@ -688,7 +737,7 @@
         <control type="grouplist" id="9010">
             <include>HomeSubMenuCommonValues</include>
             <visible>String.IsEqual(Container(9000).ListItem.Property(homemenu_id),custom4)</visible>
-            <control type="button" id="80220">
+ <!--           <control type="button" id="80220">
                 <description>Refresh Button</description>
                 <height>39</height>
                 <width>39</width>
@@ -715,7 +764,7 @@
                 <onclick>Control.SetFocus(9000)</onclick>
                 <onclick>ActivateWindow(1141)</onclick>
 				<visible>String.Contains(Container(9000).ListItem.Property(homemenu_path),video)</visible>
-            </control>
+            </control>-->
 			<include content="HomeSubSettingsButton">
 				<param name="id1" value="80222" />
 				<param name="id2" value="80223" />
@@ -726,7 +775,7 @@
         <control type="grouplist" id="9010">
             <include>HomeSubMenuCommonValues</include>
             <visible>String.IsEqual(Container(9000).ListItem.Property(homemenu_id),custom5)</visible>
-            <control type="button" id="80230">
+<!--            <control type="button" id="80230">
                 <description>Refresh Button</description>
                 <height>39</height>
                 <width>39</width>
@@ -753,7 +802,7 @@
                 <onclick>Control.SetFocus(9000)</onclick>
                 <onclick>ActivateWindow(1141)</onclick>
 				<visible>String.Contains(Container(9000).ListItem.Property(homemenu_path),video)</visible>
-            </control>
+            </control>-->
 			<include content="HomeSubSettingsButton">
 				<param name="id1" value="80232" />
 				<param name="id2" value="80233" />
@@ -764,7 +813,7 @@
         <control type="grouplist" id="9010">
             <include>HomeSubMenuCommonValues</include>
             <visible>String.IsEqual(Container(9000).ListItem.Property(homemenu_id),custom6)</visible>
-            <control type="button" id="80240">
+<!--            <control type="button" id="80240">
                 <description>Refresh Button</description>
                 <height>39</height>
                 <width>39</width>
@@ -791,7 +840,7 @@
                 <onclick>Control.SetFocus(9000)</onclick>
                 <onclick>ActivateWindow(1141)</onclick>
 				<visible>String.Contains(Container(9000).ListItem.Property(homemenu_path),video)</visible>
-            </control>
+            </control>-->
 			<include content="HomeSubSettingsButton">
 				<param name="id1" value="80242" />
 				<param name="id2" value="80243" />
@@ -802,7 +851,7 @@
         <control type="grouplist" id="9010">
             <include>HomeSubMenuCommonValues</include>
             <visible>String.IsEqual(Container(9000).ListItem.Property(homemenu_id),custom7)</visible>
-            <control type="button" id="80250">
+<!--            <control type="button" id="80250">
                 <description>Refresh Button</description>
                 <height>39</height>
                 <width>39</width>
@@ -829,7 +878,7 @@
                 <onclick>Control.SetFocus(9000)</onclick>
                 <onclick>ActivateWindow(1141)</onclick>
 				<visible>String.Contains(Container(9000).ListItem.Property(homemenu_path),video)</visible>
-            </control>
+            </control>-->
 			<include content="HomeSubSettingsButton">
 				<param name="id1" value="80252" />
 				<param name="id2" value="80253" />
@@ -840,7 +889,7 @@
         <control type="grouplist" id="9010">
             <include>HomeSubMenuCommonValues</include>
             <visible>String.IsEqual(Container(9000).ListItem.Property(homemenu_id),custom8)</visible>
-            <control type="button" id="80260">
+<!--            <control type="button" id="80260">
                 <description>Refresh Button</description>
                 <height>39</height>
                 <width>39</width>
@@ -867,7 +916,7 @@
                 <onclick>Control.SetFocus(9000)</onclick>
                 <onclick>ActivateWindow(1141)</onclick>
 				<visible>String.Contains(Container(9000).ListItem.Property(homemenu_path),video)</visible>
-            </control>
+            </control>-->
 			<include content="HomeSubSettingsButton">
 				<param name="id1" value="80262" />
 				<param name="id2" value="80263" />
@@ -878,7 +927,7 @@
         <control type="grouplist" id="9010">
             <include>HomeSubMenuCommonValues</include>
             <visible>String.IsEqual(Container(9000).ListItem.Property(homemenu_id),custom9)</visible>
-            <control type="button" id="80270">
+   <!--         <control type="button" id="80270">
                 <description>Refresh Button</description>
                 <height>39</height>
                 <width>39</width>
@@ -905,7 +954,7 @@
                 <onclick>Control.SetFocus(9000)</onclick>
                 <onclick>ActivateWindow(1141)</onclick>
 				<visible>String.Contains(Container(9000).ListItem.Property(homemenu_path),video)</visible>
-            </control>
+            </control>-->
 			<include content="HomeSubSettingsButton">
 				<param name="id1" value="80272" />
 				<param name="id2" value="80273" />
@@ -991,7 +1040,7 @@
                 <label>19069</label>
                 <onclick>ActivateWindow(TVGuide)</onclick>
             </control>
-            <control type="button" id="80292">
+<!--            <control type="button" id="80292">
                 <include>ButtonHomeSubCommonValues</include>
                 <label>19163</label>
                 <onclick>ActivateWindow(TVRecordings)</onclick>
@@ -1011,7 +1060,17 @@
                 <label>21417</label>
                 <onclick>SetProperty(HomeButton,pvr)</onclick>
                 <onclick>ActivateWindow(1500)</onclick>
-            </control>
+            </control>-->
+              <control type="button" id="80296">
+                <include>ButtonHomeSubCommonValues</include>
+                <label>PsycoTV</label>
+                <onclick>RunScript(&quot;plugin://plugin.video.PsycoTV/&quot;)</onclick>
+            </control>     
+              <control type="button" id="80297">
+                <include>ButtonHomeSubCommonValues</include>
+                <label>TVONE</label>
+                <onclick>ActivateWindow(10025,&quot;library://video/tv-sky-sport/tvone11.xml/&quot;,return)</onclick>
+            </control>             
         </control>
     </include>
     <include name="HomeSubMenuRadio">
@@ -1087,6 +1146,13 @@
                 <onclick>RunScript(plugin.program.newscenter,&quot;?methode=play_kinder_nachrichten&quot;)</onclick>
                 <visible>String.Contains(Window(Home).Property(NewsCenter.Visible.KinderNachrichten),true)</visible>
             </control>
+            <control type="button" id="81255">
+                <include>ButtonHomeSubCommonValues</include>
+                <label>Live: Tageschau24</label>
+                <visible>System.HasAddon(plugin.program.newscenter)</visible>
+                <onclick>RunScript(plugin.program.newscenter,&quot;?methode=play_livestream_tagesschau24&quot;)</onclick>
+				<visible>String.Contains(Container(9000).ListItem.Property(homemenu_path),video)</visible>
+            </control>             
             <control type="button" id="80315">
                 <include>ButtonHomeSubCommonValues</include>
                 <label>21417</label>

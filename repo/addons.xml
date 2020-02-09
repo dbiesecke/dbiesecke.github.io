@@ -136,39 +136,6 @@
 </extension>
 </addon>
 
-<addon id="plugin.video.L0RE.arte" name="ARTE.TV" version="0.6.0" provider-name="L0RE">
-	<requires>
-		<import addon="xbmc.python" version="2.25.0"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="de_DE">Videoportal von ARTE (DE/FR)</summary>
-		<summary lang="en_GB">Videoportal of ARTE (DE/FR)</summary>
-		<description lang="de_DE">Mediathek und Livestream - Schwerpunkte sind Kultur, Europa und die Vermittlung von Informationen aus vorzugsweise ungewöhnlichen Perspektiven.[CR]Reportagen, Serien, Filme, Dokus, Magazine - Die Programme von ARTE online auf arte.tv.</description>
-		<description lang="en_GB">Media library and Livestream - focus is Culture, Europe and the transmission of information from preferably unusual Perspectives.[CR]Reports, Series, Movies, Documentaries, Magazines - The programs of ARTE online on arte.tv.</description>
-		<disclaimer lang="de_DE">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Anbietern des Inhalts.</disclaimer>
-		<disclaimer lang="en_GB">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.</disclaimer>
-		<language></language>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-		<forum>https://www.kodinerds.net/index.php/Thread/55451-L0REs-Blog/</forum>
-		<website>https://www.arte.tv/</website>
-		<email></email>
-		<source>https://github.com/kodinerds/repo/tree/master/plugin.video.L0RE.arte</source>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-		</assets>
-		<news>[B][COLOR orangered]Version 0.6.0  (01.12.2019)[/COLOR][/B] by realvito[CR]
-- fixed: Rubrik = Themen kein Inhalt und Fehler wird angezeigt (läuft jetzt auch über die API)
-- fixed: Suche mit Umlauten im Suchbegriff erzeugt Fehler
-- fixed: UnicodeEncodeError für 'time.strftime' und Sondersymbole unter Python-3 (KODI-Matrix)
-		</news>
-	</extension>
-</addon>
-
 <addon id="plugin.video.PsycoTV"
        name="PsycoTV"
        version="2.4.0"
@@ -345,39 +312,6 @@
             <icon>icon.png</icon>
         </assets>
     </extension>
-</addon>
-
-<addon id="plugin.video.L0RE.dmax" name="DMAX Mediathek" version="1.0.8" provider-name="L0RE">
-	<requires>
-		<import addon="xbmc.python" version="2.24.0"/>
-		<import addon="service.L0RE.cron" version="1.0.1" optional="true"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="de_DE">DMAX Mediathek</summary>
-		<summary lang="en_GB">DMAX Mediathek</summary>
-		<description lang="de_DE">DMAX - der TV Sender. So läuft das hier ! Wann und wo du willst: Action, Abenteuer, Lifestyle. Echte Unterhaltung für echte Kerle. Nur auf dmax.de natürlich !</description>
-		<description lang="en_GB">DMAX - the TV station. That's how it works here ! When and where you want: action, adventure, lifestyle. Real entertainment for real guys. Only on dmax.de of course !</description>
-		<disclaimer lang="de_DE">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Anbietern des Inhalts.</disclaimer>
-		<disclaimer lang="en_GB">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.</disclaimer>
-		<language></language>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 1991</license>
-		<forum>https://www.kodinerds.net/index.php/Thread/55451-L0REs-Blog/</forum>
-		<website>https://www.dmax.de</website>
-		<email></email>
-		<source>https://github.com/kodinerds/repo/tree/master/plugin.video.L0RE.dmax</source>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-		</assets>
-		<news>[B][COLOR orangered]Version 1.0.8  (20.10.2019)[/COLOR][/B] by realvito[CR]
-- fixed: Titelanzeige aller Serien-Episoden fehlerhaft
-- fixed: Übertragung und Anzeige in die Medienbibliothek funktioniert nicht korrekt, wenn "&amp;" im Namen der Serie vorkommt
-		</news>
-	</extension>
 </addon>
 
 <addon id="plugin.video.osmosis" name="OSMOSIS" version="1.3.2" provider-name="Stereodruid, Maven85, gismo112">
@@ -1771,7 +1705,7 @@ Auch die aktuelle Tabelle der 1. und 2. Bundesliga kann angezeigt werden.
 	</extension>
 </addon>
 
-<addon id="plugin.video.lastship" version="4.0.5" name="Lastship" provider-name="Lastship">
+<addon id="plugin.video.lastship" version="4.0.1" name="Lastship" provider-name="Lastship">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.lastship" version="1.0.2" />
@@ -1817,41 +1751,6 @@ Auch die aktuelle Tabelle der 1. und 2. Bundesliga kann angezeigt werden.
 		<summary lang="en">globalscrapers Module</summary>
 		<description>globalscrapers Module</description>
         <license>GPL</license>
-	</extension>
-</addon>
-
-<addon id="plugin.video.L0RE.spiegeltv" name="SPIEGEL.TV" version="1.0.1" provider-name="L0RE">
-	<requires>
-		<import addon="xbmc.python" version="2.24.0"/>
-		<import addon="script.module.beautifulsoup4" version="4.3.2"/>
-		<import addon="script.module.youtube.dl"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="de_DE">Aktuelles auf Spiegel TV</summary>
-		<summary lang="en_GB">News on Spiegel TV</summary>
-		<description lang="de_DE">SPIEGEL TV zeichnet sich durch schnelles Reagieren auf aktuelle Ereignisse sowie sorgfältig recherchierte investigative Hintergrundgeschichten aus. Die Themen umfassen aktuelle deutsche und internationale Politik, Wirtschaft und Gesellschaft.[CR]Hier gibt es Reportagen und Dokus von SPIEGEL TV aus den Bereichen Politik, Wirtschaft, Gesellschaft, Kultur, Sport, Technik und Wissenschaft.</description>
-		<description lang="en_GB">SPIEGEL TV is characterized by fast reaction to current events as well as carefully researched background stories. The topics include current German and international politics, business and society.[CR]Here are reports and documentaries by SPIEGEL TV in the fields of politics, economics, society, culture, sports, technology and science.</description>
-		<disclaimer lang="de_DE">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Anbietern des Inhalts.</disclaimer>
-		<disclaimer lang="en_GB">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.</disclaimer>
-		<language></language>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-		<forum>https://www.kodinerds.net/index.php/Thread/55451-L0REs-Blog/</forum>
-		<website>https://www.spiegel.tv/</website>
-		<email></email>
-		<source>https://github.com/kodinerds/repo/tree/master/plugin.video.L0RE.spiegeltv</source>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-		</assets>
-		<news>[B][COLOR orangered]Version 1.0.1  (14.07.2019)[/COLOR][/B] by realvito[CR]
-- fixed: Rubrik = Sendungen Fehler beim öffnen des Ordners
-- fixed: Rubrik = Studios es wird KEIN Inhalt angezeigt
-- added: Rubrik = Popcorn, WEB-TV Playliste
-		</news>
 	</extension>
 </addon>
 
@@ -1958,7 +1857,7 @@ Auch die aktuelle Tabelle der 1. und 2. Bundesliga kann angezeigt werden.
   </extension>
 </addon>
 
-<addon id="skin.horizonzv.test" name="Horizonz V (Kodi 18)" version="1.18.0.46" provider-name="blauesgruen">
+<addon id="skin.horizonzv.test" name="Horizonz V (Kodi 18)" version="1.18.0.47" provider-name="blauesgruen">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.image.resource.select" version="2.0.1"/>

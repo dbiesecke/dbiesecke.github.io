@@ -1,8 +1,0 @@
-﻿0.1.1 - Initial Source by L0RE[CR]
-
-...
-
-[B]Version 1.0.1  (14.07.2019)[/B] by realvito[CR]
-- fixed: Rubrik = Sendungen Fehler beim öffnen des Ordners
-- fixed: Rubrik = Studios es wird KEIN Inhalt angezeigt
-- added: Rubrik = Popcorn, WEB-TV Playliste

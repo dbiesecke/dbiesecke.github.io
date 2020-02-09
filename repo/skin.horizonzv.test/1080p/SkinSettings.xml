@@ -1009,6 +1009,46 @@
                             <selected>!Skin.HasSetting(SubMenu_Music_NoSystemInfoButton)</selected>
                             <visible>ControlGroup(900).HasFocus(915)</visible>
                         </control>
+                        <control type="radiobutton" id="958">
+                            <description>Gaia</description>
+                            <width>630</width>
+                            <align>left</align>
+                            <label>Gaia</label>
+                            <focusedcolor>black</focusedcolor>
+                            <onclick>Skin.ToggleSetting(SubMenu_Movie_GaiaButton)</onclick>
+                            <selected>!Skin.HasSetting(SubMenu_Movie_GaiaButton)</selected>
+                            <visible>ControlGroup(900).HasFocus(911)</visible>
+                        </control>
+                        <control type="radiobutton" id="959">
+                            <description>DDL.me</description>
+                            <width>630</width>
+                            <align>left</align>
+                            <label>DDL.me</label>
+                            <focusedcolor>black</focusedcolor>
+                            <onclick>Skin.ToggleSetting(SubMenu_Movie_DDLButton)</onclick>
+                            <selected>!Skin.HasSetting(SubMenu_Movie_DDLButton)</selected>
+                            <visible>ControlGroup(900).HasFocus(911)</visible>
+                        </control>   
+                         <control type="radiobutton" id="960">
+                            <description>Search (XStream)</description>
+                            <width>630</width>
+                            <align>left</align>
+                            <label>Search (XStream)</label>
+                            <focusedcolor>black</focusedcolor>
+                            <onclick>Skin.ToggleSetting(SubMenu_Movie_SearchXButton)</onclick>
+                            <selected>!Skin.HasSetting(SubMenu_Movie_SearchXButton)</selected>
+                            <visible>ControlGroup(900).HasFocus(911)</visible>
+                        </control>
+                         <control type="radiobutton" id="961">
+                            <description>Search (Gaia)</description>
+                            <width>630</width>
+                            <align>left</align>
+                            <label>Search (Gaia)</label>
+                            <focusedcolor>black</focusedcolor>
+                            <onclick>Skin.ToggleSetting(SubMenu_Movie_SearchGButton)</onclick>
+                            <selected>!Skin.HasSetting(SubMenu_Movie_SearchGButton)</selected>
+                            <visible>ControlGroup(900).HasFocus(911)</visible>
+                        </control>                        
                     </control>
                     <control type="grouplist" id="500"> <!-- Functions Setting -->
                         <description>Control Area</description>
