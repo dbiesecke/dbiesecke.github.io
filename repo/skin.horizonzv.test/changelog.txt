@@ -1,4 +1,8 @@
-﻿v 1.18.0.47
+﻿v 1.18.0.48
+- change TV Submenu and add some major IPTV Addons
+- remove refresh button on custom Submenu
+
+v 1.18.0.47
 - change TV Submenu and add some major IPTV Addons
 - remove refresh button on custom Submenu
 

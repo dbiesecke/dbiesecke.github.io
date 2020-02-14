@@ -1171,6 +1171,33 @@
 				<param name="id1" value="80329" />
 				<param name="id2" value="80330" />
 			</include>
+            <control type="button" id="80333">
+                <include>ButtonHomeSubCommonValues</include>
+                <label>Archiv: Best of </label>
+                <visible>System.HasAddon(plugin.program.iagl)</visible>
+                <onclick>ActivateWindow(10821,&quot;plugin://plugin.program.iagl/archives/categorized/Best+of&quot;,return)</onclick>
+            </control>       
+            <control type="button" id="80334">
+                <include>ButtonHomeSubCommonValues</include>
+                <label>Last played</label>
+                <visible>System.HasAddon(plugin.program.iagl)</visible>
+                <onclick>ActivateWindow(10821,&quot;plugin://plugin.program.iagl/game_list/choose_from_list/game_history/1&quot;,return)</onclick>
+            </control>   
+            <control type="button" id="80335">
+                <include>ButtonHomeSubCommonValues</include>
+                <label>Mr. Boom</label>
+                <onclick>PlayMedia(&quot;game://game.libretro.mrboom&quot;)</onclick>
+            </control>        
+            <control type="button" id="80336">
+                <include>ButtonHomeSubCommonValues</include>
+                <label>ROMS</label>
+                <onclick>ActivateWindow(10821,&quot;/storage/roms/&quot;,return)</onclick>
+            </control>   
+            <control type="button" id="80337">
+                <include>ButtonHomeSubCommonValues</include>
+                <label>RetroArch</label>
+                <onclick>ActivateWindow(10821,&quot;plugin://game.retroarch/?content_type=game&quot;,return)</onclick>
+            </control>          
         </control>
     </include>
     <include name="submenu">
