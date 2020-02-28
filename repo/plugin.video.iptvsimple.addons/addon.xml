@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.iptvsimple.addons" version="0.1.0" name="IPTV Addons" provider-name="primaeval">
+<addon id="plugin.video.iptvsimple.addons" version="0.1.1" name="IPTV Addons" provider-name="primaeval">
 <requires>
   <import addon="xbmc.python" version="2.26.0"/>
   <import addon="script.module.xbmcswift2" version="2.4.0"/>
   <import addon="script.module.requests" version="2.9.1" />
   <import addon="script.module.beautifulsoup4"  />
-  <import addon="plugin.video.tagesschau"  />
-  <import addon="plugin.video.tvone"  />
-  <import addon="plugin.video.PsycoTV"  />
-  <import addon="plugin.video.L0RE.arte"  />
-  <import addon="plugin.video.zappntv"  />
+
 
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">

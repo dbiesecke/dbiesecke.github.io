@@ -1,5 +1,3 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="Livestream: tagesschau" tvg-id="Livestream: tagesschau" tvg-logo="image://http%3a%2f%2fwww.tagesschau.de%2fimage%2fsendung%2fard_portal_vorspann_ts.jpg/" group-title="Tagesschau",Livestream: tagesschau
 plugin://plugin.video.tagesschau?action=play_video&url=http%253A%2F%2Ftagesschau-lh.akamaihd.net%2Fi%2Ftagesschau_1%2540119231%2Fmaster.m3u8
-#EXTINF:-1 tvg-name="ARTE-TV HD" tvg-id="ARTE.de" tvg-logo="image://%2fstorage%2f.kodi%2faddons%2fplugin.video.L0RE.arte%2ficon.png/" group-title="ARTE.TV - Live & Event TV",ARTE-TV HD
-plugin://plugin.video.L0RE.arte/?mode=playLive&url=https%3A%2F%2Fartelive-lh.akamaihd.net%2Fi%2Fartelive_de%40393591%2Findex_1_av-p.m3u8&name=ARTE-TV HD

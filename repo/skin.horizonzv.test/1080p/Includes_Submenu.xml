@@ -1064,7 +1064,7 @@
               <control type="button" id="80296">
                 <include>ButtonHomeSubCommonValues</include>
                 <label>PsycoTV</label>
-                <onclick>RunScript(&quot;plugin://plugin.video.PsycoTV/&quot;)</onclick>
+                <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.PsycoTV/&quot;)</onclick>
             </control>     
               <control type="button" id="80297">
                 <include>ButtonHomeSubCommonValues</include>
