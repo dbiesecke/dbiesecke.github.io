@@ -1,3 +1,4 @@
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Sky 1	Sky1.de
 CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	EWTN	EWTN.de
 CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Spiegel TV Digital	SpiegelTV.de
 CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Sat1 Emotions	Sat1Comedy.de
@@ -79,3 +80,56 @@ CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	GEO	GE
 CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Bon Gusto HDTV (Germany)	BonGusto.de
 CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	K-TV	KTV.de
 CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	ZDFneo	ZDFneoNight.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Atlantic HD	SkyAtlanticHD.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Cinema	SkyCinema.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Cinema +24	SkyCinemaPlus24.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Action	SkyAction.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Nostalgie	SkyNostalgie.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Krimi	SkyKrimi.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Emotion	SkyEmotion.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Comedy	SkyComedy.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Cinema Hits	SkyCinemaHits.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Sport Austria	SkySportAustria.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Fußball Bundesliga 1	SkyBundesliga1.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	DAZN	DAZN1BarHD.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Sport 1	SkySport1.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Sport 2	SkySport2.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	MYSPORTS4D	MYSPORTS4D.ch
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	MYSPORTS2D	MYSPORTS2D.ch
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	MYSPORTS8D	MYSPORTS8D.ch
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	MYSPORTS1D	MYSPORTS1D.ch
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	MYSPORTS6D	MYSPORTS6D.ch
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	MYSPORTS5D	MYSPORTS5D.ch
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	MYSPORTS3D	MYSPORTS3D.ch
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	MYSPORTS7D	MYSPORTS7D.ch
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	MYSPORTSD	MYSPORTSD.ch
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Select 1	SkySelect1.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Select 2	SkySelect2.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Select 3	SkySelect3.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Select 4	SkySelect4.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Select 5	SkySelect5.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Select 6	SkySelect6.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Select 7	SkySelect7.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Select 8	SkySelect8.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Select 9	SkySelect9.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Bundesliga 2	SkyBundesliga2.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Bundesliga 3	SkyBundesliga3.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Bundesliga 4	SkyBundesliga4.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Bundesliga 5	SkyBundesliga5.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Bundesliga 6	SkyBundesliga6.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Bundesliga 7	SkyBundesliga7.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Bundesliga 8	SkyBundesliga8.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Bundesliga 9	SkyBundesliga9.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Cinema Family	SkyCinemaFamily.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Cinema Best Of 2019	SkyCinemaSpecial.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	eSports1	eSports1.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	SPORT1+	SPORT1plus.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	RMC Sport Access 1	TCRMCSportAccess1.ch
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	TC Sport 1	TCSport1.ch
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Teleclub Sport 2 / Sky Sport 2	TCSport2.ch
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	TC Sport 3 / Sky Sport 1	TCSport3.ch
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Teleclub Cinema	TCCinema.ch
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Teleclub Emotion	TCEmotion.ch
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Teleclub Action	TCAction.ch
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Atlantic HD +1	SkyAtlanticPlus1.de
+CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Cinema +1	SkyCinemaPlus1.de
