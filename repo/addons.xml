@@ -714,6 +714,30 @@ xStream 3.5.11
 	</extension>
 </addon>
 
+<addon id="script.module.streamlink.base" name="Streamlink Library" version="2020.01.28" provider-name="Streamlink Devs, Twilight0">
+  <requires>
+      <import addon="xbmc.python" version="2.24.0"/>
+      <import addon="script.module.requests" version="2.12.4"/>
+      <import addon="script.module.futures" version="2.2.0"/>
+      <import addon="script.module.cryptolib" version="1.1.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="resources/lib/"/>
+  <extension point="xbmc.addon.metadata">
+      <summary>Streamlink Library for Kodi</summary>
+      <description>Streamlink Library for Kodi. It is a collection of plugins to help resolve web page urls into streamable links. Known issue: Does not work on Xbox, specifically throws exception when trying to import something from ctypes module.</description>
+      <platform>all</platform>
+      <license>Simplified BSD</license>
+      <source>https://github.com/Twilight0/script.module.streamlink.base/</source>
+      <language>en</language>
+      <assets>
+          <icon>icon.png</icon>
+      </assets>
+      <news>+2020.01.28
+- Updated to latest upstream commit
+- Tweaks for import errors for Python 3</news>
+  </extension>
+</addon>
+
 <addon id="script.ezmaintenanceplus" name="EZ Maintenance+" version="2019.05.10.3" provider-name="aenema">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1251,7 +1275,7 @@ https://github.com/known-as-bmf/plugin.video.arteplussept
   </extension>
 </addon>
 
-<addon id="script.module.streamlink.crypto" name="streamlink.crypto" version="1.5.0" provider-name="Streamlink.crypto">
+<addon id="script.module.streamlink.crypto" name="Streamlink Crypto" version="1.5.2" provider-name="Twilight0">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
   </requires>
