@@ -1,210 +1,227 @@
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	ANIXE Serie HD	AnixeSerie.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	ANIXE SD	Anixe.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	Augsburg TV (a.tv)	a.tv.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	Eurosport1	Eurosport1.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	Franken TV	FrankenTV.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	HGTV	HGTV.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	TV.BERLIN	TVBerlin.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	VOXup	VOXup.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	HH 1	Hamburg1.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	rheinmaintv	rheinmaintv.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	MDR S-Anhalt	MDRS-Anhalt.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	VIVA/COMEDY CENTRAL	ComedyCentral/VIVA.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	TV Oberfranken	tvo.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	Regionalfernsehen Oberbayern (RFO)	Oberbayern.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	Sky Sport News HD	SkySportNewsHD.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	3sat	3sat.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	ARTE	ARTE.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	BR Fernsehen Süd	BR.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	ard-alpha	ARD-alpha.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	Disney Channel	disneychannel.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	DMAX	DMax.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	hr-fernsehen	HR.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	HSE24	HSE24.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	kabel eins	Kabel.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	kabel eins class	KabelEinsClassic.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	kabel eins Doku	KabelEinsDoku.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	KIKA	Kika.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	MTV	MTVGermany.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	Nickelodeon	Nickelodeon.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	n-tv	ntv.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	ProSieben	Pro7.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	ProSieben Maxx	ProSiebenMaxx.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	QVC	QVC.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	Radio Bremen TV	RadioBremen.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	rbb Berlin	rbbBerlin.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	RTL	RTL.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	RTL Nitro	RTLNitro.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	RTL Plus	RTLPlus.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	RTL II	RTL2.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	Sat.1	Sat1.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	Sat1 Gold	Sat1Gold.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	ServusTV	ServusHD.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	sixx	Sixx.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	SPORT1	Sport1HD.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	SR Fernsehen	SRFernsehen.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	Super RTL	SuperRTL.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	SWR Fernsehen RP	SWR-rp.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	Tele 5	Tele5.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	TLC	TLC.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	VOX	Vox.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	ZDFneo	ZDFneo.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	N24 Doku	N24Doku.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	Zee One	ZeeOne.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	deutsches-musik-fernsehen	DeutschesMusikFernsehen.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	eoTV	eoTV.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	One	One.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	DELUXE MUSIC	DeLuxeMusic.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	Family TV	FamilyTV.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	Das Erste	ARD.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	NDR Fernsehen NDS	ndr.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	phoenix	phoenix.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	SWR Fernsehen BW	SWR.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	tagesschau24	tagesschau24.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	Bibel TV	BibelTV.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	WDR Fernsehen	WDR.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	ZDF	ZDF.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	ZDFinfokanal	ZDFinfo.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	TOGGOplus	TOGGOplus.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	Wetter Fernsehen	Wetterfernsehen.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	Nick/ComCentral	Nick.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	QVC Plus	QVCPlus.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	München TV	MunchenTV.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Basic.gz	rytecDE_Basic.gz	WELT	WELT.de
+#EXTM3U
+#EXTINF:-1 tvg-name="tagesschau" tvg-id="Tagesschau" tvg-logo="image://http%3a%2f%2fwww.tagesschau.de%2fimage%2fsendung%2fard_portal_vorspann_ts.jpg/" group-title="Tagesschau",Tagesschau24
+plugin://plugin.video.tagesschau?action=play_video&url=http%253A%2F%2Ftagesschau-lh.akamaihd.net%2Fi%2Ftagesschau_1%2540119231%2Fmaster.m3u8
 
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Sky 1	Sky1.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	EWTN	EWTN.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Spiegel TV Digital	SpiegelTV.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Sat1 Emotions	Sat1Comedy.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Fox Serie	FoxSerie.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Eurosport 2 HD Xtra	Eurosport2Xtra.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Motorvision	MotorVision.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Nat Geo Wild	NatGeoWild.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	NickToons	Nicktoons.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	ProSieben Fun	ProSiebenFun.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Sky Select	SkySelect.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	sonnenklar.TV	SonnenKlar.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Sony Entertainment TV	SonyEntertainmentTV.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Spiegel Geschichte	SpiegelGeschichte.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Universal Channel	Universal.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	A and E	AandE.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Melodie TV	MelodieTV.at
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Energy TV HD	Energy.ch
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Folx.TV	FolxTV.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	FOX	Fox.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	gotv	go.tv
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	HOPE Channel (Deutschland)	HopeChannel.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Motors TV	MotorTV.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Nick Jr.	NickJr.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Passion	RTLPassion.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	BBC Entertainment	BBCEntertainment.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	RiC	RiC.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	TNT Serie	TNTSerie.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Welt der wunder	WeltDerWunder.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Cartoon Network	CartoonNetwork.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Health	Health.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Jukebox	Jukebox.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Lust Pur	LustPur.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	MTV Base	MTVBase.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	QVC Style	QVCStyle.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Rhein-Neckar Fernsehen	RNF.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	sportdigital	sportdigital.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Spiegel TV Wissen	SpiegelTVWissen.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Trace Sport	TraceSportStars.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	TravelXP 4k	TravelXP4k.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Eurosport2	Eurosport2.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	TNT Comedy	TNTGlitz.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Gute Laune TV	GuteLauneTV.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Duck TV	DuckTV.day
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Animal Planet	AnimalPlanet.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Discovery Channel	DiscoveryChannel.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Discovery HD	DiscoveryHD.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Disney Junior	DisneyJunior.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Disney XD	DisneyXD.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	DMAX	DMAX.ch
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Goldstar TV	GoldstarTV.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Heimatkanal	Heimatkanal.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	History HD	HistoryHD.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	KinoweltTV	Kinowelt.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Nat Geographic HD	NatGeoHD.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	PLANET	PLANET.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	SILVERLINE	Silverline.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	VIVA	Viva.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Teleclub Zoom D	TeleclubZoom.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Marco Polo TV	MarcoPoloTV.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	E! Entertainm.	EEntertainment.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Extreme Sports Chl	ExtremeSports.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	13th Street	13thStreet.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	History HD	History.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Junior	Junior.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Anixe HD	AnixeHD.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	AXN	AXN.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Romance TV	Romance.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	RTL Crime	RTLCrime.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	RTL Living	RTLLiving.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Syfy HD	SciFi.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Boomerang	Boomerang.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Teleclub Emotion	TeleclubEmotion.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Teleclub Cinema	TeleclubCinema.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Teleclub Action	TeleclubAction.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	TNT Film	TNTFilm.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Disney Cinemagic	DisneyCinemagic.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Fix &amp; Foxi	FixFoxi.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	GEO	GEO.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	Bon Gusto HDTV (Germany)	BonGusto.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	K-TV	KTV.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_Common.gz	rytecDE_Common.gz	ZDFneo	ZDFneoNight.de
+#EXTINF:-1 tvg-name="Discovery" tvg-id="Discovery" tvg-logo="image://https%3a%2f%2ftaptube.net%2ftv%2fimages%2fchannel_imgs%2f250118041056dis.jpg%7cUser-Agent%3dDalvik%252F2.1.0%2520%2528Linux%253B%2520U%253B%2520Android%25205.1.1%253B%2520AFTS%2520Build%252FLVY48F%2529/" group-title="tvOne",Discovery
+plugin://plugin.video.tvone/play/652/play.pvr
+#EXTINF:-1 tvg-name="ntv" tvg-id="ntv.de" tvg-logo="image://https%3a%2f%2ftaptube.net%2ftv%2fimages%2fchannel_imgs%2f150617081124ntvv.jpeg%7cUser-Agent%3dDalvik%252F2.1.0%2520%2528Linux%253B%2520U%253B%2520Android%25205.1.1%253B%2520AFTS%2520Build%252FLVY48F%2529/" group-title="tvOne",NTV
+plugin://plugin.video.tvone/play/389/play.pvr
 
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Atlantic HD	SkyAtlanticHD.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Cinema	SkyCinema.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Cinema +24	SkyCinemaPlus24.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Action	SkyAction.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Nostalgie	SkyNostalgie.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Krimi	SkyKrimi.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Emotion	SkyEmotion.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Comedy	SkyComedy.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Cinema Hits	SkyCinemaHits.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Sport Austria	SkySportAustria.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Fußball Bundesliga 1	SkyBundesliga1.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	DAZN	DAZN1BarHD.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Sport 1	SkySport1.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Sport 2	SkySport2.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	MYSPORTS4D	MYSPORTS4D.ch
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	MYSPORTS2D	MYSPORTS2D.ch
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	MYSPORTS8D	MYSPORTS8D.ch
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	MYSPORTS1D	MYSPORTS1D.ch
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	MYSPORTS6D	MYSPORTS6D.ch
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	MYSPORTS5D	MYSPORTS5D.ch
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	MYSPORTS3D	MYSPORTS3D.ch
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	MYSPORTS7D	MYSPORTS7D.ch
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	MYSPORTSD	MYSPORTSD.ch
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Select 1	SkySelect1.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Select 2	SkySelect2.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Select 3	SkySelect3.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Select 4	SkySelect4.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Select 5	SkySelect5.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Select 6	SkySelect6.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Select 7	SkySelect7.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Select 8	SkySelect8.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Select 9	SkySelect9.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Bundesliga 2	SkyBundesliga2.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Bundesliga 3	SkyBundesliga3.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Bundesliga 4	SkyBundesliga4.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Bundesliga 5	SkyBundesliga5.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Bundesliga 6	SkyBundesliga6.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Bundesliga 7	SkyBundesliga7.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Bundesliga 8	SkyBundesliga8.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Bundesliga 9	SkyBundesliga9.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Cinema Family	SkyCinemaFamily.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Cinema Best Of 2019	SkyCinemaSpecial.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	eSports1	eSports1.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	SPORT1+	SPORT1plus.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	RMC Sport Access 1	TCRMCSportAccess1.ch
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	TC Sport 1	TCSport1.ch
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Teleclub Sport 2 / Sky Sport 2	TCSport2.ch
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	TC Sport 3 / Sky Sport 1	TCSport3.ch
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Teleclub Cinema	TCCinema.ch
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Teleclub Emotion	TCEmotion.ch
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Teleclub Action	TCAction.ch
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Atlantic HD +1	SkyAtlanticPlus1.de
-CHANNEL	http://rytec.ricx.nl/epg_data/rytecDE_SportMovies.xz	rytecDE_SportMovies.xz	Sky Cinema +1	SkyCinemaPlus1.de
+#EXTINF:-1 tvg-name="Sky1" tvg-id="Sky 1" tvg-logo="image://https%3a%2f%2ftaptube.net%2ftv%2fimages%2fchannel_imgs%2f080118035825sky1.png%7cUser-Agent%3dDalvik%252F2.1.0%2520%2528Linux%253B%2520U%253B%2520Android%25205.1.1%253B%2520AFTS%2520Build%252FLVY48F%2529/" group-title="tvOne",Sky 1
+plugin://plugin.video.tvone/play/597/play.pvr
+
+#EXTINF:-1 tvg-name="TNT comedy" tvg-id="TNT comedy" tvg-logo="image://https%3a%2f%2ftaptube.net%2ftv%2fimages%2fchannel_imgs%2f250118041244tntc.png%7cUser-Agent%3dDalvik%252F2.1.0%2520%2528Linux%253B%2520U%253B%2520Android%25205.1.1%253B%2520AFTS%2520Build%252FLVY48F%2529/" group-title="tvOne",TNT comedy
+plugin://plugin.video.tvone/play/654/play.pvr
+
+#EXTINF:-1 tvg-name="Sky action" tvg-id="Sky action" tvg-logo="image://https%3a%2f%2ftaptube.net%2ftv%2fimages%2fchannel_imgs%2f150617080115skyaction.jpg%7cUser-Agent%3dDalvik%252F2.1.0%2520%2528Linux%253B%2520U%253B%2520Android%25205.1.1%253B%2520AFTS%2520Build%252FLVY48F%2529/" group-title="tvOne",Sky action
+plugin://plugin.video.tvone/play/400/play.pvr
+
+#EXTINF:-1 tvg-name="Sky Emotion" tvg-id="Sky Emotion" tvg-logo="image://https%3a%2f%2ftaptube.net%2ftv%2fimages%2fchannel_imgs%2f150617075439skyemo.png%7cUser-Agent%3dDalvik%252F2.1.0%2520%2528Linux%253B%2520U%253B%2520Android%25205.1.1%253B%2520AFTS%2520Build%252FLVY48F%2529/" group-title="tvOne",Sky Emotion
+plugin://plugin.video.tvone/play/399/play.pvr
+
+#EXTINF:-1 tvg-name="DAZN1" tvg-id="Dazn2" tvg-logo="image://https%3a%2f%2ftaptube.net%2ftv%2fimages%2fchannel_imgs%2f210818122006dazn.png%7cUser-Agent%3dDalvik%252F2.1.0%2520%2528Linux%253B%2520U%253B%2520Android%25205.1.1%253B%2520AFTS%2520Build%252FLVY48F%2529/" group-title="tvOne",DAZN
+plugin://plugin.video.tvone/play/778/play.pvr
+
+#EXTINF:-1 tvg-name="Sky.sport1" tvg-id="Sky sport 1" tvg-logo="image://https%3a%2f%2ftaptube.net%2ftv%2fimages%2fchannel_imgs%2f150617075308skysporrrr.png%7cUser-Agent%3dDalvik%252F2.1.0%2520%2528Linux%253B%2520U%253B%2520Android%25205.1.1%253B%2520AFTS%2520Build%252FLVY48F%2529/" group-title="tvOne",Sky Sport 1
+plugin://plugin.video.tvone/play/403/play.pvr
+
+#EXTINF:-1 tvg-name="Sky sport 2" tvg-id="Sky sport 2" tvg-logo="image://https%3a%2f%2ftaptube.net%2ftv%2fimages%2fchannel_imgs%2f150617075204skysport22.jpeg%7cUser-Agent%3dDalvik%252F2.1.0%2520%2528Linux%253B%2520U%253B%2520Android%25205.1.1%253B%2520AFTS%2520Build%252FLVY48F%2529/" group-title="tvOne",Sky sport 2
+plugin://plugin.video.tvone/play/404/play.pvr
+
+
+
+#EXTINF:-1 tvg-name="RTL" tvg-id="RTL" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f85905_rtl.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",RTL
+plugin://plugin.video.tvone11/play/26/1289/play.pvr
+#EXTINF:-1 tvg-name="RTL2" tvg-id="RTL 2" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f10491_rtl2.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",RTL 2
+plugin://plugin.video.tvone11/play/26/1290/play.pvr
+#EXTINF:-1 tvg-name="SUPER RTL" tvg-id="SUPER RTL" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f67389_superrtl.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",SUPER RTL
+plugin://plugin.video.tvone11/play/26/1291/play.pvr
+#EXTINF:-1 tvg-name="RTL NITRO" tvg-id="RTL NITRO" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f77469_rtlnitro.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",RTL NITRO
+plugin://plugin.video.tvone11/play/26/1292/play.pvr
+#EXTINF:-1 tvg-name="RTL PASSION" tvg-id="RTL PASSION" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f50637_rtlpassion.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",RTL PASSION
+plugin://plugin.video.tvone11/play/26/1293/play.pvr
+#EXTINF:-1 tvg-name="RTL CRIME" tvg-id="RTL CRIME" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f20911_rtlcrime.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",RTL CRIME
+plugin://plugin.video.tvone11/play/26/1294/play.pvr
+#EXTINF:-1 tvg-name="AXN" tvg-id="AXN" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f7511_axn.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",AXN DE
+plugin://plugin.video.tvone11/play/26/1295/play.pvr
+#EXTINF:-1 tvg-name="SKY CINEMA" tvg-id="SKY CINEMA" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f34321_skycinema.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",SKY CINEMA
+plugin://plugin.video.tvone11/play/26/1296/play.pvr
+#EXTINF:-1 tvg-name="Sky.cinema.1" tvg-id="SKY CINEMA 1" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f95506_skycinema1.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",SKY CINEMA 1
+plugin://plugin.video.tvone11/play/26/1297/play.pvr
+#EXTINF:-1 tvg-name="SKY CINEMA 24" tvg-id="SKY CINEMA 24" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f51380_skycinema24.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",SKY CINEMA 24
+plugin://plugin.video.tvone11/play/26/1298/play.pvr
+#EXTINF:-1 tvg-name="SKY ACTION" tvg-id="SKY ACTION" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f13645_skyaction.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",SKY ACTION
+plugin://plugin.video.tvone11/play/26/1299/play.pvr
+#EXTINF:-1 tvg-name="SKY ATLATNIC" tvg-id="SKY ATLATNIC" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f39223_skyatlatanic.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",SKY ATLATNIC
+plugin://plugin.video.tvone11/play/26/1300/play.pvr
+#EXTINF:-1 tvg-name="SKY COMEDY" tvg-id="SKY COMEDY" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f85917_skycomedy.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",SKY COMEDY
+plugin://plugin.video.tvone11/play/26/1301/play.pvr
+#EXTINF:-1 tvg-name="KIKA TV" tvg-id="KIKA TV" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f13478_kikatv.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",KIKA TV
+plugin://plugin.video.tvone11/play/26/1302/play.pvr
+#EXTINF:-1 tvg-name="PRO7" tvg-id="PRO 7" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f10640_pro7.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",PRO 7
+plugin://plugin.video.tvone11/play/26/1303/play.pvr
+#EXTINF:-1 tvg-name="VOX" tvg-id="VOX" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f80252_vox.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",VOX DE
+plugin://plugin.video.tvone11/play/26/1304/play.pvr
+#EXTINF:-1 tvg-name="ZDF" tvg-id="ZDF TV" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f78872_zdftv.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",ZDF TV
+plugin://plugin.video.tvone11/play/26/1305/play.pvr
+#EXTINF:-1 tvg-name="Sat1" tvg-id="Sat1" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f82352_sat1.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",SAT 1
+plugin://plugin.video.tvone11/play/26/1306/play.pvr
+#EXTINF:-1 tvg-name="ARD" tvg-id="ARD" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f84861_ard1.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",ARD 1
+plugin://plugin.video.tvone11/play/26/1307/play.pvr
+#EXTINF:-1 tvg-name="NTV" tvg-id="NTV" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f56229_ntv.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",NTV
+plugin://plugin.video.tvone11/play/26/1308/play.pvr
+#EXTINF:-1 tvg-name="Welt" tvg-id="N24" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f1827_n24.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",N24
+plugin://plugin.video.tvone11/play/26/1309/play.pvr
+#EXTINF:-1 tvg-name="DiscoveryChannel" tvg-id="DiscoveryChannel.de" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f53024_discovery.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",DISCOVERY DE
+plugin://plugin.video.tvone11/play/26/1310/play.pvr
+#EXTINF:-1 tvg-name="HistoryHD" tvg-id="HistoryHD.de" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f87945_history.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",HISTORY DE
+plugin://plugin.video.tvone11/play/26/1311/play.pvr
+#EXTINF:-1 tvg-name="NAT GEO WILD" tvg-id="NAT GEO WILD" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f15218_natgeowild.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",NAT GEO WILD DE
+plugin://plugin.video.tvone11/play/26/1312/play.pvr
+#EXTINF:-1 tvg-name="SKY HITS" tvg-id="SkyCinemaHits.de" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f16213_skyhits.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",SKY HITS
+plugin://plugin.video.tvone11/play/26/1313/play.pvr
+#EXTINF:-1 tvg-name="SKY SELECT 1" tvg-id="SKY SELECT 1" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f36312_skyselect1.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",SKY SELECT 1
+plugin://plugin.video.tvone11/play/26/1314/play.pvr
+#EXTINF:-1 tvg-name="SKY SELECT 2" tvg-id="SKY SELECT 2" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f67766_skyselect2.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",SKY SELECT 2
+plugin://plugin.video.tvone11/play/26/1315/play.pvr
+#EXTINF:-1 tvg-name="SKY SELECT 3" tvg-id="SKY SELECT 3" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f30791_skyselect3.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",SKY SELECT 3
+plugin://plugin.video.tvone11/play/26/1316/play.pvr
+#EXTINF:-1 tvg-name="SKY SELECT 4" tvg-id="SKY SELECT 4" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f86861_skyselect4.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",SKY SELECT 4
+plugin://plugin.video.tvone11/play/26/1317/play.pvr
+#EXTINF:-1 tvg-name="SKY SELECT 5" tvg-id="SKY SELECT 5" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f19854_skyselect5.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",SKY SELECT 5
+plugin://plugin.video.tvone11/play/26/1318/play.pvr
+#EXTINF:-1 tvg-name="SKY SPORTS 1" tvg-id="SKY SPORTS 1" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f69517_skysp1de.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",SKY SPORTS 1 DE
+plugin://plugin.video.tvone11/play/26/1319/play.pvr
+#EXTINF:-1 tvg-name="SKY SPORTS 2" tvg-id="SKY SPORTS 2" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f3788_skysp2de.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",SKY SPORTS 2 DE
+plugin://plugin.video.tvone11/play/26/1320/play.pvr
+#EXTINF:-1 tvg-name="SKY SPORTS 3" tvg-id="SKY SPORTS 3" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f88820_skysp3de.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",SKY SPORTS 3 DE
+plugin://plugin.video.tvone11/play/26/1321/play.pvr
+#EXTINF:-1 tvg-name="SKY SPORTS 4" tvg-id="SKY SPORTS 4" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f17629_skysp4de.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",SKY SPORTS 4 DE
+plugin://plugin.video.tvone11/play/26/1322/play.pvr
+#EXTINF:-1 tvg-name="SKY SPORTS 5" tvg-id="SKY SPORTS 5" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f55712_skysp5de.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",SKY SPORTS 5 DE
+plugin://plugin.video.tvone11/play/26/1323/play.pvr
+#EXTINF:-1 tvg-name="SKY SPORTS 6" tvg-id="SKY SPORTS 6" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f33397_skysp6de.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",SKY SPORTS 6 DE
+plugin://plugin.video.tvone11/play/26/1324/play.pvr
+#EXTINF:-1 tvg-name="SKY SPORTS AUSTRIA" tvg-id="SKY SPORTS AUSTRIA" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f45731_skyspaustriade.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",SKY SPORTS AUSTRIA DE
+plugin://plugin.video.tvone11/play/26/1325/play.pvr
+#EXTINF:-1 tvg-name="SKY SPORTS BUNDESLIGA 1" tvg-id="SKY SPORTS BUNDESLIGA 1" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f63739_skyspbundesliga1de.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",SKY SPORTS BUNDESLIGA 1
+plugin://plugin.video.tvone11/play/26/1326/play.pvr
+#EXTINF:-1 tvg-name="SKY SPORTS BUNDESLIGA 2" tvg-id="SKY SPORTS BUNDESLIGA 2" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f80192_skyspbundesliga2de.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",SKY SPORTS BUNDESLIGA 2
+plugin://plugin.video.tvone11/play/26/1327/play.pvr
+#EXTINF:-1 tvg-name="DISNEY CHANNEL" tvg-id="DISNEY CHANNEL" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f16720_disneychannel.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",DISNEY CHANNEL DE
+plugin://plugin.video.tvone11/play/26/1328/play.pvr
+#EXTINF:-1 tvg-name="DISNEY XD" tvg-id="DISNEY XD" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f31315_disneyxd.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",DISNEY XD DE
+plugin://plugin.video.tvone11/play/26/1329/play.pvr
+#EXTINF:-1 tvg-name="TNT FILM" tvg-id="TNT FILM" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f26198_tntfilm.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",TNT FILM
+plugin://plugin.video.tvone11/play/26/1330/play.pvr
+#EXTINF:-1 tvg-name="TNT SERIES" tvg-id="TNT SERIES" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f52574_tntseries.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",TNT SERIES
+plugin://plugin.video.tvone11/play/26/1331/play.pvr
+#EXTINF:-1 tvg-name="PRO7 MAXX" tvg-id="PRO7 MAXX" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f6389_pro7maxx.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",PRO7 MAXX
+plugin://plugin.video.tvone11/play/26/1332/play.pvr
+#EXTINF:-1 tvg-name="ANIMAL PLANET" tvg-id="ANIMAL PLANET" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f85009_animalplanet.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",ANIMAL PLANET DE
+plugin://plugin.video.tvone11/play/26/1333/play.pvr
+#EXTINF:-1 tvg-name="NAT GEO" tvg-id="NAT GEO" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f36179_natgeo.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",NAT GEO DE
+plugin://plugin.video.tvone11/play/26/1334/play.pvr
+#EXTINF:-1 tvg-name="NAT GEO PEOPLE" tvg-id="NAT GEO PEOPLE" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f45293_natgeopeople.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",NAT GEO PEOPLE DE
+plugin://plugin.video.tvone11/play/26/1335/play.pvr
+#EXTINF:-1 tvg-name="ZEE ONE" tvg-id="ZEE ONE" tvg-logo="image://http%3a%2f%2fswiftstreamz.com%2fSwiftPanel%2fimages%2f50485_zeeone.jpg%7cUser-Agent%3dokhttp%252F3.10.0/" group-title="tvOne11 - GERMANY TV",ZEE ONE
+plugin://plugin.video.tvone11/play/26/1771/play.pvr
+
+#EXTINF:-1 tvg-name="AncientAliens" tvg-id="AncientAliens" tvg-logo="image://https%3a%2f%2fwagasworld.com%2fKodi%2fpic%2fancientaliens.jpg/" group-title="24/7 - Dokus",AncientAliens
+plugin://plugin.video.PsycoTV/?url=https%3A%2F%2Fwagasworld.com%2Fkodi.php%3Fchannel%3Dancientaliens&mode=12
+#EXTINF:-1 tvg-name="Bear Grylls" tvg-id="Bear Grylls" tvg-logo="image://https%3a%2f%2fwagasworld.com%2fKodi%2fpic%2fBearGrylls.jpg/" group-title="24/7 - Dokus",Bear Grylls
+plugin://plugin.video.PsycoTV/?url=https%3A%2F%2Fwagasworld.com%2Fkodi.php%3Fchannel%3DAbenteuer.Survival&mode=12
+#EXTINF:-1 tvg-name="72 Stunden im Geisterhaus" tvg-id="72 Stunden im Geisterhaus" tvg-logo="image://https%3a%2f%2fwagasworld.com%2fsites%2fdefault%2ffiles%2fstyles%2fchannel_teaser%2fpublic%2f72stunden.jpg%3fitok%3dArWL7edM/" group-title="24/7 - Dokus",72 Stunden im Geisterhaus
+plugin://plugin.video.PsycoTV/?url=https%3A%2F%2Fwagasworld.com%2Fkodi.php%3Fchannel%3Dguldukat-72stunden&mode=12
+#EXTINF:-1 tvg-name="Geister und Übersinnliches" tvg-id="Geister und Übersinnliches" tvg-logo="image://https%3a%2f%2fwagasworld.com%2fKodi%2fpic%2fGeister.jpg/" group-title="24/7 - Dokus",Geister und Übersinnliches
+plugin://plugin.video.PsycoTV/?url=http%3A%2F%2Fwagasworld.com%2Fkodi.php%3Fchannel%3Dgeisterunduebersinnliches&mode=12
+#EXTINF:-1 tvg-name="Expedition Unknown" tvg-id="Expedition Unknown" tvg-logo="image://https%3a%2f%2fwagasworld.com%2fKodi%2fpic%2fexpedition-unknown.jpg/" group-title="24/7 - Dokus",Expedition Unknown
+plugin://plugin.video.PsycoTV/?url=https%3A%2F%2Fwagasworld.com%2Fkodi.php%3Fchannel%3Dexpeditionunknown&mode=12
+#EXTINF:-1 tvg-name="Auction Hunter" tvg-id="Auction Hunter" tvg-logo="image://https%3a%2f%2fwagasworld.com%2fsites%2fdefault%2ffiles%2fstyles%2fchannel_teaser%2fpublic%2fauctionhunters.jpg%3fitok%3dONs5ck7T/" group-title="24/7 - Dokus",Auction Hunter
+plugin://plugin.video.PsycoTV/?url=https%3A%2F%2Fwagasworld.com%2Fkodi.php%3Fchannel%3Dauctiohunter&mode=12
+#EXTINF:-1 tvg-name="Geheimnisse des Universums" tvg-id="Geheimnisse des Universums" tvg-logo="image://https%3a%2f%2fwagasworld.com%2fsites%2fdefault%2ffiles%2fstyles%2fchannel_teaser%2fpublic%2funiversium_0.jpg%3fitok%3ddednYXWe/" group-title="24/7 - Dokus",Geheimnisse des Universums
+plugin://plugin.video.PsycoTV/?url=https%3A%2F%2Fwagasworld.com%2Fkodi.php%3Fchannel%3Dguldukat-universum&mode=12
+#EXTINF:-1 tvg-name="Mysterien des Weltalls" tvg-id="Mysterien des Weltalls" tvg-logo="image://https%3a%2f%2fwagasworld.com%2fsites%2fdefault%2ffiles%2fstyles%2fchannel_teaser%2fpublic%2fmysterien-des-weltalls-mit-4006448759698-7.jpg%3fitok%3dwxQjL0_E/" group-title="24/7 - Dokus",Mysterien des Weltalls
+plugin://plugin.video.PsycoTV/?url=https%3A%2F%2Fwagasworld.com%2Fkodi.php%3Fchannel%3Dguldukat-mysteriendesweltalls&mode=12
+#EXTINF:-1 tvg-name="Mysterien von Oben" tvg-id="Mysterien von Oben" tvg-logo="image://https%3a%2f%2fwagasworld.com%2fKodi%2fpic%2fmysterien-von-oben.jpg/" group-title="24/7 - Dokus",Mysterien von Oben
+plugin://plugin.video.PsycoTV/?url=https%3A%2F%2Fwagasworld.com%2Fkodi.php%3Fchannel%3Dmysterienvonoben&mode=12
+#EXTINF:-1 tvg-name="Geheimakten der NASA" tvg-id="Geheimakten der NASA" tvg-logo="image://https%3a%2f%2fwagasworld.com%2fKodi%2fpic%2fNASA.jpg/" group-title="24/7 - Dokus",Geheimakten der NASA
+plugin://plugin.video.PsycoTV/?url=https%3A%2F%2Fwagasworld.com%2Fkodi.php%3Fchannel%3Dgeheimeaktennasa&mode=12
+#EXTINF:-1 tvg-name="Mythbusters" tvg-id="Mythbusters" tvg-logo="image://https%3a%2f%2fwagasworld.com%2fsites%2fdefault%2ffiles%2fstyles%2fchannel_teaser%2fpublic%2fwatch-mythbusters.jpg%3fitok%3d3Ce0vXf2/" group-title="24/7 - Dokus",Mythbusters
+plugin://plugin.video.PsycoTV/?url=https%3A%2F%2Fwagasworld.com%2Fkodi.php%3Fchannel%3Dguldukat-mythbusters&mode=12
+#EXTINF:-1 tvg-name="UFO Hunters" tvg-id="UFO Hunters" tvg-logo="image://https%3a%2f%2fwagasworld.com%2fsites%2fdefault%2ffiles%2fstyles%2fchannel_teaser%2fpublic%2fufo-hunters.jpg%3fitok%3dR4wO4rxP/" group-title="24/7 - Dokus",UFO Hunters
+plugin://plugin.video.PsycoTV/?url=https%3A%2F%2Fwagasworld.com%2Fkodi.php%3Fchannel%3Dguldukat-ufohunters&mode=12
+#EXTINF:-1 tvg-name="UFO-Universum-Mix" tvg-id="UFO-Universum-Mix" tvg-logo="image://https%3a%2f%2fwagasworld.com%2fsites%2fdefault%2ffiles%2fstyles%2fchannel_teaser%2fpublic%2fufo-sightings.jpg%3fitok%3dbI88a7XF/" group-title="24/7 - Dokus",UFO-Universum-Mix
+plugin://plugin.video.PsycoTV/?url=https%3A%2F%2Fstream.wagasworld.com%2F%2Fhls%2Fguldukat-ufouniversummix.m3u8&mode=12
+
+#EXTINF:-1 tvg-name="Bezaubernde Jeannie" tvg-id="Bezaubernde Jeannie" tvg-logo="image://https%3a%2f%2fwagasworld.com%2fKodi%2fpic%2fjeannie.jpg/" group-title="24/7 - Sitcoms",Bezaubernde Jeannie
+plugin://plugin.video.PsycoTV/?url=https%3A%2F%2Fwagasworld.com%2Fkodi.php%3Fchannel%3Dbezauberndejeannie&mode=12
+#EXTINF:-1 tvg-name="Alf" tvg-id="Alf" tvg-logo="image://https%3a%2f%2fwagasworld.com%2fsites%2fdefault%2ffiles%2fstyles%2fchannel_teaser%2fpublic%2falf.jpg%3fitok%3dGx0R8BkH/" group-title="24/7 - Sitcoms",Alf
+plugin://plugin.video.PsycoTV/?url=https%3A%2F%2Fwagasworld.com%2Fkodi.php%3Fchannel%3Dguldukat-alf&mode=12
+#EXTINF:-1 tvg-name="Alle hassen Chris" tvg-id="Alle hassen Chris" tvg-logo="image://https%3a%2f%2fwagasworld.com%2fsites%2fdefault%2ffiles%2fstyles%2fchannel_teaser%2fpublic%2falle-hassen-chris.jpg%3fitok%3dDBAxCmHP/" group-title="24/7 - Sitcoms",Alle hassen Chris
+plugin://plugin.video.PsycoTV/?url=https%3A%2F%2Fwagasworld.com%2Fkodi.php%3Fchannel%3Dguldukat-allehassenchris&mode=12
+#EXTINF:-1 tvg-name="Alle unter einem Dach" tvg-id="Alle unter einem Dach" tvg-logo="image://https%3a%2f%2fwagasworld.com%2fsites%2fdefault%2ffiles%2fstyles%2fchannel_teaser%2fpublic%2f81QL304UkjL._RI_.jpg%3fitok%3dUYZMHa5C/" group-title="24/7 - Sitcoms",Alle unter einem Dach
+plugin://plugin.video.PsycoTV/?url=https%3A%2F%2Fwebplayer.akiyama.ws%2Fhls%2Fsteve_urkel.m3u8&mode=12
+#EXTINF:-1 tvg-name="Die wilden 70er" tvg-id="Die wilden 70er" tvg-logo="image://https%3a%2f%2fwagasworld.com%2fsites%2fdefault%2ffiles%2fstyles%2fchannel_teaser%2fpublic%2fdie%2520wilden%2520siebziger.jpg%3fitok%3d_4KTOyY3/" group-title="24/7 - Sitcoms",Die wilden 70er
+plugin://plugin.video.PsycoTV/?url=https%3A%2F%2Fwagasworld.com%2Fkodi.php%3Fchannel%3Dguldukat-wildesiebziger&mode=12
+#EXTINF:-1 tvg-name="My Name is Earl" tvg-id="My Name is Earl" tvg-logo="image://https%3a%2f%2fwagasworld.com%2fKodi%2fpic%2fearltv.jpg/" group-title="24/7 - Sitcoms",My Name is Earl
+plugin://plugin.video.PsycoTV/?url=https%3A%2F%2Fwagasworld.com%2Fkodi.php%3Fchannel%3Dearltv&mode=12
+#EXTINF:-1 tvg-name="MASH" tvg-id="MASH" tvg-logo="image://https%3a%2f%2fwagasworld.com%2fKodi%2fpic%2fmash.jpg/" group-title="24/7 - Sitcoms",MASH
+plugin://plugin.video.PsycoTV/?url=https%3A%2F%2Fwagasworld.com%2Fkodi.php%3Fchannel%3Dmash&mode=12
+#EXTINF:-1 tvg-name="Ein Kaefig voller Helden" tvg-id="Ein Kaefig voller Helden" tvg-logo="image://https%3a%2f%2fwagasworld.com%2fsites%2fdefault%2ffiles%2fstyles%2fchannel_teaser%2fpublic%2fekvh.jpg%3fitok%3dNnC6-Llu/" group-title="24/7 - Sitcoms",Ein Kaefig voller Helden
+plugin://plugin.video.PsycoTV/?url=https%3A%2F%2Fwagasworld.com%2Fkodi.php%3Fchannel%3Dguldukat-kaefigvollerhelden&mode=12
+#EXTINF:-1 tvg-name="Eine schrecklich nette Familie" tvg-id="Eine schrecklich nette Familie" tvg-logo="image://https%3a%2f%2fwagasworld.com%2fsites%2fdefault%2ffiles%2fstyles%2fchannel_teaser%2fpublic%2fal-bundy-pa_7756039-original-lightbox.jpg%3fitok%3d9m9GoSHo/" group-title="24/7 - Sitcoms",Eine schrecklich nette Familie
+plugin://plugin.video.PsycoTV/?url=https%3A%2F%2Fwagasworld.com%2Fkodi.php%3Fchannel%3Dguldukat-schrecklichefamilie&mode=12
+#EXTINF:-1 tvg-name="Familie Heinz Becker" tvg-id="Familie Heinz Becker" tvg-logo="image://https%3a%2f%2fwagasworld.com%2fsites%2fdefault%2ffiles%2fstyles%2fchannel_teaser%2fpublic%2fheinz%2520becker.jpg%3fitok%3dVUU45CyS/" group-title="24/7 - Sitcoms",Familie Heinz Becker
+plugin://plugin.video.PsycoTV/?url=https%3A%2F%2Fwagasworld.com%2Fkodi.php%3Fchannel%3Dheinzbecker&mode=12
+#EXTINF:-1 tvg-name="Hoermal, wer da haermmert" tvg-id="Hoermal, wer da haermmert" tvg-logo="image://https%3a%2f%2fwagasworld.com%2fsites%2fdefault%2ffiles%2fstyles%2fchannel_teaser%2fpublic%2fh%25C3%25B6rmalwerdah%25C3%25A4mmert_0.jpg%3fitok%3dTDBFtwbN/" group-title="24/7 - Sitcoms",Hoermal, wer da haermmert
+plugin://plugin.video.PsycoTV/?url=https%3A%2F%2Fwagasworld.com%2Fkodi.php%3Fchannel%3Dguldukat-homeimprovement&mode=12
+#EXTINF:-1 tvg-name="Immer wieder Jim" tvg-id="Immer wieder Jim" tvg-logo="image://https%3a%2f%2fwagasworld.com%2fsites%2fdefault%2ffiles%2fstyles%2fchannel_teaser%2fpublic%2fimmerwiederjim1.jpg%3fitok%3dRHG1D7nV/" group-title="24/7 - Sitcoms",Immer wieder Jim
+plugin://plugin.video.PsycoTV/?url=https%3A%2F%2Fwagasworld.com%2Fkodi.php%3Fchannel%3Dguldukat-immerwiederjim&mode=12
+#EXTINF:-1 tvg-name="LittleBritain" tvg-id="LittleBritain" tvg-logo="image://https%3a%2f%2fwagasworld.com%2fsites%2fdefault%2ffiles%2fstyles%2fchannel_teaser%2fpublic%2flittle%2520Britain.jpg%3fitok%3d7wOKOpo7/" group-title="24/7 - Sitcoms",LittleBritain
+plugin://plugin.video.PsycoTV/?url=https%3A%2F%2Fwagasworld.com%2Fkodi.php%3Fchannel%3Dguldukat-littlebritain&mode=12
+#EXTINF:-1 tvg-name="Malcolm mittendrin" tvg-id="Malcolm mittendrin" tvg-logo="image://https%3a%2f%2fwagasworld.com%2fsites%2fdefault%2ffiles%2fstyles%2fchannel_teaser%2fpublic%2fMalcolm-Mittendrin-Seite--rcm992x0.jpg%3fitok%3dNL-zxVBo/" group-title="24/7 - Sitcoms",Malcolm mittendrin
+plugin://plugin.video.PsycoTV/?url=https%3A%2F%2Fwagasworld.com%2Fkodi.php%3Fchannel%3Dmalcom&mode=12
+#EXTINF:-1 tvg-name="Mike und Molly" tvg-id="Mike und Molly" tvg-logo="image://https%3a%2f%2fwagasworld.com%2fKodi%2fpic%2fmikeundmolly.jpg/" group-title="24/7 - Sitcoms",Mike und Molly
+plugin://plugin.video.PsycoTV/?url=https%3A%2F%2Fwagasworld.com%2Fkodi.php%3Fchannel%3Dguldukat-mikeundmolly&mode=12
+#EXTINF:-1 tvg-name="King of Queens" tvg-id="King of Queens" tvg-logo="image://https%3a%2f%2fwagasworld.com%2fsites%2fdefault%2ffiles%2fstyles%2fchannel_teaser%2fpublic%2fkingofqueens.jpg%3fitok%3dgNFI4vA-/" group-title="24/7 - Sitcoms",King of Queens
+plugin://plugin.video.PsycoTV/?url=https%3A%2F%2Fwagasworld.com%2Fkodi.php%3Fchannel%3Dguldukat-koq&mode=12
+#EXTINF:-1 tvg-name="Mr. Bean" tvg-id="Mr. Bean" tvg-logo="image://https%3a%2f%2fwagasworld.com%2fsites%2fdefault%2ffiles%2fstyles%2fchannel_teaser%2fpublic%2fmr%2520bean.jpg%3fitok%3d5cDq07Ql/" group-title="24/7 - Sitcoms",Mr. Bean
+plugin://plugin.video.PsycoTV/?url=https%3A%2F%2Fwagasworld.com%2Fkodi.php%3Fchannel%3Dguldukat-bean&mode=12
+#EXTINF:-1 tvg-name="Prinz von Bel Air" tvg-id="Prinz von Bel Air" tvg-logo="image://https%3a%2f%2fwagasworld.com%2fsites%2fdefault%2ffiles%2fstyles%2fchannel_teaser%2fpublic%2fprinz%2520von%2520bel%2520air.jpg%3fitok%3dm-N7clsW/" group-title="24/7 - Sitcoms",Prinz von Bel Air
+plugin://plugin.video.PsycoTV/?url=https%3A%2F%2Fwagasworld.com%2Fkodi.php%3Fchannel%3Dguldukat-belair&mode=12
+#EXTINF:-1 tvg-name="Scrubs" tvg-id="Scrubs" tvg-logo="image://https%3a%2f%2fwagasworld.com%2fsites%2fdefault%2ffiles%2fstyles%2fchannel_teaser%2fpublic%2fscrubs_series_0.jpg%3fitok%3dPmB8XZb1/" group-title="24/7 - Sitcoms",Scrubs
+plugin://plugin.video.PsycoTV/?url=https%3A%2F%2Fwagasworld.com%2Fkodi.php%3Fchannel%3Dguldukat-scrubs&mode=12
+#EXTINF:-1 tvg-name="Taahm" tvg-id="Taahm" tvg-logo="image://https%3a%2f%2fwagasworld.com%2fsites%2fdefault%2ffiles%2fstyles%2fchannel_teaser%2fpublic%2ftaahm.png%3fitok%3dzAZrcjl8/" group-title="24/7 - Sitcoms",Taahm
+plugin://plugin.video.PsycoTV/?url=https%3A%2F%2Fwagasworld.com%2Fkodi.php%3Fchannel%3Dguldukat-taahm&mode=12
+#EXTINF:-1 tvg-name="TheBigBangTheory" tvg-id="TheBigBangTheory" tvg-logo="image://https%3a%2f%2fwagasworld.com%2fsites%2fdefault%2ffiles%2fstyles%2fchannel_teaser%2fpublic%2ftbbt-the-big-bang-theory-31365504-1280-879.jpg%3fitok%3dh8egHQ8g/" group-title="24/7 - Sitcoms",TheBigBangTheory
+plugin://plugin.video.PsycoTV/?url=https%3A%2F%2Fwagasworld.com%2Fkodi.php%3Fchannel%3Dguldukat-tbbt&mode=12
+#EXTINF:-1 tvg-name="Young Sheldon" tvg-id="Young Sheldon" tvg-logo="image://https%3a%2f%2fwagasworld.com%2fsites%2fdefault%2ffiles%2fstyles%2fchannel_teaser%2fpublic%2fyound%2520sheldon.jpg%3fitok%3dmnHdvyYK/" group-title="24/7 - Sitcoms",Young Sheldon
+plugin://plugin.video.PsycoTV/?url=https%3A%2F%2Fwagasworld.com%2Fkodi.php%3Fchannel%3Dguldukat-youngsheldon&mode=12
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
