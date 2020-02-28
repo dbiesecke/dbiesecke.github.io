@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="script.module.nanscrapers" name="NaN Scrapers" version="0.5.51" provider-name="Team NaN">
+        <requires>
+                <import addon="xbmc.python" version="2.1.0"/>
+                <import addon="script.module.beautifulsoup" version="3.2.1"/>
+                <import addon="script.module.futures" version="2.2.0"/>
+                <import addon="script.module.requests"/>
+                <import addon="script.module.six"/>
+                <import addon="script.module.resolveurl" version="5.0.00"/>
+                <!--<import addon="script.mrknow.urlresolver" version="2016.10.30.2" optional="true"/>-->
+        </requires>
+        <extension point="xbmc.python.module" library="lib"/>
+        <extension point="xbmc.python.pluginsource" library="lib/default.py">
+                <provides>executable</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+                <platform>all</platform>
+                <summary lang="en">Scrape common video host for URL's to be playable in XBMC/Kodi.</summary>
+                <description lang="en">Scrape common video host for URL's to be playable in XBMC/Kodi, simplifying addon development of video plugins requiring multi video hosts.
+                </description>
+                <license>GPL v3</license>
+                <source>https://github.com/noobsandnerds/noobsandnerds/tree/master/script.module.nanscrapers</source>
+                <forum>http://www.noobsandnerds.com/support/showthread.php?tid=17212</forum>
+                <website>http://noobsandnerds.com</website>
+        </extension>
+</addon>
+
 <addon id="repository.tdoe" name="TDOe Addons Repository" version="1.0.2" provider-name="TDOe">
 	<extension point="xbmc.addon.repository" name="TDOe">
 		<info compressed="true">https://raw.githubusercontent.com/tobias-d-oe/repo.kodi.tdoe/master/addons.xml</info>
@@ -835,6 +861,151 @@ xStream 3.5.11
 	</extension>
 </addon>
 
+<addon id="plugin.video.seren" version="1.6.9" name="Seren" provider-name="Nixgates">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0" />
+		<import addon="script.module.requests" version="2.19.1" />
+		<import addon="script.module.beautifulsoup4" version="4.5.3"/>
+		<import addon="plugin.video.youtube" version="6.2.0"/>
+		<import addon="script.module.addon.signals" version="0.0.1"/>
+		<import addon="script.module.dateutil" version="2.7.3"/>
+        <import addon="context.seren" version="1.0.3"/>
+<!--		<import addon="script.module.inputstreamhelper" version="0.3.3"/> #### Not yet big boy ####-->
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="seren.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" />
+	<extension point="xbmc.addon.metadata">
+		<reuselanguageinvoker>false</reuselanguageinvoker> <!-- You can enable this if you want, expect some instability but much faster menu speeds -->
+		<summary lang="en">Seren - Modular Multi-source Addon</summary>
+		<description lang="en"> Seren is a modular provider based, cloud service streaming software that is tightly interwoven with Trakt. Seren provides the freedom to view media from a single menu system from service providers of the users choosing. Please Note: This addon requires the use of a compatible cloud service.
+		</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<forum></forum>
+		<website>https://github.com/nixgates/plugin.video.seren</website>
+		<source>https://github.com/nixgates/plugin.video.seren</source>
+		<disclaimer lang="en">
+			Last updated: September 09, 2019.
+			The information contained within the Seren software (the "Service") is for general information purposes only.
+			The author assumes no responsibility for errors, omissions in the contents on the Service, nor does it assume responsibility for any material provided by any external services.
+			The use of the Service does not authorise the user to engage in any kind of illegal, criminal or tortious activity through the use of the software, including infringement of any third party intellectual property rights (including without limitation copyright, trade marks, patent, trade secrets and confidential information), fraud, child pornography, trafficking in obscene material, violation of applicable export restrictions, drug dealing, gambling, harassment, stalking, spamming, hacking, sending of viruses or other harmful files or illegal posting of computer passwords or computer code.
+			The user is responsible for all their activity in connection with the use of the Service and the author reserves the right to report any potentially criminal activity to appropriate law enforcement agencies.
+			The user must not transmit to or via the Service, any material that may infringe the intellectual property rights of any third party, or any defamatory, derogatory or offensive material or publication.
+			In no event shall the author of this software be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever, whether in an action of contract, negligence or other tort, arising out of or in connection with the use of the Service or the contents of the Service.
+			The author reserves the right to make additions, deletions, or modification to the contents on the Service at any time without prior notice.
+			The author of this software does not warrant that the software is free of viruses or other harmful components.
+			Seren may contain links to external websites that are not provided or maintained by or in any way affiliated with the author.
+			Please note that the author does not guarantee the accuracy, relevance, timeliness, or completeness of any information on these external websites.
+		</disclaimer>
+		<assets>
+			<icon>ico-fox-gold-final.png</icon>
+			<fanart>fanart-fox-gold-final.png</fanart>
+			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+		</assets>
+		<news>
+
+Changelog 1.6.9:
+Fixed AllDebrid Cache check mistake during py3 compatibility changes
+
+Changelog 1.6.8:
+Tighten and speed up PM cloud file inspection
+Multiple fixes to TMDb module
+buildSimpleTorrentInfo now more safe for shows that lack information
+Added compatibility for Trakt usernames with non ASCII characters
+Created new regex method for identifying files inside a pack
+Premiumize resolver now uses regex method
+Real Debrid resolver now uses regex method
+Reworked RD cache check method to use new new methods created
+Cleaned up Real Debrid resolver method
+Cleaned up Premiumize resolver method
+Genre lists now use the trending endpoint to provide more current/relevant titles
+Fix possible double resolving of source in source select if not using auto-try next source
+Fixed Play from random point not clearing playing items from playlist
+
+Changelog 1.6.7:
+Fix season sort due to stringed season number from TMDb module
+
+Changelog 1.6.6:
+Fix Fanart.tv call for movies
+
+Changelog 1.6.5:
+Fixed shows not syncing due to oddly formatted season information
+Fix MyFiles link resolving
+Fix All Debrid menu structuring in MyFiles
+Added more filtering to cache assist to provide a more relevant source
+Moved TMDb indexer to default meta provider for show items
+Added try/except/finally to _remove_old_meta_items in sync activities to ensure database cursor is closed on failure
+
+Changelog 1.6.4:
+Trakt requests now automatically re-try in the event of remote server failures
+Fixed issue with some movies not being marked as collected during sync
+Catch stringed NoneType values in database.py
+Resolver now returns None if cancelled, regardless if resolving was successful
+File size limits are now enabled by default (10GB)
+Fixed settings cleanup method (missmatch settings error)
+Fixed MyFiles for All Debrid
+Seperated cloud services within MyFiles
+
+Changelog 1.6.3:
+Fixed backwards compatibility for older Seren list urls
+Movie titles now confirm against IMDB before scrape
+Stop triggering Oauth refresh on 401 errors
+Next up sort style now requires Trakt Auth
+All Debrid magnets are now removed from account after resolving is complete
+Fixed source size possibly displaying multiple times in resolver window
+Rescrape now only applies to initial playlist item
+Fixed ability to backout of Hide Item selection in Trakt manager
+Fixed Trakt lists with same name being mixed up
+Trakt list titles now also append the username
+
+Changelog 1.6.2:
+Fixed trakt database rebuild issues
+
+Changelog 1.6.1:
+Fix playback for RD items in My Files
+Fix Trakt Sync Databsae not upgrading correctly
+Fixed Trakt lists missing items
+Settings dialog now closes during PM auth
+Fixed double database rebuilding
+Fixed AllDebrid movie resolving
+Fix list comprehension error in check_for_updates method in skin_manager module
+
+Changelog 1.6.0:
+Some Greek translations added
+Some German translations added
+Next Up menu now generated completely locally using DB query
+Added All-Debrid Support
+Premiumize now uses O-Auth (re-auth is required)
+Complete re-work of the standard playlist building (removes building playlist window for standard playback)
+Re-work of My Files module to reduce spaghetti
+Re-work of resolver module to reduce spaghetti
+New Custom Windows Still Watching/Play Next
+Added update support for Seren Themes
+Removed support for UpNext addon
+Lists are now synced to the trakt database
+More work on player.py module, better bookmark identification and playback marking
+Re-work Trakt Manager to be more context sensitive
+Added ability to paginate Trakt lists
+Added some more shortcuts to the search menu
+Show information is confirmed with IMDB prior to scrape
+Date and time in custom windows now displays in regional format
+Added fallbacks for shows meta gathering in Trakt DB
+Source filtering improvements to reduce meta loss
+Set a timeout for Fanart.tv calls (reduces slow downs at cost of artwork)
+Re-worked intial trakt sync and removed dialog box
+Complete overhaul of the bookmark system
+Fixed torrent semaphore not being released
+Playback parameters are now applied to further episodes
+Implement new listall endpoint for Premiumize cloud scraping (decreased scrape times)
+More minor bugfixes (honestly could not list them all)
+		</news>
+	</extension>
+</addon>
+
 <addon id="script.module.urlresolver" name="URLResolver" version="4.0.53" provider-name="Resolver Team">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
@@ -1329,33 +1500,6 @@ https://github.com/known-as-bmf/plugin.video.arteplussept
     </extension>
 </addon>
 
-<addon id="plugin.video.tvone" name="tvOne" version="21" provider-name="RACC">
-  <requires>
-    <import addon="xbmc.python" version="2.26.0"/>
-    <import addon="script.module.pycryptodome" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.kodi-six" />
-    <import addon="script.module.future" />
-    <import addon="script.module.routing" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <reuselanguageinvoker>true</reuselanguageinvoker>
-    <summary lang="en_gb">tvOne</summary>
-    <description lang="en_gb">tvOne</description>
-    <disclaimer lang="en_gb"></disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license>GPL-3.0</license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source></source>
-  </extension>
-</addon>
-
 <addon id="repository.kodinerds" name="kodinerds.net Add-ons" version="6.0.0" provider-name="L0RE">
 	<extension point="xbmc.addon.repository" name="L0RE">
 		<info compressed="true">https://raw.githubusercontent.com/kodinerds/repo/master/addons.xml</info>
@@ -1428,6 +1572,30 @@ https://github.com/known-as-bmf/plugin.video.arteplussept
 	</extension>
 </addon>
 
+<addon id="script.module.exoscrapers" name="ExoScrapers Module" version="2.2.2" provider-name="Exodus">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0" />
+        <import addon="script.module.beautifulsoup4"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="lib/default.py">
+        <provides>executable</provides>
+    </extension>
+        <extension point="xbmc.addon.metadata">
+            <platform>all</platform>
+            <summary lang="en">ExoScrapers Module</summary>
+            <description>Scrape common video host for URL's to be playable in Kodi, simplifying addon development of video plugins requiring multi video hosts.</description>
+                <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart></fanart>
+    </assets>
+    <news>v2.2.2 - scrapers and log_utils fix, torrent updates, scraper fixes</news>
+    </extension>
+</addon>
+
 <addon id="repository.myrepo" name="MyRepo Buchclub" version="1.0.2" provider-name="MyRepo">
     <extension point="xbmc.addon.repository" name="My Repo">
         <info compressed="false">https://dbiesecke.github.io/repo/addons.xml</info>
@@ -1439,6 +1607,22 @@ https://github.com/known-as-bmf/plugin.video.arteplussept
         <description>Bla Bla Bla...</description>
         <platform>all</platform>
     </extension>
+</addon>
+
+<addon id="plugin.program.simple.favouritesTV" version="0.1.13" name="TV" provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>executable</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Simple favouritesTV</summary>
+  <description lang="en"></description>
+  <disclaimer lang="en">.</disclaimer>
+</extension>
 </addon>
 
 
@@ -1587,6 +1771,19 @@ Auch die aktuelle Tabelle der 1. und 2. Bundesliga kann angezeigt werden.
     </menu>
   </extension>
 
+</addon>
+
+<addon id="script.module.yoda" name="[COLORgreen]yoda Module[/COLOR]" version="1.1.3" provider-name="S">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">yoda</summary>
+		<description></description>
+        <disclaimer lang="en"></disclaimer>
+	</extension>
 </addon>
 
 <addon id="repository.emby.kodi" name="Kodi Emby Addons" version="1.0.6" provider-name="null_pointer,angelblue05,sualfred,im85288,xnappo">
@@ -1958,33 +2155,6 @@ Auch die aktuelle Tabelle der 1. und 2. Bundesliga kann angezeigt werden.
 	</extension>
 </addon>
 
-<addon id="plugin.video.tvone11" name="tvOne11" version="18" provider-name="RACC">
-  <requires>
-    <import addon="xbmc.python" version="2.26.0"/>
-    <import addon="script.module.pycryptodome" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.kodi-six" />
-    <import addon="script.module.future" />
-    <import addon="script.module.routing" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <reuselanguageinvoker>true</reuselanguageinvoker>
-    <summary lang="en_gb">tvOne11</summary>
-    <description lang="en_gb">tvOne11</description>
-    <disclaimer lang="en_gb"></disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license>GPL-3.0</license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source></source>
-  </extension>
-</addon>
-
 <addon id="service.infocollector" name="Info Area Creator - INFO Collector" version="0.2" provider-name="TDOe">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -2056,6 +2226,34 @@ Auch die aktuelle Tabelle der 1. und 2. Bundesliga kann angezeigt werden.
     <language/>
     <website>https://www.matthuisman.nz/2019/02/iptv-merge-kodi-add-on.html</website>
     <news>Update common</news>
+  </extension>
+</addon>
+
+<addon id="plugin.video.tvoneplus" name="[B][COLOR orange]TVONE+[/COLOR][/B]" version="99.99.999" provider-name="[B][COLOR orange]RACC[/COLOR][/B]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.livestreamer" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">[COLOR orange]TVOne+[/COLOR]</summary>
+    <description lang="en_gb">TVOne+</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+    <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+    </assets>
   </extension>
 </addon>
 
