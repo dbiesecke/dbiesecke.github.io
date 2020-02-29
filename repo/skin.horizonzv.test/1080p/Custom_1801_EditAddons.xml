@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window id="1801" type="dialog">
-    <defaultcontrol always="true">18001</defaultcontrol>
+    <defaultcontrol always="true">18013</defaultcontrol>
     <controls>
         <include>BlackBack</include>
-        <control type="group" id="576757">
+        <control type="group" id="576759">
             <include>openclosebox</include>
             <left>352</left>
             <top>90</top>
@@ -81,15 +81,15 @@
                 <aligny>center</aligny>
                 <scroll>false</scroll>
             </control>
-            <control type="list" id="18001">
+            <control type="list" id="18013">
                 <left>15</left>
                 <top>150</top>
                 <width>1185</width>
                 <height>698</height>
                 <onright/>
                 <onleft/>
-                <onup>18000</onup>
-                <ondown>18000</ondown>
+                <onup>18013</onup>
+                <ondown>18013</ondown>
                 <scrolltime tween="Quadratic" easing="out">500</scrolltime>
                 <focusposition>0</focusposition>
                 <orientation>vertical</orientation>
@@ -129,7 +129,7 @@
                         <width>1155</width>
                         <height>51</height>
                         <texture border="2">buttons/ButtonFO.png</texture>
-                        <visible>Control.HasFocus(18000)</visible>
+                        <visible>Control.HasFocus(18013)</visible>
                     </control>
                     <control type="label">
                         <left>30</left>
@@ -161,339 +161,10 @@
                 <content>
                     
 <item>
-                        <label>plugin.video.iptvsimple.addons $INFO[System.AddonVersion(plugin.video.iptvsimple.addons),(,)]</label>
-                        <onclick>Addon.OpenSettings(plugin.video.iptvsimple.addons)</onclick>
-                        <visible>System.HasAddon(plugin.video.iptvsimple.addons)</visible>
+                        <label>Random Doku</label>
+                        <onclick>os.system("~/.kodi/my/scripts/rand_doku.sh")</onclick>
 </item>
-<item>
-                        <label>plugin.video.emby $INFO[System.AddonVersion(plugin.video.emby),(,)]</label>
-                        <onclick>Addon.OpenSettings(plugin.video.emby)</onclick>
-                        <visible>System.HasAddon(plugin.video.emby)</visible>
-</item>
-<item>
-                        <label>plugin.video.gaia $INFO[System.AddonVersion(plugin.video.gaia),(,)]</label>
-                        <onclick>Addon.OpenSettings(plugin.video.gaia)</onclick>
-                        <visible>System.HasAddon(plugin.video.gaia)</visible>
-</item>
-<item>
-                        <label>plugin.video.gdrive $INFO[System.AddonVersion(plugin.video.gdrive),(,)]</label>
-                        <onclick>Addon.OpenSettings(plugin.video.gdrive)</onclick>
-                        <visible>System.HasAddon(plugin.video.gdrive)</visible>
-</item>
-<item>
-                        <label>plugin.video.iptvsimple.addons $INFO[System.AddonVersion(plugin.video.iptvsimple.addons),(,)]</label>
-                        <onclick>Addon.OpenSettings(plugin.video.iptvsimple.addons)</onclick>
-                        <visible>System.HasAddon(plugin.video.iptvsimple.addons)</visible>
-</item>
-<item>
-                        <label>plugin.video.lastship $INFO[System.AddonVersion(plugin.video.lastship),(,)]</label>
-                        <onclick>Addon.OpenSettings(plugin.video.lastship)</onclick>
-                        <visible>System.HasAddon(plugin.video.lastship)</visible>
-</item>
-<item>
-                        <label>plugin.video.openmeta $INFO[System.AddonVersion(plugin.video.openmeta),(,)]</label>
-                        <onclick>Addon.OpenSettings(plugin.video.openmeta)</onclick>
-                        <visible>System.HasAddon(plugin.video.openmeta)</visible>
-</item>
-<item>
-                        <label>plugin.video.xstream $INFO[System.AddonVersion(plugin.video.xstream),(,)]</label>
-                        <onclick>Addon.OpenSettings(plugin.video.xstream)</onclick>
-                        <visible>System.HasAddon(plugin.video.xstream)</visible>
-</item>
-<item>
-                        <label>script.module.globalscrapers $INFO[System.AddonVersion(script.module.globalscrapers),(,)]</label>
-                        <onclick>Addon.OpenSettings(script.module.globalscrapers)</onclick>
-                        <visible>System.HasAddon(script.module.globalscrapers)</visible>
-</item>
-<item>
-                        <label>script.module.lambdascrapers $INFO[System.AddonVersion(script.module.lambdascrapers),(,)]</label>
-                        <onclick>Addon.OpenSettings(script.module.lambdascrapers)</onclick>
-                        <visible>System.HasAddon(script.module.lambdascrapers)</visible>
-</item>
-<item>
-                        <label>script.module.openscrapers $INFO[System.AddonVersion(script.module.openscrapers),(,)]</label>
-                        <onclick>Addon.OpenSettings(script.module.openscrapers)</onclick>
-                        <visible>System.HasAddon(script.module.openscrapers)</visible>
-</item>
-<item>
-                        <label>script.module.orion $INFO[System.AddonVersion(script.module.orion),(,)]</label>
-                        <onclick>Addon.OpenSettings(script.module.orion)</onclick>
-                        <visible>System.HasAddon(script.module.orion)</visible>
-</item>
-<item>
-                        <label>script.module.resolveurl $INFO[System.AddonVersion(script.module.resolveurl),(,)]</label>
-                        <onclick>Addon.OpenSettings(script.module.resolveurl)</onclick>
-                        <visible>System.HasAddon(script.module.resolveurl)</visible>
-</item>
-<item>
-                        <label>script.module.universalscrapers $INFO[System.AddonVersion(script.module.universalscrapers),(,)]</label>
-                        <onclick>Addon.OpenSettings(script.module.universalscrapers)</onclick>
-                        <visible>System.HasAddon(script.module.universalscrapers)</visible>
-</item>
-<item>
-                        <label>script.module.urlresolver $INFO[System.AddonVersion(script.module.urlresolver),(,)]</label>
-                        <onclick>Addon.OpenSettings(script.module.urlresolver)</onclick>
-                        <visible>System.HasAddon(script.module.urlresolver)</visible>
-</item>
-<item>
-                        <label>script.pseudotv.live $INFO[System.AddonVersion(script.pseudotv.live),(,)]</label>
-                        <onclick>Addon.OpenSettings(script.pseudotv.live)</onclick>
-                        <visible>System.HasAddon(script.pseudotv.live)</visible>
-</item>
-<item>
-                        <label>metadata.common.fanart.tv $INFO[System.AddonVersion(metadata.common.fanart.tv),(,)]</label>
-                        <onclick>Addon.OpenSettings(metadata.common.fanart.tv)</onclick>
-                        <visible>System.HasAddon(metadata.common.fanart.tv)</visible>
-</item>
-<item>
-                        <label>metadata.common.omdbapi.com $INFO[System.AddonVersion(metadata.common.omdbapi.com),(,)]</label>
-                        <onclick>Addon.OpenSettings(metadata.common.omdbapi.com)</onclick>
-                        <visible>System.HasAddon(metadata.common.omdbapi.com)</visible>
-</item>
-<item>
-                        <label>metadata.common.theaudiodb.com $INFO[System.AddonVersion(metadata.common.theaudiodb.com),(,)]</label>
-                        <onclick>Addon.OpenSettings(metadata.common.theaudiodb.com)</onclick>
-                        <visible>System.HasAddon(metadata.common.theaudiodb.com)</visible>
-</item>
-<item>
-                        <label>metadata.common.themoviedb.org $INFO[System.AddonVersion(metadata.common.themoviedb.org),(,)]</label>
-                        <onclick>Addon.OpenSettings(metadata.common.themoviedb.org)</onclick>
-                        <visible>System.HasAddon(metadata.common.themoviedb.org)</visible>
-</item>
-<item>
-                        <label>metadata.musicvideos.theaudiodb.com $INFO[System.AddonVersion(metadata.musicvideos.theaudiodb.com),(,)]</label>
-                        <onclick>Addon.OpenSettings(metadata.musicvideos.theaudiodb.com)</onclick>
-                        <visible>System.HasAddon(metadata.musicvideos.theaudiodb.com)</visible>
-</item>
-<item>
-                        <label>metadata.themoviedb.org $INFO[System.AddonVersion(metadata.themoviedb.org),(,)]</label>
-                        <onclick>Addon.OpenSettings(metadata.themoviedb.org)</onclick>
-                        <visible>System.HasAddon(metadata.themoviedb.org)</visible>
-</item>
-<item>
-                        <label>metadata.tvdb.com $INFO[System.AddonVersion(metadata.tvdb.com),(,)]</label>
-                        <onclick>Addon.OpenSettings(metadata.tvdb.com)</onclick>
-                        <visible>System.HasAddon(metadata.tvdb.com)</visible>
-</item>
-<item>
-                        <label>metadata.universal $INFO[System.AddonVersion(metadata.universal),(,)]</label>
-                        <onclick>Addon.OpenSettings(metadata.universal)</onclick>
-                        <visible>System.HasAddon(metadata.universal)</visible>
-</item>
-<item>
-                        <label>script.image.resource.select $INFO[System.AddonVersion(script.image.resource.select),(,)]</label>
-                        <onclick>Addon.OpenSettings(script.image.resource.select)</onclick>
-                        <visible>System.HasAddon(script.image.resource.select)</visible>
-</item>
-     
-                    <item>
-                        <label>System - inputstream.adaptive $INFO[System.AddonVersion(inputstream.adaptive),(,)]</label>
-                        <onclick>Addon.OpenSettings(inputstream.adaptive)</onclick>
-                        <visible>System.HasAddon(inputstream.adaptive)</visible>
-                    </item>                                 
-                    <item>
-                        <label>Artist Slide Show</label>
-                        <label2>$LOCALIZE[24038]</label2>
-                        <onclick>InstallAddon(script.artistslideshow)</onclick>
-                        <visible>!System.HasAddon(script.artistslideshow)</visible>
-                    </item>
-                    <item>
-                        <label>Artist Slide Show $INFO[System.AddonVersion(script.artistslideshow),(,)]</label>
-                        <label2>$LOCALIZE[5]</label2>
-                        <onclick>Addon.OpenSettings(script.artistslideshow)</onclick>
-                        <visible>System.HasAddon(script.artistslideshow)</visible>
-                    </item>
-                    <item>
-                        <label>CDArt Manager</label>
-                        <label2>$LOCALIZE[24038]</label2>
-                        <onclick>InstallAddon(script.cdartmanager)</onclick>
-                        <visible>!System.HasAddon(script.cdartmanager)</visible>
-                    </item>
-                    <item>
-                        <label>CDArt Manager $INFO[System.AddonVersion(script.cdartmanager),(,)]</label>
-                        <label2>$LOCALIZE[5]</label2>
-                        <onclick>Addon.OpenSettings(script.cdartmanager)</onclick>
-                        <visible>System.HasAddon(script.cdartmanager)</visible>
-                    </item>
-                    <item>
-                        <label>Extended Info Script</label>
-                        <label2>$LOCALIZE[24038]</label2>
-                        <onclick>InstallAddon(script.extendedinfo)</onclick>
-                        <visible>!System.HasAddon(script.extendedinfo)</visible>
-                    </item>
-                    <item>
-                        <label>Extended Info Script $INFO[System.AddonVersion(script.extendedinfo),(,)]</label>
-                        <label2>$LOCALIZE[5]</label2>
-                        <onclick>Addon.OpenSettings(script.extendedinfo)</onclick>
-                        <visible>System.HasAddon(script.extendedinfo)</visible>
-                    </item>
-                    <item>
-                        <label>Global Search</label>
-                        <label2>$LOCALIZE[24038]</label2>
-                        <onclick>InstallAddon(script.globalsearch)</onclick>
-                        <visible>!System.HasAddon(script.globalsearch)</visible>
-                    </item>
-                    <item>
-                        <label>Global Search Script $INFO[System.AddonVersion(script.globalsearch),(,)]</label>
-                        <label2>$LOCALIZE[5]</label2>
-                        <onclick>Addon.OpenSettings(script.globalsearch)</onclick>
-                        <visible>System.HasAddon(script.globalsearch)</visible>
-                    </item>
-                    <!-- <item>
-                        <label>Radio Addon</label>
-                        <label2>$LOCALIZE[24038]</label2>
-                        <onclick>InstallAddon(plugin.audio.radio_de)</onclick>
-                        <visible>!System.HasAddon(plugin.audio.radio_de)</visible>
-                    </item>
-                    <item>
-                        <label>Radio Addon $INFO[System.AddonVersion(plugin.audio.radio_de),(,)]</label>
-                        <label2>$LOCALIZE[5]</label2>
-                        <onclick>Addon.OpenSettings(plugin.audio.radio_de)</onclick>
-                        <visible>System.HasAddon(plugin.audio.radio_de)</visible>
-                    </item> -->
-                    <!-- <item>
-                        <label>TvTunes</label>
-                        <label2>$LOCALIZE[24038]</label2>
-                        <onclick>InstallAddon(script.tvtunes)</onclick>
-                        <visible>!System.HasAddon(script.tvtunes)</visible>
-                    </item>
-                    <item>
-                        <label>TvTunes $INFO[System.AddonVersion(script.tvtunes),(,)]</label>
-                        <label2>$LOCALIZE[5]</label2>
-                        <onclick>Addon.OpenSettings(script.tvtunes)</onclick>
-                        <visible>System.HasAddon(script.tvtunes)</visible>
-                    </item> -->
-                    <item>
-                        <label>Fritz Smart Home</label>
-                        <label2>$LOCALIZE[24038]</label2>
-						<onclick>InstallAddon(plugin.program.fritzact)</onclick>
-						<visible>!System.HasAddon(plugin.program.fritzact)</visible>
-                    </item>
-                    <item>
-                        <label>Fritz Smart Home $INFO[System.AddonVersion(plugin.program.fritzact),(,)]</label>
-                        <label2>$LOCALIZE[5]</label2>
-                        <onclick>Addon.OpenSettings(plugin.program.fritzact)</onclick>
-                        <visible>System.HasAddon(plugin.program.fritzact)</visible>
-                    </item>
-                    <item>
-                        <label>German Telecast Offers</label>
-                        <label2>$LOCALIZE[24038]</label2>
-                        <onclick>InstallAddon(script.service.gto)</onclick>
-                        <visible>!System.HasAddon(script.service.gto)</visible>
-                    </item>
-                    <item>
-                        <label>German Telecast Offers $INFO[System.AddonVersion(script.service.gto),(,)]</label>
-                        <label2>$LOCALIZE[5]</label2>
-                        <onclick>Addon.OpenSettings(script.service.gto)</onclick>
-                        <visible>System.HasAddon(script.service.gto)</visible>
-                    </item>
-                    <item>
-                        <label>KN Switchtimer Service</label>
-                        <label2>$LOCALIZE[24038]</label2>
-                        <onclick>InstallAddon(service.kn.switchtimer)</onclick>
-                        <visible>!System.HasAddon(service.kn.switchtimer)</visible>
-                    </item>
-                    <item>
-                        <label>KN Switchtimer Service $INFO[System.AddonVersion(service.kn.switchtimer),(,)]</label>
-                        <label2>$LOCALIZE[5]</label2>
-                        <onclick>Addon.OpenSettings(service.kn.switchtimer)</onclick>
-                        <visible>System.HasAddon(service.kn.switchtimer)</visible>
-                    </item>
-                    <item>
-                        <label>News Center</label>
-                        <label2>$LOCALIZE[24038]</label2>
-                        <onclick>InstallAddon(plugin.program.newscenter)</onclick>
-                        <visible>!System.HasAddon(plugin.program.newscenter)</visible>
-                    </item>
-                    <item>
-                        <label>News Center $INFO[System.AddonVersion(plugin.program.newscenter),(,)]</label>
-                        <label2>$LOCALIZE[5]</label2>
-                        <onclick>Addon.OpenSettings(plugin.program.newscenter)</onclick>
-                        <visible>System.HasAddon(plugin.program.newscenter)</visible>
-                    </item>
-                    <item>
-                        <label>Serien Planer</label>
-                        <label2>$LOCALIZE[24038]</label2>
-                        <onclick>InstallAddon(plugin.program.serienplaner)</onclick>
-                        <visible>!System.HasAddon(plugin.program.serienplaner)</visible>
-                    </item>
-                    <item>
-                        <label>Serien Planer $INFO[System.AddonVersion(plugin.program.serienplaner),(,)]</label>
-                        <label2>$LOCALIZE[5]</label2>
-                        <onclick>Addon.OpenSettings(plugin.program.serienplaner)</onclick>
-                        <visible>System.HasAddon(plugin.program.serienplaner)</visible>
-                    </item>
-                    <item>
-                        <label>Skinhelper Ping &amp; WOL by _Andy_</label>
-                        <label2>$LOCALIZE[24038]</label2>
-                        <onclick>InstallAddon(script.skinhelper.ping)</onclick>
-                        <visible>!System.HasAddon(script.skinhelper.ping)</visible>
-                    </item>
-                    <item>
-                        <label>Skinhelper Ping &amp; WOL by _Andy_ $INFO[System.AddonVersion(script.skinhelper.ping),(,)]</label>
-                        <label2>$LOCALIZE[5]</label2>
-                        <onclick>Addon.OpenSettings(script.skinhelper.ping)</onclick>
-                        <visible>System.HasAddon(script.skinhelper.ping)</visible>
-                    </item>
-                    <item>
-                        <label>Skin Helper Service</label>
-                        <label2>$LOCALIZE[24038]</label2>
-                        <onclick>InstallAddon(script.artwork.beef)</onclick>
-                        <visible>!System.HasAddon(script.artwork.beef)</visible>
-                    </item>
-                    <item>
-                        <label>Skin Helper Service $INFO[System.AddonVersion(script.artwork.beef),(,)]</label>
-                        <label2/>
-                        <icon>OverlayWatched.png</icon>
-                        <onclick/>
-                        <visible>System.HasAddon(script.artwork.beef)</visible>
-                    </item>
-                    <item>
-                        <label>Library Node Editor</label>
-                        <label2>$LOCALIZE[24038]</label2>
-                        <onclick>InstallAddon(plugin.library.node.editor)</onclick>
-                        <visible>!System.HasAddon(plugin.library.node.editor)</visible>
-                    </item>
-                    <item>
-                        <label>Library Node Editor $INFO[System.AddonVersion(plugin.library.node.editor),(,)]</label>
-                        <label2>$LOCALIZE[21385]</label2>
-						<onclick>Action(back)</onclick>
-                        <onclick>RunAddon(plugin.library.node.editor)</onclick>
-                        <visible>System.HasAddon(plugin.library.node.editor)</visible>
-                    </item>
-                    <item>
-                        <label>Resource Images Weatherfanart Multi</label>
-                        <label2>$LOCALIZE[24038]</label2>
-                        <onclick>InstallAddon(resource.images.weatherfanart.multi)</onclick>
-                        <visible>!System.HasAddon(resource.images.weatherfanart.multi)</visible>
-                    </item>
-                    <item>
-                        <label>Resource Images Weatherfanart Multi $INFO[System.AddonVersion(resource.images.weatherfanart.multi),(,)]</label>
-                        <label2/>
-                        <icon>OverlayWatched.png</icon>
-                        <onclick/>
-                        <visible>System.HasAddon(resource.images.weatherfanart.multi)</visible>
-                    </item>
-                    <item>
-                        <label>Resource Images Select</label>
-                        <label2>$LOCALIZE[24038]</label2>
-                        <onclick>InstallAddon(script.image.resource.select)</onclick>
-                        <visible>!System.HasAddon(script.image.resource.select)</visible>
-                    </item>
-                    <item>
-                        <label>Image Resource Select $INFO[System.AddonVersion(script.image.resource.select),(,)]</label>
-                        <label2/>
-                        <icon>OverlayWatched.png</icon>
-                        <onclick/>
-                        <visible>System.HasAddon(script.image.resource.select)</visible>
-                    </item>
-                    <item>
-                        <label>Resource Images Languageflags Colour $INFO[System.AddonVersion(resource.images.languageflags.colour),(,)]</label>
-                        <label2/>
-                        <icon>OverlayWatched.png</icon>
-                        <onclick/>
-                        <visible>System.HasAddon(resource.images.languageflags.colour)</visible>
-                    </item>
+
                     <!-- <item>
                         <label>Resource Images Weathericons Outline $INFO[System.AddonVersion(resource.images.weathericons.outline),(,)]</label>
                         <label2/>
@@ -501,13 +172,13 @@
                         <onclick/>
                         <visible>System.HasAddon(resource.images.weathericons.outline)</visible>
                     </item> -->
-                    <item>
+<!--                    <item>
                         <label>Service Library Data Provider $INFO[System.AddonVersion(service.library.data.provider),(,)]</label>
                         <label2/>
                         <icon>OverlayWatched.png</icon>
                         <onclick/>
                         <visible>System.HasAddon(service.library.data.provider)</visible>
-                    </item>
+                    </item>-->
                 </content>
             </control>
         </control>

@@ -311,16 +311,14 @@
                                 <label>Addon Settings</label>
                                 <label2>masks/Default_sharp.png</label2>
                                 <icon>icons/SystemIcon.png</icon>
-                                <onclick>ActivateWindow(1801)</onclick>
+                                <onclick>ActivateWindow(1800)</onclick>
                             </item>
                             <item id="9">
-                                <description>PVR Timer</description>
-                                <label>Timer</label>
+                                <description>MyTools</description>
+                                <label>MyTools</label>
                                 <label2>masks/Default_sharp.png</label2>
-                                <icon>center/Center_PVRHasTimer.png</icon>
-                                <onclick>ActivateWindow(4112)</onclick>
-                                <onclick>Dialog.Close(favourites,true)</onclick>
-                                <visible>PVR.HasTimer</visible>
+                                <icon>icons/SystemIcon.png</icon>
+                                <onclick>ActivateWindow(1801)</onclick>
                             </item>
                             <item id="10">
                                 <description>Addons</description>
@@ -350,7 +348,7 @@
                                 <label>PseudoTV</label>
                                 <label2>masks/Default_sharp.png</label2>
                                 <icon>special://home/addons/script.pseudotv.live/icon.png</icon>
-                                <onclick>ActivateWindow(10025,&quot;plugin://script.pseudotv.live&quot;,return)</onclick>
+                                <onclick>RunScript(script.pseudotv.live)</onclick>
                                 <visible>System.HasAddon(script.pseudotv.live)</visible>
                             </item>   
                             <item id="14">
@@ -360,21 +358,21 @@
                                 <icon>special://home/addons/plugin.video.gaia/icon.png</icon>
                                 <visible>System.HasAddon(plugin.video.gaia)</visible>
                                 <onclick>action(up)</onclick>
-                                <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.gaia/&quot;,return)</onclick>
+                                <onclick>RunAddon(plugin.video.gaia)</onclick>
                             </item>  
-                            <item id="15">
+<!--                            <item id="15">
                                 <description>Discover Movies/TV (OpenMeta)</description>
                                 <label>Discover Movies/TV (OpenMeta)</label>
                                 <label2>masks/Default_sharp.png</label2>
                                 <icon>special://home/addons/plugin.video.openmeta/resources/icon.png</icon>
-                                <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.openmeta&quot;,return)</onclick>
+                                <onclick>RunAddon(plugin.video.openmeta)</onclick>
                                 <visible>System.HasAddon(plugin.video.openmeta)</visible>
-                            </item>  
+                            </item>  -->
                             <item id="16">
                                 <description>Play - RetroArch</description>
                                 <label>Play - Retroarch</label>
                                 <icon>icons/games.png</icon>
-                                <onclick>ActivateWindow(10025,&quot;plugin://game.retroarch&quot;,return)</onclick>
+                                <onclick>RunAddon(game.retroarch)</onclick>
                                 <visible>System.HasAddon(game.retroarch)</visible>
                             </item>                            
                             <item id="17">
