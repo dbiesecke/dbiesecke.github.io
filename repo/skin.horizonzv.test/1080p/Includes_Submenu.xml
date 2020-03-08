@@ -337,7 +337,7 @@
                 <include>ButtonHomeSubCommonValues</include>
                 <label>Gaia</label>
                 <visible>System.HasAddon(plugin.video.gaia)</visible>
-                <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.gaia/?action=moviesArrivals&amp;type=movie&amp;kids=0&quot;,return)</onclick>
+                <onclick>RunAddon(plugin.video.gaia,&quot;plugin://plugin.video.gaia/?action=moviesArrivals&amp;type=movie&amp;kids=0&quot;)</onclick>
                 <visible>!Skin.HasSetting(Home_Movie_Button)</visible>
 				<visible>!Skin.HasSetting(SubMenu_Movie_GaiaButton)</visible>
             </control>    
@@ -377,6 +377,11 @@
                 <onclick>SetProperty(HomeButton,dashboard)</onclick>
                 <onclick>ActivateWindow(1500)</onclick>
             </control>
+            <control type="button" id="80440">
+                <include>ButtonHomeSubCommonValues</include>
+                <label>inputstream.adaptive</label>
+                <onclick>Addon.OpenSettings(inputstream.adaptive)</onclick>
+            </control>            
         </control>
     </include>
     <include name="HomeSubMenuTVShows">

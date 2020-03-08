@@ -160,25 +160,26 @@
                 </focusedlayout>
                 <content>
                     
-<item>
-                        <label>Random Doku</label>
-                        <onclick>os.system("~/.kodi/my/scripts/rand_doku.sh")</onclick>
-</item>
+                    <item>
+                        <label>Random Music Video</label>
+                        <label2/>
+                        <icon>OverlayWatched.png</icon>                        
+                        <onclick>System.Exec("/storage/.kodi/my/scripts/rand_mv.sh")</onclick>
+                    </item>
 
-                    <!-- <item>
-                        <label>Resource Images Weathericons Outline $INFO[System.AddonVersion(resource.images.weathericons.outline),(,)]</label>
+                    <item>
+                        <label>Random ARTE Doku </label>
                         <label2/>
                         <icon>OverlayWatched.png</icon>
-                        <onclick/>
-                        <visible>System.HasAddon(resource.images.weathericons.outline)</visible>
-                    </item> -->
-<!--                    <item>
+                        <onclick>System.Exec("/storage/.kodi/my/scripts/rand_doku_static.sh")</onclick>
+                    </item> 
+                   <item>
                         <label>Service Library Data Provider $INFO[System.AddonVersion(service.library.data.provider),(,)]</label>
                         <label2/>
                         <icon>OverlayWatched.png</icon>
                         <onclick/>
                         <visible>System.HasAddon(service.library.data.provider)</visible>
-                    </item>-->
+                    </item>
                 </content>
             </control>
         </control>

@@ -1,0 +1,38 @@
+<settings>
+    <category label="Einstellungen">
+        <setting id="load_info" type="bool" label="1" default="false"/>
+        <setting id="timeout" type="number" label="3" default="3"/>
+        <setting id="viewShows" type="bool" label="4" default="false"/>
+        <setting id="view" type="select" label="6" enable="eq(-1,true)" values="Liste|Grosse Liste|Vorschaubild|Poster|Fanart|Medieninformationen|Medieninformationen 2|Medieninformationen 3|Breit" default="Liste"/>
+        <setting id="prefer_ihosts" type="bool" label="7" default="true"/>
+        <setting id="amv_quality" type ="labelenum" label="8" values="Low|High" default="Low"/>
+        <setting id="clear_cache" type="bool" label="9" default="false"/>
+    </category>
+    <category label="Anime Seiten">
+        <setting id="genx" type="bool" label="101" default="true"/>
+        <setting id="burning" type="bool" label="102" default="true"/>
+        <setting id="tavernakoma" type="bool" label="103" default="true"/>
+        <setting id="world24" type="bool" label="104" default="true"/>
+        <setting id="tube" type="bool" label="105" default="true"/>
+        <setting id="anisearch" type="bool" label="110" default="true"/>
+    </category>
+    <category label="Interne Hoster">
+        <setting id="ihost1" type="select" label="201" values="anime-tube|tavernakoma|world24|crunchyroll|viewster|myvideo|clipfish|youtube" default="tavernakoma"/>
+        <setting id="ihost2" type="select" label="202" values="anime-tube|tavernakoma|world24|crunchyroll|viewster|myvideo|clipfish|youtube" default="world24"/>
+        <setting id="ihost3" type="select" label="203" values="anime-tube|tavernakoma|world24|crunchyroll|viewster|myvideo|clipfish|youtube" default="anime-tube"/>
+        <setting id="ihost6" type="select" label="206" values="anime-tube|tavernakoma|world24|crunchyroll|viewster|myvideo|clipfish|youtube" default="crunchyroll"/>
+        <setting id="ihost7" type="select" label="207" values="anime-tube|tavernakoma|world24|crunchyroll|viewster|myvideo|clipfish|youtube" default="viewster"/>
+        <setting id="ihost8" type="select" label="208" values="anime-tube|tavernakoma|world24|crunchyroll|viewster|myvideo|clipfish|youtube" default="myvideo"/>
+        <setting id="ihost9" type="select" label="209" values="anime-tube|tavernakoma|world24|crunchyroll|viewster|myvideo|clipfish|youtube" default="clipfish"/>
+        <setting id="ihost10" type="select" label="210" values="anime-tube|tavernakoma|world24|crunchyroll|viewster|myvideo|clipfish|youtube" default="youtube"/>
+    </category>
+    <category label="Externe Hoster">
+        <setting id="ehost1" type="select" label="301" values="streamcloud|vidzi|vivo|shared|novamov|primeshare|divxstage" default="vidzi"/>
+        <setting id="ehost2" type="select" label="302" values="streamcloud|vidzi|vivo|shared|novamov|primeshare|divxstage" default="vivo"/>
+        <setting id="ehost3" type="select" label="303" values="streamcloud|vidzi|vivo|shared|novamov|primeshare|divxstage" default="streamcloud"/>
+        <setting id="ehost4" type="select" label="304" values="streamcloud|vidzi|vivo|shared|novamov|primeshare|divxstage" default="shared"/>
+        <setting id="ehost5" type="select" label="305" values="streamcloud|vidzi|vivo|shared|novamov|primeshare|divxstage" default="novamov"/>
+        <setting id="ehost6" type="select" label="306" values="streamcloud|vidzi|vivo|shared|novamov|primeshare|divxstage" default="primeshare"/>
+        <setting id="ehost7" type="select" label="307" values="streamcloud|vidzi|vivo|shared|novamov|primeshare|divxstage" default="divxstage"/>
+    </category>
+</settings>
