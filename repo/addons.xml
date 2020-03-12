@@ -78,25 +78,6 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.animeanime"  version="0.1.0.49"  name="Anime"  provider-name="Jin">
-  <requires>
-   <import addon="xbmc.python" version="2.1.0"/>
-   <import addon="script.module.requests" version="2.3.0"/>
-   <import addon="script.module.beautifulsoup4" version="4.3.2"/>
-   <import addon="script.module.cryptopy" version="1.2.6"/>
-  </requires>
-  <extension
-    point="xbmc.python.pluginsource"
-    library="anime.py">
-   <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Anime Stream Base</summary>
-    <description>All in One Anime Addon</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.program.sunrisewizard" name="Sunrise Wizard" version="1.05" provider-name="sunrisekodi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1939,6 +1920,21 @@ Auch die aktuelle Tabelle der 1. und 2. Bundesliga kann angezeigt werden.
 		<fanart>fanart.jpg</fanart>
 		</assets>
     </extension>
+</addon>
+
+<addon id="plugin.video.EasyNews" name="EasyNews" version="4.6.2" provider-name=".[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Easynews</summary>
+    <description lang="en">Stream From EasyNews.....Official Support....XBMCHUB.COM</description>
+    <disclaimer lang="en">By using This Plugin You will receive sometimes an advert which helps funds the developers developing.....we all thank you!!</disclaimer>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 <addon id="skin.confluencetdoe" version="4.2.1" name="Confluence TDOe 18" provider-name="TDOe">
