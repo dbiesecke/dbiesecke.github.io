@@ -16,7 +16,7 @@
 
         <setting id="gdrive1_type" subsetting="true" type="enum" label="30010" visible="eq(-1,0)" values="ClientLogin -- no longer works|dmdsoftware OAUTH2|private OAUTH2|your own OAUTH2|Google Apps" default="3" />
         <setting id="gdrive1_username" subsetting="true" type="text" label="30001"  visible="eq(-2,0)" default="db" />
-        <setting id="gdrive1_code" subsetting="true" type="text" label="30201" visible="eq(-3,0) + gt(-2,0) + + lt(-2,4)" default="4/ugHqlgHRfATv6viIfqAbBmoyoYOtdc6qlVF0q6PufQtwSDyvMdrJQe4" />
+        <setting id="gdrive1_code" subsetting="true" type="text" label="30201" visible="eq(-3,0) + gt(-2,0) + + lt(-2,4)" default="" />
         <setting id="gdrive1_client_id" subsetting="true" type="text" label="30202" visible="eq(-4,0) + gt(-3,2) + lt(-3,4)" default="456522887262-q1mf5supn0om3pre28u7g2u8s46v34m6.apps.googleusercontent.com" />
         <setting id="gdrive1_client_secret" subsetting="true" type="text" label="30203" visible="eq(-5,0) + gt(-4,2) + lt(-4,4)" default="wvDt1Kljv7gR4o_omJPHVTJf" />
         <setting id="gdrive1_url" subsetting="true" type="text" label="30204" visible="eq(-6,0) + eq(-5,2)" default="" />
@@ -27,7 +27,7 @@
 
         <setting id="gdrive2_type" subsetting="true" type="enum" label="30010" visible="eq(-11,1)" values="ClientLogin|dmdsoftware OAUTH2|private OAUTH2|your own OAUTH2|Google Apps" default="3" />
         <setting id="gdrive2_username" subsetting="true" type="text" label="30001" visible="eq(-12,1)" default="huth798" />
-        <setting id="gdrive2_code" subsetting="true" type="text" label="30201" visible="eq(-13,1) + gt(-2,0) + lt(-2,4)" default="4/yAFfVmjjl0SjzAjoaz3SXm2nMTRjUzBNtBhGzDGwv9CK4ddBzdjYo8w" />
+        <setting id="gdrive2_code" subsetting="true" type="text" label="30201" visible="eq(-13,1) + gt(-2,0) + lt(-2,4)" default="" />
         <setting id="gdrive2_client_id" subsetting="true" type="text" label="30202" visible="eq(-14,1) + gt(-3,2)+ lt(-3,4)" default="596620932942-feein9e2lae5eflfao473p4sa4d7bc0c.apps.googleusercontent.com" />
         <setting id="gdrive2_client_secret" subsetting="true" type="text" label="30203" visible="eq(-15,1) + gt(-4,2)+ lt(-4,4)" default="HwUnYjKGFqxCMQ2ArVsJzBxG" />
         <setting id="gdrive2_url" subsetting="true" type="text" label="30204" visible="eq(-16,1) + eq(-5,2)" default="" />
