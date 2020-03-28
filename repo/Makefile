@@ -109,5 +109,5 @@ build:   index.md icon
 	@rm -fR build
 
 commit: build
-	git add ./*/* index.md --all 
+	git add . index.md 
 	git commit -a -m "new addons" && git push --all

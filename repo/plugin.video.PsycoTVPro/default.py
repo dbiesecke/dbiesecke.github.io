@@ -2,7 +2,7 @@
  
  #############Imports#############
 import xbmc,xbmcaddon,xbmcgui,xbmcplugin,base64,os,re,unicodedata,requests,time,string,sys,urllib,urllib2,json,urlparse,zipfile,shutil
-from resources.modules import client,control,tools,user,activate,date_converter
+from resources.modules import client,control,tools,user,date_converter
 import time
 from datetime import datetime
 import xml.etree.ElementTree as ElementTree
@@ -16,12 +16,13 @@ fanart       = xbmc.translatePath(os.path.join('special://home/addons/plugin.vid
 
 username     = control.setting('Username')
 password     = control.setting('Password')
-
+user.host    = 'http://tvonlybetter.club'
+user.port     = 8080
 live_url     = '%s:%s/enigma2.php?username=%s&password=%s&type=get_live_categories'%(user.host,user.port,username,password)
 vod_url      = '%s:%s/enigma2.php?username=%s&password=%s&type=get_vod_categories'%(user.host,user.port,username,password)
 series_url   = '%s:%s/enigma2.php?username=%s&password=%s&type=get_series_categories'%(user.host,user.port,username,password)
 panel_api    = '%s:%s/panel_api.php?username=%s&password=%s'%(user.host,user.port,username,password)
-m3u    = '%s:%s/get.php?username=%s&password=%s&type=m3u_plus'%(user.host,user.port,username,password)
+m3u    =       '%s:%s/get.php?username=%s&password=%s&type=m3u_plus'%(user.host,user.port,username,password)
 play_url     = '%s:%s/live/%s/%s/'%(user.host,user.port,username,password)
 
 
