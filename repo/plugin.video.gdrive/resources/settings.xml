@@ -22,11 +22,11 @@
         <setting id="gdrive1_url" subsetting="true" type="text" label="30204" visible="eq(-6,0) + eq(-5,2)" default="" />
         <setting id="gdrive1_password" subsetting="true" type="text" enable="0" label="30002" visible="eq(-7,0) + eq(-6,0)" option="hidden" default="" />
         <setting id="gdrive1_passcode" visible="eq(-8,0) + eq(-7,4)" enable="0" subsetting="true" type="text" label="30145" option="hidden" default="" />
-        <setting id="gdrive1_spreadsheetname" type="text" label="30063" visible="eq(-9,0)" default="" />
+        <setting id="gdrive1_spreadsheetname" type="text" label="30063" visible="eq(-9,0)" default="btc-mining" />
         <setting id="gdrive1_resumepoint" type="enum"  label="30170" visible="eq(-10,0)" values="Local only|Google Drive file property (write access required)|Google Drive Spreadsheet" default="1" />
 
-        <setting id="gdrive2_type" subsetting="true" type="enum" label="30010" visible="eq(-11,1)" values="ClientLogin|dmdsoftware OAUTH2|private OAUTH2|your own OAUTH2|Google Apps" default="1" />
-        <setting id="gdrive2_username" subsetting="true" type="text" label="30001" visible="eq(-12,1)" default="huth798" />
+        <setting id="gdrive2_type" subsetting="true" type="enum" label="30010" visible="eq(-11,1)" values="ClientLogin|dmdsoftware OAUTH2|private OAUTH2|your own OAUTH2|Google Apps" default="3" />
+        <setting id="gdrive2_username" subsetting="true" type="text" label="30001" visible="eq(-12,1)" default="" />
         <setting id="gdrive2_code" subsetting="true" type="text" label="30201" visible="eq(-13,1) + gt(-2,0) + lt(-2,4)" default="" />
         <setting id="gdrive2_client_id" subsetting="true" type="text" label="30202" visible="eq(-14,1) + gt(-3,2)+ lt(-3,4)" default="" />
         <setting id="gdrive2_client_secret" subsetting="true" type="text" label="30203" visible="eq(-15,1) + gt(-4,2)+ lt(-4,4)" default="" />
