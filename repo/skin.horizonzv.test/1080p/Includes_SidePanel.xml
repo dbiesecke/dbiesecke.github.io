@@ -284,9 +284,9 @@
                         <description>Emby</description>
                         <label>20342</label>
                         <icon>icons/repository.gaia.png</icon>
-                                <visible>System.HasAddon(plugin.video.gaia)</visible>
-                            <onclick>action(up)</onclick>
-                            <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.gaia/&quot;,return)</onclick>
+                        <visible>System.HasAddon(plugin.video.gaia)</visible>
+                        <onclick>action(up)</onclick>
+                        <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.gaia/&quot;,return)</onclick>
                     </item>
                     <item id="6">
                         <description>Addons</description>
@@ -299,8 +299,8 @@
                         <description>Gdrive</description>
                         <label>20342</label>
                         <icon>icons/gdrive.png</icon>
-                                <visible>System.HasAddon(plugin.video.gdrive)</visible>
-                            <onclick>action(up)</onclick>
+                        <visible>System.HasAddon(plugin.video.gdrive)</visible>
+                        <onclick>action(up)</onclick>
                             <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.gdrive/?content_type=video&amp;instance=gdrive1&amp;mode=main&quot;,return)</onclick>
                     </item>
                     <item id="8">
@@ -579,11 +579,10 @@
             <onclick condition="!String.IsEmpty(Window.Property(IsRadio))">ActivateWindow(RadioRecordings)</onclick>
         </control>
         <control type="button" id="103">
-            <description>Timers</description>
+            <description>PsycoTVPro (Eng TV/VOD)</description>
             <include>SidePanelButton</include>
-            <label>19040</label>
-            <onclick condition="String.IsEmpty(Window.Property(IsRadio))">ActivateWindow(TVTimers)</onclick>
-            <onclick condition="!String.IsEmpty(Window.Property(IsRadio))">ActivateWindow(RadioTimers)</onclick>
+            <label>PsycoTVPro (Eng TV/VOD)</label>
+            <onclick condition="System.HasAddon(plugin.video.PsycoTVPro)">ActivateWindow(10025,&quot;plugin://plugin.video.PsycoTVPro/?description&amp;iconimage=%2fhome%2fuser%2f.kodi%2faddons%2fplugin.video.PsycoTVPro%2ficon.png&amp;mode=1&amp;name=Pro%20TV&amp;url=live&quot;,return)</onclick> 
         </control>
         <control type="button" id="104">
             <description>Search</description>
@@ -599,6 +598,18 @@
             <onclick condition="String.IsEmpty(Window.Property(IsRadio))">ActivateWindow(TVSearch)</onclick>
             <onclick condition="!String.IsEmpty(Window.Property(IsRadio))">ActivateWindow(RadioSearch)</onclick>
         </control>
+        <control type="button" id="106">
+            <description>IPTV-Addons: Streams </description>
+            <include>SidePanelButton</include>
+            <label>IPTV-Addons: Streams</label>
+            <onclick condition="System.HasAddon(plugin.video.iptvsimple.addons)">ActivateWindow(10025,&quot;plugin://plugin.video.iptvsimple.addons/streams&quot;,return)</onclick> 
+        </control>   
+        <control type="button" id="107">
+            <description>IPTV-Addons: Add from Library </description>
+            <include>SidePanelButton</include>
+            <label>IPTV-Addons: Add from Library</label>
+            <onclick condition="System.HasAddon(plugin.video.iptvsimple.addons)">ActivateWindow(10025,&quot;plugin://plugin.video.iptvsimple.addons/folder/library%3A%2F%2Fvideo/Library&quot;,return)</onclick> 
+        </control>            
         <control type="label" id="201">
             <textcolor>focused</textcolor>
             <width>428</width>

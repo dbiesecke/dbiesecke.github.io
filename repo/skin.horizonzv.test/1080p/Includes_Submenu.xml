@@ -255,27 +255,24 @@
                 <onclick>Control.SetFocus(9000)</onclick>
                 <onclick>ActivateWindow(1142)</onclick>
 				<visible>[String.Contains(Container(9000).ListItem.Property(homemenu_path),music)|String.Contains(Container(9000).ListItem.Property(homemenu_path),audio)]+Skin.HasSetting(Home_Movie_Button)</visible>
-            </control>
+            </control> -->
             <control type="button" id="80130">
-                <description>Refresh Button</description>
+                <description>Gdrive:Buchclub - Movies</description>
                 <height>39</height>
                 <width>39</width>
                 <align>center</align>
                 <aligny>center</aligny>
-                <texturefocus>buttons/RefreshFO.png</texturefocus>
-                <texturenofocus>buttons/RefreshNF.png</texturenofocus>
-                <pulseonselect>false</pulseonselect>
-                <label/>
-                <onclick>Control.SetFocus(9000)</onclick>
-                <onclick>ActivateWindow(1141)</onclick>
+                <texturefocus>special://home/addons/plugin.video.gdrive/icon.png</texturefocus>
+                <texturenofocus>special://home/addons/plugin.video.gdrive/icon.png</texturenofocus>                
+                <label>Gdrive Movies</label>
+                <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.gdrive/?mode=index&amp;instance=gdrive1&amp;folder=1LjJqn4JscV2_HoOUHf_dJ-FrYa0NcRFF&amp;epath=%2FUploads%2F&amp;content_type=video&quot;,return)</onclick>
 				<visible>String.Contains(Container(9000).ListItem.Property(homemenu_path),video)|!Skin.HasSetting(Home_Movie_Button)</visible>
-            </control>-->
+            </control>
             <control type="button" id="80131">
                 <include>ButtonHomeSubCommonValues</include>
-                <label>20434</label>
-                <onclick>ActivateWindow(Videos,MovieSets,return)</onclick>
-                <visible>Library.HasContent(MovieSets)</visible>
-                <visible>!Skin.HasSetting(SubMenu_Movie_NoSetButton)</visible>
+                <label>TBO: Eng. Movies</label>
+                <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.PsycoTVPro/?description&amp;iconimage=%2fhome%2fuser%2f.kodi%2faddons%2fplugin.video.PsycoTVPro%2ficon.png&amp;mode=33&amp;name=Filme&amp;url=vod&quot;,return)</onclick>
+<!--                 <visible>System.HasAddon(plugin.video.PsycoTVPro)</visible> -->
 				<visible>!Skin.HasSetting(Home_Movie_Button)</visible>
             </control>
             <control type="button" id="80132">
@@ -319,6 +316,12 @@
                 <onclick>ActivateWindow(Videos,Files,return)</onclick>
 				<visible>!Skin.HasSetting(Home_Movie_Button)</visible>
             </control>
+<!--            <control type="button" id="81249">
+                <include>ButtonHomeSubCommonValues</include>
+                <label>Eng VOD</label>
+                <visible>System.HasAddon(plugin.video.PsycoTVPro)</visible>
+                <onclick></onclick>
+            </control>   -->           
 <!--            <control type="button" id="81249">
                 <include>ButtonHomeSubCommonValues</include>
                 <label>DDL.me</label>
@@ -403,21 +406,24 @@
                 <onclick>Control.SetFocus(9000)</onclick>
                 <onclick>ActivateWindow(1142)</onclick>
 				<visible>[String.Contains(Container(9000).ListItem.Property(homemenu_path),music)|String.Contains(Container(9000).ListItem.Property(homemenu_path),audio)]+Skin.HasSetting(Home_TVShow_Button)</visible>
-            </control>
-            <control type="button" id="80146">
-                <description>Refresh Button</description>
+            </control>-->
+            <control type="button" id="80145">
+                <description>Gdrive:Buchclub</description>
                 <height>39</height>
                 <width>39</width>
                 <align>center</align>
                 <aligny>center</aligny>
-                <texturefocus>buttons/RefreshFO.png</texturefocus>
-                <texturenofocus>buttons/RefreshNF.png</texturenofocus>
-                <pulseonselect>false</pulseonselect>
-                <label/>
-                <onclick>Control.SetFocus(9000)</onclick>
-                <onclick>ActivateWindow(1141)</onclick>
-				<visible>String.Contains(Container(9000).ListItem.Property(homemenu_path),video)|!Skin.HasSetting(Home_TVShow_Button)</visible>
-            </control>-->
+                <texturefocus>special://home/addons/plugin.video.gdrive/icon.png</texturefocus>
+                <texturenofocus>special://home/addons/plugin.video.gdrive/icon.png</texturenofocus>                
+                <label>Gdrive</label>
+                <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.gdrive/?mode=index&amp;instance=gdrive1&amp;folder=1bBAnxeRDZxvedw6KO2Go2jyQ_l50ly_7&amp;epath=%2FUploads%2F&amp;content_type=video&quot;,return)</onclick>
+            </control>
+            <control type="button" id="80141">
+                <include>ButtonHomeSubCommonValues</include>
+                <label>TBO: Eng. Movies</label>
+                <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.PsycoTVPro/?description&amp;iconimage=%2fhome%2fuser%2f.kodi%2faddons%2fplugin.video.PsycoTVPro%2ficon.png&amp;mode=34&amp;name=Serien&amp;url=series&quot;,return)</onclick>
+<!--                 <visible>System.HasAddon(plugin.video.PsycoTVPro)</visible> -->
+            </control>            
             <control type="button" id="80144">
                 <include>ButtonHomeSubCommonValues</include>
                 <label>XStream</label>

@@ -290,7 +290,7 @@
                                 <icon>center/Center_System.png</icon>
                                 <onclick>ActivateWindow(settings)</onclick>
                             </item>-->
-                            <item id="6">
+<!--                            <item id="6">
                                 <description>Systeminfo</description>
                                 <label>10511</label>
                                 <label2>masks/Default_sharp.png</label2>
@@ -305,7 +305,7 @@
                                 <onclick>RunScript(script.globalsearch)</onclick>
                                 <onclick>Dialog.Close(favourites,true)</onclick>
                                 <visible>System.HasAddon(script.globalsearch)</visible>
-                            </item>                            
+                            </item>   -->                         
                             <item id="8">
                                 <description>Addon Settings</description>
                                 <label>Addon Settings</label>
@@ -343,14 +343,14 @@
                                 <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.gdrive/?mode=index&amp;instance=gdrive1&amp;folder=0B8F3l36tJRrRLTV3RmptQ2JXYzg&amp;epath=%2FUploads%2F&amp;content_type=video&quot;,return)</onclick>
                                 <visible>System.HasAddon(plugin.video.gdrive)</visible>
                             </item> 
-                            <item id="13">
+<!--                            <item id="13">
                                 <description>PseudoTV (Doku TV)</description>
                                 <label>PseudoTV</label>
                                 <label2>masks/Default_sharp.png</label2>
                                 <icon>special://home/addons/script.pseudotv.live/icon.png</icon>
                                 <onclick>RunScript(script.pseudotv.live)</onclick>
                                 <visible>System.HasAddon(script.pseudotv.live)</visible>
-                            </item>   
+                            </item>   -->
                             <item id="14">
                                 <description>Gaia</description>
                                 <label>Gaia</label>
@@ -368,13 +368,13 @@
                                 <onclick>RunAddon(plugin.video.openmeta)</onclick>
                                 <visible>System.HasAddon(plugin.video.openmeta)</visible>
                             </item>  -->
-                            <item id="16">
+<!--                            <item id="16">
                                 <description>Play - RetroArch</description>
                                 <label>Play - Retroarch</label>
                                 <icon>icons/games.png</icon>
                                 <onclick>RunAddon(game.retroarch)</onclick>
                                 <visible>System.HasAddon(game.retroarch)</visible>
-                            </item>                            
+                            </item>   -->                         
                             <item id="17">
                                 <description>Tool Favourites</description>
                                 <label>Addon Favourites</label>
