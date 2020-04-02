@@ -1,0 +1,113 @@
+# Kodi Media Center language file
+msgid ""
+msgstr ""
+"Project-Id-Version: Kodi Addons\n"
+"Report-Msgid-Bugs-To: alanwww1@kodi.org\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+
+# Wakanim Settings
+
+msgctxt "#30001"
+msgid "Username"
+msgstr "Имя пользователя"
+
+msgctxt "#30002"
+msgid "Password"
+msgstr "Пароль"
+
+msgctxt "#30003"
+msgid "Configure InputStream Adaptive"
+msgstr "Настройки InputStream Adaptive"
+
+msgctxt "#30004"
+msgid "Synchronize play time progress"
+msgstr "Синхронизация времени воспроизведения"
+
+msgctxt "#30010"
+msgid "Region"
+msgstr "Регион"
+
+msgctxt "#30011"
+msgid "Germany, Austria, Switzerland"
+msgstr "Германия, Австрия, Швейцария"
+
+msgctxt "#30012"
+msgid "France, Switzerland, Monaco, Benelux Union, Franco-Canadians, Overseas France, Africa"
+msgstr "Франция, Швейцария, Монако, Бенилюкс, Франкоканадцы, Заморские территории Франции, Африка"
+
+msgctxt "#30013"
+msgid "Sweden, Norway, Iceland, Finland, Denmark"
+msgstr "Швеция, Норвегия, Исландия, Финляндия, Дания"
+
+msgctxt "#30014"
+msgid "Russia"
+msgstr "Россия"
+
+# Wakanim Menue
+
+msgctxt "#30020"
+msgid "Catalog"
+msgstr "Каталог"
+
+msgctxt "#30021"
+msgid "Search"
+msgstr "Поиск"
+
+msgctxt "#30022"
+msgid "My downloads"
+msgstr "Мои загрузки"
+
+msgctxt "#30023"
+msgid "My collection"
+msgstr "Моя коллекция"
+
+msgctxt "#30024"
+msgid "Watch trailer"
+msgstr "Смотреть трейлер"
+
+msgctxt "#30025"
+msgid "Last aired episodes"
+msgstr "Последние серии"
+
+msgctxt "#30026"
+msgid "Latest simulcast shows"
+msgstr "Новинки сезона"
+
+msgctxt "#30027"
+msgid "My watchlist"
+msgstr "Смотреть позже"
+
+# Wakanim Messages
+
+msgctxt "#30040"
+msgid "Login failed"
+msgstr "Ошибка авторизации"
+
+msgctxt "#30041"
+msgid "An error occurred"
+msgstr "Произошла ошибка"
+
+msgctxt "#30042"
+msgid "Reactivation failed of this video"
+msgstr "Не удалось выполнить повторную активацию этого видео"
+
+msgctxt "#30043"
+msgid "You need to be a premium member or own this video"
+msgstr "Вы должны оформить подписку или купить это видео"
+
+msgctxt "#30044"
+msgid "Failed to play video"
+msgstr "Не удалось воспроизвести видео"
+
+msgctxt "#30045"
+msgid "Do you want to continue watching at %s%%?"
+msgstr "Вы хотите продолжить просмотр на %s%%?"
