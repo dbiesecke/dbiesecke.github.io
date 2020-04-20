@@ -1695,6 +1695,24 @@ Auch die aktuelle Tabelle der 1. und 2. Bundesliga kann angezeigt werden.
 	</extension>
 </addon>
 
+<addon id="plugin.video.buchclub1" name="buchclub 1" version="31.0.0" provider-name="buchclub">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">buchclub</summary>
+    <language>en</language>
+    <description lang="en">buchclub 1 </description>
+
+     <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="script.module.liveresolver"
      name="LiveResolver"
      version="0.1.50"

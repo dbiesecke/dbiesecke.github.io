@@ -1,0 +1,7 @@
+<settings>
+<category label="General">
+     <setting id="Username" type="text" label="Username" default="steveharrisonOB"/>
+     <setting id="Password" type="text" label="Password" default="KfpaPduetr"/>
+	 <setting id="hidexxx" type="bool" label="XXX Channels" default="false"/>
+</category>
+</settings>
