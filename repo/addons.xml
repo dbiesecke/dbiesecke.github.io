@@ -822,7 +822,7 @@ Auch die aktuelle Tabelle der 1. und 2. Bundesliga kann angezeigt werden.
     </extension>
 </addon>
 
-<addon id="plugin.video.iptvsimple.addons" version="0.1.3" name="IPTV Addons" provider-name="primaeval">
+<addon id="plugin.video.iptvsimple.addons" version="0.1.4" name="IPTV Addons" provider-name="primaeval/buchclub">
 <requires>
   <import addon="xbmc.python" version="2.26.0"/>
   <import addon="script.module.xbmcswift2" version="2.4.0"/>
@@ -1381,6 +1381,40 @@ xStream 3.5.11
   </extension>
 </addon>
 
+<addon id="plugin.video.live.streamspro"
+       name="Live Streams Pro +"
+       version="3.5.6"
+       provider-name="cttynul, Shani, divingmule">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.resolveurl"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.slproxy"/>
+    <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="login|startup"/>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>Live Streams Pro +, shamelessly a fork of a fork, livestreams originally developed by divingmule first and Shani later</summary>
+    <description>
+        This can just do what Live Streams Pro could do, but with some new cool features.
+        For more info check documentation page at url: -- soon there will be something here --
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.aod" name="Anime on Demand" version="0.6.5" provider-name="L0RE">
 	<requires>
 		<import addon="xbmc.python" version="2.24.0"/>
@@ -1926,6 +1960,37 @@ oder online unter https://goo.gl/GtK41L nachlesen.
 		<source>https://github.com/tuxpoldo/fhem-xbmc</source>
 		<email></email>
 	</extension>
+</addon>
+
+<addon id="plugin.video.wagasworld"
+       name="[COLOR red]W[/COLOR][COLOR white]AGAS[/COLOR][COLOR red]W[/COLOR][COLOR white]ORLD[/COLOR]"
+       version="1.8"
+       provider-name="[COLOR white]WAGA[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">WagasWorld Stream Portal</summary>
+    <description lang="en">[COLOR white]Facebook Gruppe:[/COLOR][COLOR red] https://www.facebook.com/groups/wagasworld [/COLOR][COLOR white] Homepage:[/COLOR][COLOR red] www.wagasworld.com wo Jeder User einen Channel erstellen kann [/COLOR]| [COLOR white] Kontakt:[/COLOR][COLOR red]support@wagasworld.com[/COLOR] [COLOR white] /  Nicht vergessen immer schoen [COLOR red]WAGA[/COLOR] Bleiben[/COLOR]</description>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 <addon id="repository.xstream" name="xStream Repository" version="1.1.4" provider-name="xStream-Team">
