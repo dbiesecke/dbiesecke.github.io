@@ -1,0 +1,1632 @@
+<? xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<channels>
+    <channels_info> <!-- this is opitonal -->
+	<item>
+        <title>|WW|Streams</title> <!-- if channels_info, a title is required, other elements are optional -->
+        <genre>WagasWorld LiveStreams</genre>
+        <description>Kontakt:support@wagasworld.com</description>
+        
+        <thumbnail>https://wagasworld.com/Kodi/pic/wagasworld-logo3-180x180.png</thumbnail>
+        <fanart>https://wagasworld.com/Kodi/pic/wagasworld-logo3-180x180.png</fanart>
+        
+  </item>
+</channels_info>
+<!--------------------------------------WiP ----------------------->
+<channel>
+
+<name><![CDATA[[COLOR red]• [/COLOR] WiP]]></name>
+<thumbnail>https://wagasworld.com/Kodi/pic/WiP.jpg</thumbnail>
+<genre><![CDATA[WiP]]></genre>
+<fanart>https://wagasworld.com/Kodi/pic/WiP.jpg</fanart>
+<info><![CDATA[Hoerspiele rund um die Uhr, nicht alle sind 24/7 online.]]></info>
+
+
+		<item>
+		<title>[COLOR red]•  [/COLOR]MovieMix [COLOR red]1[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=MovieMix1</link>
+		<thumbnail>https://wagasworld.com/Kodi/pic/Moviemix1.png</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/Kodi/pic/Moviemix1.png</fanart>
+		<info></info>
+		</item>	
+		
+		<item>
+		<title>[COLOR red]•  [/COLOR]MovieMix [COLOR red]2[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=MovieMix2</link>
+		<thumbnail>https://wagasworld.com/Kodi/pic/Moviemix2.png</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/Kodi/pic/Moviemix2.png</fanart>
+		<info></info>
+		</item>	
+
+		<item>
+		<title>[COLOR red]•  [/COLOR]MovieMix [COLOR red]3[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=MovieMix3</link>
+		<thumbnail>https://wagasworld.com/Kodi/pic/Moviemix3.png</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/Kodi/pic/Moviemix3.png</fanart>
+		<info></info>
+		</item>
+		
+		<item>
+		<title>[COLOR red]•  [/COLOR]MovieMix [COLOR red]Comedy[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=MovieMixComedy</link>
+		<thumbnail>https://wagasworld.com/Kodi/pic/moviemixcomedy.png</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/Kodi/pic/moviemixcomedy.png</fanart>
+		</item>
+		
+		<item>
+		<title>[COLOR red]•  [/COLOR]MovieMix [COLOR red]Fight[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=MovieMixFight</link>
+		<thumbnail>https://wagasworld.com/Kodi/pic/moviemixfight.png</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/Kodi/pic/moviemixfight.png</fanart>
+		</item>	
+
+		<item>
+		<title>[COLOR red]•  [/COLOR]MovieMix [COLOR red]Asia[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=MovieMixAsia</link>
+		<thumbnail>https://wagasworld.com/Kodi/pic/asiamovies.jpg</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/Kodi/pic/moviemixasia.png</fanart>
+
+		</item>
+		
+		<item>
+		<title>[COLOR red]•  [/COLOR]MovieMix [COLOR red]Horror[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=MovieMixHorror</link>
+		<thumbnail>https://wagasworld.com/Kodi/pic/horror.jpg</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/Kodi/pic/horror.jpg</fanart>
+		<info>	Blair.Witch
+				The.Lodge
+				Bedeviled.Das.Böse.geht.online
+				Amityville.Horror.wie.alles.begann
+				Jeepers.Creepers
+				All.the.Boys.Love.Mandy.Lane
+				Crow.Rächer.des.Waldes
+				Blood.Redd
+				Conjuring.2
+				Before.I.Wake
+				Becoming.Das.Boese.in.ihm
+				31
+				Grave.Encounters
+				Das.Belko.Experiment
+				Little.Monsters
+				The.Hunt
+				Cannibal.Island
+				Ring.2002
+				BoogeyMan1
+				BoogeyMan.3
+				Scarecrows.Revenge
+				BoogeyMan.2
+				Escape.Room
+				Extremely_Wicked_Shockingly_Evil
+				Tanz.der.Teufel.3.UNCUT
+				Tanz.der.Teufel.2.UNCUT
+				Tanz.der.Teufel.1.UNCUT
+				Hostel.3
+				Hostel.2
+				Dracula.Untold
+				Hostel.1
+				Wrong.Turn.5.Bloodlines
+				Wrong.Turn.4.Bloody.Beginnings
+				Wrong.Turn.3.Left.For.Dead
+				Wrong.Turn.2.Dead.End
+				Wrong.Turn.1
+				Wrong.Turn.6.Last.Resort
+				</info>
+		</item>		
+
+	
+		<item>
+		<title>[COLOR red]•  [/COLOR]MovieMix [COLOR red]Cartoons[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=MovieMixCartoons</link>
+		<thumbnail>https://wagasworld.com/Kodi/pic/cartoonmovies.jpg</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/Kodi/pic/cartoonmovies.jpg</fanart>
+		</item>
+		
+
+		
+		
+		<item>
+		<title>[COLOR red]• [/COLOR]Twilight</title>
+		<link>https://wagasworld.com/kodi.php?channel=Twilight</link>
+		<thumbnail>https://wagasworld.com/Kodi/pic/twilight-filmreihe.png</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/Kodi/pic/twilight-filmreihe.png</fanart>
+		<info>Alle Adam Sandler Filme im Mix</info>
+		</item>
+		
+		
+		<item>
+		<title>[COLOR red]• [/COLOR]AdamSandler Movies</title>
+		<link>https://wagasworld.com/kodi.php?channel=Adam.Sandler</link>
+		<thumbnail>https://wagasworld.com/Kodi/pic/sandler.jpg</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/Kodi/pic/sandler.jpg</fanart>
+		<info>Alle Adam Sandler Filme im Mix</info>
+		</item>
+		
+		
+
+
+
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]Bruce Willis[/COLOR][COLOR red]Tv[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=brucewillis</link>
+		<thumbnail>https://wagasworld.com/Kodi/pic/bruce-willis.jpg</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/Kodi/pic/bruce-willis.jpg</fanart>
+
+		</item>	
+
+
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]JCVD[/COLOR][COLOR red] Tv[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=jcvd</link>
+		<thumbnail>https://wagasworld.com/Kodi/pic/vandamme.jpg</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/Kodi/pic/vandamme.jpg</fanart>
+
+</item>
+
+
+		
+         
+
+</channel>
+
+<!--------------------------------------Movies ----------------------->
+<channel> 
+<name><![CDATA[[COLOR red]• [/COLOR] Movies]]></name><!-- Movies -->
+<thumbnail>https://wagasworld.com/Kodi/pic/movies.png</thumbnail>
+<genre><![CDATA[Movies]]></genre>
+<fanart>https://wagasworld.com/Kodi/pic/movies.png</fanart>
+<info><![CDATA[Filme rund um die Uhr, nicht alle sind 24/7 online.]]></info>
+
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]Adriano Celentano[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=Adriano.Celentano</link>
+		<thumbnail>https://wagasworld.com/Kodi/pic/adriano.jpg</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/Kodi/pic/adriano.jpg</fanart>
+		<info></info>
+		</item>
+		
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]Don.Camillo[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=Don.Camillo</link>
+		<thumbnail>https://wagasworld.com/Kodi/pic/don.camillo.jpg</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/Kodi/pic/don.camillo.jpg</fanart>
+		<info></info>
+		</item>
+		
+		
+		
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]Bruce Lee Movies[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=brucelee</link>
+		<thumbnail>https://wagasworld.com/Kodi/pic/brucelee.jpg</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/Kodi/pic/brucelee.jpg</fanart>
+		<info>Die.Todesfaust.Des.ChengLi - Die.Todeskralle.schlaegt.wieder.zu - Die.Grosse.Kampfmaschine - Er.Bleibt.Der.Groesste- Gigant.Des.Kung.Fu - Mein.letzter.Kampf</info>
+		</item>
+
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]IpMan Movies[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=ipman</link>
+		<thumbnail>https://wagasworld.com/Kodi/pic/ipman.jpg</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/Kodi/pic/ipman.jpg</fanart>
+		<info>Ipman 1-3 ... FinalFight - Zero</info>
+		</item>
+
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]DidiHallervorden[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=didihallervorden</link>
+		<thumbnail>https://wagasworld.com/Kodi/pic/didi.jpg</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/Kodi/pic/didi.jpg</fanart>
+		<info>Ipman 1-3 ... FinalFight - Zero</info>
+		</item>
+
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]Miss Marple Movies[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=Miss.Marple</link>
+		<thumbnail>https://wagasworld.com/Kodi/pic/miss.marple.jpg</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/Kodi/pic/miss.marple.jpg</fanart>
+		<info>Miss.Marple.16.Uhr.50.ab.Paddington.- Miss.Marple.Der.Wachsblumenstrauss.- Miss.Marple.Moerder.Ahoi.- Miss.Marple.Vier.Frauen.und.ein.Mord.  </info>
+		</item>
+
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]JerryLewis Movies[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=Jerry.Lewis</link>
+		<thumbnail>https://wagasworld.com/Kodi/pic/JerryLewis.jpg</thumbnail>
+		<fanart>https://wagasworld.com/Kodi/pic/JerryLewis.jpg</fanart>
+
+		</item>
+
+
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]Der weiße Hai[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=derweissehai</link>
+		<thumbnail>https://wagasworld.com/Kodi/pic/Der.Weisse.Hai.jpg</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/Kodi/pic/Der.Weisse.Hai.jpg</fanart>
+
+		</item>
+
+
+
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]Stirb.Langsam[/COLOR][COLOR red]Tv[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=Stirb.Langsam</link>
+		<thumbnail>https://wagasworld.com/Kodi/pic/stirblangsam.jpg</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/Kodi/pic/stirblangsam.jpg</fanart>
+
+		</item>	
+
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]ChuckNorris[/COLOR][COLOR red]Tv[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=ChuckNorris</link>
+		<thumbnail>https://wagasworld.com/Kodi/pic/chucknorris.jpg</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/Kodi/pic/chucknorris.jpg</fanart>
+
+		</item>	
+
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]Planet der Affen[/COLOR][COLOR red]Tv[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=Planet.der.Affen</link>
+		<thumbnail>https://wagasworld.com/Kodi/pic/planetderaffen.jpg</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/Kodi/pic/planetderaffen.jpg</fanart>
+		<info>Planet der Affen alle teile</info>
+		</item>	
+
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]MadMission[/COLOR][COLOR red]Tv[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=MadMission</link>
+		<thumbnail>https://wagasworld.com/Kodi/pic/madmission.jpg</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/Kodi/pic/madmission.jpg</fanart>
+		<info>1-5</info>
+		</item>	
+
+
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]AmericanPie[/COLOR][COLOR red]Tv[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=American.Pie</link>
+		<thumbnail>https://wagasworld.com/Kodi/pic/americanpie.jpg</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/Kodi/pic/americanpie.jpg</fanart>
+		<info>alle teile</info>
+		</item>	
+
+
+<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]BollyWood[/COLOR][COLOR red]Tv[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=bollywood</link>
+		<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/photo_2019-10-13_20-24-54.jpg?itok=Ha-Vbf5X</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/photo_2019-10-13_20-24-54.jpg?itok=Ha-Vbf5X</fanart>
+</item>
+
+
+
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]AmericanFighter[/COLOR][COLOR red]Tv[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=americanfighter</link>
+		<thumbnail>https://wagasworld.com/Kodi/pic/americanfigther.png</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/Kodi/pic/americanfigther.png</fanart>
+		</item>
+
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]Fast and Furious[/COLOR][COLOR red]Tv[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=fastandfurious</link>
+		<thumbnail>https://wagasworld.com/Kodi/pic/fastandfurious.jpg</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/Kodi/pic/fastandfurious.jpg</fanart>
+		</item>
+
+
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]Rocks[/COLOR][COLOR red]Tv[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=guldukat-rocky</link>
+		<thumbnail>https://wagasworld.com/Kodi/pic/Rocky.jpg</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/Kodi/pic/Rocky.jpg</fanart>
+		</item>
+
+
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]IndianaJones[/COLOR][COLOR red]Tv[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=indianajones</link>
+		<thumbnail>https://wagasworld.com/Kodi/pic/indiana.jpg</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/Kodi/pic/indiana.jpg</fanart>
+		</item>
+
+			
+		
+
+		
+
+		
+		
+		
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]Jason Bourne[/COLOR][COLOR red]Tv[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=jasonbourne</link>
+		<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/jasonbourne.jpg?itok=3c1PC4vb</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/jasonbourne.jpg?itok=3c1PC4vb</fanart>
+		</item>
+
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]Beverly Hills Cop[/COLOR][COLOR red]Tv[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=beverlyhillscop</link>
+		<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/eddie-murphy-in-beverly-hills-cop.jpg?itok=W-O1D16h</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/eddie-murphy-in-beverly-hills-cop.jpg?itok=W-O1D16h</fanart>
+		</item>	
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]Bud Spencer[/COLOR][COLOR red]Tv[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=guldukat-buddyterence</link>
+		<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/bud%20spencer.jpg?itok=Z6LHZyfs</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/bud%20spencer.jpg?itok=Z6LHZyfs</fanart>
+		</item>
+
+				
+
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]Der Hobbit[/COLOR][COLOR red]Tv[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=guldukat-hobbit</link>
+		<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/Hobbit-Ork-Leader_klein.jpg?itok=c92oOwoz</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/Hobbit-Ork-Leader_klein.jpg?itok=c92oOwoz</fanart>
+		</item>
+				
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]Dick und Doof[/COLOR][COLOR red]Tv[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=guldukat-dickdoof</link>
+		<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/dickunddoof.jpg?itok=91ohY6jX</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/dickunddoof.jpg?itok=91ohY6jX</fanart>
+		</item>
+			
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]Die Mumie[/COLOR][COLOR red]Tv[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=guldukat-mumie</link>
+		<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/diemumie.jpg?itok=Oi2xWwLk</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/diemumie.jpg?itok=Oi2xWwLk</fanart>
+		</item>	
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]Die Unendliche Geschichte[/COLOR][COLOR red]Tv[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=dieunendlichegeschichte</link>
+		<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/nevaendi.jpg?itok=vTrhS6Qc</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/nevaendi.jpg?itok=vTrhS6Qc</fanart>
+		</item>	
+
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]Fluch der Karibik[/COLOR][COLOR red]Tv[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=guldukat-carribean</link>
+		<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/fdkfluch%20der.jpg?itok=GCTt6Fv5</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/fdkfluch%20der.jpg?itok=GCTt6Fv5</fanart>
+		</item>
+			
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]Ghostbusters[/COLOR][COLOR red]Tv[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=guldukat-ghostbusters</link>
+		<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/Ghostbusters.png?itok=hKZcyTMf</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/Ghostbusters.png?itok=hKZcyTMf</fanart>
+		</item>
+
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]Harry Potter[/COLOR][COLOR red]Tv[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=guldukat-harrypotter</link>
+		<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/Harry_Potter_in_Teil_5_2-1024x576.jpg?itok=0DxbFnI3</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/Harry_Potter_in_Teil_5_2-1024x576.jpg?itok=0DxbFnI3</fanart>
+		</item>
+						
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]Herr der Ringe[/COLOR][COLOR red]Tv[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=guldukat-hdr</link>
+		<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/golum.jpg?itok=pBiMQ-rt</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/golum.jpg?itok=pBiMQ-rt</fanart>
+		</item>
+
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]James Bond[/COLOR][COLOR red]Tv[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=guldukat-bondjames</link>
+		<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/jamesbond.png?itok=CfJjFkhI</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/jamesbond.png?itok=CfJjFkhI</fanart>
+		</item>
+
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]Jackie Chan[/COLOR][COLOR red]Tv[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=jackie</link>
+		<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/jackiechan.jpeg?itok=FR_qGs5j</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/jackiechan.jpeg?itok=FR_qGs5j</fanart>
+		</item>
+
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]Marvel Dc[/COLOR][COLOR red]Tv[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=guldukat-marvelvsdc</link>
+		<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/marvel-vs-dc-banner656.png?itok=p9jefW5g</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/marvel-vs-dc-banner656.png?itok=p9jefW5g</fanart>
+		</item>
+
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]Police Akademy[/COLOR][COLOR red]Tv[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=guldukat-policeakademy</link>
+		<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/police-academy.jpg?itok=Lf1tn9-2</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/police-academy.jpg?itok=Lf1tn9-2</fanart>
+		</item>
+
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]StarTrek Movies[/COLOR][COLOR red]Tv[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=guldukat-trekkiemovies</link>
+		<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/e320fd5402e0425ca5ca3ac5fcabd524.jpg?itok=YMSwKElN</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/e320fd5402e0425ca5ca3ac5fcabd524.jpg?itok=YMSwKElN</fanart>
+		</item>
+
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]StarWars Movies[/COLOR][COLOR red]Tv[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=guldukat-starwars</link>
+		<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/R2-D2_C-3PO.jpg?itok=PaNCbUkc</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/R2-D2_C-3PO.jpg?itok=PaNCbUkc</fanart>
+		</item>
+						
+		<item>
+		<title>[COLOR red]•  [/COLOR][COLOR white]Vintage SCIFI Filme[/COLOR][COLOR red]Tv[/COLOR]</title>
+		<link>https://wagasworld.com/kodi.php?channel=guldukat-vintagescifi</link>
+		<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/tumblr_n2m50cddpf1rdqbfro1_500_0.gif?itok=xCo3OJ_X</thumbnail>
+		<genre><![CDATA[Movies]]></genre>
+		<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/tumblr_n2m50cddpf1rdqbfro1_500_0.gif?itok=xCo3OJ_X</fanart>
+		</item>
+
+</channel>
+
+<channel>
+
+
+<name><![CDATA[[COLOR red]• [/COLOR] Kids ]]></name><!-- Kids -->
+ <thumbnail>https://wagasworld.com/Kodi/pic/kidsthumb.jpg</thumbnail>
+<genre><![CDATA[Kids]]></genre>
+<fanart>https://wagasworld.com/Kodi/pic/kidsthumb.jpg</fanart>
+<info><![CDATA[Cartoons und mehr rund um die Uhr, nicht alle sind 24/7 online.]]></info>
+			 
+			 <item>
+					<title>[COLOR red]• [/COLOR]Barbie Movies</title>
+					<link>https://wagasworld.com/kodi.php?channel=Barbie</link>
+					<thumbnail>https://wagasworld.com/Kodi/pic/barbie.jpg</thumbnail>
+					<genre><![CDATA[Movies]]></genre>
+					<fanart>https://wagasworld.com/Kodi/pic/barbie.jpg</fanart>
+			</item>	
+			<item>
+					<title>[COLOR red]•  [/COLOR]MovieMix [COLOR red]Kids[/COLOR]</title>
+					<link>https://wagasworld.com/kodi.php?channel=MovieMixKids</link>
+					<thumbnail>https://wagasworld.com/Kodi/pic/kidsmovies.jpg</thumbnail>
+					<genre><![CDATA[Movies]]></genre>
+					<fanart>https://wagasworld.com/Kodi/pic/kidsmovies.jpg</fanart>
+			</item>
+				 <item>
+					<title>Tom und Jerry</title>
+					<link>https://wagasworld.com/kodi.php?channel=Tom.und.Jerry</link>
+					<thumbnail>https://wagasworld.com/Kodi/pic/tom-und-jerry.jpg</thumbnail>
+					<genre><![CDATA[Kids]]></genre>
+					<fanart>https://wagasworld.com/Kodi/pic/tom-und-jerry.jpg</fanart>
+					</item>
+
+			<item>
+					<title>Tim.und.Struppi</title>
+					<link>https://wagasworld.com/kodi.php?channel=Tim.und.Struppi</link>
+					<thumbnail>https://wagasworld.com/Kodi/pic/Tim-und-Struppi.jpg</thumbnail>
+					<genre><![CDATA[Kids]]></genre>
+					<fanart>https://wagasworld.com/Kodi/pic/Tim-und-Struppi.jpg</fanart>
+					</item>
+
+
+
+					<item>
+					<title>[COLOR red]•  [/COLOR][COLOR white]Ferien auf Saltkrokan[/COLOR]</title>
+					<link>https://wagasworld.com/kodi.php?channel=saltkrokan</link>
+					<thumbnail>https://wagasworld.com/Kodi/pic/Saltkrokan.jpg</thumbnail>
+					<genre><![CDATA[Movies]]></genre>
+					<fanart>https://wagasworld.com/Kodi/pic/Saltkrokan.jpg</fanart>
+					</item>
+
+					<item>
+					<title>KäptnBalu</title>
+					<link>https://wagasworld.com/kodi.php?channel=kaptainbalu</link>
+					<thumbnail>https://wagasworld.com/Kodi/pic/kaeptnbalu.jpg</thumbnail>
+					<genre><![CDATA[Kids]]></genre>
+					<fanart>https://wagasworld.com/Kodi/pic/kaeptnbalu.jpg</fanart>
+					</item>
+							
+							
+					<item>
+					<title>PawPatrol</title>
+					<link>https://wagasworld.com/kodi.php?channel=pawpatrol</link>
+					<thumbnail>https://wagasworld.com/Kodi/pic/kidsthumb.jpg</thumbnail>
+					<genre><![CDATA[Kids]]></genre>
+					<fanart>https://wagasworld.com/Kodi/pic/kidsthumb.jpg</fanart>
+					</item>
+
+					<item>
+					<title>Michel aus Lönneberga</title>
+					<link>https://wagasworld.com/kodi.php?channel=michel</link>
+					<thumbnail>https://wagasworld.com/Kodi/pic/michel.jpg</thumbnail>
+					<genre><![CDATA[Kids]]></genre>
+					<fanart>https://wagasworld.com/Kodi/pic/michel.jpg</fanart>
+					</item>
+							
+					<item>
+					<title>Die Dinos</title>
+					<link>https://wagasworld.com/kodi.php?channel=guldukat-diedinos</link>
+					<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/diedinos.jpg?itok=2P8flKm0</thumbnail>
+					<genre><![CDATA[Kids]]></genre>
+					<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/diedinos.jpg?itok=2P8flKm0</fanart>
+					</item>
+
+					<item>
+					<title>Die Jetsons</title>
+					<link>https://wagasworld.com/kodi.php?channel=guldukat-diejetsons</link>
+					<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/die-jetsons-serie-rcm672x0u.jpeg?itok=EsCeJFCa</thumbnail>
+					<genre><![CDATA[Kids]]></genre>
+					<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/die-jetsons-serie-rcm672x0u.jpeg?itok=EsCeJFCa</fanart>
+					</item>
+						
+
+								
+					<item>
+					<title>Gummibärenbande</title>
+					<link>https://wagasworld.com/kodi.php?channel=guldukat-gummibaerenbande</link>
+					<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/gummib%C3%A4renbande.jpg?itok=uBV1ug36</thumbnail>
+					<genre><![CDATA[Kids]]></genre>
+					<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/gummib%C3%A4renbande.jpg?itok=uBV1ug36</fanart>
+					</item>
+					
+					<item>
+					<title>Loewenzahn</title>
+					<link>https://wagasworld.com/kodi.php?channel=guldukat-loewenzahn</link>
+					<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/l%C3%B6wenzahn.png?itok=b9hRqSpp</thumbnail>
+					<genre><![CDATA[Kids]]></genre>
+					<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/l%C3%B6wenzahn.png?itok=b9hRqSpp</fanart>
+					</item>
+
+					<item>
+					<title>Meine Freundin Conni</title>
+					<link>https://wagasworld.com/kodi.php?channel=conni</link>
+					<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/conni-drachen-100_1920x1080.jpg?itok=iDfgA_Cp</thumbnail>
+					<genre><![CDATA[Kids]]></genre>
+					<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/conni-drachen-100_1920x1080.jpg?itok=iDfgA_Cp</fanart>
+					</item>
+									
+
+									
+					<item>
+					<title>Pippi Langstrumpf</title>
+					<link>https://wagasworld.com/kodi.php?channel=guldukat-langstrumpf</link>
+					<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/pipi.jpg?itok=ixpdtVGA</thumbnail>
+					<genre><![CDATA[Kids]]></genre>
+					<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/pipi.jpg?itok=ixpdtVGA</fanart>
+					</item>
+						
+				
+
+					<item>
+					<title>Es.war.einmal.der.Mensch</title>
+					<link>https://wagasworld.com/kodi.php?channel=Es.war.einmal.der.Mensch</link>		
+					<thumbnail>https://wagasworld.com/Kodi/pic/mensch.jpg</thumbnail>
+					<genre><![CDATA[Cartoons]]></genre>
+					<fanart>https://wagasworld.com/Kodi/pic/mensch.jpg</fanart>
+					</item>	
+
+</channel>
+
+<channel>
+
+<name><![CDATA[[COLOR red]• [/COLOR] Anime]]></name><!-- Anime -->
+<thumbnail>https://wagasworld.com/Kodi/pic/animethumb.jpg</thumbnail>
+<genre><![CDATA[Anime]]></genre>
+<fanart>https://wagasworld.com/Kodi/pic/animethumb.jpg</fanart>
+<info><![CDATA[Serien rund um die Uhr, nicht alle sind 24/7 online.]]></info>
+
+				
+				<item>
+				<title>[COLOR red]•  [/COLOR]Dragonball Z</title>
+				<link>https://wagasworld.com/kodi.php?channel=Dragonball.Z</link>
+				<thumbnail>https://wagasworld.com/Kodi/pic/DBZ.jpg</thumbnail>
+				<genre><![CDATA[ANIME]]></genre>
+				<fanart>https://wagasworld.com/Kodi/pic/DBZ.jpg</fanart>
+				</item>	
+				<!--	
+				<item>
+				<title>[COLOR red]•  [/COLOR]Dragonball Super</title>
+				<link>https://wagasworld.com/kodi.php?channel=DBS</link>
+				<thumbnail>https://wagasworld.com/Kodi/pic/DBS.jpg</thumbnail>
+				<genre><![CDATA[ANIME]]></genre>
+				<fanart>https://wagasworld.com/Kodi/pic/DBS.jpg</fanart>
+				</item>		
+					
+					
+				<item>
+				<title>[COLOR red]•  [/COLOR]Dragonball Z- ENGLISH</title>
+				<link>https://wagasworld.com/kodi.php?channel=dragonballz-engl</link>
+				<thumbnail>https://wagasworld.com/Kodi/pic/DBZ.jpg</thumbnail>
+				<genre><![CDATA[ANIME]]></genre>
+				<fanart>https://wagasworld.com/Kodi/pic/DBZ.jpg</fanart>
+				<info>ENGLISH VERSION - NO SUB- ONLY DUB</info>
+				</item>	
+
+				-->
+				
+				
+				<item>
+				<title>[COLOR red]•  [/COLOR]PrisonSchool</title>
+				<link>https://wagasworld.com/kodi.php?channel=prisonschool</link>
+				<thumbnail>https://wagasworld.com/Kodi/pic/prisonschoolanime.jpg</thumbnail>
+				<genre><![CDATA[ANIME]]></genre>
+				<fanart>https://wagasworld.com/Kodi/pic/prisonschoolanime.jpg</fanart>
+
+				</item>	
+
+				<item>
+				<title>[COLOR red]•  [/COLOR]Captain Future</title>
+				<link>https://wagasworld.com/kodi.php?channel=captainfuture</link>
+				<thumbnail>https://wagasworld.com/Kodi/pic/captain-future.jpg</thumbnail>
+				<genre><![CDATA[Anime]]></genre>
+				<fanart>https://wagasworld.com/Kodi/pic/captain-future.jpg</fanart>
+				</item>
+					
+
+
+				<item>
+				<title>[COLOR red]•  [/COLOR]NarutoMovies</title>
+				<link>https://wagasworld.com/kodi.php?channel=narutomovies</link>
+				<thumbnail>https://wagasworld.com/Kodi/pic/narutomovie.jpg</thumbnail>
+				<genre><![CDATA[Anime]]></genre>
+				<fanart>https://wagasworld.com/Kodi/pic/narutomovie.jpg</fanart>
+				</item>
+					
+				<item>
+				<title>[COLOR red]•  [/COLOR]Detektiv Conan</title>
+				<link>https://wagasworld.com/kodi.php?channel=guldukat-conan</link>
+				<thumbnail>https://wagasworld.com/Kodi/pic/4.png</thumbnail>
+				<genre><![CDATA[Anime]]></genre>
+				<fanart>https://wagasworld.com/Kodi/pic/wagasworld-logo3-180x180.png</fanart>
+				</item>
+						
+				<item>
+				<title>MixAnime</title>
+				<link>https://wagasworld.com/kodi.php?channel=mixanime</link>
+				<thumbnail>https://wagasworld.com/Kodi/pic/yamada.jpg</thumbnail>
+				<genre><![CDATA[Anime]]></genre>
+				<fanart>https://wagasworld.com/Kodi/pic/yamada.jpg</fanart>
+				</item>
+								
+				<item>
+				<title>[COLOR red]•  [/COLOR]Shinchan</title>
+				<link>https://wagasworld.com/kodi.php?channel=shinchan</link>
+				<thumbnail>https://wagasworld.com/Kodi/pic/18.png</thumbnail>
+				<genre><![CDATA[Anime]]></genre>
+				<fanart>https://wagasworld.com/Kodi/pic/wagasworld-logo3-180x180.png</fanart>
+				</item>	
+
+				<item>
+				<title>[COLOR red]•  [/COLOR]FairyTail</title>
+				<link>https://wagasworld.com/kodi.php?channel=fairytail</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/fairytail.png?itok=QnBMV1Zx</thumbnail>
+				<genre><![CDATA[Anime]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/fairytail.png?itok=QnBMV1Zx</fanart>
+				</item>
+						
+				<item>
+				<title>[COLOR red]•  [/COLOR]Yu-Gi-oh</title>
+				<link>https://wagasworld.com/kodi.php?channel=yugioh</link>
+				<thumbnail>https://wagasworld.com/Kodi/pic/19.png</thumbnail>
+				<genre><![CDATA[Anime]]></genre>
+				<fanart>https://wagasworld.com/Kodi/pic/wagasworld-logo3-180x180.png</fanart>
+				</item>	
+					
+				<item>
+				<title>[COLOR red]•  [/COLOR]OnePiece</title>
+				<link>https://wagasworld.com/kodi.php?channel=onepiece</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/c5c231dbef25112fcd5fa022f275313ad90f0d89.png?itok=RLS2I22F</thumbnail>
+				<genre><![CDATA[Anime]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/c5c231dbef25112fcd5fa022f275313ad90f0d89.png?itok=RLS2I22F</fanart>
+				</item>		
+</channel>
+
+<channel>
+
+<name><![CDATA[[COLOR red]• [/COLOR] Cartoons]]></name><!-- Cartoons -->
+<thumbnail>https://wagasworld.com/Kodi/pic/cartoons.jpg</thumbnail>
+<genre><![CDATA[Cartoons]]></genre>
+<fanart>https://wagasworld.com/Kodi/pic/cartoons.jpg</fanart>
+<info><![CDATA[Serien rund um die Uhr, nicht alle sind 24/7 online.]]></info>
+
+		 
+
+				<item>
+				<title>Die Simpsons</title>
+				<link>https://wagasworld.com/kodi.php?channel=guldukat-simpsons</link>		
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/simpsons_0.jpg?itok=_N_KUFZt</thumbnail>
+				<genre><![CDATA[Cartoons]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/simpsons_0.jpg?itok=_N_KUFZt</fanart>
+				</item>		
+					
+
+
+				<item>
+				<title>New Spiderman</title>
+				<link>https://wagasworld.com/kodi.php?channel=newspiderman</link>		
+				<thumbnail>https://wagasworld.com/Kodi/pic/newspiderman.jpg</thumbnail>
+				<genre><![CDATA[Cartoons]]></genre>
+				<fanart>https://wagasworld.com/Kodi/pic/newspiderman.jpg</fanart>
+				</item>	
+
+					
+				<item>
+				<title>Gargoyles</title>
+				<link>https://wagasworld.com/kodi.php?channel=gargoyles</link>		
+				<thumbnail>https://wagasworld.com/Kodi/pic/gargoyles.jpg</thumbnail>
+				<genre><![CDATA[Cartoons]]></genre>
+				<fanart>https://wagasworld.com/Kodi/pic/gargoyles.jpg</fanart>
+				</item>	
+
+				<item>
+				<title>HE-MAN M.o.Universe</title>
+				<link>https://wagasworld.com/kodi.php?channel=guldukat-heman</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/He-man.jpg?itok=qxPT7jNj</thumbnail>
+				<genre><![CDATA[Kids]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/He-man.jpg?itok=qxPT7jNj</fanart>
+				</item>
+					<!--
+				<item>
+				<title>Pink Panther</title>
+				<link>https://webplayer.akiyama.ws/hls/pink_panther.m3u8</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/1920px-Der_rosarote_panther.svg_.png?itok=W5uzdGA8</thumbnail>
+				<genre><![CDATA[Cartoons]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/1920px-Der_rosarote_panther.svg_.png?itok=W5uzdGA8</fanart>
+				</item>-->
+								
+				<item>
+				<title>futurama</title>
+				<link>https://wagasworld.com/kodi.php?channel=guldukat-futurama</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/FuturamaWallpaper1024.gif?itok=MYCb3UyV</thumbnail>
+				<genre><![CDATA[Cartoons]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/FuturamaWallpaper1024.gif?itok=MYCb3UyV</fanart>
+				</item>
+					
+				<item>
+				<title>Southpark</title>
+				<link>https://wagasworld.com/kodi.php?channel=southpark</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/southpark-1_0.jpg?itok=SZ4sdG6G</thumbnail>
+				<genre><![CDATA[Cartoons]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/southpark-1_0.jpg?itok=SZ4sdG6G</fanart>
+				</item>
+								
+				<item>
+				<title>Guardian of the Galaxy</title>
+				<link>https://wagasworld.com/kodi.php?channel=guldukat-guardianofthegalaxy</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/guardians-of-the-galaxy.jpg?itok=96pxH5hH</thumbnail>
+				<genre><![CDATA[Kids]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/guardians-of-the-galaxy.jpg?itok=96pxH5hH</fanart>
+				</item>
+
+							 
+				<item>
+				<title>Star Trek Animated TAS</title>
+				<link>https://wagasworld.com/kodi.php?channel=guldukat-trekkieanimated</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/Star_Trek__The_Animated_Series_by_OblivionMedia.jpg?itok=HSb1eKJD</thumbnail>
+				<genre><![CDATA[Cartoons]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/Star_Trek__The_Animated_Series_by_OblivionMedia.jpg?itok=HSb1eKJD</fanart>
+				</item>
+	
+</channel>				
+
+<channel>
+
+<name><![CDATA[[COLOR red]• [/COLOR] Sitcom]]></name><!-- Sitcom -->
+<thumbnail>https://wagasworld.com/Kodi/pic/sitomthumb.jpg</thumbnail>
+<genre><![CDATA[Sitcom]]></genre>
+<fanart>https://wagasworld.com/Kodi/pic/sitomthumb.jpg</fanart>
+<info><![CDATA[Sitcoms rund um die Uhr, nicht alle sind 24/7 online.]]></info>
+
+					
+				<item>
+				<title>Bezaubernde Jeannie</title>
+				<link>https://wagasworld.com/kodi.php?channel=bezauberndejeannie</link>
+				<thumbnail>https://wagasworld.com/Kodi/pic/jeannie.jpg</thumbnail>
+				<genre><![CDATA[Sitcom]]></genre>
+				<fanart>https://wagasworld.com/Kodi/pic/jeannie.jpg</fanart>
+				</item>
+
+
+					
+				<item>
+				<title>Alf</title>
+				<link>https://wagasworld.com/kodi.php?channel=guldukat-alf</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/alf.jpg?itok=Gx0R8BkH</thumbnail>
+				<genre><![CDATA[Sitcom]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/alf.jpg?itok=Gx0R8BkH</fanart>
+				</item>
+
+				<item>
+				<title>Alle hassen Chris</title>
+				<link>https://wagasworld.com/kodi.php?channel=guldukat-allehassenchris</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/alle-hassen-chris.jpg?itok=DBAxCmHP</thumbnail>
+				<genre><![CDATA[Sitcom]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/alle-hassen-chris.jpg?itok=DBAxCmHP</fanart>
+				</item>
+
+								
+				<item>
+				<title>Die wilden 70er</title>
+				<link>https://wagasworld.com/kodi.php?channel=guldukat-wildesiebziger</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/die%20wilden%20siebziger.jpg?itok=_4KTOyY3</thumbnail>
+				<genre><![CDATA[Sitcom]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/die%20wilden%20siebziger.jpg?itok=_4KTOyY3</fanart>
+				</item>
+				
+				<item>
+				<title>MASH</title>
+				<link>https://wagasworld.com/kodi.php?channel=mash</link>
+				<thumbnail>https://wagasworld.com/Kodi/pic/mash.jpg</thumbnail>
+				<genre><![CDATA[Sitcom]]></genre>
+				<fanart>https://wagasworld.com/Kodi/pic/mash.jpg</fanart>
+				</item>
+
+						
+				<item>
+				<title>Ein Kaefig voller Helden</title>
+				<link>https://wagasworld.com/kodi.php?channel=guldukat-kaefigvollerhelden</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/ekvh.jpg?itok=NnC6-Llu</thumbnail>
+				<genre><![CDATA[Sitcom]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/ekvh.jpg?itok=NnC6-Llu</fanart>
+				</item>
+								
+				<item>
+				<title>Eine schrecklich nette Familie</title>
+				<link>https://wagasworld.com/kodi.php?channel=guldukat-schrecklichefamilie</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/al-bundy-pa_7756039-original-lightbox.jpg?itok=9m9GoSHo</thumbnail>
+				<genre><![CDATA[Sitcom]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/al-bundy-pa_7756039-original-lightbox.jpg?itok=9m9GoSHo</fanart>
+				</item>
+
+				<item>
+				<title>Familie Heinz Becker</title>
+				<link>https://wagasworld.com/kodi.php?channel=heinzbecker</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/heinz%20becker.jpg?itok=VUU45CyS</thumbnail>
+				<genre><![CDATA[Sitcom]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/heinz%20becker.jpg?itok=VUU45CyS</fanart>
+				</item>
+
+								
+				<item>
+				<title>Hoermal, wer da haermmert</title>
+				<link>https://wagasworld.com/kodi.php?channel=guldukat-homeimprovement</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/h%C3%B6rmalwerdah%C3%A4mmert_0.jpg?itok=TDBFtwbN</thumbnail>
+				<genre><![CDATA[Sitcom]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/h%C3%B6rmalwerdah%C3%A4mmert_0.jpg?itok=TDBFtwbN</fanart>
+				</item>
+						
+				<item>
+				<title>Immer wieder Jim</title>
+				<link>https://wagasworld.com/kodi.php?channel=guldukat-immerwiederjim</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/immerwiederjim1.jpg?itok=RHG1D7nV</thumbnail>
+				<genre><![CDATA[Sitcom]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/immerwiederjim1.jpg?itok=RHG1D7nV</fanart>
+				</item>
+
+				<item>
+				<title>LittleBritain</title>
+				<link>https://wagasworld.com/kodi.php?channel=guldukat-littlebritain</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/little%20Britain.jpg?itok=7wOKOpo7</thumbnail>
+				<genre><![CDATA[Sitcom]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/little%20Britain.jpg?itok=7wOKOpo7</fanart>
+				</item>
+						
+				<item>
+				<title>Malcolm mittendrin</title>
+				<link>https://wagasworld.com/kodi.php?channel=malcom</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/Malcolm-Mittendrin-Seite--rcm992x0.jpg?itok=NL-zxVBo</thumbnail>
+				<genre><![CDATA[Sitcom]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/Malcolm-Mittendrin-Seite--rcm992x0.jpg?itok=NL-zxVBo</fanart>
+				</item>
+
+				<item>
+				<title>Mike und Molly</title>
+				<link>https://wagasworld.com/kodi.php?channel=guldukat-mikeundmolly</link>
+				<thumbnail>https://wagasworld.com/Kodi/pic/mikeundmolly.jpg</thumbnail>
+				<genre><![CDATA[Sitcom]]></genre>
+				<fanart>https://wagasworld.com/Kodi/pic/mikeundmolly.jpg</fanart>
+				</item>
+
+				<item>
+				<title>King of Queens</title>
+				<link>https://wagasworld.com/kodi.php?channel=guldukat-koq</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/kingofqueens.jpg?itok=gNFI4vA-</thumbnail>
+				<genre><![CDATA[Sitcom]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/kingofqueens.jpg?itok=gNFI4vA-</fanart>
+				</item>
+
+				<item>
+				<title>Mr. Bean</title>
+				<link>https://wagasworld.com/kodi.php?channel=guldukat-bean</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/mr%20bean.jpg?itok=5cDq07Ql</thumbnail>
+				<genre><![CDATA[Sitcom]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/mr%20bean.jpg?itok=5cDq07Ql</fanart>
+				</item>
+
+				<item>
+				<title>Prinz von Bel Air</title>
+				<link>https://wagasworld.com/kodi.php?channel=guldukat-belair</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/prinz%20von%20bel%20air.jpg?itok=m-N7clsW</thumbnail>
+				<genre><![CDATA[Sitcom]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/prinz%20von%20bel%20air.jpg?itok=m-N7clsW</fanart>
+				</item>
+					 
+				<item>
+				<title>Scrubs</title>
+				<link>https://wagasworld.com/kodi.php?channel=guldukat-scrubs</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/scrubs_series_0.jpg?itok=PmB8XZb1</thumbnail>
+				<genre><![CDATA[Sitcom]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/scrubs_series_0.jpg?itok=PmB8XZb1</fanart>
+				</item> 
+					 
+				<item>
+				<title>Taahm</title>
+				<link>https://wagasworld.com/kodi.php?channel=guldukat-taahm</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/taahm.png?itok=zAZrcjl8</thumbnail>
+				<genre><![CDATA[Sitcom]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/Sem%20t%C3%ADtulo.png?itok=T2jnncDC</fanart>
+				</item>
+					 
+				<item>
+				<title>TheBigBangTheory</title>
+				<link>https://wagasworld.com/kodi.php?channel=guldukat-tbbt</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/tbbt-the-big-bang-theory-31365504-1280-879.jpg?itok=h8egHQ8g</thumbnail>
+				<genre><![CDATA[Sitcom]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/tbbt-the-big-bang-theory-31365504-1280-879.jpg?itok=h8egHQ8g</fanart>
+				</item>
+
+				<item>
+				<title>Young Sheldon</title>
+				<link>https://wagasworld.com/kodi.php?channel=guldukat-youngsheldon</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/yound%20sheldon.jpg?itok=mnHdvyYK</thumbnail>
+				<genre><![CDATA[Sitcom]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/yound%20sheldon.jpg?itok=mnHdvyYK</fanart>
+				</item>
+
+</channel>       
+         
+<channel>
+
+<name><![CDATA[[COLOR red]• [/COLOR] Fantasymystery]]></name><!-- Fantasymystery -->
+<thumbnail>https://wagasworld.com/Kodi/pic/mystery.jpg</thumbnail>
+<genre><![CDATA[Fantasymystery]]></genre>
+<fanart>https://wagasworld.com/Kodi/pic/mystery.jpg</fanart>
+<info><![CDATA[Serien rund um die Uhr, nicht alle sind 24/7 online.]]></info>
+
+					<item>
+					<title>CarnivalRow</title>
+					<link>https://wagasworld.com/kodi.php?channel=carnivalrow</link>
+					<thumbnail>https://wagasworld.com/Kodi/pic/carnivalrow.jpg</thumbnail>
+					<genre><![CDATA[Fantasymystery]]></genre>
+					<fanart>https://wagasworld.com/Kodi/pic/carnivalrow.jpg</fanart>
+					</item>
+
+					<item>
+					<title>TheWitcher</title>
+					<link>https://wagasworld.com/kodi.php?channel=The.Witcher</link>
+					<thumbnail>https://wagasworld.com/Kodi/pic/witcher.jpg</thumbnail>
+					<genre><![CDATA[Fantasymystery]]></genre>
+					<fanart>https://wagasworld.com/Kodi/pic/witcher.jpg</fanart>
+					</item>
+
+					<item>
+					<title>Game of Thrones</title>
+					<link>https://wagasworld.com/kodi.php?channel=GoT</link>
+					<thumbnail>https://wagasworld.com/Kodi/pic/got.jpg</thumbnail>
+					<genre><![CDATA[Fantasymystery]]></genre>
+					<fanart>https://wagasworld.com/Kodi/pic/got.jpg</fanart>
+					</item>
+
+					<item>
+					<title>Lucifer</title>
+					<link>https://wagasworld.com/kodi.php?channel=Lucifer</link>
+					<thumbnail>https://wagasworld.com/Kodi/pic/lucifer.jpg</thumbnail>
+					<genre><![CDATA[Fantasymystery]]></genre>
+					<fanart>https://wagasworld.com/Kodi/pic/lucifer.jpg</fanart>
+					</item>
+
+					<item>
+					<title>Charmed</title>
+					<link>https://wagasworld.com/kodi.php?channel=guldukat-charmed</link>
+					<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/Charmed.jpg?itok=RaqkNbtH</thumbnail>
+					<genre><![CDATA[Fantasymystery]]></genre>
+					<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/Charmed.jpg?itok=RaqkNbtH</fanart>
+					</item>
+
+					<item>
+					<title>Unglaubliche Geschichten</title>
+					<link>https://wagasworld.com/kodi.php?channel=UGa</link>
+					<thumbnail>https://wagasworld.com/Kodi/pic/amazing_stories.jpg</thumbnail>
+					<genre><![CDATA[Fantasymystery]]></genre>
+					<fanart>https://wagasworld.com/Kodi/pic/amazing_stories.jpg</fanart>
+					</item>
+	
+					<item>
+					<title>Eureka</title>
+					<link>https://wagasworld.com/kodi.php?channel=guldukat-eureka</link>
+					<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/eureka-die-geheime-stadt.jpg?itok=ytD4TBXg</thumbnail>
+					<genre><![CDATA[Fantasymystery]]></genre>
+					<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/eureka-die-geheime-stadt.jpg?itok=ytD4TBXg</fanart></item>
+
+							 
+					<item>
+					<title>Grimm</title>
+					<link>https://wagasworld.com/kodi.php?channel=guldukat-grimm</link>
+					<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/grimm.jpg?itok=KpZ6Vo10</thumbnail>
+					<genre><![CDATA[Fantasymystery]]></genre>
+					<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/grimm.jpg?itok=KpZ6Vo10</fanart>
+					</item>
+
+					<item>
+					<title>Supernatural</title>
+					<link>https://wagasworld.com/kodi.php?channel=guldukat-spn</link>
+					<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/supernatural.jpg?itok=PYsarsRx</thumbnail>
+					<genre><![CDATA[Fantasymystery]]></genre>
+					<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/supernatural.jpg?itok=PYsarsRx</fanart>
+					</item>
+
+					<item>
+					<title>The Walking Dead</title>
+					<link>https://wagasworld.com/kodi.php?channel=walkingdead</link>
+					<thumbnail>https://wagasworld.com/Kodi/pic/thewalkingdead.jpg</thumbnail>
+					<genre><![CDATA[Fantasymystery]]></genre>
+					<fanart>https://wagasworld.com/Kodi/pic/thewalkingdead.jpg</fanart>
+					<info>Playlist: bis Staffel 6 Episode 12.Weitere Staffeln folgen,Beschreibung: 
+					Als der Hilfssheriff Rick Grimes aus einem wochenlangen Koma erwacht, findet er eine völlig veränderte Welt vor, in der Überlebende einer Zombie-Apokalypse vor den allgegenwärtigen Untoten auf der Flucht sind. Rick begibt sich zunächst auf die Suche nach seiner Frau Lori und seinem Sohn Carl, in der Hoffnung, dass diese überlebt haben. Schließlich übernimmt er die Führung einer kleinen Gruppe von Überlebenden auf der Suche nach einer dauerhaften und sicheren Unterkunft. Dabei stellen die überall präsenten Zombies eine ständige Bedrohung dar, doch auch innerhalb der Gruppe brechen immer wieder Konflikte aus.</info>
+					</item>
+						  
+					<item>
+					<title>Warehouse13</title>
+					<link>https://wagasworld.com/kodi.php?channel=guldukat-warehouse</link>
+					<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/warehouse%2013_0.jpg?itok=uXgpeXji</thumbnail>
+					<genre><![CDATA[Fantasymystery]]></genre>
+					<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/warehouse%2013_0.jpg?itok=uXgpeXji</fanart>
+					</item>
+
+</channel>	
+	 
+	 
+	 
+	<channel><!-- Med/Drama -->
+
+<name><![CDATA[[COLOR red]• [/COLOR] Med-Drama]]></name>
+<thumbnail>https://wagasworld.com/Kodi/pic/med-drama.jpg</thumbnail>
+<genre><![CDATA[Audio]]></genre>
+<fanart>https://wagasworld.com/Kodi/pic/amed-drama.jpg</fanart>
+<info><![CDATA[Streams rund um die Uhr, nicht alle sind 24/7 online.]]></info>
+
+				<item>
+				<title>ChicagoMed</title>
+				<link>https://wagasworld.com/kodi.php?channel=chicagomed</link>
+				<thumbnail>https://wagasworld.com/Kodi/pic/chicagomed.jpg</thumbnail>
+				<genre><![CDATA[Med-Drama]]></genre>
+				<fanart>https://wagasworld.com/Kodi/pic/chicagomed.jpg</fanart>
+				</item>
+        
+</channel> 
+	 
+
+<channel>
+
+<name><![CDATA[[COLOR red]• [/COLOR] Scifi]]></name><!-- Scifi -->
+<thumbnail>https://wagasworld.com/Kodi/pic/scifi1.jpg</thumbnail>
+<genre><![CDATA[Scifi]]></genre>
+<fanart>https://wagasworld.com/Kodi/pic/scifi1.jpg</fanart>
+<info><![CDATA[Serien rund um die Uhr, nicht alle sind 24/7 online.]]></info>
+
+ 
+				 <item>
+				<title>Orvile</title>
+				<link>https://wagasworld.com/kodi.php?channel=theorville</link>
+				<thumbnail>https://wagasworld.com/Kodi/pic/Orville.jpg</thumbnail>
+				<genre><![CDATA[Scifi]]></genre>
+				<fanart>https://wagasworld.com/Kodi/pic/Orville.jpg</fanart>
+				</item>
+				 
+				 <item>
+				<title>Under the Dome</title>
+				<link>https://wagasworld.com/kodi.php?channel=underthedome</link>
+				<thumbnail>https://wagasworld.com/Kodi/pic/underthedome.jpg</thumbnail>
+				<genre><![CDATA[Scifi]]></genre>
+				<fanart>https://wagasworld.com/Kodi/pic/underthedome.jpg</fanart>
+				</item>
+				 
+				<item>
+				<title>Babylon 5 / Crusade</title>
+				<link>https://wagasworld.com/kodi.php?channel=guldukat-babylon5</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/babylon5.jpg?itok=eB2E1dWH</thumbnail>
+				<genre><![CDATA[Scifi]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/babylon5.jpg?itok=eB2E1dWH</fanart>
+				</item>
+									
+				<item>
+				<title>Buck Rogers</title>
+				<link>https://wagasworld.com/kodi.php?channel=buckrogers</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/BuckRogers_b_600_0.jpg?itok=sbfzb9Vx</thumbnail>
+				<genre><![CDATA[Scifi]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/BuckRogers_b_600_0.jpg?itok=sbfzb9Vx</fanart>
+				</item>				
+									
+				<item>
+				<title>Doctor Who</title>
+				<link>https://wagasworld.com/kodi.php?channel=doctor-who</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/drwho.jpg?itok=IvORH_m2</thumbnail>
+				<genre><![CDATA[Scifi]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/drwho.jpg?itok=IvORH_m2</fanart>
+				</item>
+
+				<item>
+				<title>Firefly</title>
+				<link>https://wagasworld.com/kodi.php?channel=firefly</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/firefly.jpeg?itok=GDxf3EGI</thumbnail>
+				<genre><![CDATA[Scifi]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/firefly.jpeg?itok=GDxf3EGI</fanart>
+				</item>
+							 
+				<item>
+				<title>Kampfstern Galactica (Original)</title>
+				<link>https://wagasworld.com/kodi.php?channel=guldukat-galactica</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/galactica.jpg?itok=nivUXmME</thumbnail>
+				<genre><![CDATA[Scifi]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/galactica.jpg?itok=nivUXmME</fanart>
+				</item>
+
+				<item>
+				<title>Mission Erde</title>
+				<link>https://stream.wagasworld.com//hls/guldukat-missionerde.m3u8</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/erde.jpg?itok=AAxEzG2J</thumbnail>
+				<genre><![CDATA[Scifi]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/erde.jpg?itok=AAxEzG2J</fanart>
+				</item>	 
+					 
+				<item>
+				<title>Mondbasis Alpha 1</title>
+				<link>https://wagasworld.com/kodi.php?channel=guldukat-mondbasis</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/mondbasisalpha1.jpg?itok=CZrh3g7H</thumbnail>
+				<genre><![CDATA[Scifi]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/mondbasisalpha1.jpg?itok=CZrh3g7H</fanart>
+				</item>
+					
+				<item>
+				<title>Raumpatrouille Orion</title>
+				<link>https://wagasworld.com/kodi.php?channel=guldukat-orion</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/250px-Raumpatrouille_orion.jpg?itok=1LlY3Ih9</thumbnail>
+				<genre><![CDATA[Scifi]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/250px-Raumpatrouille_orion.jpg?itok=1LlY3Ih9</fanart>
+				</item>
+
+				<item>
+				<title>SeaQuest DSV</title>
+				<link>https://wagasworld.com/kodi.php?channel=seaquestdsv</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/seaquestdsv.jpg?itok=-u1VZcOJ</thumbnail>
+				<genre><![CDATA[Scifi]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/seaquestdsv.jpg?itok=-u1VZcOJ</fanart>
+				</item>
+
+						 
+				<item>
+				<title>Star Trek  The original Series</title>
+				<link>https://wagasworld.com/kodi.php?channel=guldukat-startrek</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/Star%20Trek%20Bild%20Enterprise.jpg?itok=npDaU7EZ</thumbnail>
+				<genre><![CDATA[Scifi]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/Star%20Trek%20Bild%20Enterprise.jpg?itok=npDaU7EZ</fanart>
+				</item>
+						 
+				<item>
+				<title>Star Trek Deep Space 9</title>
+				<link>https://wagasworld.com/kodi.php?channel=ds9</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/deepspace9.jpg?itok=mztvGELJ</thumbnail>
+				<genre><![CDATA[Scifi]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/deepspace9.jpg?itok=mztvGELJ</fanart>
+				</item>
+								 
+				<item>
+				<title>Star Trek Discovery</title>
+				<link>https://wagasworld.com/kodi.php?channel=guldukat-discovery</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/dsc-s01e03-rev-head.jpg?itok=MxFQmXRn</thumbnail>
+				<genre><![CDATA[Scifi]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/dsc-s01e03-rev-head.jpg?itok=MxFQmXRn</fanart>
+				</item>
+						 
+				<item>
+				<title>Star Trek Enterprise NX-01</title>
+				<link>https://wagasworld.com/kodi.php?channel=guldukat-nextenterprise</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/StarTrekEnterprise.jpg?itok=DurnH3Bq</thumbnail>
+				<genre><![CDATA[Scifi]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/StarTrekEnterprise.jpg?itok=DurnH3Bq</fanart>
+				</item>
+						 
+				<item>
+				<title>Star Trek The Next Generation</title>
+				<link>https://wagasworld.com/kodi.php?channel=next-generation</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/USS_Enterprise_NCC-1701-D.jpg?itok=IapiIFrY</thumbnail>
+				<genre><![CDATA[Scifi]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/USS_Enterprise_NCC-1701-D.jpg?itok=IapiIFrY</fanart>
+				</item>
+
+				<item>
+				<title>Star Trek Voyager</title>
+				<link>https://wagasworld.com/kodi.php?channel=voyager</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/startrekvoyager.jpg?itok=PK6k96in</thumbnail>
+				<genre><![CDATA[Scifi]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/startrekvoyager.jpg?itok=PK6k96in</fanart>
+				</item>
+						 
+				<item>
+				<title>Stargate Atlantis</title>
+				<link>https://wagasworld.com/kodi.php?channel=stargate-atlantis</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/stargateatlantis.jpg?itok=nL78oKlD</thumbnail>
+				<genre><![CDATA[Scifi]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/stargateatlantis.jpg?itok=nL78oKlD</fanart>
+				</item>
+						 
+				<item>
+				<title>Stargate SG1</title>
+				<link>https://wagasworld.com/kodi.php?channel=stargate</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/stargatesg1_0.jpg?itok=yRGKQYvi</thumbnail>
+				<genre><![CDATA[Scifi]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/stargatesg1_0.jpg?itok=yRGKQYvi</fanart>
+				</item>
+						 
+				<item>
+				<title>Stargate Universe</title>
+				<link>https://wagasworld.com/kodi.php?channel=stargate-universe</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/stargate_universe-tv-31.jpg?itok=1rXDETL8</thumbnail>
+				<genre><![CDATA[Scifi]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/stargate_universe-tv-31.jpg?itok=1rXDETL8</fanart>
+				</item>
+					 
+				<item>
+				<title>U.F.O. (Serie)</title>
+				<link>https://wagasworld.com/kodi.php?channel=guldukat-ufo</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/ufoserie.jpg?itok=dCHgMoa2</thumbnail>
+				<genre><![CDATA[Scifi]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/ufoserie.jpg?itok=dCHgMoa2</fanart>
+				</item>
+
+
+				<item>
+				<title>V-Die Außerirdischen</title>
+				<link>https://wagasworld.com/kodi.php?channel=guldukat-vdieausserirdischen</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/v%20die%20au%C3%9Ferirdischen.jpg?itok=f1nKp7Tu</thumbnail>
+				<genre><![CDATA[Scifi]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/v%20die%20au%C3%9Ferirdischen.jpg?itok=f1nKp7Tu</fanart>
+				</item>					
+
+</channel>
+
+<channel>
+
+				<name><![CDATA[[COLOR red]• [/COLOR] Crime]]></name><!-- Crime -->
+				<thumbnail>https://wagasworld.com/Kodi/pic/crime1.jpg</thumbnail>
+				<genre><![CDATA[Crime]]></genre>
+				<fanart>https://wagasworld.com/Kodi/pic/crime1.jpg</fanart>
+				<info><![CDATA[Serien rund um die Uhr, nicht alle sind 24/7 online.]]></info>
+
+				 <item>
+				<title>Hawaii Five-0</title>
+				<link>https://wagasworld.com/kodi.php?channel=hawaiifive</link>
+				<thumbnail>https://wagasworld.com/Kodi/pic/hawaii-five-o.jpg</thumbnail>
+				<genre><![CDATA[Crime]]></genre>
+				<fanart>https://wagasworld.com/Kodi/pic/hawaii-five-o.jpg</fanart>
+				</item>
+
+				<item>
+				<title>Trio.mit.vier.Faeusten</title>
+				<link>https://wagasworld.com/kodi.php?channel=Trio.mit.vier.Faeusten</link>
+				<thumbnail>https://wagasworld.com/Kodi/pic/trio4faeuste.jpg</thumbnail>
+				<genre><![CDATA[Crime]]></genre>
+				<fanart>https://wagasworld.com/Kodi/pic/trio4faeuste.jpg</fanart>
+				</item>
+
+				<item>
+				<title>Der Sentinel</title>
+				<link>https://wagasworld.com/kodi.php?channel=Der.Sentinel</link>
+				<thumbnail>https://wagasworld.com/Kodi/pic/sentinel.png</thumbnail>
+				<genre><![CDATA[Crime]]></genre>
+				<fanart>https://wagasworld.com/Kodi/pic/sentinel.png</fanart>
+				</item>
+				<item>
+				<title>MiamiVice</title>
+				<link>https://wagasworld.com/kodi.php?channel=Miami.Vice</link>
+				<thumbnail>https://wagasworld.com/Kodi/pic/wp2429570.jpg</thumbnail>
+				<genre><![CDATA[Crime]]></genre>
+				<fanart>https://wagasworld.com/Kodi/pic/wp2429570.jpg</fanart>
+				</item>
+				<item>
+				<title>Das A-Team</title>
+				<link>https://wagasworld.com/kodi.php?channel=guldukat-ateam</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/ateam.5401786.jpg?itok=A7ZpS61U</thumbnail>
+				<genre><![CDATA[Crime]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/ateam.5401786.jpg?itok=A7ZpS61U</fanart>
+				</item>
+						 
+				<item>
+				<title>Knight Rider</title>
+				<link>https://wagasworld.com/kodi.php?channel=guldukat-knightrider</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/Knight-Rider-Universal-Pictures-Home-Entertainment.jpg?itok=hn-R1tLx</thumbnail>
+				<genre><![CDATA[Crime]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/Knight-Rider-Universal-Pictures-Home-Entertainment.jpg?itok=hn-R1tLx</fanart>
+				</item>
+				<item>
+				<title>MacGyver</title>
+				<link>https://wagasworld.com/kodi.php?channel=macgyver</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/97234.jpg?itok=IqVw0hfe</thumbnail>
+				<genre><![CDATA[Crime]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/97234.jpg?itok=IqVw0hfe</fanart>
+				</item>    
+					
+				<item>
+				<title>MONK</title>
+				<link>https://wagasworld.com/kodi.php?channel=guldukat-monk</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/monk-show.jpg?itok=ylgC312t</thumbnail>
+				<genre><![CDATA[Crime]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/monk-show.jpg?itok=ylgC312t</fanart>
+				</item>
+					  <item>
+				<title>CSI MIAMI</title>
+				<link>https://wagasworld.com/kodi.php?channel=csimiami</link>
+				<thumbnail>https://wagasworld.com/Kodi/pic/csimiami.jpg</thumbnail>
+				<genre><![CDATA[Crime]]></genre>
+				<fanart>https://wagasworld.com/Kodi/pic/csimiami.jpg</fanart>
+				</item>
+				  
+				<item>
+				<title>NCIS</title>
+				<link>https://wagasworld.com/kodi.php?channel=ncis-neu</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/ncis_367x208.jpg?itok=xHcee_zR</thumbnail>
+				<genre><![CDATA[Crime]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/ncis_367x208.jpg?itok=xHcee_zR</fanart>
+				</item>
+
+				<item>
+				<title>NCIS Los Angeles</title>
+				<link>https://wagasworld.com/kodi.php?channel=ncis-la</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/ncis%20la.jpg?itok=K0b8RJsn</thumbnail>
+				<genre><![CDATA[Crime]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/ncis%20la.jpg?itok=K0b8RJsn</fanart>
+				</item>
+
+				<item>
+				<title>NCIS New Orleans</title>
+				<link>https://wagasworld.com/kodi.php?channel=ncis-no</link>
+				<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/NCIS-New-Orleans-Season-3-Seeking-Hispanic-Men.jpg?itok=e9uxhXRB</thumbnail>
+				<genre><![CDATA[Crime]]></genre>
+				<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/NCIS-New-Orleans-Season-3-Seeking-Hispanic-Men.jpg?itok=e9uxhXRB</fanart>
+				</item>
+</channel>
+
+<channel>
+
+<name><![CDATA[[COLOR red]• [/COLOR] Doku]]></name><!-- Doku -->
+<thumbnail>https://wagasworld.com/Kodi/pic/dokus.jpg</thumbnail>
+<genre><![CDATA[Doku]]></genre>
+<fanart>https://wagasworld.com/Kodi/pic/dokus.jpg</fanart>
+<info><![CDATA[Dokus rund um die Uhr, nicht alle sind 24/7 online.]]></info>
+
+<item>
+<title>AncientAliens</title>
+<link>https://wagasworld.com/kodi.php?channel=ancientaliens</link>
+<thumbnail>https://wagasworld.com/Kodi/pic/ancientaliens.jpg</thumbnail>
+<genre><![CDATA[Doku]]></genre>
+<fanart>https://wagasworld.com/Kodi/pic/ancientaliens.jpg</fanart>
+</item>  
+
+<item>
+<title>Bear Grylls</title>
+<link>https://wagasworld.com/kodi.php?channel=Abenteuer.Survival</link>
+<thumbnail>https://wagasworld.com/Kodi/pic/BearGrylls.jpg</thumbnail>
+<genre><![CDATA[Doku]]></genre>
+<fanart>https://wagasworld.com/Kodi/pic/BearGrylls.jpg</fanart>
+</item>  
+
+
+
+        
+<item>
+<title>72 Stunden im Geisterhaus</title>
+<link>https://wagasworld.com/kodi.php?channel=guldukat-72stunden</link>
+<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/72stunden.jpg?itok=ArWL7edM</thumbnail>
+<genre><![CDATA[Doku]]></genre>
+<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/72stunden.jpg?itok=ArWL7edM</fanart>
+</item>   
+
+<item>
+<title>Geister und Übersinnliches</title>
+<link>http://wagasworld.com/kodi.php?channel=geisterunduebersinnliches</link>
+<thumbnail>https://wagasworld.com/Kodi/pic/Geister.jpg</thumbnail>
+<genre><![CDATA[Doku]]></genre>
+<fanart>https://wagasworld.com/Kodi/pic/Geister.jpg</fanart>
+</item>   
+
+
+<item>
+<title>Expedition Unknown</title>
+<link>https://wagasworld.com/kodi.php?channel=expeditionunknown</link>
+<thumbnail>https://wagasworld.com/Kodi/pic/expedition-unknown.jpg</thumbnail>
+<genre><![CDATA[Doku]]></genre>
+<fanart>https://wagasworld.com/Kodi/pic/expedition-unknown.jpg</fanart>
+</item> 
+
+
+ <item>
+<title>Auction Hunter</title>
+<link>https://wagasworld.com/kodi.php?channel=auctiohunter</link>
+<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/auctionhunters.jpg?itok=ONs5ck7T</thumbnail>
+<genre><![CDATA[Doku]]></genre>
+<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/auctionhunters.jpg?itok=ONs5ck7T</fanart>
+</item>  
+
+ 
+<item>
+<title>Geheimnisse des Universums</title>
+<link>https://wagasworld.com/kodi.php?channel=guldukat-universum</link>
+<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/universium_0.jpg?itok=dednYXWe</thumbnail>
+<genre><![CDATA[Doku]]></genre>
+<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/universium_0.jpg?itok=dednYXWe</fanart>
+</item>
+
+
+<item>
+<title>Mysterien des Weltalls</title>
+<link>https://wagasworld.com/kodi.php?channel=guldukat-mysteriendesweltalls</link>
+<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/mysterien-des-weltalls-mit-4006448759698-7.jpg?itok=wxQjL0_E</thumbnail>
+<genre><![CDATA[Doku]]></genre>
+<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/mysterien-des-weltalls-mit-4006448759698-7.jpg?itok=wxQjL0_E</fanart>
+</item>
+
+
+<item>
+<title>Mysterien von Oben</title>
+<link>https://wagasworld.com/kodi.php?channel=mysterienvonoben</link>
+<thumbnail>https://wagasworld.com/Kodi/pic/mysterien-von-oben.jpg</thumbnail>
+<genre><![CDATA[Doku]]></genre>
+<fanart>https://wagasworld.com/Kodi/pic/dokus.jpg</fanart>
+</item>
+
+<item>
+<title>Geheimakten der NASA</title>
+<link>https://wagasworld.com/kodi.php?channel=geheimeaktennasa</link>
+<thumbnail>https://wagasworld.com/Kodi/pic/NASA.jpg</thumbnail>
+<genre><![CDATA[Doku]]></genre>
+<fanart>https://wagasworld.com/Kodi/pic/NASA.jpg</fanart>
+</item>
+
+
+<item>
+<title>NASA</title>
+<link>https://wagasworld.com/kodi.php?channel=nasa</link>
+<thumbnail>https://wagasworld.com/Kodi/pic/nasa1.jpg</thumbnail>
+<genre><![CDATA[Doku]]></genre>
+<fanart>https://wagasworld.com/Kodi/pic/nasa1.jpg</fanart>
+</item>
+
+
+
+
+<item>
+<title>Mythbusters</title>
+<link>https://wagasworld.com/kodi.php?channel=guldukat-mythbusters</link>
+<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/watch-mythbusters.jpg?itok=3Ce0vXf2</thumbnail>
+<genre><![CDATA[Doku]]></genre>
+<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/watch-mythbusters.jpg?itok=3Ce0vXf2</fanart>
+</item>
+          
+<item>
+<title>UFO Hunters</title>
+<link>https://wagasworld.com/kodi.php?channel=guldukat-ufohunters</link>
+<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/ufo-hunters.jpg?itok=R4wO4rxP</thumbnail>
+<genre><![CDATA[Doku]]></genre>
+<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/ufo-hunters.jpg?itok=R4wO4rxP</fanart>
+</item>
+
+<item>
+<title>UFO-Universum-Mix</title>
+<link>https://stream.wagasworld.com//hls/guldukat-ufouniversummix.m3u8</link>
+<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/ufo-sightings.jpg?itok=bI88a7XF</thumbnail>
+<genre><![CDATA[Doku]]></genre>
+<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/ufo-sightings.jpg?itok=bI88a7XF</fanart>
+</item>
+
+
+<item>
+<title>Flussmonster</title>
+<link>https://wagasworld.com/kodi.php?channel=Flussmonster</link>
+<thumbnail>https://wagasworld.com/Kodi/pic/flussmonster.jpg</thumbnail>
+<genre><![CDATA[Doku]]></genre>
+<fanart>https://wagasworld.com/Kodi/pic/flussmonster.jpg</fanart>
+</item>
+</channel>
+
+
+###############################################################################################################
+<channel><!-- Audio -->
+
+<name><![CDATA[[COLOR red]• [/COLOR] Audio]]></name>
+<thumbnail>https://wagasworld.com/Kodi/pic/audio.jpg</thumbnail>
+<genre><![CDATA[Audio]]></genre>
+<fanart>https://wagasworld.com/Kodi/pic/audio.jpg</fanart>
+<info><![CDATA[Hoerspiele rund um die Uhr, nicht alle sind 24/7 online.]]></info>
+<item>
+<title>Die Drei Fragezeichen Hoerspiel</title>
+<link>https://wagasworld.com/kodi.php?channel=audio-fragezeichen</link>
+<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/fragezeichen.jpg?itok=ATUEX9Vs</thumbnail>
+<genre><![CDATA[Audio]]></genre>
+<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/fragezeichen.jpg?itok=ATUEX9Vs</fanart>
+</item>
+         
+<item>
+<title>Jan Tenner Hoerspiel</title>
+<link>https://wagasworld.com/kodi.php?channel=audio-jantenner</link>
+<thumbnail>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/Jan-Tenner-295x300.jpg?itok=ribp3o2h</thumbnail>
+<genre><![CDATA[Audio]]></genre>
+<fanart>https://wagasworld.com/sites/default/files/styles/channel_teaser/public/Jan-Tenner-295x300.jpg?itok=ribp3o2h</fanart>
+</item>
+
+  <item>
+<title>TKKG  Hoerspiel</title>
+<link>https://wagasworld.com/kodi.php?channel=audio-tkkg</link>
+<thumbnail>https://wagasworld.com/Kodi/pic/TKKG.jpg</thumbnail>
+<genre><![CDATA[Audio]]></genre>
+<fanart>https://wagasworld.com/Kodi/pic/TKKG.jpg</fanart>
+</item> 
+
+<item>
+<title>Weihnachts Songs</title>
+<link>https://wagasworld.com/kodi.php?channel=weihnachtssongs</link>
+<thumbnail>https://wagasworld.com/Kodi/pic/weihnachtssongs.jpg</thumbnail>
+<genre><![CDATA[Audio]]></genre>
+<fanart>https://wagasworld.com/Kodi/pic/weihnachtssongs.jpg</fanart>
+</item>        
+       
+
+  <item>
+<title>MariTest1</title>
+<link>http://panel.wagasworld.com/test.php|X-Auth=AUTH-TEST</link>
+<thumbnail>https://wagasworld.com/Kodi/pic/wagas_world-channel_header_640x125.png</thumbnail>
+<genre><![CDATA[Audio]]></genre>
+<fanart>https://wagasworld.com/Kodi/pic/wagas_world-channel_header_640x125.png</fanart>
+</item>  
+</channel>
+
+
+</channels>

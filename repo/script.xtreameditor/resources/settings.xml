@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<settings>
-	<setting id="appcode" type="text" label="30001" default="None"/>
-	<setting id="lineid" type="text" label="30002" default="None"/>
-	<setting id="qrcode" type="text" label="qrcode" visible="false" default="None"/>
-	<setting id="m3uurl" type="text" label="m3u" visible="false" default="None"/>
-	<setting id="epgurl" type="text" label="epg" visible="false" default="None"/>
-</settings>
