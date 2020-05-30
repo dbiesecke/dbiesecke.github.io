@@ -24,7 +24,7 @@
 			<visible>true</visible>
 			<align>center</align>
 			<scroll>false</scroll>
-			<label>$ADDON[script.xtreameditor 30000]</label>
+			<label>$ADDON[plugin.video.iptvsimple.addons 30000]</label>
 			<angle>0</angle>
 			<haspath>false</haspath>
 			<font>font30_title</font>
@@ -35,12 +35,12 @@
 			<left>30</left>
 			<top>66</top>
 			<width>400</width>
-			<control type="button" id="5000">
+			<control type="button" id="6000">
 				<description></description>
 				<posx>0</posx>
 				<posy>10</posy>
 				<height>30</height>
-				<label>$ADDON[script.xtreameditor 40002]</label>
+				<label>$ADDON[plugin.video.iptvsimple.addons 40002]</label>
 				<textcolor>FFFFFFFF</textcolor>
 				<font>font12</font>
 				<aligny>center</aligny>
@@ -49,12 +49,12 @@
 				<texturefocus>btn_yes.png</texturefocus>
 				<texturenofocus>btn_no.png</texturenofocus>
 			</control>
-			<control type="button" id="5001">
+			<control type="button" id="6001">
 				<description></description>
 				<posx>0</posx>
 				<posy>50</posy>
 				<height>30</height>
-				<label>$ADDON[script.xtreameditor 40003]</label>
+				<label>$ADDON[plugin.video.iptvsimple.addons 40003]</label>
 				<textcolor>FFFFFFFF</textcolor>
 				<focusedcolor>FFFFFFFF</focusedcolor>
 				<font>font12</font>
@@ -63,12 +63,12 @@
 				<texturefocus>btn_yes.png</texturefocus>
 				<texturenofocus>btn_no.png</texturenofocus>
 			</control>
-			<control type="button" id="5002">
+			<control type="button" id="6002">
 				<description></description>
 				<posx>0</posx>
 				<posy>90</posy>
 				<height>30</height>
-				<label>$ADDON[script.xtreameditor 40004]</label>
+				<label>$ADDON[plugin.video.iptvsimple.addons 40004]</label>
 				<textcolor>FFFFFFFF</textcolor>
 				<focusedcolor>FFFFFFFF</focusedcolor>
 				<font>font12</font>

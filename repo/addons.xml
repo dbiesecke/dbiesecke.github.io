@@ -822,7 +822,7 @@ Auch die aktuelle Tabelle der 1. und 2. Bundesliga kann angezeigt werden.
     </extension>
 </addon>
 
-<addon id="plugin.video.iptvsimple.addons" version="0.1.6" name="IPTV Addons" provider-name="mod by buchclub">
+<addon id="plugin.video.iptvsimple.addons" version="0.1.7" name="IPTV Addons" provider-name="mod by buchclub">
 <requires>
   <import addon="xbmc.python" version="2.26.0"/>
   <import addon="script.module.xbmcswift2" version="2.4.0"/>
@@ -1447,6 +1447,26 @@ xStream 3.5.11
 - optimized: Textinfobox in der Rubrik: News - Größe, Text, Übersicht angepasst
 - optimized: Script und Übersetzung überarbeitet
 		</news>
+	</extension>
+</addon>
+
+<addon id="script.xtreameditor" name="Xtream Editor" version="1.0.2" provider-name="xtream">
+	<requires>
+		<import addon="xbmc.python" version="2.20.0" />
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Xtream Editor</summary>
+		<summary lang="de">Xtream Editor</summary>
+		<description lang="en">Set M3U and EPG Link from the Xtream Editor easy into the PVR IPTV Simple Client</description>
+		<description lang="de">M3U und EPG Link vom Xtream Editor einfach in den PVR IPTV Simple Client einfügen</description>
+		<language></language>
+        <platform>all</platform>
+        <license></license>
+        <forum></forum>
+        <website>https://xtream-editor.com</website>
+        <email>support@xtream-editor.com</email>
+        <source></source>
 	</extension>
 </addon>
 

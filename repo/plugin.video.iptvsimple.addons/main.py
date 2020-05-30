@@ -98,7 +98,7 @@ class MainWindow(xbmcgui.WindowXML):
         return urlencode(params)
 
     def onInit(self):
-        self.setFocusId(5000)
+        self.setFocusId(6000)
         self.setContent()
 
     def log(self, txt):
@@ -120,13 +120,14 @@ class MainWindow(xbmcgui.WindowXML):
             return
 
     def onClick(self, controlId):
-        if controlId == 5000:
+     
+        if controlId == 6000:
             self.getSettings()
             return
-        if controlId == 5001:
+        if controlId == 6001:
             self.resetAction()
             return
-        if controlId == 5002:
+        if controlId == 6002:
             self.close()
             return
 
@@ -147,7 +148,7 @@ class MainWindow(xbmcgui.WindowXML):
     def setFocusId(self, controlId):
         control = self.getControl(controlId)
         if control:
-            self.setFocus(control)
+            #self.setFocus(control)
             self.__curfocus = controlId
 
     def onFocus(self, controlId):
@@ -155,15 +156,15 @@ class MainWindow(xbmcgui.WindowXML):
 
     def setFocusUp(self):
         new_id = int(self.__curfocus) - 1
-        self.setFocusId(new_id)
+        #self.setFocusId(new_id)
 
     def setFocusDown(self):
         new_id = int(self.__curfocus) + 1
-        self.setFocusId(new_id)
+        #self.setFocusId(new_id)
 
     def setPVRSettings(self):
-        self.setContent()
-#        pvr = xbmcaddon.Addon(id="pvr.iptvsimple")
+        #self.setContent()
+       #pvr = xbmcaddon.Addon(id="pvr.iptvsimple")
 
             
         #which = xbmcgui.Dialog().select('M3U List',urls)
@@ -184,10 +185,10 @@ class MainWindow(xbmcgui.WindowXML):
 
         dialog = xbmcgui.Dialog()
         dialog.notification('XTREAM EDITOR', addon.getLocalizedString(50005), xbmcgui.NOTIFICATION_INFO, 5000)
-        #self.setContent()
+        self.setContent()
 
     def initApp(self):
-        #self.log("initApp")
+        self.log("initApp")
         try:
             params = {'version': 'KODI - XE 2.95'}
             r = self.urlopen(self.APPCODEURL, params)
@@ -207,7 +208,7 @@ class MainWindow(xbmcgui.WindowXML):
                 #self.log("R CODE <> 200")
                 r.close()
         except Exception as inst:
-            #self.log(inst)
+            self.log(inst)
             pass
 
     def getSettings(self):
@@ -1768,13 +1769,47 @@ def set_iptvsimple_epg_file():
     xbmcaddon.Addon('pvr.iptvsimple').setSetting('epgPathType',"0")
     xbmcaddon.Addon('pvr.iptvsimple').setSetting('epgPath',xbmc.translatePath('special://home/addons/plugin.video.iptvsimple.addons/resources/xmltv.xml'))
 
-@plugin.route('/sync_xe')
-def sync_xe():
-   
+@plugin.route('/pair_xe')
+def pair_xe():    
     win = MainWindow()
+    #win.initApp()
     win.doModal()
     del win
     sys.modules.clear() 
+   
+@plugin.route('/sync_xe')
+def sync_xe():    
+    XSERVER = 'https://xtream-editor.com'
+    APPCODEURL = XSERVER + '/e2/get/newappid'
+    SETTINGSURL = XSERVER + '/e2/get/settings/'     
+    try:
+        params = {'version': 'KODI - XE 2.95'}
+        #self.log(self.SETTINGSURL)
+        xappcode = addon.getSetting('appcode')
+        win = MainWindow()
+        r = win.urlopen(SETTINGSURL + xappcode, params)
+        if r.getcode() == 200:
+            jsondata = r.read()
+            d = json.loads(jsondata)
+            lineid = d["xresult"]["lineid"]
+            #self.m3uurl = d["xresult"]["m3upath"]
+            #self.epgurl = d["xresult"]["epgpath"]
+
+            addon.setSetting('lineid', d["xresult"]["lineid"])
+            addon.setSetting('m3uurl', d["xresult"]["m3upath"])
+            addon.setSetting('epgurl', d["xresult"]["epgpath"])
+
+            dialog = xbmcgui.Dialog()
+            if lineid != '0':
+                ret = dialog.yesno('XTREAM EDITOR', addon.getLocalizedString(50003))
+                if ret:
+                    win.setPVRSettings()
+            else:
+                dialog.notification('XTREAM EDITOR', addon.getLocalizedString(50004), xbmcgui.NOTIFICATION_WARNING,
+                                    5000)
+    except Exception as inst:
+        #self.log(inst)
+        pass
  
     
     
@@ -1784,7 +1819,8 @@ def index():
     
     
     context_items = []
-    context_items.append(("[COLOR yellow][B]%s[/B][/COLOR] " % 'Pair with Xtream-Editor', 'XBMC.RunPlugin(%s)' % (plugin.url_for(sync_xe))))            
+    context_items.append(("[COLOR yellow][B]%s[/B][/COLOR] " % 'Sync with Xtream-Editor', 'XBMC.RunPlugin(%s)' % (plugin.url_for(sync_xe)))) 
+    context_items.append(("[COLOR yellow][B]%s[/B][/COLOR] " % 'Pair with Xtream-Editor', 'XBMC.RunPlugin(%s)' % (plugin.url_for(pair_xe))))            
     context_items.append(("[COLOR yellow][B]%s[/B][/COLOR] " % 'Add PsycoTV Playlist', 'XBMC.RunPlugin(%s)' % (plugin.url_for(add_psycotv))))        
     context_items.append(("[COLOR yellow][B]%s[/B][/COLOR] " % 'Add Kodi Nerds', 'XBMC.RunPlugin(%s)' % (plugin.url_for(add_kodinerds))))    
     context_items.append(("[COLOR yellow][B]%s[/B][/COLOR] " % 'Add IPTV Simple Client M3U', 'XBMC.RunPlugin(%s)' % (plugin.url_for(add_iptvsimple_m3u))))
@@ -1886,5 +1922,5 @@ def index():
 
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':    
     plugin.run()
