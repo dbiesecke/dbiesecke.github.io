@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+    <string id="30000">XTREAM EDITOR</string>
+    <string id="30001">APP ID</string>
+    <string id="30002">LINE ID</string>
+    <string id="40001">PVR IPTV Simple Client beállításainak betöltése</string>
+    <string id="40002">Beállítások töltése és mentése</string>
+    <string id="40003">Beállítások törlése (új APP KÓD)</string>
+    <string id="40004">Kilépés</string>
+    <string id="50001">Szkenneld be a QR-kódot, vagy menj ide: https://xtream-editor.com/app[CR]Aktuális:[CR]APP KÓD: [B]%s[/B][CR]LINE ID: %s[CR]Majd kattints a "Beállítások töltése és mentése" gombra!</string>
+    <string id="50002">Xtream Editor Addon visszaállítása</string>
+    <string id="50003">Akarod ezeket a beállításokat a PVR IPTV Simple Client számára menteni?[CR]Utána a KODI-t újra kell indítani!</string>
+    <string id="50004">Az Xtream Editor nem talált listát ezzel az APP kóddal!</string>
+    <string id="50005">A PVR IPTV Client beállításai mentve!</string>
+</strings>

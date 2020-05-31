@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+	<string id="30000">XTREAM EDITOR</string>
+	<string id="30001">APP ID</string>
+	<string id="30002">LINE ID</string>
+	<string id="40001">Load settings for PVR IPTV Simple Client</string>
+	<string id="40002">Load and save settings</string>
+	<string id="40003">Reset settings (New APP CODE)</string>
+	<string id="40004">Close</string>
+	<string id="50001">Scan the QR code or go to https://xtream-editor.com/app[CR]Current:[CR]APP CODE: [B]%s[/B][CR]LINE ID: %s[CR]Then click on Load and save settings</string>
+	<string id="50002">Reset Xtream Editor Addon</string>
+	<string id="50003">Do you want to save the settings for the PVR IPTV Simple Client now?[CR]Then restart KODI</string>
+	<string id="50004">Xtream Editor has not found a list with this APP CODE!</string>
+	<string id="50005">The settings for PVR IPTV Client are saved!</string>
+</strings>

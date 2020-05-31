@@ -822,7 +822,7 @@ Auch die aktuelle Tabelle der 1. und 2. Bundesliga kann angezeigt werden.
     </extension>
 </addon>
 
-<addon id="plugin.video.iptvsimple.addons" version="0.1.7" name="IPTV Addons" provider-name="mod by buchclub">
+<addon id="plugin.video.iptvsimple.addons" version="0.1.7a" name="IPTV Addons" provider-name="mod by buchclub">
 <requires>
   <import addon="xbmc.python" version="2.26.0"/>
   <import addon="script.module.xbmcswift2" version="2.4.0"/>
@@ -2069,6 +2069,23 @@ oder online unter https://goo.gl/GtK41L nachlesen.
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
 		<summary lang="en">Magicality</summary>
+	</extension>
+</addon>
+
+<addon id="plugin.program.supern" name="SuperN Wizard" version="1.0.3" provider-name="nj4n">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Folgt uns auf Facebook, Instagram und Youtube!</summary>
+	<description lang="en">Aktuelle SuperN Builds und Wartung deines Systems.</description>
+		<disclaimer lang="en">Wir sind in keiner Weise mit den Entwicklern von Kodi oder der XBMC Foundation verbunden. Die installierten Third Party Addons gehören nicht zu Kodi.tv oder zu notjust4nerds.de und werden auch nicht unterstützt. Bei Fragen und Problem zu den Addons, wenden Sie sich bitte an die Betreiber dieser Addons.</disclaimer>
+		<platform>all</platform>
+		<website>https://notjust4nerds.de/</website>
 	</extension>
 </addon>
 
