@@ -193,68 +193,6 @@ Auch die aktuelle Tabelle der 1. und 2. Bundesliga kann angezeigt werden.
   </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.33" provider-name="jsergio">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0" />
-        <import addon="plugin.video.youtube" optional="true" />
-        <import addon="script.module.python.twitch" optional="true" />
-        <import addon="script.module.cryptopy" version="1.2.6" optional="true" />
-        <import addon="plugin.video.gdrive" optional="true" />
-    </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.python.pluginsource" library="lib/default.py" />
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
-        <summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
-        <summary lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
-        <summary lang="el">Επίλυση συνδέσμων κοινών εξυπηρετητών σε μορφή βίντεο ικανό για αναπαραγωγή στο XBMC/Kodi.</summary>
-        <description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
-        <description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
-    </extension>
-</addon>
-
-<addon id="script.module.yoda" name="[COLORgreen]yoda Module[/COLOR]" version="1.1.3" provider-name="S">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">yoda</summary>
-		<description></description>
-        <disclaimer lang="en"></disclaimer>
-	</extension>
-</addon>
-
-<addon id="script.module.livestreamer"
-       name="livestreamer"
-       version="1.12.0"
-       provider-name="Christopher Rosell">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.requests"
-                      version="1.1.0"
-                     optional="false"/>
-    <import addon="script.module.singledispatch"
-                      version="3.4.0.3"
-                     optional="false"/>
-    <import addon="script.module.futures"
-                      version="2.2.0"
-                     optional="false"/>
-  </requires>
-  <extension point="xbmc.python.module"
-             library="lib"/>
-  <extension point="xbmc.addon.metadata">
-    <summary>Livestreamer extracts streams from various services</summary>
-    <description>Livestreamer is a command-line utility that pipes video streams from various services into a video player, such as VLC. The main purpose of Livestreamer is to allow the user to avoid buggy and CPU heavy flash plugins but still be able to enjoy various streamed content. There is also an API available for developers who want access to the video stream data.</description>
-    <platform>all</platform>
-    <license>Simplified BSD</license>
-    <source>https://github.com/chrippa/livestreamer.git</source>
-    <website>http://livestreamer.io</website>
-  </extension>
-</addon>
-
 <addon id="repository.doomzday" name="Doomzday Repo" version="1.0.6" provider-name="DD Team">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
@@ -316,30 +254,6 @@ Auch die aktuelle Tabelle der 1. und 2. Bundesliga kann angezeigt werden.
         <assets>
             <icon>icon.png</icon>
         </assets>
-    </extension>
-</addon>
-
-<addon id="script.module.lambdascrapers" name="Lambdascrapers Module" version="2.0.0" provider-name="I-A-C">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0" />
-        <import addon="script.module.beautifulsoup4"/>
-    </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.python.pluginsource" library="lib/default.py">
-        <provides>executable</provides>
-    </extension>
-        <extension point="xbmc.addon.metadata">
-            <platform>all</platform>
-            <summary lang="en">Lambdascrapers Module</summary>
-            <description>Scrape common video host for URL's to be playable in XBMC/Kodi, simplifying addon development of video plugins requiring multi video hosts.</description>
-                <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart></fanart>
-    </assets>
-    <news></news>
     </extension>
 </addon>
 
@@ -434,32 +348,6 @@ Auch die aktuelle Tabelle der 1. und 2. Bundesliga kann angezeigt werden.
     </extension>
 </addon>
 
-<addon id="script.module.universalscrapers" name="Universal Scrapers" version="1.2.1" provider-name="Team Universal">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.beautifulsoup" version="3.2.1"/>
-        <import addon="script.module.futures" version="2.2.0"/>
-        <import addon="script.module.requests"/>
-        <import addon="script.module.six"/>
-        <import addon="repository.universalscrapers"/>
-	<import addon="script.module.resolveurl" version="5.0.00" optional="true"/>
-
-                <!--<import addon="script.mrknow.urlresolver" version="2016.10.30.2" optional="true"/>-->
-    </requires>
-    <extension point="xbmc.python.module" library="lib"/>
-    <extension point="xbmc.python.pluginsource" library="lib/default.py">
-        <provides>executable</provides>
-    </extension>
-        <extension point="xbmc.addon.metadata">
-            <platform>all</platform>
-            <summary lang="en">Scrape common video host for URL's to be playable in XBMC/Kodi.</summary>
-            <description lang="en">Scrape common video host for URL's to be playable in XBMC/Kodi, simplifying addon development of video plugins requiring multi video hosts.
-            </description>
-            <license>GPL v3</license>
-            <source>https://</source>
-        </extension>
-</addon>
-
 <addon id="context.pseudotv.live.export" name="PseudoTV Live Export" version="1.1.9" provider-name="Lunatixz">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
@@ -481,47 +369,6 @@ Auch die aktuelle Tabelle der 1. und 2. Bundesliga kann angezeigt werden.
     </extension>
 </addon>
 
-<addon id="plugin.video.doom"
-	   name="Doom"
-	   version="1.0.6"
-	   provider-name="DD Team">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.requests"/>
-	<import addon="script.module.python.koding.aio.alt" version="1.1" />
-	<import addon="script.module.resolveurl" version="5.0.00"/>
-	<import addon="script.common.plugin.cache" version="2.5.5"/>
-	<import addon="script.module.pyxbmct" version="1.1.4" />
-	<import addon="script.module.futures" version="2.2.0"/>
-	<import addon="script.module.universalscrapers"/>
-	<import addon="script.module.beautifulsoup4" version="4.5.3"/>
-	<import addon="script.module.feedparser" />
-	<import addon="script.module.dateutil" />
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.service" library="service.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="he">Tesing Purposes Only</summary>
-    <description lang="he">Forked from Destiny, Thanks to Dark Child for the Orginal Addon and Whoever else may have been involved in the Original Project</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="script.module.incursion" name="Incursion Module" version="1.20" provider-name="Incursion">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="script.module.beautifulsoup4"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Incursion</summary>
-	</extension>
-</addon>
-
 <addon id="repository.pati" name="Patis Add-ons" version="1.0.0" provider-name="Pati">
 	<extension point="xbmc.addon.repository" name="Pati">
 		<info compressed="true">https://raw.githubusercontent.com/Pati/repo/master/addons.xml</info>
@@ -534,35 +381,6 @@ Auch die aktuelle Tabelle der 1. und 2. Bundesliga kann angezeigt werden.
 		<description></description>
 		<disclaimer></disclaimer>
 		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="plugin.video.tide" name="Tide" version="0.0.3" provider-name="wahed">
-    <requires>
-        <import addon="xbmc.python" version="2.14.0"/>
-        <import addon="script.module.routing" version="0.2.0"/>
-        <import addon="script.module.requests" version="2.12.4"/>
-        <import addon="script.module.beautifulsoup4" version="4.6.2"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="addon.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en">sport event streaming</summary>
-        <description lang="en">sport event streaming</description>
-    </extension>
-</addon>
-
-<addon id="script.module.exodus" name="Exodus Module" version="1.20" provider-name="Exodus">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="script.module.beautifulsoup4"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Exodus</summary>
 	</extension>
 </addon>
 
@@ -596,70 +414,6 @@ Auch die aktuelle Tabelle der 1. und 2. Bundesliga kann angezeigt werden.
     <summary lang="en">PsycoTV</summary>
     <language>en</language>
     <description lang="en">PsycoTV Pro </description>
-
-     <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="script.module.openscrapers" name="OpenScrapers Module" version="0.0.1.99a" provider-name="Addons4Kodi">
-    <requires>
-        <import addon="xbmc.python" version="2.25.0" />
-        <import addon="script.module.beautifulsoup4"/>
-    </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.python.pluginsource" library="lib/default.py">
-        <provides>executable</provides>
-    </extension>
-        <extension point="xbmc.addon.metadata">
-            <platform>all</platform>
-            <summary lang="en">OpenScrapers Module</summary>
-            <description>Scrape common video host for URL's to be playable in Kodi, simplifying addon development of video plugins requiring multi video hosts.</description>
-                <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart></fanart>
-    </assets>
-    <news>v0.0.1.98 - Scraper updates and language additions</news>
-    </extension>
-</addon>
-
-<addon id="script.module.slproxy" name="SLProxy" version="0.0.5" provider-name="devilsport">
-  <requires>
-    <import addon="xbmc.python" version="2.24.0"/>
-    <import addon="script.module.requests"/>
-	  <import addon="script.module.streamlink.base" />
-  </requires>
-  <extension point="xbmc.python.module" library="lib/"/>
-  <extension point="xbmc.addon.metadata">
-    <summary>StreamLink Proxy DS</summary>
-    <description>Streamlink proxy for Kodi</description>
-    <platform>all</platform>
-    <license>Simplified BSD</license>
-    <source></source>
-    <language>en</language>
-    <assets>
-      <icon>icon.png</icon>
-    </assets>
-    <news>
-    </news>
-  </extension>
-</addon>
-
-<addon id="plugin.video.buchclub1" name="buchclub 1" version="31.0.0" provider-name="buchclub">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.requests" />
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">buchclub</summary>
-    <language>en</language>
-    <description lang="en">buchclub 1 </description>
 
      <platform>all</platform>
   </extension>
@@ -735,55 +489,6 @@ Auch die aktuelle Tabelle der 1. und 2. Bundesliga kann angezeigt werden.
   </extension>
 </addon>
 
-<addon id="script.module.civitasscrapers" name="Civitas Scrapers Module" version="2.0" provider-name="CivitasAdmin">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0" />
-        <import addon="script.module.beautifulsoup4"/>
-        <import addon="plugin.video.exodus"/>
-    </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.python.pluginsource" library="lib/default.py">
-        <provides>executable</provides>
-    </extension>
-        <extension point="xbmc.addon.metadata">
-            <platform>all</platform>
-            <summary lang="en">Civitas Scrapers Module</summary>
-            <description>Scrape common video host for URL's to be playable in XBMC/Kodi, simplifying addon development of video plugins requiring multi video hosts.</description>
-                <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart></fanart>
-    </assets>
-    <news></news>
-    </extension>
-</addon>
-
-<addon id="script.module.exoscrapers" name="ExoScrapers Module" version="2.2.2" provider-name="Exodus">
-    <requires>
-        <import addon="xbmc.python" version="2.25.0" />
-        <import addon="script.module.beautifulsoup4"/>
-    </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.python.pluginsource" library="lib/default.py">
-        <provides>executable</provides>
-    </extension>
-        <extension point="xbmc.addon.metadata">
-            <platform>all</platform>
-            <summary lang="en">ExoScrapers Module</summary>
-            <description>Scrape common video host for URL's to be playable in Kodi, simplifying addon development of video plugins requiring multi video hosts.</description>
-                <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart></fanart>
-    </assets>
-    <news>v2.2.2 - scrapers and log_utils fix, torrent updates, scraper fixes</news>
-    </extension>
-</addon>
-
 <addon id="script.pseudotv.live" version="0.8.0f" name="PseudoTV Live" provider-name="Lunatixz">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
@@ -822,26 +527,6 @@ Auch die aktuelle Tabelle der 1. und 2. Bundesliga kann angezeigt werden.
     </extension>
 </addon>
 
-<addon id="plugin.video.iptvsimple.addons" version="0.1.7a" name="IPTV Addons" provider-name="mod by buchclub">
-<requires>
-  <import addon="xbmc.python" version="2.26.0"/>
-  <import addon="script.module.xbmcswift2" version="2.4.0"/>
-  <import addon="script.module.requests" version="2.9.1" />
-  <import addon="script.module.beautifulsoup4"  />
-
-
-</requires>
-<extension point="xbmc.python.pluginsource" library="main.py">
-  <provides>video</provides>
-</extension>
-<extension point="xbmc.service" library="server.py" start="login"/>
-<extension point="xbmc.addon.metadata">
-  <summary lang="en">Add addon streams to IPTV Simple Client</summary>
-  <description lang="en"></description>
-  <disclaimer lang="en"></disclaimer>
-</extension>
-</addon>
-
 <addon id="xbmc.repo.ivueguide" name="iVue2 TV Guide Repo" version="0.0.1" provider-name="iVue">
 	<extension point="xbmc.addon.repository" name="iVue2 TV Guide Add-ons Repository">
 		<info compressed="false">https://raw.githubusercontent.com/totaltec2014/ivue2/master/addons.xml</info>
@@ -853,22 +538,6 @@ Auch die aktuelle Tabelle der 1. und 2. Bundesliga kann angezeigt werden.
 		<description>Download and install for iVue2 Tv guide addons </description>
 		<disclaimer> Repo for iVue2 Tv guide addon </disclaimer>
 		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="script.module.placenta" name="Placenta Module" version="1.7.8" provider-name="Team Afterbirth">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="script.module.beautifulsoup4"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-        <reuselanguageinvoker>false</reuselanguageinvoker>
-		<summary lang="en">Placenta</summary>
-		<description>Covenant Fork from Echo/Colossus era with Team Afterbirth's updates and new code.</description>
-        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
-        <license>Beerware rev. 42</license>
 	</extension>
 </addon>
 
@@ -932,19 +601,6 @@ Auch die aktuelle Tabelle der 1. und 2. Bundesliga kann angezeigt werden.
     </extension>
 </addon>
 
-<addon id="script.module.streamlink.crypto" name="Streamlink Crypto" version="1.5.2" provider-name="Twilight0">
-  <requires>
-    <import addon="xbmc.python" version="2.14.0"/>
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary>Pure Python implementation of the cryptographic libraries required by Streamlink</summary>
-    <source>https://github.com/Twilight0/script.module.streamlink.crypto</source>
-    <platform>all</platform>
-    <license>MIT</license>
-  </extension>
-</addon>
-
 <addon id="repository.gaia" version="3.2.0" name="Gaia Repository" provider-name="Gaia">
 	<extension point="xbmc.addon.repository" name="Gaia Repository">
 		<dir>
@@ -983,46 +639,6 @@ Auch die aktuelle Tabelle der 1. und 2. Bundesliga kann angezeigt werden.
     </extension>
 </addon>
 
-<addon id="script.module.ATFlive" name="[COLOR red]ATF IPTV Extra[/COLOR]" version="1.6" provider-name="Maverick">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.livestreamer" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.routing" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>all</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <reuselanguageinvoker>true</reuselanguageinvoker>
-    <summary lang="en_gb">Maverick</summary>
-    <description lang="en_gb">Maverick</description>
-    <disclaimer lang="en_gb"></disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license></license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source></source>
-  </extension>
-</addon>
-
-<addon id="script.module.globalscrapers" name="globalscrapers Module" version="3.3.3" provider-name="Solid_Snake">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="script.module.beautifulsoup4"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-        <reuselanguageinvoker>false</reuselanguageinvoker>
-		<summary lang="en">globalscrapers Module</summary>
-		<description>globalscrapers Module</description>
-        <license>GPL</license>
-	</extension>
-</addon>
-
 <addon id="service.vpn.manager"
        name="VPN Manager for OpenVPN"
        version="6.3.1"
@@ -1039,31 +655,6 @@ Auch die aktuelle Tabelle der 1. und 2. Bundesliga kann angezeigt werden.
     <platform>all</platform>
     <summary lang="en">Configure and manage VPN connections using openVPN</summary>
     <description lang="en">Establish a connection to the VPN service and automatically switch VPN locations based on the add-on being used.</description>
-  </extension>
-</addon>
-
-<addon id="script.module.mobdro" name="Mobdro" version="18" provider-name="RACC">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.livestreamer" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.routing" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <reuselanguageinvoker>true</reuselanguageinvoker>
-    <summary lang="en_gb">Mobdro</summary>
-    <description lang="en_gb">Mobdro Apk</description>
-    <disclaimer lang="en_gb"></disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license></license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source></source>
   </extension>
 </addon>
 
@@ -1182,42 +773,6 @@ Auch die aktuelle Tabelle der 1. und 2. Bundesliga kann angezeigt werden.
 	</extension>
 </addon>
 
-<addon id="skin.horizonzv.test" name="Horizonz V (Kodi 18)" version="1.18.0.50" provider-name="blauesgruen">
-	<requires>
-		<import addon="xbmc.gui" version="5.14.0"/>
-		<import addon="script.image.resource.select" version="2.0.1"/>
-		<import addon="resource.images.languageflags.colour" version="0.0.4"/>
-		<import addon="resource.images.weathericons.outline-hd" version="0.0.3"/>
-		<import addon="service.library.data.provider" version="0.3.0"/>
-	</requires>
-	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.55">
-		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080p" />
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary>Skin von blauesgruen / Initiator mad-max</summary>
-		<description>ACHTUNG !![CR]Dieser Skin wird ab Kodi 18 Final eine neue ID (Ordner) bekommen.[CR]Somit sind eure Einstellungen wieder auf "default".[CR]Im /userdata/addon_data/ liegt aber ein Ordner mit dem Namen "skin.horizonzv.test".[CR]Entfernt einfach das ".test" und es sollten wieder eure Einstellungen zu sehen sein.[CR][CR]Unterstütze Addons:[CR]Artist Slide Show[CR]Artwork Downloader[CR]CDArt Manager[CR]Extended Info Script[CR]Global Search[CR]Fritz Smart Home (by Birger Jesch)[CR]German Telecast Offers (by Birger Jesch)[CR]KN Switchtimer Service (by Birger Jesch)[CR]Library Node Editor[CR]NewsCenter[CR]Serienplaner[CR]Skinhelper Ping (by _Andy_)[CR].[CR].[CR].</description>
-		<disclaimer>Ursprünglich basierte der Skin auf den Mockups von xb2iris Skin "Horizonz".</disclaimer>
-		<platform>all</platform>
-		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
-        <email></email>
-		<forum>http://kodinerds.net/</forum>
-		<source>https://github.com/kodinerds/repo/tree/master/skin.horizonz</source>
-			<assets>
-			   <icon>resources/icon.png</icon>
-			   <fanart>resources/fanart.jpg</fanart>
-			   <screenshot>resources/screenshot-01.jpg</screenshot>
-			   <screenshot>resources/screenshot-02.jpg</screenshot>
-			   <screenshot>resources/screenshot-03.jpg</screenshot>
-			   <screenshot>resources/screenshot-04.jpg</screenshot>
-			   <screenshot>resources/screenshot-05.jpg</screenshot>
-			   <screenshot>resources/screenshot-06.jpg</screenshot>
-			   <screenshot>resources/screenshot-07.jpg</screenshot>
-			   <screenshot>resources/screenshot-08.jpg</screenshot>
-		   </assets>
-	</extension>
-</addon>
-
 <addon id="repository.emby.kodi" name="Kodi Emby Addons" version="1.0.6" provider-name="null_pointer,angelblue05,sualfred,im85288,xnappo">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -1270,30 +825,6 @@ Auch die aktuelle Tabelle der 1. und 2. Bundesliga kann angezeigt werden.
 		<summary lang="de">URLResolver wird für die Stream Wiedergabe benötigt</summary>
 		<description lang="de">Empfängt viele Video URL's, die in XBMC/Kodi abspielbar sind</description>
 	</extension>
-</addon>
-
-<addon id="script.module.streamlink.base" name="Streamlink Library" version="2020.01.28" provider-name="Streamlink Devs, Twilight0">
-  <requires>
-      <import addon="xbmc.python" version="2.24.0"/>
-      <import addon="script.module.requests" version="2.12.4"/>
-      <import addon="script.module.futures" version="2.2.0"/>
-      <import addon="script.module.cryptolib" version="1.1.0"/>
-  </requires>
-  <extension point="xbmc.python.module" library="resources/lib/"/>
-  <extension point="xbmc.addon.metadata">
-      <summary>Streamlink Library for Kodi</summary>
-      <description>Streamlink Library for Kodi. It is a collection of plugins to help resolve web page urls into streamable links. Known issue: Does not work on Xbox, specifically throws exception when trying to import something from ctypes module.</description>
-      <platform>all</platform>
-      <license>Simplified BSD</license>
-      <source>https://github.com/Twilight0/script.module.streamlink.base/</source>
-      <language>en</language>
-      <assets>
-          <icon>icon.png</icon>
-      </assets>
-      <news>+2020.01.28
-- Updated to latest upstream commit
-- Tweaks for import errors for Python 3</news>
-  </extension>
 </addon>
 
 <addon id="plugin.video.xstream" name="xStream" version="3.5.13" provider-name="xStream-Team">
@@ -1381,40 +912,6 @@ xStream 3.5.11
   </extension>
 </addon>
 
-<addon id="plugin.video.live.streamspro"
-       name="Live Streams Pro +"
-       version="3.5.6"
-       provider-name="cttynul, Shani, divingmule">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.resolveurl"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.module.livestreamer" optional="true"/>
-    <import addon="script.module.slproxy"/>
-    <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.service" library="service.py" start="login|startup"/>
-
-  <extension point="xbmc.addon.metadata">
-    <summary>Live Streams Pro +, shamelessly a fork of a fork, livestreams originally developed by divingmule first and Shani later</summary>
-    <description>
-        This can just do what Live Streams Pro could do, but with some new cool features.
-        For more info check documentation page at url: -- soon there will be something here --
-    </description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.aod" name="Anime on Demand" version="0.6.5" provider-name="L0RE">
 	<requires>
 		<import addon="xbmc.python" version="2.24.0"/>
@@ -1470,110 +967,11 @@ xStream 3.5.11
 	</extension>
 </addon>
 
-<addon id="script.module.TvTap" name="TV Tap" version="1.7" provider-name="RACC">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.livestreamer" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.routing" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>all</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_gb">All credit goes to the Original Dev RACC</summary>
-    <description lang="en_gb">TvTap Module</description>
-    <disclaimer lang="en_gb"></disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license></license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source></source>
-  </extension>
-</addon>
-
-<addon id="plugin.video.lastship" version="4.0.1" name="Lastship" provider-name="Lastship">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="repository.lastship" version="1.0.2" />
-		<import addon="script.lastship.artwork" />
-		<import addon="script.module.urlresolver" />
-		<import addon="script.module.requests" />
-		<import addon="script.module.metahandler" version="1.0.0" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="lastship.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.service" library="service.py" start="startup" />
-	<extension point="xbmc.addon.metadata">
-		<summary lang="de">Lastship</summary>
-		<description lang="de">Wir suchen Entwickler. Mit diesem Addon kannst du auf alle angebotenen Streams verschiedenster deutscher Quellen zugreifen. Beachte, dass Lastship kein offizieller Teil des verwendeten Media Players ist, und daher nicht von den offiziellen Support-Kanälen abgedeckt wird. Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinzugefügt wurde.</description>
-		<disclaimer lang="de">Die von diesem Addon dargestellten Inhalte werden von den Erstellern der Software weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Content-Anbietern.</disclaimer>
-		<platform>all</platform>
-		<source>https://github.com/lastship/plugin.video.lastship</source>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-				<screenshot>resources/screenshots/screenshot-01.png</screenshot>
-				<screenshot>resources/screenshots/screenshot-02.png</screenshot>
-				<screenshot>resources/screenshots/screenshot-03.png</screenshot>
-				<screenshot>resources/screenshots/screenshot-04.png</screenshot>
-				<screenshot>resources/screenshots/screenshot-05.png</screenshot>
-		</assets>
-		<news>
-		Die aktuellsten Änderungen findest du im Changelog
-		</news>
-	</extension>
-</addon>
-
-<addon id="script.module.streamlink.plugins" name="Streamlink Plugins" version="1.0.3" provider-name="Twilight0">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.requests" version="2.12.4"/>
-  </requires>
-  <extension point="xbmc.service"/>
-  <extension point="xbmc.addon.metadata">
-    <summary>Streamlink Plugins</summary>
-    <description>Copy your custom streamlink plugins in this Kodi plugin.</description>
-    <platform>all</platform>
-    <license>GNU GPL, version 2</license>
-    <source>https://github.com/Twilight0/script.module.streamlink.plugins</source>
-    <!--<website></website>-->
-    <!--<language></language>-->
-  </extension>
-</addon>
-
-<addon id="script.module.ATFmobdro" name="ATF Mobdro" version="1.6" provider-name="Maverick">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.livestreamer" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.routing" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>all</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_gb">Maverick</summary>
-    <description lang="en_gb">Maverick</description>
-    <disclaimer lang="en_gb"></disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license></license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source></source>
-  </extension>
-</addon>
-
-<addon id="repository.myrepo" name="MyRepo Buchclub" version="1.0.2" provider-name="MyRepo">
+<addon id="repository.myrepo" name="MyRepo Buchclub" version="1.1.0" provider-name="MyRepo - New">
     <extension point="xbmc.addon.repository" name="My Repo">
-        <info compressed="false">https://dbiesecke.github.io/repo/addons.xml</info>
-        <checksum>https://dbiesecke.github.io/repo/addons.xml.md5</checksum>
-        <datadir zip="true">https://dbiesecke.github.io/repo/</datadir>
+        <info compressed="false">https://files.btc-mining.at/repo/addons.xml</info>
+        <checksum>https://files.btc-mining.at/repo/addons.xml.md5</checksum>
+        <datadir zip="true">https://files.btc-mining.at/repo/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Install all of Tutorial ADD ONS</summary>
@@ -1763,25 +1161,6 @@ oder online unter https://goo.gl/GtK41L nachlesen.
 	</extension>
 </addon>
 
-<addon id="script.module.liveresolver"
-     name="LiveResolver"
-     version="0.1.50"
-     provider-name="natko1412">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.addon.common" version="2.0.0" />
-
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Resolve common live video host URL's to be playable in XBMC/Kodi + find links embeded in sites.</summary>
-    <description lang="en"></description>
-  </extension>
-</addon>
-
 <addon id="plugin.program.iptv.merge" version="1.0.0" name="IPTV Merge" provider-name="Shani">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -1797,66 +1176,6 @@ oder online unter https://goo.gl/GtK41L nachlesen.
         <description></description>
         <platform>all</platform>
     </extension>
-</addon>
-
-<addon id="plugin.video.openmeta" name="OpenMeta" version="1.4.15" provider-name="A4K">
-	<requires>
-		<import addon="xbmc.python" version="2.25.0"/>
-		<import addon="metadata.tvdb.com" version="3.0.14"/>
-		<import addon="script.module.futures" version="2.2.0"/>
-		<import addon="script.module.requests" version="2.19.1"/>
-		<import addon="script.module.requests-cache" version="0.4.13"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.service" library="service.py"/>
-	<extension point="kodi.context.item">
-		<menu id="kodi.core.main">
-			<item library="context.py">
-				<label>OpenMeta - Default Player</label>
-				<visible>!String.StartsWith(ListItem.path,plugin://plugin.video.openmeta/)+[String.IsEqual(ListItem.dbtype,episode)|String.IsEqual(ListItem.dbtype,movie)]</visible>
-			</item>
-			<item library="context2.py">
-				<label>OpenMeta - Choose Player</label>
-				<visible>String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,episode)</visible>
-			</item>
-		</menu>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">TMDb, TVDb and Trakt browser</summary>
-		<description lang="en">Browse The MovieDb, The TVDb, Trakt and pass info along to library or an addon. Needs player-files and the appropriate addon to play the files.</description>
-		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-			<screenshot>resources/screenshot000.jpg</screenshot>
-			<screenshot>resources/screenshot001.jpg</screenshot>
-			<screenshot>resources/screenshot002.jpg</screenshot>
-		</assets>
-		<license></license>
-		<forum></forum>
-		<website></website>
-		<source></source>
-		<news>
-		1.4.13 - Added realtitle (movies) and realname (tvshows) parameters for plexkodiconnect compatibility
-		1.4.12 - Handle non-existent 'filename' key in TVDB data.
-		1.4.11 - TVDB API fix, thanks to @ruinernin and @bg-22 (among others)!
-				 BUG: Some artwork may not load for certain items, due to ongoing API instability.
-		1.4.10 - Added language option for player-files (TV)
-		1.4.9  - Fix art in TV menus
-		1.4.8  - Fix crash from empty "first_aired" string"
-		1.4.7  - Fix crash when we can't contact TVDB
-		1.4.6  - Fix crashes from non-existent keys
-		1.4.5  - Added default play action, options for movies are; Play/OpenInfo and options for episodes are; Play/OpenInfo(TV Show info)/OpenInfo(Episode info).
-		1.4.4  - Fix clearlogo for movies
-		1.4.3  - Fix typo in season fanart request.
-		1.4.2  - Add fanart caching
-		1.4.1  - Fix season artwork
-		1.4.0  - Add unwatched counts for shows/seasons.
-		1.3.2  - Fix "Upcoming Episodes" and "Next Episodes".
-		1.3.1  - Fixed "Next Page" bug with widgets.</news>
-	</extension>
 </addon>
 
 <addon id="service.L0RE.cron" name="Crontab für andere Addons" version="1.0.2" provider-name="L0RE">
@@ -1902,32 +1221,6 @@ oder online unter https://goo.gl/GtK41L nachlesen.
 		<description>Download and install addons by ddurdle</description>
 		<platform>all</platform>
 	</extension>
-</addon>
-
-<addon id="script.module.nanscrapers" name="NaN Scrapers" version="0.5.51" provider-name="Team NaN">
-        <requires>
-                <import addon="xbmc.python" version="2.1.0"/>
-                <import addon="script.module.beautifulsoup" version="3.2.1"/>
-                <import addon="script.module.futures" version="2.2.0"/>
-                <import addon="script.module.requests"/>
-                <import addon="script.module.six"/>
-                <import addon="script.module.resolveurl" version="5.0.00"/>
-                <!--<import addon="script.mrknow.urlresolver" version="2016.10.30.2" optional="true"/>-->
-        </requires>
-        <extension point="xbmc.python.module" library="lib"/>
-        <extension point="xbmc.python.pluginsource" library="lib/default.py">
-                <provides>executable</provides>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-                <platform>all</platform>
-                <summary lang="en">Scrape common video host for URL's to be playable in XBMC/Kodi.</summary>
-                <description lang="en">Scrape common video host for URL's to be playable in XBMC/Kodi, simplifying addon development of video plugins requiring multi video hosts.
-                </description>
-                <license>GPL v3</license>
-                <source>https://github.com/noobsandnerds/noobsandnerds/tree/master/script.module.nanscrapers</source>
-                <forum>http://www.noobsandnerds.com/support/showthread.php?tid=17212</forum>
-                <website>http://noobsandnerds.com</website>
-        </extension>
 </addon>
 
 <addon id="service.remotekodi" name="Remote Kodi PVR Info" version="0.4.0" provider-name="TDOe">
@@ -2060,35 +1353,6 @@ oder online unter https://goo.gl/GtK41L nachlesen.
   </extension>
 </addon>
 
-<addon id="script.module.magicality" name="Magicality Module" version="4.0.5" provider-name="Wilson Magic">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="script.module.beautifulsoup4"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Magicality</summary>
-	</extension>
-</addon>
-
-<addon id="plugin.program.supern" name="SuperN Wizard" version="1.0.3" provider-name="nj4n">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Folgt uns auf Facebook, Instagram und Youtube!</summary>
-	<description lang="en">Aktuelle SuperN Builds und Wartung deines Systems.</description>
-		<disclaimer lang="en">Wir sind in keiner Weise mit den Entwicklern von Kodi oder der XBMC Foundation verbunden. Die installierten Third Party Addons gehören nicht zu Kodi.tv oder zu notjust4nerds.de und werden auch nicht unterstützt. Bei Fragen und Problem zu den Addons, wenden Sie sich bitte an die Betreiber dieser Addons.</disclaimer>
-		<platform>all</platform>
-		<website>https://notjust4nerds.de/</website>
-	</extension>
-</addon>
-
 <addon id="repository.tdoe" name="TDOe Addons Repository" version="1.0.2" provider-name="TDOe">
 	<extension point="xbmc.addon.repository" name="TDOe">
 		<info compressed="true">https://raw.githubusercontent.com/tobias-d-oe/repo.kodi.tdoe/master/addons.xml</info>
@@ -2157,69 +1421,6 @@ oder online unter https://goo.gl/GtK41L nachlesen.
 		<news>- Initial release
 - Free movies
 - Free TV Shows</news>
-	</extension>
-</addon>
-
-<addon id="plugin.video.joyn" name="Joyn" version="2.3.1" provider-name="knaerzche">
-	<requires>
-		<import addon="xbmc.python" version="2.26.0"/>
-		<import addon="inputstream.adaptive" version="2.2.21"/>
-		<import addon="script.module.inputstreamhelper" version="0.3.5"/>
-		<import addon="script.module.uepg" version="1.0.5"/>
-		<import addon="script.module.simplejson" version="3.3.0" optional="true"/>
-		<import addon="script.module.pydes" version="2.0.1" optional="true"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.service" library="service.py" start="login"/>
-	<extension point="xbmc.addon.metadata">
-		<reuselanguageinvoker>true</reuselanguageinvoker>
-		<summary lang="en_GB">Joyn Video On Demand  and Live TV</summary>
-		<summary lang="de_DE">Joyn Video On Demand and Live TV</summary>
-		<description lang="en_GB">Watch VOD content und Live TV provided by Joyn</description>
-		<description lang="de_DE">Video On Demand und Live TV von Joyn</description>
-		<disclaimer lang="en_GB">The use of this addon may violate the terms and conditions of Joyn GmbH - especially, but not exclusively, if it is used outside of Germany.</disclaimer>
-		<disclaimer lang="de_DE">Die Nutzung dieses Addon verstösst eventuell gegen die AGB der Joyn GmbH - insbesondere, aber nicht ausschliesslich, wenn es außerhalb von Deutschland verwendet wird</disclaimer>
-		<language></language>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-		<forum>https://www.kodinerds.net/index.php/Thread/66679-Pre-Release-Joyn-VOD-Live/?postID=537817</forum>
-		<website>https://www.joyn.de/</website>
-		<email>knaerzche at gmail dot com</email>
-		<source>https://github.com/knaerzche/plugin.video.joyn</source>
-		<assets>
-			<icon>resources/media/icon.png</icon>
-			<fanart>resources/media/fanart.jpg</fanart>
-			<clearlogo>resources/media/logo.gif</clearlogo>
-			<screenshot>resources/media/screenshot01.jpg</screenshot>
-			<screenshot>resources/media/screenshot02.jpg</screenshot>
-			<screenshot>resources/media/screenshot03.jpg</screenshot>
-		</assets>
-		<news>
-v2.3.1
-improve addon overall addon performance by reusing languageinvoker/splitting into submodules/logging on demand only
-create singleton-instances on per addon-handle basis
-cache epg/landing-page in libjoyn-instance
-fix playback on OSX
-create fake-uuid for allwinner android sdk level 24 (importing uuid module crashes kodi)
-implement own get_node() and make it more unique (espacially on android)
-fix set sort as per settings on matrix
-use window.setProperty for asset_id instead of 'hiding' in it imdb-infolabel
-make sure only playback for this addon is tracked in service.py
-fix relogin issue, when decrypting username/password fails
-fix language files
-v2.3.0
-add api-based resume postions
-partly fixed live stream audio sync issue
-add save username/password option
-add option to show categories in main menu
-add ask-for-login dialog on first addon start
-show content based on current subscription
-add option to hightlight premium content
-rework some stuff
-
-		</news>
 	</extension>
 </addon>
 
@@ -2342,26 +1543,6 @@ rework some stuff
         <summary lang="en_US">Virtual Library Strm Generator</summary>
         <description lang="en_US">Generate Strms from Kodi Plugins, UPNP, Youtube, and RSS Sources.</description>
     </extension>
-</addon>
-
-<addon id="plugin.program.iptv.merge" name="IPTV Merge" provider-name="MattHuisman.nz" version="0.3.3">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.arrow"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="service.py" start="login" />
-  <extension point="xbmc.addon.metadata">
-    <description lang="en">Easily merge multiple IPTV playlists &amp; EPGs from remote, local or supported add-on sources.</description>
-    <reuselanguageinvoker>true</reuselanguageinvoker>
-    <license></license>
-    <language/>
-    <website>https://www.matthuisman.nz/2019/02/iptv-merge-kodi-add-on.html</website>
-    <news>Update common</news>
-  </extension>
 </addon>
 
 <addon id="metadata.thexem.de" name="XEM" version="1.0.7" provider-name="takoi">
